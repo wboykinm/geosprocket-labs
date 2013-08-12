@@ -1,0 +1,71 @@
+<DOCTYPE html>
+<html>
+<head>
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css' rel='stylesheet' />
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; right:0px; left:0; }
+    #map-ui {
+    position:absolute;
+    top:50px;left:10px;
+    z-index:100;
+    }
+    #map-ui ul {
+      list-style:none;
+      margin:0;padding:0;
+      }
+      #map-ui a {
+        font-size:14px;
+        background:#FFF;
+        color:#3C4E5A;
+        display:block;
+        margin:0;padding:0;
+        border:1px solid #BBB;
+        min-width:138px;
+        padding:10px;
+        text-decoration:none;
+        -webkit-border-radius:8px;
+                border-radius:8px;
+        }
+     #map-ui a.active {
+        background:#3887BE;
+        border-color:#3887BE;
+        color:#FFF;
+        }    
+  </style>
+</head>
+<body>
+<div id='map'>
+  <div id='map-ui'>
+    <ul>
+      <li><a href='#' id='reference'>Toggle Labels</a></li>
+    </ul>
+  </div>
+</div>
+<script>
+
+//Mapbox.js implementation
+var m = mapbox.map('map');
+m.addLayer(new MM.TemplatedLayer('http://54.225.113.189/DotMap/tiles4/{Z}/{X}/{Y}.png', [0, 1, 2, 3]));
+var reference = new MM.TemplatedLayer('http://a.tile.stamen.com/toner-hybrid/{Z}/{X}/{Y}.png', [0, 1, 2, 3]);
+m.addLayer(reference);
+m.ui.attribution.add().content('Reference Data by Stamen, <a href="http://openstreetmap.org">&copy; OpenStreetMap Contributors</a>.');
+m.ui.zoomer.add();
+m.ui.zoombox.add();
+m.setZoomRange(3, 13);
+m.zoom(4).center({ lat: 40, lon: -100 });
+m.ui.hash.add();
+m.disableLayerAt(1);
+
+document.getElementById('reference').onclick = function() {
+        (!reference.enabled) ? reference.enable() : reference.disable();
+        this.className = reference.enabled ? 'active' : '';
+        return false;
+    }
+</script>
+
+
+
+</body>
+</html>
