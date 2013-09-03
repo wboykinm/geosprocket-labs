@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset='UTF-8'/>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src='http://underscorejs.org/underscore-min.js'></script>
+<script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
+<link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css' rel='stylesheet' />
+<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
+<style>
+body {
+  margin:0px;
+  padding:0px;
+  background:#fff;
+  }
+
+article {
+  width:66.66667%;
+  min-width:320px;
+  position:relative;
+  padding-top:20px;
+  padding-bottom:33.3333%;
+  }
+section {
+  padding:40px;
+  margin-left:40px;
+  position:relative;
+  transition:background 500ms, color 500ms;
+  -moz-transition:background 500ms, color 500ms;
+  -webkit-transition:background 500ms, color 500ms;
+  }
+section,
+section a {
+  color:#888;
+  color:rgba(128,128,128,0);
+  text-decoration:none;
+  text-shadow:rgba(64,64,64,1) 0px 0px 4px;
+  }
+section.active {
+  background:#222;
+  color:#eee;
+  }
+section.active a { color:#eee; }
+section.active small { color:#aaa; }
+h1 { font-family: 'Arvo', Georgia, Times, serif; font-size:2em; line-height:1em; }
+h2 { font-family: 'Arvo', Georgia, Times, serif; font-size:1.3333em; }
+h1,h2 { margin:0px 0px 10px; }
+h4 { font-family: 'PT Sans', Helvetica, Arial, sans-serif; margin:0px; font-size:0.8em;}
+p { font-family: 'PT Sans', Helvetica, Arial, sans-serif; margin:0px; }
+
+.scroll {
+  position:absolute;
+  right:0px; bottom:0px;
+  font-size:10px;
+  text-transform:uppercase;
+  padding:5px 10px;
+  }
+.colophon {
+  display:block;
+  margin-top:10px;
+  }
+
+.cover:before {
+  content:'';
+  display:block;
+  width:120px; height:120px;
+  margin:0px auto 20px;
+  }
+.cover.active:before { background:url(arch_icon.png) no-repeat; }
+
+#pane {
+  position:fixed;
+  top:0px;
+  bottom:0px;
+  right:0px;
+  width:66.6666%;
+  }
+#map  {
+  position:absolute;
+  top:0px;
+  bottom:0px;
+  width:300%;
+  left:-70%;
+  transition:opacity 250ms;
+  -moz-transition:opacity 250ms;
+  -webkit-transition:opacity 250ms;
+  }
+
+.spot {
+  width:100px;
+  height:100px;
+  margin:-50px 0px 0px -15px;
+  position:absolute;
+  }
+.spot-cover { display:none; }
+.spot-mojave { background:url(http://a.tiles.mapbox.com/v3/marker/pin-s-circle-stroked+9dc3d7.png) no-repeat; }
+.spot-mojave.active { background:url(hiker.png) no-repeat; }
+.spot-meadows { background:url(http://a.tiles.mapbox.com/v3/marker/pin-s-circle-stroked+9dc3d7.png) no-repeat; }
+.spot-meadows.active { background:url(hiker.png) no-repeat; }
+.spot-mirror { background:url(http://a.tiles.mapbox.com/v3/marker/pin-s-circle-stroked+9dc3d7.png) no-repeat; }
+.spot-mirror.active { background:url(hiker.png) no-repeat; }
+.spot-cassel { background:url(http://a.tiles.mapbox.com/v3/marker/pin-s-circle-stroked+9dc3d7.png) no-repeat; }
+.spot-cassel.active { background:url(hiker.png) no-repeat; }
+.spot-mccloud { background:url(http://a.tiles.mapbox.com/v3/marker/pin-s-circle-stroked+9dc3d7.png) no-repeat; }
+.spot-mccloud.active { background:url(hiker.png) no-repeat; }
+.spot-crater { background:url(http://a.tiles.mapbox.com/v3/marker/pin-s-circle-stroked+9dc3d7.png) no-repeat; }
+.spot-crater.active { background:url(hiker.png) no-repeat; }
+.spot-goatrocks { background:url(http://a.tiles.mapbox.com/v3/marker/pin-s-circle-stroked+9dc3d7.png) no-repeat; }
+.spot-goatrocks.active { background:url(hiker.png) no-repeat; }
+
+/* Distinguish the "cover page" visually other sections. */
+body.section-0 #map { opacity:0.5; }
+
+@media (max-width:640px) {
+  body {
+    font-size:12px;
+    line-height:16px;
+    }
+  article {
+    width:100%;
+    min-width:100%;
+    padding-top:0px;
+    padding-bottom:200%;
+    }
+  section {
+    text-shadow:none;
+    margin-left:0px;
+    padding:30px;
+    }
+  section.active {
+    position:fixed;
+    top:0px; left:0px; right:0px;
+    }
+  #pane { width:100%; }
+  #map  {
+    bottom:0%;
+    left:0%;
+    width:100%;
+    height:150%;
+    }
+  }
+
+@media (min-width:1280px) {
+  body {
+    font-size:18px;
+    line-height:24px;
+    }
+  }
+</style>
+</head>
+<body class='section-0'>
+
+<div id='pane'><div id='map'></div></div>
+
+<article>
+  <section id='cover' class='cover active'>
+    <h1>The Pacific Crest Trail</h1>
+    <p>Wayside Views</p><hr>
+	  <img src="http://farm8.staticflickr.com/7411/9660046542_5e767d3917_z.jpg" width="100%"/>
+    <h4>Photo by Deems Burton</h4>
+    <small class='scroll'>Scroll ▼</small>
+  </section>
+  <section id='mojave'>
+    <h2>Open Mojave</h2>
+    <img src="http://farm6.staticflickr.com/5472/9660047452_88f67f36b5_z.jpg" width="100%"/>
+    <h4>Photo by Heather Tilert</h4>
+  </section>
+  <section id='meadows'>
+    <h2>The road divides in the meadows</h2>
+    <img src="http://farm4.staticflickr.com/3744/9659973240_515313073a_z.jpg" width="100%"/>
+    <h4>Photo by Bill Morris</h4>
+  </section>
+  <section id='mirror'>
+    <h2>Muir at Mirror Lake</h2>
+    <img src="http://farm4.staticflickr.com/3667/9657341317_b6f9974117_z.jpg" width="100%"/>
+    <h4>Photo courtesy of the Library of Congress</h4>
+  </section>
+  <section id='cassel'>
+    <h2>Trailside diversion, Cassel CA</h2>
+    <img src="http://farm6.staticflickr.com/5340/9656835607_faf7e15221_z.jpg" width="100%"/>
+    <h4>Photo by Ryan Choi</h4>
+  </section>
+  <section id='mccloud'>
+    <h2>A visitor near the McCloud River</h2>
+    <img src="http://farm3.staticflickr.com/2815/9660046996_5bf20d035f_z.jpg" width="100%"/>
+    <h4>Photo by Vit Hradecky</h4>
+  </section>
+  <section id='crater'>
+    <h2>Over Crater Lake</h2>
+    <img src="http://farm8.staticflickr.com/7431/9660046726_8e837d10bc_z.jpg" width="100%"/>
+    <h4>Photo by Emily Underwood</h4>
+  </section>
+  <section id='goatrocks'>
+    <h2>The view from here, toward Ranier</h2>
+    <img src="http://farm6.staticflickr.com/5349/9660684576_006d9307a1_z.jpg" width="100%"/>
+    <h4>Photo by Alasdair Fowler</h4>
+    <small class='colophon'>
+      Map data &copy; <a href='http://openstreetmap.org/copyright'>OpenStreetMap Contributors</a> & USGS<br/>
+    </small>
+  </section>
+</article>
+
+<script>
+var geojson = [
+  { "geometry": { "type": "Point", "coordinates": [-120.4657, 40.5695] },
+    "properties": { "id": "cover", "zoom": 5 } },
+  { "geometry": { "type": "Point", "coordinates": [-118.5140, 34.8576] },
+    "properties": { "id": "mojave" } },
+  { "geometry": { "type": "Point", "coordinates": [-118.2108, 36.4425] },
+    "properties": { "id": "meadows" } },
+  { "geometry": { "type": "Point", "coordinates": [-119.3500, 37.8763] },
+    "properties": { "id": "mirror" } },
+  { "geometry": { "type": "Point", "coordinates": [-121.5222, 40.9253] },
+    "properties": { "id": "cassel" } },  
+  { "geometry": { "type": "Point", "coordinates": [-122.0800, 41.1411] },
+    "properties": { "id": "mccloud" } }, 
+  { "geometry": { "type": "Point", "coordinates": [-122.2004, 42.9729] },
+    "properties": { "id": "crater" } }, 
+  { "geometry": { "type": "Point", "coordinates": [-121.4240, 46.5427] },
+    "properties": { "id": "goatrocks" } }       
+];
+var tiles = mapbox.layer().tilejson({
+  tiles: [ "https://s3.amazonaws.com/geosprocket-basemap/{z}/{x}/{y}.png" ]
+});
+
+var pct = mapbox.layer().tilejson({
+  tiles: [ "http://c.tiles.mapbox.com/v3/landplanner.pct/{z}/{x}/{y}.png" ]
+});
+
+var reference = mapbox.layer().tilejson({
+  tiles: [ "http://c.tiles.mapbox.com/v3/landplanner.map-clhq1tp6/{z}/{x}/{y}.png" ]
+});
+
+var spots = mapbox.markers.layer()
+  // Load up markers from geojson data.
+  .features(geojson)
+  // Define a new factory function. Takes geojson input and returns a
+  // DOM element that represents the point.
+  .factory(function(f) {
+    var el = document.createElement('div');
+    el.className = 'spot spot-' + f.properties.id;
+    return el;
+  });
+
+// Creates the map with tile and marker layers and
+// no input handlers (mouse drag, scrollwheel, etc).
+var map = mapbox.map('map', [tiles, pct, reference, spots], null, []);
+
+/*map.addLayer(mapbox.layer().tilejson({ 
+  tiles: [ 'http://c.tiles.mapbox.com/v3/landplanner.map-clhq1tp6/{z}/{x}/{y}.png' ]
+}));*/
+
+// Array of story section elements.
+var sections = document.getElementsByTagName('section');
+
+// Array of marker elements with order matching section elements.
+var markers = _(sections).map(function(section) {
+  return _(spots.markers()).find(function(m) {
+    return m.data.properties.id === section.id;
+  });
+});
+
+// Helper to set the active section.
+var setActive = function(index, ease) {
+  // Set active class on sections, markers.
+  _(sections).each(function(s) { s.className = s.className.replace(' active', '') });
+  _(markers).each(function(m) { m.element.className = m.element.className.replace(' active', '') });
+  sections[index].className += ' active';
+  markers[index].element.className += ' active';
+
+  // Set a body class for the active section.
+  document.body.className = 'section-' + index;
+
+  // Ease map to active marker.
+  if (!ease) {
+    map.centerzoom(markers[index].location, markers[index].data.properties.zoom||7);
+  } else {
+    map.ease.location(markers[index].location).zoom(markers[index].data.properties.zoom||7).optimal(0.5, 1.00);
+  }
+
+  return true;
+};
+
+// Bind to scroll events to find the active section.
+window.onscroll = _(function() {
+  // IE 8
+  if (window.pageYOffset === undefined) {
+    var y = document.documentElement.scrollTop;
+    var h = document.documentElement.clientHeight;
+  } else {
+    var y = window.pageYOffset;
+    var h = window.innerHeight;
+  }
+
+  // If scrolled to the very top of the page set the first section active.
+  if (y === 0) return setActive(0, true);
+
+  // Otherwise, conditionally determine the extent to which page must be
+  // scrolled for each section. The first section that matches the current
+  // scroll position wins and exits the loop early.
+  var memo = 0;
+  var buffer = (h * 0.3333);
+  var active = _(sections).any(function(el, index) {
+    memo += el.offsetHeight;
+    return y < (memo-buffer) ? setActive(index, true) : false;
+  });
+
+  // If no section was set active the user has scrolled past the last section.
+  // Set the last section active.
+  if (!active) setActive(sections.length - 1, true);
+}).debounce(10);
+
+// Set map to first section.
+setActive(0, false);
+</script>
+
+</body>
+</html>
