@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic Map Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Load Leaflet from their CDN -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+    <![endif]-->
+    <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+
+    <!-- Load a small bit of CSS and Javascript specifcally for these demos -->
+    <link rel="stylesheet" href="demo.css" />
+    
+    <!-- Load Esri Leaflet -->
+    <script src="esri-leaflet.js"></script>
+
+    <!-- Make the map fill the entire page -->
+    <style>
+      html, body, #map {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"> </div>
+    <!--<div class="demo-controls">
+      <h1 class="title contract" id="title" onclick="showControls();">Dynamic Map Service</h1>
+      <div class="control-container" id="controlContainer">
+        <p>This demo shows using Dynamic Map Services. Click anywhere on the demo to discover features and attributes.</p>
+      </div>
+    </div>-->
+    
+    <script>
+
+      //Initializing the map to start at the east coast
+      var map = L.map('map').setView([9.145, 40.489673], 6);
+
+      //Add Oceans Basemaps
+      L.tileLayer('http://a.tiles.mapbox.com/v3/spatialdev.map-hozgh18d/{z}/{x}/{y}.png', {
+        attribution: '<a href="http://www.mapbox.com/about/maps/">Map Terms & Feedback</a>'
+      }).addTo(map);
+      
+
+      //ArcGIS Server Dynamic Map Service, Historic Hurricane Tracks
+      dynLayer = L.esri.dynamicMapLayer("http://dev.harvestchoice.org/arcgis/rest/services/gatesesp/GeneralContext/MapServer", {
+        opacity : 0.8,
+        layers:[2],
+      });
+
+      map.addLayer(dynLayer);
+
+      var topPane = map._createPane('leaflet-top-pane', map.getPanes().mapPane);
+      var topLayer = L.tileLayer('http://a.tiles.mapbox.com/v3/landplanner.map-6ycmi90w/{z}/{x}/{y}.png').addTo(map);
+      topPane.appendChild(topLayer.getContainer());
+      topLayer.setZIndex(7);
+
+      //Identifying Dynamic Map Service Features
+      /*map.on("click", function(e) {
+        dynLayer.identify(e.latlng, function(data) {
+          if(data.results.length > 0) {
+            //Popup text should be in html format.  Showing the Storm Name with the type
+            popupText =  "<center><b>" + data.results[0].attributes.STORMNAME + "</b><br>" + data.results[0].attributes.STORMTYPE + "</center>";
+
+            //Add Popup to the map when the mouse was clicked at
+            var popup = L.popup()
+              .setLatLng(e.latlng)
+              .setContent(popupText)
+              .openOn(map);
+          }
+        });
+      });*/
+     </script>
+  </body>
+</html>
