@@ -38,7 +38,10 @@
     <script>
 
       //Initializing the map to start at the east coast
-      var map = L.map('map').setView([9.145, 40.489673], 6);
+      var map = L.map('map', {
+        scrollWheelZoom: false,
+        touchZoom: false
+      }).setView([9.145, 40.489673], 6);
 
       //Add Oceans Basemaps
       L.tileLayer('http://a.tiles.mapbox.com/v3/spatialdev.map-hozgh18d/{z}/{x}/{y}.png', {
@@ -48,7 +51,7 @@
 
       //ArcGIS Server Dynamic Map Service, Historic Hurricane Tracks
       dynLayer = L.esri.dynamicMapLayer("http://dev.harvestchoice.org/arcgis/rest/services/gatesesp/GeneralContext/MapServer", {
-        opacity : 0.8,
+        opacity : 0.6,
         layers:[2],
       });
 
