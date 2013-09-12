@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic Map Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Load Leaflet from their CDN -->
+    <!--<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />-->
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+    <![endif]-->
+    <!--<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>-->
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.css' rel='stylesheet' />
+    <!--[if lte IE 8]>
+      <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.ie.css' rel='stylesheet' >
+    <![endif]-->
+    <script src='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.js'></script>
+
+    <!-- Load a small bit of CSS and Javascript specifcally for these demos -->
+    <link rel="stylesheet" href="demo.css" />
+    <link rel="stylesheet" href="cluster/css/markercluster.css" />
+    <link rel="stylesheet" href="cluster/css/table.css" />
+    
+    <!-- Load Esri Leaflet -->
+    <script src="esri-leaflet.js"></script>
+    <!--Modified markercluster-->
+    <script src="cluster/js/leaflet.markercluster.js"></script>
+    <!-- Example data. -->
+    <script src="cluster/js/pop_places.js"></script>
+
+    <!-- Make the map fill the entire page -->
+    <style>
+      html, body, #map {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map" class="dark"> </div>
+    
+    <script>
+
+      //Initializing the map to start at the east coast
+      var map = L.map('map', {
+        scrollWheelZoom: true,
+        touchZoom: false,
+        maxZoom: 8
+      }).setView([9.145, 40.489673], 6);
+
+      //Add Mapbox Satellite basemap
+      L.tileLayer('http://a.tiles.mapbox.com/v3/spatialdev.map-hozgh18d/{z}/{x}/{y}.png', {
+        attribution: '<a href="http://www.mapbox.com/about/maps/">Map Terms & Feedback</a>'
+      }).addTo(map);
+      
+
+      //ArcGIS Server Dynamic Map Service, MODIS LULC
+      dynLayer = L.esri.dynamicMapLayer("http://dev.harvestchoice.org/arcgis/rest/services/gatesesp/GeneralContext/MapServer", {
+        opacity : 0.6,
+        layers:[2],
+      });
+
+      map.addLayer(dynLayer);
+
+      //Arrange layers so the labels go on top of the contextual overlays
+      var topPane = map._createPane('leaflet-top-pane', map.getPanes().mapPane);
+      var topLayer = L.tileLayer('http://a.tiles.mapbox.com/v3/landplanner.map-6ycmi90w/{z}/{x}/{y}.png').addTo(map);
+      topPane.appendChild(topLayer.getContainer());
+      topLayer.setZIndex(3);
+
+      //Add the clustered points
+      var markers = new L.MarkerClusterGroup();
+
+      var geoJsonLayer = L.geoJson(places, {
+        onEachFeature: function (feature, layer) {
+            layer.setIcon(L.mapbox.marker.icon({'marker-symbol': 'circle-stroked', 'marker-color': '59245f'}));
+            layer.bindPopup("<b>" + feature.properties.name + "</b><hr>Country: " + feature.properties.adm0name + "<br>Population: " + feature.properties.pop_max + "<hr><button href='#'>Project Details</button>");
+        }
+      });
+      markers.addLayer(geoJsonLayer);
+
+      map.addLayer(markers);
+
+
+     </script>
+  </body>
+</html>
