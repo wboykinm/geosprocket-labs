@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:26">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:26">
+    <iati-identifier>46002-P-CI-E00-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Côte D'Ivoire</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE LA CONSTRUCTION ET DE L'URBANISME</participating-org>
+    <recipient-country code="CI">Côte D'Ivoire</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET GESTION INTÉGRÉE BASSIN GOUROU</title>
+    <description>Spécifiquement, le projet a pour objectifs i) de mieux réguler les apports d'eau vers l'exutoire afin de réduire les inondations récurrentes dans le périmètre du bassin versant du Gourou et, en particulier, au carrefour de l'Indénié ; et ii) de fournir aux Autorités un document de planification des actions nécessaires pour une gestion intégrée du bassin.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CI-E00-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-06-10"/>
+    <activity-date type="End Planned" iso-date="2014-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>NDIAYE Mahecor</person-name>
+      <email>m.h.ndiaye@afdb.org</email>
+      <telephone>+21671102695</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Côte D'Ivoire</provider-org>
+      <value currency="">300000</value>
+      <transaction-date iso-date="2011-06-10"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100155019669">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">23000000</value>
+      <transaction-date iso-date="2011-06-10"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">288586</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">21121</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Lagunes" adm2="Abidjan"/>
+      <coordinates latitude="5.416667" longitude="-4.033333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2293537">Département d? Abidjan</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:26">
+    <iati-identifier>46002-P-CI-IZ0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE LA COTE D'IVOIRE  MINISTERE DE L'ECONOMIE ET DES FINANCES</participating-org>
+    <recipient-country code="CI">Côte D'Ivoire</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROGRAMME DE RESTAURATION DES SERVICES SOCIAUX</title>
+    <description>Le  but du PARSSAB est de contribuer à la restauration des services publics et au retour à la paix après les violences post-électorales et une décennie de crise socioéconomique, politique et militaire en Côte d'Ivoire. ,, L'objectif du programme est de favoriser l'accès aux services sociaux de base et administratifs à travers le rétablissement des services sociaux et des réseaux d'approvisionnement en eau et assainissement, ainsi que le renforcement des capacités des administrations chargées de la Gouvernance économique ; (ii) Contribuer à la promotion de la cohésion sociale et la réconciliation.   ..</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-06-10"/>
+    <activity-date type="End Planned" iso-date="2012-06-15"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DIOP LY Maimouna</person-name>
+      <email>m.dioply@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150024543">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">23100000</value>
+      <transaction-date iso-date="2011-06-10"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">23100000</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-03-31">22783</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">83600</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <transaction ref="2100155020466">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">11900000</value>
+      <transaction-date iso-date="2011-06-10"/>
+      <aid-type code="A02">Sector Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">11900000</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction ref="5900155001751">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">60000000</value>
+      <transaction-date iso-date="2011-06-10"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2011-09-30">60000000</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:26">
+    <iati-identifier>46002-P-CI-IZ0-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE LA COTE D'IVOIRE  MINISTERE DE L'ECONOMIE ET DES FINANCES</participating-org>
+    <recipient-country code="CI">Côte D'Ivoire</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Programme d?Urgence pour la Restauration des Services Sociaux et  Administratifs de Base (PURSSAB) - FEF-PILIER III</title>
+    <description>4.1.1,,Le but du PURSSAB est de contribuer à la restauration des services sociaux et administratifs de base, à la cohésion sociale et à la réconciliation. Dans le contexte de dégradation des finances publiques liée à la crise post -électorale, avec un gap de financement de 1200,1 milliards de FCFA prévu en 2011, le programme cherche à répondre aux besoins urgents du pays à travers le rétablissement des services sanitaires, éducatifs et de protection sociale, des réseaux d'eau et d'assainissement, des services de l'administration publique cible ainsi que celui des mécanismes de dialogue et de promotion de la cohésion sociale et de la réconciliation.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CI-IZ0-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-06-10"/>
+    <activity-date type="End Planned" iso-date="2014-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>SYLLA Facinet</person-name>
+      <email>f.c.sylla@afdb.org</email>
+      <telephone>+21671102162</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5900155002451">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">5500000</value>
+      <transaction-date iso-date="2011-06-10"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-06-30">957768</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:26">
+    <iati-identifier>46002-P-CI-IZ0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Implementing" ref="" type=""/>
+    <recipient-country code="CI">Côte D'Ivoire</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">AIDE D?URGENCE POUR UNE ASSISTANCE HUMANITAIRE</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CI-IZ0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-08-09"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DIALLO Korka</person-name>
+      <email>k.o.diallo@afdb.org</email>
+      <telephone>+21671103603</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5000199002169">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">624169</value>
+      <transaction-date iso-date="2011-08-09"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+</iati-activities>

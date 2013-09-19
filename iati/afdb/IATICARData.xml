@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:27">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:27">
+    <iati-identifier>46002-P-CF-KF0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE CENTRAFRIQUE MINISTERE DE L'ECONOMIE ET DES FINANCES</participating-org>
+    <recipient-country code="CF">Centrafrique</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET D'APPUI INSTITUTIONNEL-PROJET D?APPUI AU RENFORCEMENT DES CAPACITES DE GESTION  ECONOMIQUE ET FINANCIERE (PARCGEF)</title>
+    <description>Les objectifs du projet sont d'une part, le renforcement de la gestion des finances publiques  et d'autre part l'amélioration  de l'environnement des affaires.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CF-KF0-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-02-25"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>LUMBILA Kevin Numbi</person-name>
+      <email>k.lumbila@afdb.org</email>
+      <telephone>+21671101988</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155019675">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">4000000</value>
+      <transaction-date iso-date="2011-02-25"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">656569</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">106016</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction ref="5900155002405">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">500000</value>
+      <transaction-date iso-date="2011-02-25"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+</iati-activities>

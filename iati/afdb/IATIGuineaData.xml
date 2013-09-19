@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:19">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:19">
+    <iati-identifier>46002-P-GN-F00-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">DIRECTION NATIONALE DE L'ENERGIE</participating-org>
+    <recipient-country code="GN">Guinea</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET D'ELECTRIFICATION RURALE</title>
+    <description>Le projet d'électrification permettra d'améliorer les conditions de vie des populations en Guinée et particulièrement en milieu rural. Le but visé est l'accroissement de l'accès des populations au service de l'électricité en zone rurale. Les principaux indicateurs de performances attendus des résultats du projet sont :  Sur le plan sectoriel : ,,Augmentation du taux de d'électrification rurale ,,Augmentation du taux d'électrification global Sur le plan du projet : ,,Accroissement du taux de raccordement. ,,réduction du taux de pertes</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-GN-F00-004/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-02-15"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DJAIGBE Pierre</person-name>
+      <email>p.djaigbe@afdb.org</email>
+      <telephone>+21671103961</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23010">Energy policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155019672">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">14960000</value>
+      <transaction-date iso-date="2011-02-15"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">134535</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="" adm2=""/>
+      <coordinates latitude="10" longitude="-14" precision="5"/>
+      <gazetteer-entry gazetteer-ref="2423334">Basse-Guinae</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Conakry" adm2="Kaloum"/>
+      <coordinates latitude="9.53794975367353" longitude="-13.6772918701171" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2422465">Conakry</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mamou" adm2="Dalaba"/>
+      <coordinates latitude="10.8833333" longitude="-12.1833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2421822">Ditinn</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kindia" adm2="Kindia"/>
+      <coordinates latitude="9.95" longitude="-12.9333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2420879">Friguiagba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kindia" adm2="Kindia"/>
+      <coordinates latitude="10.0569239539517" longitude="-12.8657627105712" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2419533">Kindia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boke" adm2="Boffa"/>
+      <coordinates latitude="9.95211" longitude="-13.90011" precision="1"/>
+      <gazetteer-entry gazetteer-ref="8260616">Koba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kindia" adm2="Kindia"/>
+      <coordinates latitude="10.1" longitude="-12.6166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2419190">Kolenta</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kindia" adm2="Kindia"/>
+      <coordinates latitude="10.2833333" longitude="-12.4333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2418119">Linsan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mamou" adm2="Mamou"/>
+      <coordinates latitude="10.3754594645487" longitude="-12.0914840698242" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2417833">Mamou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mamou" adm2="Dalaba"/>
+      <coordinates latitude="10.8333333" longitude="-12.3166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2417527">Mitti</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="" adm2=""/>
+      <coordinates latitude="11" longitude="-12.5" precision="5"/>
+      <gazetteer-entry gazetteer-ref="2417376">Moyenne-Guinae</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kindia" adm2="Kindia"/>
+      <coordinates latitude="10.15" longitude="-12.5333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2415320">Sougata</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:19">
+    <iati-identifier>46002-P-GN-I00-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Guinea</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DU PLAN ET DE LA COOPERATION INTERNATIONALE</participating-org>
+    <recipient-country code="GN">Guinea</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET DE DEVELOPPEMENT SOCIAL DURABLE EN HAUTE ET MOYENNE GUINEE-PHASE II</title>
+    <description>L'objectif global du FDES est de contribuer à réduire la pauvreté en Guinée par l'appui à la mise en #uvre de la stratégie nationale de réduction de la pauvreté et la promotion et développement de l'entreprenariat et création d'emploi. Les objectifs spécifiques du projet sont les suivants : (i) créer un environnement favorable au développement et à la promotion de l'entrepreneuriat, des MPE, des PME et des microprojets de développement économique et social, (ii) accroître l'accès des pauvres aux services socio-économiques de base et, (iii) développer les capacités productives des pauvres, particulièrement celles des femmes et des jeunes par le développement des AGR.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-GN-I00-004/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-02-15"/>
+    <activity-date type="End Planned" iso-date="2013-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>NZEYIMANA JEANNE</person-name>
+      <email>j.nzeyimana@afdb.org</email>
+      <telephone>+21671102437</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Guinea</provider-org>
+      <value currency="">600000</value>
+      <transaction-date iso-date="2011-02-15"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100155019679">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">5000000</value>
+      <transaction-date iso-date="2011-02-15"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-06-30">551083</value>
+      <description>Total Disbursement in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">20740</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">704396</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">195544</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">100905</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="" adm2=""/>
+      <coordinates latitude="8.5" longitude="-9" precision="5"/>
+      <gazetteer-entry gazetteer-ref="2420475">Guinae Forestiare</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="" adm2=""/>
+      <coordinates latitude="10.5" longitude="-9.5" precision="5"/>
+      <gazetteer-entry gazetteer-ref="2420433">Haute-Guinae</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="" adm2=""/>
+      <coordinates latitude="11" longitude="-12.5" precision="5"/>
+      <gazetteer-entry gazetteer-ref="2417376">Moyenne-Guinae</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:19">
+    <iati-identifier>46002-P-GN-IZ0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DES AFFAIRES SOCIALES</participating-org>
+    <recipient-country code="GN">Guinea</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">AIDE D?URGENCE ASSISTANCE SANITAIRE</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-12-15"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>SANOGO Ibrahim</person-name>
+      <email>i.sanogo@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5000199002318">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">650749</value>
+      <transaction-date iso-date="2011-12-15"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Denguele" adm2="Odienne"/>
+      <coordinates latitude="9.5" longitude="-7.5" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2283015">Dapartement da Odienna</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="18 Montagnes" adm2="Biankouma"/>
+      <coordinates latitude="7.75" longitude="-7.6666667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2291665">Dapartement de Biankouma</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="18 Montagnes" adm2="Danane"/>
+      <coordinates latitude="7.3130556" longitude="-8.0880556" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2290461">Dapartement de Danana</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bafing" adm2="Touba"/>
+      <coordinates latitude="8.6666667" longitude="-7.5" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2280373">Dapartement de Touba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="N'Zerekore" adm2="Beyla"/>
+      <coordinates latitude="8.9166667" longitude="-8.4166667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2423124">Prafecture de Beyla</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kankan" adm2="Kankan"/>
+      <coordinates latitude="10" longitude="-9" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2419991">Prafecture de Kankan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="N'Zerekore" adm2=""/>
+      <coordinates latitude="7.8333333" longitude="-8.3333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2595304">Prafecture de Lola</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kankan" adm2="Mandiana"/>
+      <coordinates latitude="10.5" longitude="-8.75" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2595305">Prafecture de Mandiana</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:19">
+    <iati-identifier>46002-P-GN-K00-007</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'ECONOMIE ET DES FINANCES</participating-org>
+    <recipient-country code="GN">Guinea</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET D'APPUI INSTITUTIONNEL-PROJET D?APPUI AU RENFORCEMENT DES CAPACITES DE GESTION  ECONOMIQUE ET FINANCIERE (PARCGEF)</title>
+    <description>Les objectifs spécifiques du projet sont : (i) renforcer, rationaliser et accroître l'efficacité de la gestion des ressources publiques à travers la Direction nationale du Budget (DNB), la Direction nationale des Systèmes Informatiques, la Direction nationale des Impôts, la Direction nationale du Plan (DNP) ; (ii) améliorer la gouvernance au niveau des secteurs productifs tels que la Direction nationale des eaux et forêts et le Ministère des Mines et de la Géologie (MMG), le plus grand secteur générateur de recettes de l'Etat.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-GN-K00-007/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-02-15"/>
+    <activity-date type="End Planned" iso-date="2014-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>TARSIM Achraf Hassan</person-name>
+      <email>a.tarsim@afdb.org</email>
+      <telephone>+21671103593</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155019716">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">7544000</value>
+      <transaction-date iso-date="2011-02-15"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">93771</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">34562</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">321822</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:19">
+    <iati-identifier>46002-P-GN-KF0-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'ECONOMIE ET DES FINANCES</participating-org>
+    <recipient-country code="GN">Guinea</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROGRAMME D?APPUI AUX REFORMES ECONOMIQUES</title>
+    <description>Le PAREF a pour but global de contribuer à la création des conditions nécessaires à la relance économique et au rétablissement de la stabilité macroéconomique. Ses objectifs spécifiques sont (i) le renforcement de la gestion des finances publiques et; (ii) l'amélioration de la gouvernance dans le secteur extractif. Le PAREF est nécessaire pour permettre au Gouvernement de rétablir la stabilité macroéconomique et disposer de marge budgétaire afin de mettre en place sa stratégie de réduction de la pauvreté. Pour cela des réformes structurantes portant sur le renforcement de la gestion budgétaire et sur l'amélioration de la contribution du secteur extractif au développement sont des priorités immédiates pour le nouveau Gouvernement.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-06-10"/>
+    <activity-date type="End Planned" iso-date="2013-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>TARSIM Achraf Hassan</person-name>
+      <email>a.tarsim@afdb.org</email>
+      <telephone>+21671103593</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155020416">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">20000000</value>
+      <transaction-date iso-date="2011-06-10"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">15000000</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">5000000</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:19">
+    <iati-identifier>46002-P-GN-KF0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="">GOUVERNEMENT DE GUINEE</participating-org>
+    <recipient-country code="GN">Guinea</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SUPPORT TO THE NATIONAL STATISTICS SNDS</title>
+    <description>Objectifs et résultats attendus par composante du projet L'objectif principal du projet est de renforcer le système statistique de la Guinée pour améliorer la production de l'information statistique nécessaire à l'élaboration et au suivi et évaluation des politiques, programmes et projets de développement en général, et de la stratégie de réduction de la pauvreté en particulier. Les objectifs par composantes sont les suivants : Composante 1 : Appui à la réalisation du troisième Recensement général de la population et de l'habitat (RGPH-III). D'une manière générale, le RGPH-III va contribuer : (i) à l'amélioration de la connaissance de l'effectif global et des caractéristiques sociodémographiques et économiques de la population guinéenne ainsi qu'à une meilleure appréciation de l'évolution des tendances démographiques du pays et ; (ii) à l'élaboration ainsi qu'au suivi et évaluation des programmes et plans de développement économiques et social. Les résultats attendus du RGPH sont :  ,,Les tableaux statistiques des résultats provisoires sur la répartition des ménages et des populations par sexe selon les unités géographiques ;  ,,Les tableaux statistiques des résultats définitifs sur la répartition des ménages selon les caractéristiques et conditions de logement et les rapports d'analyse des données;  ,,Les tableaux statistiques des résultats définitifs sur la répartition de la population selon les caractéristiques sociodémographiques ;  ,,Les rapports d'analyse des différents thèmes retenus ;  ,,Les cadres nationaux du Bureau central du recensement aptes à concevoir et exécuter les différentes phases du RGPH, 10 cadres formés respectivement aux logiciels Cspro, IMIS, Census Info et SPSS. Composante 2 : Amélioration de la couverture de la production statistique L'amélioration de la couverture de la production statistique vise d'une manière générale à organiser les systèmes d'information dans davantage de secteurs pour améliorer la qualité de la production statistique globale. Elle vise aussi à développer les statistiques de routine et réduire ainsi la dépendance vis-à-vis des grandes opérations. Ce projet couvre les besoins budgétaires dans ce domaine et dans les secteurs choisis pour une période de deux ans. Le caractère décentralisé du SSN impose à chaque ministère de produire les statistiques relevant du domaine de sa compétence. Il s'en suit souvent un déséquilibre dans la production statistique sectorielle. Si les secteurs des statistiques économiques, sociales et démographiques sont beaucoup soutenus dans le cadre du suivi de la pauvreté et des OMD, ceux de l'agriculture, des transports et de l'environnement le sont moins. Or, la faiblesse des sources statistiques limite la qualité globale des données et notamment des agrégats. Les secteurs de l'environnement, de l'agriculture et des transports retenus sont des axes stratégiques du DSRP. Les résultats attendus dans chaque secteur sont :  ,,les outils conceptuels et méthodologiques pour chaque secteur et sous-secteur ;  ,,les annuaires statistiques par secteur (environnement, agriculture et transport).</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-GN-KF0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-08-18"/>
+    <activity-date type="End Planned" iso-date="2014-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>TALL Hadja</person-name>
+      <email>h.tall@afdb.org</email>
+      <telephone>+21671103043</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5900155002201">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">1136000</value>
+      <transaction-date iso-date="2011-08-18"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-03-31">681600</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:19">
+    <iati-identifier>46002-P-GN-KF0-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="">GOUVERNEMENT DE GUINEE</participating-org>
+    <recipient-country code="GN">Guinea</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SUPPORT TO Poverty Reduction Strategy Paper III PROCESS</title>
+    <description>The overall objective of the project is to support the Poverty Reduction Strategy implementation process, to promote good governance at national level and to enhance mechanisms of aid management and coordination, notably by providing a technical and financial support to the Conference of the partners to development previously referred to "The Friends of Guinea" meeting that is programmed for the fourth quarter of 2011.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-GN-KF0-004/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-07-29"/>
+    <activity-date type="End Planned" iso-date="2013-12-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>TALL Hadja</person-name>
+      <email>h.tall@afdb.org</email>
+      <telephone>+21671103043</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5900155002202">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">1337000</value>
+      <transaction-date iso-date="2011-07-29"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-03-31">802200</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

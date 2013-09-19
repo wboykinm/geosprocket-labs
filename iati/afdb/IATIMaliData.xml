@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:29">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:29">
+    <iati-identifier>46002-P-ML-AA0-018</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">REPUBLIQUE  DU MALI</participating-org>
+    <recipient-country code="ML">Mali</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET SUCRIER DE MARKALA</title>
+    <description>Le projet aura pour objectifs spécifiques d'augmenter la production de canne et de sucre et de valoriser ses sous-produits</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-06-02"/>
+    <activity-date type="End Planned" iso-date="2015-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>OULD CHEIKH AHMED Mohamed Aly</person-name>
+      <email>m.ouldcheickhahmed@afdb.org</email>
+      <telephone>+21671102773</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31110">Agricultural policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="5" xml:lang="en">Cancelled</activity-status>
+    <transaction ref="2100150023751">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">28970000</value>
+      <transaction-date iso-date="2011-06-02"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">49209</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">72227</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Segou" adm2="Ke-macina"/>
+      <coordinates latitude="13.8142" longitude="-5.3584" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2453661">Markala</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:29">
+    <iati-identifier>46002-P-ML-DB0-011</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">DIRECTION NATIONALE DES ROUTES</participating-org>
+    <recipient-country code="ML">Mali</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">AMÉNAGEMENT SECTION ROUTE URBAINE BAMAKO</title>
+    <description>L'objectif sectoriel du projet est de renforcer  l'intégration régionale  et soutenir la stratégie de croissance et de désenclavement du Mali Le projet a comme objectif spécifique d'accroître la mobilité urbaine dans la ville de Bamako, de contribuer à la  promotion de services de transport efficaces et accessibles le long de l'axe routier Bamako-Kankan et d'améliorer le niveau de vie des populations de la zone d'influence.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-ML-DB0-011/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-10-14"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BENARD Manuel Alexandre</person-name>
+      <email>m.benard@afdb.org</email>
+      <telephone>+21671102302</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150022993">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">12000000</value>
+      <transaction-date iso-date="2010-10-14"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">3645737</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">1231873</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-09-30">23014</value>
+      <description>Total Interest Repayment in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">30247</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">1957</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">31261</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Bamako" adm2="Commune 3"/>
+      <coordinates latitude="12.65" longitude="-8" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2460596">Bamako</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bamako" adm2="Commune 4"/>
+      <coordinates latitude="12.59835" longitude="-8.0594" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2594622">Sébéninkoro</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:29">
+    <iati-identifier>46002-P-ML-EAZ-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="AWF" type="">AfricaWater Facility Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">DIRECTION NATIONALE DE L'HYDRAULIQUE</participating-org>
+    <recipient-country code="ML">Mali</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Appui à la mise en place de la GIRE (Gestion Intégrée de la Ressource en Eau)</title>
+    <description>1.4.1,,L'objectif global du projet est de contribuer à l'amélioration de la situation socio-économique du pays et à la réduction de la pauvreté grâce à une meilleure connaissance des ressources et leur gestion intégrée. 1.4.2,,Les objectifs spécifiques du projet sont les suivants : i) renforcer les capacités de gestion de l'information et des données sur l'eau et ii) améliorer l'allocation des ressources entre les différents secteurs en tenant compte de la valeur économique de l'eau et des préoccupations transfrontalières. 1.4.3,,Le renforcement des capacités de gestion de l'information et des données sur l'eau permettra une meilleure maitrise des effets négatifs et la valorisation des effets positifs des changements climatiques sur les différents secteurs d'usage de l'eau et essentiellement le secteur agricole. .</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-05-28"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>OSSETE Jean Michel</person-name>
+      <email>j.ossete@afdb.org</email>
+      <telephone>+21671102771</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5600155002251">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="AWF">AfricaWater Facility Fund</provider-org>
+      <value currency="">1611494</value>
+      <transaction-date iso-date="2010-05-28"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:29">
+    <iati-identifier>46002-P-ML-IAD-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Mali</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE LA COMMUNICATION ET DES NOUVELLES TECHNOLOGIES</participating-org>
+    <recipient-country code="ML">Mali</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">APPUI AU COMPLEXE NUMERIQUE DE BAMAKO</title>
+    <description>Le projet metra en place un Pôle numérique de référence pour (i) former les compétences de haut niveau en TIC; (ii) générer des projets autour des TIC, et (iii) proposer un cadre de développement favorable aux entreprises existantes ou voulant se créer dans le secteur des TIC</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-ML-IAD-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-09-09"/>
+    <activity-date type="End Planned" iso-date="2017-09-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>GUEDEGBE Corbin Michel Casimir</person-name>
+      <email>c.guedegbe@afdb.org</email>
+      <telephone>+21671102405</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="11420">Higher education</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Mali</provider-org>
+      <value currency="">1890000</value>
+      <transaction-date iso-date="2011-09-09"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150024994">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">14000000</value>
+      <transaction-date iso-date="2011-09-09"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">33753</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:29">
+    <iati-identifier>46002-P-ML-K00-020</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'ECONOMIE ET DES FINANCES</participating-org>
+    <recipient-country code="ML">Mali</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">LE PROGRAMME D?APPUI A  LA STRATEGIE POUR LA CROISSANCE ET LA REDUCTION DE LA  PAUVRETE II</title>
+    <description>Le but ultime du Programme est de contribuer à consolider la croissance et à accélérer la réduction de la pauvreté. Les ressources du Programme aideront le GdM à maintenir la viabilité du cadre macroéconomique et à exécuter le budget annuel conformément aux priorités qui ont été arrêtées. Les objectifs opérationnels du Programme sont : (i) l'amélioration du recouvrement des recettes fiscales ; (ii) le renforcement de la transparence dans la passation des marchés publics ; (iii) la fiabilité de la reddition des comptes publics et (iv) l'accélération de la décentralisation. La mobilisation optimisée des ressources intérieures est en ligne avec la volonté du GdM de tendre progressivement vers une meilleure prise en charge au niveau national, du financement  des programmes de développement et de réduction de la pauvreté. Le Mali regorge de potentialités fiscales encore inexploitées, notamment dans le domaine du foncier et le secteur informel. Quant à la transparence dans la GFP, elle est déterminante pour obtenir la confiance des contribuables et une plus grande efficacité de la dépense publique. Au-delà de l'amélioration des ressources propres de l'Etat et de la transparence dans la gestion des dépenses publiques, les mesures retenues par le PASCRP II auront également une incidence positive sur l'environnement du secteur privé. Il s'agit notamment de la réduction des distorsions contenues dans le système fiscal malien et du renforcement de la concurrence dans la passation des marchés publics. La troisième composante du Programme porte sur une plus grande responsabilisation des collectivités territoriales dans la gestion du développement. Les réformes prévues dans le cadre du Programme visent à s'assurer que l'amélioration des ressources de l'Etat profitera effectivement aux populations à travers une accélération des transferts de ressources et de compétences aux élus locaux. Ces transferts devront être accompagnés d'un appui renforcé de l'Etat à travers ses services déconcentrés.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-10-26"/>
+    <activity-date type="End Planned" iso-date="2013-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>TARSIM Achraf Hassan</person-name>
+      <email>a.tarsim@afdb.org</email>
+      <telephone>+21671103593</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150025594">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">33000000</value>
+      <transaction-date iso-date="2011-10-26"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">15000000</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">12315</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">93667</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

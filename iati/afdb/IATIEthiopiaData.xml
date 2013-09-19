@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-28T15:42:51">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:51">
+    <iati-identifier>46002-P-ET-AA0-015</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF FINANCE AND ECO. DEVELOPMENT</participating-org>
+    <recipient-country code="ET">Ethiopia</recipient-country>
+    <title xml:lang="en">ETHIOPIA-HUMANITARIAN RELEIF ASSISTANCE</title>
+    <description>Contribute to the on-going efforts of Government and humanitarian Partners to save lives in the current crisis situation, protect livelihoods and enhance resilience to the drought effects. This objective will be achieved through the provision of USD 1 million worth of emergency food relief.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-12-14"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>HASHI Halima Yussuf</person-name>
+      <email>h.hashi@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31110">Agricultural policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5000199002368">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">650796</value>
+      <transaction-date iso-date="2011-12-14"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:51">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="ET">Ethiopia</recipient-country>
+    <title xml:lang="en">ETHIOPIAN AIRLINES TRANCHE  1</title>
+    <description>The Project involves the participation by African Development Bank (AfDB) in a corporate loan to Ethiopian Airlines for the financing of its investment plan from 2010 to 2018, and targeted to the purchase of five Boeing 777-200LR long range passenger jets. The aircraft will be used to replace old aircraft and to expand capacity on long haul routes to and from Africa. The aircraft will be delivered between November 2010 and July 2011.
+ BENEFITS:
+This investment upgrades Ethiopian?s fleet to be more fuel efficient and to provide improved connections to and within Africa. This facilitates African integration, as well as trade and investment with and within Africa. The project will generate incremental foreign exchange earnings and tax revenues for Ethiopia.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-05-16"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21050">Air transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">3636774</value>
+      <transaction-date iso-date="2011-05-16"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Addis Ababa" adm2="Addis Ababa Zone3"/>
+      <coordinates latitude="8.97792" longitude="38.79805" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6297257">Bole International Airport</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:51">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="ET">Ethiopia</recipient-country>
+    <title xml:lang="en">ETHIOPIAN AIRLINES TRANCHE 2</title>
+    <description>The Project involves the participation by African Development Bank (AfDB) in a corporate loan to Ethiopian Airlines for the financing of its investment plan from 2010 to 2018, and targeted to the purchase of five Boeing 777-200LR long range passenger jets. The aircraft will be used to replace old aircraft and to expand capacity on long haul routes to and from Africa. The aircraft will be delivered between November 2010 and July 2011.
+ BENEFITS:
+This investment upgrades Ethiopian?s fleet to be more fuel efficient and to provide improved connections to and within Africa. This facilitates African integration, as well as trade and investment with and within Africa. The project will generate incremental foreign exchange earnings and tax revenues for Ethiopia.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-05-16"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21050">Air transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">10371364</value>
+      <transaction-date iso-date="2011-05-16"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Addis Ababa" adm2="Addis Ababa Zone3"/>
+      <coordinates latitude="8.97792" longitude="38.79805" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6297257">Bole International Airport</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:51">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="ET">Ethiopia</recipient-country>
+    <title xml:lang="en">ETHIOPIAN AIRLINES TRANCHE 3</title>
+    <description>The Project involves the participation by African Development Bank (AfDB) in a corporate loan to Ethiopian Airlines for the financing of its investment plan from 2010 to 2018, and targeted to the purchase of five Boeing 777-200LR long range passenger jets. The aircraft will be used to replace old aircraft and to expand capacity on long haul routes to and from Africa. The aircraft will be delivered between November 2010 and July 2011.
+ BENEFITS:
+This investment upgrades Ethiopian?s fleet to be more fuel efficient and to provide improved connections to and within Africa. This facilitates African integration, as well as trade and investment with and within Africa. The project will generate incremental foreign exchange earnings and tax revenues for Ethiopia.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-05-16"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21050">Air transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">10371364</value>
+      <transaction-date iso-date="2011-05-16"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Addis Ababa" adm2="Addis Ababa Zone3"/>
+      <coordinates latitude="8.97792" longitude="38.79805" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6297257">Bole International Airport</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:51">
+    <iati-identifier>46002-P-ET-FA0-008</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Ethiopia</participating-org>
+    <participating-org role="Implementing" ref="" type="">ETHIOPIAN ELECTRIC POWER CORPORATION</participating-org>
+    <recipient-country code="ET">Ethiopia</recipient-country>
+    <title xml:lang="en">Electricity Transmission System Improvement project</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-ET-FA0-008/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-12-20"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>RICHARD Humphrey Ndwiga</person-name>
+      <email>h.richard@afdb.org</email>
+      <telephone>+21671101566</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23010">Energy policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Ethiopia</provider-org>
+      <value currency="">23060000</value>
+      <transaction-date iso-date="2010-12-20"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150023451">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">93750000</value>
+      <transaction-date iso-date="2010-12-20"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">15699567</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">858445</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">5578475</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">6902366</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">9538250</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-09-30">53938</value>
+      <description>Total Interest Repayment in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-03-31">235017</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">256156</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <transaction ref="2100155019269">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">58000000</value>
+      <transaction-date iso-date="2010-12-20"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">10927267</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">777989</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">1482351</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">3953175</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Addis Ababa" adm2="Addis Ababa Zone1"/>
+      <coordinates latitude="9.024966" longitude="38.746891" precision="1"/>
+      <gazetteer-entry gazetteer-ref="344979">Addis Ababa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gambella" adm2="Zone 1"/>
+      <coordinates latitude="8.14699" longitude="33.97335" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732967">Administrative Zone 1</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Afar" adm2="Afar Zone 3"/>
+      <coordinates latitude="10.00902" longitude="40.47394" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732968">Administrative Zone 3</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oromia" adm2="Jimma"/>
+      <coordinates latitude="7.85" longitude="36.65" precision="1"/>
+      <gazetteer-entry gazetteer-ref="344661">Agaro</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tigray" adm2="Southern Tigray"/>
+      <coordinates latitude="12.41531" longitude="39.559662" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7667783">Alamata</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Afar" adm2="Afar Zone 3"/>
+      <coordinates latitude="8.983333" longitude="40.166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="343134">Awash</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oromia" adm2="Illubabor"/>
+      <coordinates latitude="8.456003" longitude="36.353024" precision="1"/>
+      <gazetteer-entry gazetteer-ref="342567">Bedele</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Amhara" adm2="East Gojam"/>
+      <coordinates latitude="10.35" longitude="37.733333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="339708">Debre Mark?os</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oromia" adm2="East Harerghe"/>
+      <coordinates latitude="8.70114" longitude="42.00241" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732970">East Harerghe Zone</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oromia" adm2="East Shewa"/>
+      <coordinates latitude="8.21353" longitude="38.84809" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7670720">East Shewa Zone</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gambella" adm2="Zone 1"/>
+      <coordinates latitude="8.25" longitude="34.583333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="337405">Gambela</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oromia" adm2="Jimma"/>
+      <coordinates latitude="7.83139" longitude="37.32167" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7732964">Gilgel Gibe I Power Station</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="SNNP" adm2="Hadiya"/>
+      <coordinates latitude="7.583333" longitude="37.883333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="334609">Hosa?ina</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Somali" adm2="Shinile"/>
+      <coordinates latitude="9.601944" longitude="41.644167" precision="1"/>
+      <gazetteer-entry gazetteer-ref="334539">Hurso</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oromia" adm2="Illubabor"/>
+      <coordinates latitude="8.27526" longitude="35.75596" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732965">Illubabor Zone</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oromia" adm2="Jimma"/>
+      <coordinates latitude="7.666667" longitude="36.833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="333772">Jima</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oromia" adm2="Jimma"/>
+      <coordinates latitude="7.66667" longitude="37" precision="3"/>
+      <gazetteer-entry gazetteer-ref="333766">Jimma Zone</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oromia" adm2="East Shewa"/>
+      <coordinates latitude="8.43442" longitude="39.0308" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7667785">Koka</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Addis Ababa" adm2="Addis Ababa Zone3"/>
+      <coordinates latitude="9.066667" longitude="38.883333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="332154">Lege T?afo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tigray" adm2="Mekele"/>
+      <coordinates latitude="13.496667" longitude="39.475278" precision="1"/>
+      <gazetteer-entry gazetteer-ref="331180">Mek?ele</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oromia" adm2="Illubabor"/>
+      <coordinates latitude="8.3" longitude="35.583333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="330764">Metu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Somali" adm2="Shinile"/>
+      <coordinates latitude="10.17097" longitude="41.83748" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732971">Shinile Zone</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tigray" adm2="Southern Tigray"/>
+      <coordinates latitude="12.96033" longitude="39.52831" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7667868">Southern Tigray Zone</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oromia" adm2="North Shewa (K4)"/>
+      <coordinates latitude="9.18333" longitude="38.75" precision="1"/>
+      <gazetteer-entry gazetteer-ref="328079">Sululta</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oromia" adm2="West Harerghe"/>
+      <coordinates latitude="8.67245" longitude="40.84885" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732969">West Harerghe Zone</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oromia" adm2="West Wellega"/>
+      <coordinates latitude="9.17283" longitude="35.05279" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732966">West Wellega Zone</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="SNNP" adm2="Guraghe"/>
+      <coordinates latitude="8.283333" longitude="37.783333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="326355">Wolkite</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="SNNP" adm2="Yem Special Woreda"/>
+      <coordinates latitude="7.82108" longitude="37.48953" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732973">Yem Special Woreda</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:51">
+    <iati-identifier>46002-P-ET-K00-010</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF FINANCE AND ECO. DEVELOPMENT</participating-org>
+    <recipient-country code="ET">Ethiopia</recipient-country>
+    <title xml:lang="en">SUPPLEMENTARY LOAN FOR PROMOTING BASIC SERVICES II</title>
+    <description>The proposed supplementary loan will provide resources to scale-up financing to Ethiopia's regions and woredas (districts) for the delivery of basic services and the strengthening of public financial management (PFM) systems. Indeed, this proposed loan will provide resources that will allow higher basic services expenditures during financial year (FY) 2010/11 which would otherwise not be possible. This would in turn contribute in assisting the Government to reach PBS II targets that are at risk of not being met, due mainly to the decline in the initially anticipated resources in 2008.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-12-15"/>
+    <activity-date type="End Planned" iso-date="2011-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>NDISALE Victor Charles</person-name>
+      <email>v.ndisale@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150023294">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">72600000</value>
+      <transaction-date iso-date="2010-12-15"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-03-31">54334723</value>
+      <description>Total Disbursement in First Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-06-30">18265277</value>
+      <description>Total Disbursement in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">240074</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-03-31">0</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">276206</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">284402</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:31">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:31">
+    <iati-identifier>46002-P-MU-EB0-007</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF MAURITIUS MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="MU">Mauritius</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">WASTEWATER MASTER PLAN STUDY</title>
+    <description>The objective of the proposed study is to elaborate a programme covering a period of twenty years (2014-2033), of the development and management of the wastewater on the main island of Mauritius and the island of Rodrigues.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-MU-EB0-007/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-03-01"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>ADHIAMBO Nancy Aileen Nereah Ogal</person-name>
+      <email>n.ogal@afdb.org</email>
+      <telephone>+21671103116</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14022">Sanitation - large systems</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5500155002451">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">562890</value>
+      <transaction-date iso-date="2010-03-01"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="" adm2=""/>
+      <coordinates latitude="-20.3" longitude="57.5833333" precision="5"/>
+      <gazetteer-entry gazetteer-ref="934293">Mauritius</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rodrigues" adm2=""/>
+      <coordinates latitude="-19.7" longitude="63.4166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="1547449">Rodrigues</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:31">
+    <iati-identifier>46002-P-MU-KA0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF MAURITIUS MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="MU">Mauritius</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">MIC Grant supporting the Competitiveness and Public Sector Efficiency (CPSE) Programme</title>
+    <description>The objectives of the project are to: (i) Consolidate fiscal performance and strengthen public social service delivery (ii) Enhance trade competitiveness.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-MU-KA0-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-04-13"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>SUGDEN Carina</person-name>
+      <email>c.sugden@afdb.org</email>
+      <telephone>+21671102226</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5500155003151">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">300000</value>
+      <transaction-date iso-date="2010-04-13"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:31">
+    <iati-identifier>46002-P-MU-KA0-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF MAURITIUS MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="MU">Mauritius</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">MIC GRANT SUPPORTING DEBT MANAGMENT</title>
+    <description>Specific objectives are to: (i) enhance the capacity and institutional framework for public sector debt recording, reporting, management, policy and strategy formulation; (ii) reinforce oversight of fiscal risks from public enterprises, and; (iii) strengthen the primary market and deepen the secondary market.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-MU-KA0-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-04-15"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>SUGDEN Carina</person-name>
+      <email>c.sugden@afdb.org</email>
+      <telephone>+21671102226</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5500155004101">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">296013</value>
+      <transaction-date iso-date="2011-04-15"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+</iati-activities>

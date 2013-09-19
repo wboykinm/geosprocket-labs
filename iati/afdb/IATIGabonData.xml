@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:19">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:19">
+    <iati-identifier>46002-P-GA-AAB-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Gabon</participating-org>
+    <participating-org role="Implementing" ref="" type="">GOUVERNEMENT DE LA REPUBLIQUE DU GABON M</participating-org>
+    <recipient-country code="GA">Gabon</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET D?APPUI AU DEVELOPPEMENT DES INFRASTRUCTURES POUR LA CULTURE DU RIZ  NERICA - MIC (PADIACN)</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-GA-AAB-004/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BA Mamadou Samba</person-name>
+      <email>m.a.ba@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31161">Food crop production</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Gabon</provider-org>
+      <value currency="">25130</value>
+      <transaction-date iso-date="2011-03-31"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155004052">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">477489</value>
+      <transaction-date iso-date="2011-03-31"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Estuaire" adm2=""/>
+      <coordinates latitude="0.166667" longitude="10" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2400682">Province de la Estuaire</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ngounie" adm2=""/>
+      <coordinates latitude="-2" longitude="11" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2397466">Province de la Ngounia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nyanga" adm2=""/>
+      <coordinates latitude="-3" longitude="11" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2397141">Province de la Nyanga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ogooue-lolo" adm2=""/>
+      <coordinates latitude="-1" longitude="13" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2396925">Province de la Ogooua-Lolo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Haut-Ogooue" adm2=""/>
+      <coordinates latitude="-2" longitude="14" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2400454">Province du Haut-Ogooua</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:19">
+    <iati-identifier>46002-P-GA-EB0-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="AWF" type="">AfricaWater Facility Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DES TRAVAUX PUBLICS , DES INFRASTRUCTURES ET DE LA CONSTRUCTION</participating-org>
+    <recipient-country code="GA">Gabon</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">ASSAINISSEMENT DE LIBREVILLE</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-02-01"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BOUGAIRE Francis Daniel</person-name>
+      <email>f.bougaire@afdb.org</email>
+      <telephone>+21671103101</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14022">Sanitation - large systems</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5600155001702">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="AWF">AfricaWater Facility Fund</provider-org>
+      <value currency="">1448651</value>
+      <transaction-date iso-date="2010-02-01"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Estuaire" adm2="Libreville"/>
+      <coordinates latitude="0.3924148397891" longitude="9.4535636901855" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2399697">Libreville</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:19">
+    <iati-identifier>46002-P-GA-I00-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Gabon</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'EMPLOI</participating-org>
+    <recipient-country code="GA">Gabon</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">ENQUETE NATIONALE SUR EMPLOI ET CHOMAGE</title>
+    <description>(i),,de dégager la structure de l'emploi et du chômage par catégorie socioprofessionnelle, sexe, âge, milieu de résidence ; (ii),, élaborer la cartographie thématique de l'emploi et du chômage au Gabon ; (iii),,mettre en place une banque de données statistiques sur l'emploi (formel et informel) et le chômage ; (iv),,prendre en compte les différentes dimensions sectorielles et transversales qui sont utiles pour l'élaboration, la mise en #uvre et l'évaluation de la politique d'emploi ; L'assistance sollicitée comportera les composantes suivantes : (i) Assistance technique ; (ii) Réalisation de l'enquête ; (iii) Formations et ateliers et (iv) Appui à la cellule technique d'exécution du projet. Les ressources attendues du fonds d'assistance des PRI financeront les volets suivants: (i) Assistance technique - Conseiller technique principal (CTP),  spécialiste en cartographie, expert en exploitation de données sur l'emploi et le chômage ; (ii) travaux de cartographie, enquêtes pilote et principale ;  (iii) l'atelier de dissémination du rapport d'enquête ; (iv) l'acquisition d'équipement en bureautique et matériel spécialisé et, (v) audit des comptes financiers du projet.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-01-29"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>OYOUBI Lucette Amance</person-name>
+      <email>l.oyoubi@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Gabon</provider-org>
+      <value currency="">494311</value>
+      <transaction-date iso-date="2010-01-29"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155002151">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">499943</value>
+      <transaction-date iso-date="2010-01-29"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:19">
+    <iati-identifier>46002-P-GA-IBD-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Gabon</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE LA REPUBLIQUE DU GABON MINISTERE DE L'ECONOMIE ET DES FINANCES</participating-org>
+    <recipient-country code="GA">Gabon</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">MIC - Renforcement de la caisse nationale d'assurance maladie et de garantie sociale (CNMAGS)</title>
+    <description>Le but sectoriel de l'étude est de contribuer à atteindre la couverture universelle de l'assurance maladie ; sa finalité est de renforcer les capacités de gestion de la CNAMGS en se fondant sur l'analyse des systèmes de gestion existants. Il s'agira d'identifier et de spécifier les améliorations et les nouveaux systèmes nécessaires et d'assurer la formation des personnels concernés. A cet égard, l'étude se concentre sur le système d'information décisionnel et le système de gestion relatifs à l'AMO. L'étude se concentrera également sur la définition et la mise en #uvre d'une stratégie de communication destinée à rompre avec la mauvaise image de l'ancienne CNGS.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-GA-IBD-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-02-22"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>OYOUBI Lucette Amance</person-name>
+      <email>l.oyoubi@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="12110">Health policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Gabon</provider-org>
+      <value currency="">332690</value>
+      <transaction-date iso-date="2011-02-22"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155003751">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">498724</value>
+      <transaction-date iso-date="2011-02-22"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:19">
+    <iati-identifier>46002-P-GA-IBD-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Gabon</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE LA REPUBLIQUE DU GABON MINISTERE DE L'ECONOMIE ET DES FINANCES</participating-org>
+    <recipient-country code="GA">Gabon</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">MIC -ENQUETE DEMOGRAPHIQUE &amp;  SANTE 2010</title>
+    <description>Le but de l'EDSG-II est de maximiser l'adéquation des politiques et des stratégies de santé nationales aux besoins sanitaires de la population du Gabon ; sa finalité est d'améliorer les bases factuelles de l'élaboration, de la mise en ?uvre et de l'évaluation de ces politiques et stratégies. L'EDSG-II permettra également, par comparaison avec les résultats de l'enquête réalisée en 2000, de mesurer l'impact de la politique de santé nationale au cours des dix dernières années.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-07-26"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>OYOUBI Lucette Amance</person-name>
+      <email>l.oyoubi@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="12110">Health policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Gabon</provider-org>
+      <value currency="">768740</value>
+      <transaction-date iso-date="2011-07-26"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155004251">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">447139</value>
+      <transaction-date iso-date="2011-07-26"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+</iati-activities>

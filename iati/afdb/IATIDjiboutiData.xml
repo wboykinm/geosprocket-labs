@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:16">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:16">
+    <iati-identifier>46002-P-DJ-AAZ-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Implementing" ref="" type="">World Food Program (WFP)</participating-org>
+    <recipient-country code="DJ">Djibouti</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">AIDE HUMANITAIRE VICTIMES SECHERESSE</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-DJ-AAZ-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-08-18"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>KOUASSI Akoupo Donatien</person-name>
+      <email>d.a.kouassi@afdb.org</email>
+      <telephone>+21671102356</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31110">Agricultural policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5000199001370">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">329626</value>
+      <transaction-date iso-date="2010-08-18"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="ali Sabieh" adm2="ali Sabieh"/>
+      <coordinates latitude="11.133333" longitude="42.885833" precision="1"/>
+      <gazetteer-entry gazetteer-ref="225310">ali adda</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="ali Sabieh" adm2=""/>
+      <coordinates latitude="11.25" longitude="43" precision="4"/>
+      <gazetteer-entry gazetteer-ref="225282">Ragion da Ali Sabieh</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Djibouti" adm2=""/>
+      <coordinates latitude="11.5" longitude="42.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="449265">Ragion da Arta</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Obock" adm2=""/>
+      <coordinates latitude="12.25" longitude="43.08333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="221525">Ragion da Obock</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dikhil" adm2=""/>
+      <coordinates latitude="11.5" longitude="42.1666667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="223889">Ragion de Dikhil</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tadjoura" adm2=""/>
+      <coordinates latitude="12" longitude="42.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="220781">Ragion de Tadjourah</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:16">
+    <iati-identifier>46002-P-DJ-IE0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">AGENCE DJIBOUTIENNE DE DEVELOPPEMENT SOCIAL (ADDS)</participating-org>
+    <recipient-country code="DJ">Djibouti</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Programme de Réduction de la Pauvreté Urbaine à Djibouti (PREPUD) II</title>
+    <description>Accroître le Développement Economique des Régions</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-DJ-IE0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-19"/>
+    <activity-date type="End Planned" iso-date="2013-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>EYEGHE Ali</person-name>
+      <email>a.eyeghe@afdb.org</email>
+      <telephone>+21671102253</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155019717">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">800000</value>
+      <transaction-date iso-date="2011-03-19"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">593535</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

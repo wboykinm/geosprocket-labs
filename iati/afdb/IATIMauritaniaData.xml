@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:32">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:32">
+    <iati-identifier>46002-P-MR-AAZ-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Mauritania</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DES AFFAIRES ECONOMIQUES ET DU DEVELOPEMENT</participating-org>
+    <recipient-country code="MR">Mauritania</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">AIDE HUMANITAIRE INONDATION ROSSO</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-02-25"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BOUZGARROU Malek</person-name>
+      <email>m.bouzgarrou@afdb.org</email>
+      <telephone>+21671102570</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31110">Agricultural policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="3" xml:lang="en">Completion</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Mauritania</provider-org>
+      <value currency="">279260</value>
+      <transaction-date iso-date="2010-02-25"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5000199001769">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">652963</value>
+      <transaction-date iso-date="2010-02-25"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:32">
+    <iati-identifier>46002-P-MR-EA0-008</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE EN CHARGE DE L' EAU</participating-org>
+    <recipient-country code="MR">Mauritania</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">AFTOUT ESSAHLI - Financement supplémentaire (2 TRANCHE)</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-05-27"/>
+    <activity-date type="End Planned" iso-date="2010-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BEN SASSI Belgacem</person-name>
+      <email>b.bensassi@afdb.org</email>
+      <telephone>+21671103299</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="3" xml:lang="en">Completion</activity-status>
+    <transaction ref="2100155018066">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">3588000</value>
+      <transaction-date iso-date="2010-05-27"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2010-09-30">3419878</value>
+      <description>Total Disbursement in Third Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-03-31">86694</value>
+      <description>Total Disbursement in First Quarter of 2011</description>
+    </transaction>
+    <location>
+      <administrative adm1="Nouakchott" adm2="Nouakchott"/>
+      <coordinates latitude="18.1003342257996" longitude="-15.9497451782227" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2377450">Nouakchott</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:32">
+    <iati-identifier>46002-P-MR-HAB-005</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FAPA" type="">Fund for African Private Sector Assistance</participating-org>
+    <participating-org role="Implementing" ref="" type="">MAURITANIE LEASING (ML)</participating-org>
+    <recipient-country code="MR">Mauritania</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">TECHNICAL ASSISTANCE  FAPA Mauritanie Leasing</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-11-15"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BABALE Salah</person-name>
+      <email>s.babale@afdb.org</email>
+      <telephone>+21671102343</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="24030">Formal sector financial intermediaries</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5700155001351">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FAPA">Fund for African Private Sector Assistance</provider-org>
+      <value currency="">233082</value>
+      <transaction-date iso-date="2011-11-15"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+</iati-activities>

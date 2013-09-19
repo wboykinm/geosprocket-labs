@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-28T15:42:51">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:51">
+    <iati-identifier>46002-P-NE-A00-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Funding" ref="GAFSP" type="">Global Agriculture and Food Security Program</participating-org>
+    <participating-org role="Implementing" ref="" type="">DIRECTION AMENAGEMENT EQUIPEMENT RURAUX</participating-org>
+    <recipient-country code="NE">Niger</recipient-country>
+    <title xml:lang="fr">MOBILISATION EAUX MARADI,ZINDER,THAOUA</title>
+    <description>L'objectif sectoriel du Projet est de contribuer à terme à l'allégement de la pauvreté par un renforcement de la sécurité alimentaire. Le Projet a pour objectif spécifique la valorisation des eaux à partir d'ouvrages existants ou devant être réalisés (petits barrages, seuils d'épandage, mares aménagées, etc.).</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-NE-A00-004/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-11-29"/>
+    <activity-date type="End Planned" iso-date="2016-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>TARHOUNI Mouldi</person-name>
+      <email>m.tarhouni@afdb.org</email>
+      <telephone>+21671102235</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31110">Agricultural policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150025493">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">9340000</value>
+      <transaction-date iso-date="2011-11-29"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">184789</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">8316</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <transaction ref="5570155000051">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="GAFSP">Global Agriculture and Food Security Program</provider-org>
+      <value currency="">21228554</value>
+      <transaction-date iso-date="2011-11-29"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Maradi" adm2="Madarounfa"/>
+      <coordinates latitude="13.308671" longitude="7.156023" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2441526">Madarounfa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Maradi" adm2=""/>
+      <coordinates latitude="14.25" longitude="7.25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2441289">Maradi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tahoua" adm2=""/>
+      <coordinates latitude="16" longitude="5.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2439374">Tahoua</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Zinder" adm2=""/>
+      <coordinates latitude="15" longitude="10.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2437797">Zinder</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:52">
+    <iati-identifier>46002-P-NE-AAB-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'AGRICULRURE ET DE  L'ENVIRONNEMENT</participating-org>
+    <recipient-country code="NE">Niger</recipient-country>
+    <title xml:lang="fr">AIDE HUMANIT URGENCE VICTIMES SECHERESSE</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-NE-AAB-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-09-28"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DIALLO Korka</person-name>
+      <email>k.o.diallo@afdb.org</email>
+      <telephone>+21671103603</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31161">Food crop production</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5000199001918">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">647057</value>
+      <transaction-date iso-date="2010-09-28"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:52">
+    <iati-identifier>46002-P-NE-E00-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Funding" ref="RWSSI" type="">Rural Water Supply &amp; Sanitation</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Niger</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE EN CHARGE DE L' EAU</participating-org>
+    <recipient-country code="NE">Niger</recipient-country>
+    <title xml:lang="fr">PROJET Approvisionnement en Eau Potable et Assainissement   EN MILIEU RURALE PHASE 2</title>
+    <description>L'objectif du projet est d'améliorer d'une façon durable l'approvisionnement en eau potable ainsi que les conditions d'assainissement, d'hygiène et de santé des populations des deux régions de Tillabéri et Dosso</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-NE-E00-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-11-29"/>
+    <activity-date type="End Planned" iso-date="2016-07-01"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>M'BAYE Elhadji Amadou</person-name>
+      <email>e.mbaye@afdb.org</email>
+      <telephone>+21671103066</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Niger</provider-org>
+      <value currency="">2404000</value>
+      <transaction-date iso-date="2011-11-29"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150025143">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">16000000</value>
+      <transaction-date iso-date="2011-11-29"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">144983</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">14247</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <transaction ref="5800155000651">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="RWSSI">Rural Water Supply &amp; Sanitation</provider-org>
+      <value currency="">3431562</value>
+      <transaction-date iso-date="2011-11-29"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Dosso" adm2=""/>
+      <coordinates latitude="13.2" longitude="3.6" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2445486">Dosso</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tillaberi" adm2=""/>
+      <coordinates latitude="14.3333333" longitude="2.0833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2595293">Tillabari</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:52">
+    <iati-identifier>46002-P-NE-IAE-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Niger</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L 'ECONOMIE ET DES FINANCES</participating-org>
+    <recipient-country code="NE">Niger</recipient-country>
+    <title xml:lang="fr">PROJET D?APPUI AU DEVELOPPEMENT DE L?ENSEIGNEMENT ET DE LA FORMATION  PROFESSIONNELS ET TECHNIQUES - PADEFPT</title>
+    <description>L'objectif de développement du pays est d'améliorer les conditions de vie des populations. L'objectif du projet est d'accroître l'accès des populations à l'enseignement et la formation professionnels et techniques de qualité. Cet objectif sera atteint par les effets conjugués de interventions suivantes : (i) l'extension et la réhabilitation des établissements d'ETFP existants et la construction d'un nouveau lycée d'ETFP à Diffa ; (ii) l'acquisition du mobilier, des équipements et des matériels pédagogiques ; (iii) la formation des formateurs, des inspecteurs pédagogiques ; (iv) l'introduction de nouveaux curricula ainsi que la révision des curricula existants ; et (v) le renforcement des capacités du ministère en charge de l'ETFP et des structures de formation à travers un processus participatif dans les régions ciblées par le projet (Niamey, Maradi, Zinder et Diffa).</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-NE-IAE-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-12-22"/>
+    <activity-date type="End Planned" iso-date="2016-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>ILBOUDO Salamata</person-name>
+      <email>s.ilboudo@afdb.org</email>
+      <telephone>+21671103342</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="11330">Vocational training</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Niger</provider-org>
+      <value currency="">1415000</value>
+      <transaction-date iso-date="2010-12-22"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150023461">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">7870000</value>
+      <transaction-date iso-date="2010-12-22"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-09-30">4420</value>
+      <description>Total Interest Repayment in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-03-31">19729</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">19729</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <transaction ref="2100155019273">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">17630000</value>
+      <transaction-date iso-date="2010-12-22"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-06-30">142751</value>
+      <description>Total Disbursement in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">191743</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Diffa" adm2=""/>
+      <coordinates latitude="16" longitude="13.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2445702">Diffa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Maradi" adm2=""/>
+      <coordinates latitude="14.25" longitude="7.25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2441289">Maradi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Niamey" adm2=""/>
+      <coordinates latitude="13.521389" longitude="2.105278" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2595294">Niamey</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Zinder" adm2=""/>
+      <coordinates latitude="15" longitude="10.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2437797">Zinder</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:52">
+    <iati-identifier>46002-P-NE-KA0-006</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">BUREAU D'EXECUTION DU PROJET</participating-org>
+    <recipient-country code="NE">Niger</recipient-country>
+    <title xml:lang="fr">APPUI A LA STRATEGIE DE DEVELOPPEMENT</title>
+    <description>Le PASDRP I a pour but ultime d'améliorer la gouvernance financière et contribuer ainsi à la réalisation des objectifs de croissance et de réduction de la pauvreté de la SDRP 2008-2012. Compte tenu des ressources limitées de l'État, l'atteinte des objectifs de la SDRP dépend en  grande partie de l'efficience et de l'efficacité de la gestion des finances publiques. Par conséquent, comme signalé précédemment, l'objectif spécifique du programme est d'améliorer la gestion des finances publiques</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-12-22"/>
+    <activity-date type="End Planned" iso-date="2012-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>SOW Koudeidiatou</person-name>
+      <email>i.sow@afdb.org</email>
+      <telephone>+21671103592</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150023396">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">23970000</value>
+      <transaction-date iso-date="2010-12-22"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-03-31">14170000</value>
+      <description>Total Disbursement in First Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">9800000</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-09-30">48204</value>
+      <description>Total Interest Repayment in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-03-31">77332</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">92608</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <transaction ref="2100155019224">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">4030000</value>
+      <transaction-date iso-date="2010-12-22"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-03-31">4030000</value>
+      <description>Total Disbursement in First Quarter of 2011</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

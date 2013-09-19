@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:20">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:20">
+    <iati-identifier>46002-P-GM-AZ0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="GEF" type="">Global Environment Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="">DEPARTMENT OF STATE FRO AGRICULTURE</participating-org>
+    <recipient-country code="GM">Gambia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SUSTAINABLE LAND MANAGEMENT PROJECT</title>
+    <description>The Development Objective To improve livelihoods  through  promotion of community-based watershed/ landscape management approaches, enabling resource poor communities to reverse declining land productivity The Environmental Objective To overcome the causes and negative impacts of land degradation on the structure and functional integrity of The Gambia's lowland and upland ecosystem resources</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-GM-AZ0-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-12-17"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>AHMED Sheikh Javed</person-name>
+      <email>s.ahmed@afdb.org</email>
+      <telephone>+21671101593</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31110">Agricultural policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5550155000001">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="GEF">Global Environment Facility</provider-org>
+      <value currency="">2865106</value>
+      <transaction-date iso-date="2010-12-17"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Upper River" adm2="Fulladu East"/>
+      <coordinates latitude="13.3099497001083" longitude="-14.2137336730957" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2413818">Basse Santa Su</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Lower River" adm2="Jarra West"/>
+      <coordinates latitude="13.483333" longitude="-15.566667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2413246">Jenoi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="North Bank" adm2="Lower Baddibu"/>
+      <coordinates latitude="13.4897958393544" longitude="-16.0887908935547" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2412992">Kerewan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Central River" adm2="Niani"/>
+      <coordinates latitude="13.666667" longitude="-14.883333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2412778">Kuntaur</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Central River" adm2="Fulladu West"/>
+      <coordinates latitude="13.55" longitude="-14.9" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2412139">Sapu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Western" adm2="Kombo North"/>
+      <coordinates latitude="13.3455556" longitude="-16.6727778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2411653">Yundum</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:20">
+    <iati-identifier>46002-P-GM-EAZ-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="AWF" type="">AfricaWater Facility Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">Ministry of  Fisheries, Water Resources</participating-org>
+    <recipient-country code="GM">Gambia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SUPPORT FOR NATIONAL WATER SECTOR REFORM</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-07-23"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>NTEGE-WASSWA Maureen</person-name>
+      <email>m.ntege@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5600155002201">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="AWF">AfricaWater Facility Fund</provider-org>
+      <value currency="">1695151</value>
+      <transaction-date iso-date="2010-07-23"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:20">
+    <iati-identifier>46002-P-GM-KF0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Gambia</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF GAMBIA MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="GM">Gambia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">Institutional Support Project FOR ECONOMIC &amp; FINANCIAL GOVERNANCE</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-GM-KF0-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-10-12"/>
+    <activity-date type="End Planned" iso-date="2015-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DO Cam</person-name>
+      <email>c.do@afdb.org</email>
+      <telephone>+21671102441</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Gambia</provider-org>
+      <value currency="">200000</value>
+      <transaction-date iso-date="2011-10-12"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100155021117">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">2000000</value>
+      <transaction-date iso-date="2011-10-12"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">373488</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">362306</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

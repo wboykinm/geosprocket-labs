@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:27">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:27">
+    <iati-identifier>46002-P-CD-DA0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type=""/>
+    <recipient-country code="CD">Dem Rep Congo</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET PRIORITAIRE - SECURITE AERIENNE</title>
+    <description>La finalité du projet est de rétablir la sécurité du transport aérien et de la navigation aérienne dans le pays en : (i) réhabilitant les infrastructures aéroportuaires et les équipements de navigation aérienne ;  (ii) en renforçant le niveau du personnel  technique chargé du contrôle du trafic aérien et de la surveillance du sous-secteur et (iii) en contribuant à la pérennisation des activités de la RVA.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CD-DA0-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-11-02"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>KARANGA Augustin</person-name>
+      <email>a.karanga@afdb.org</email>
+      <telephone>+21671102607</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21050">Air transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155018970">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">88600000</value>
+      <transaction-date iso-date="2010-11-02"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">10295295</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">755047</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">119393</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">719563</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Province Orientale" adm2="Kisangani (city)"/>
+      <coordinates latitude="0.5175" longitude="25.155014" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6297149">Kisangani</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Katanga" adm2="Lubumbashi (city)"/>
+      <coordinates latitude="-11.591333" longitude="27.530889" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6297154">Lubumbashi-Luano</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kinshasa" adm2="Kinshasa"/>
+      <coordinates latitude="-4.38575" longitude="15.444569" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2312103">Ndjili</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:27">
+    <iati-identifier>46002-P-CD-FA0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Dem Rep Congo</participating-org>
+    <participating-org role="Implementing" ref="" type="">SOCIETE NATIONALE D'ELECTRICITE</participating-org>
+    <recipient-country code="CD">Dem Rep Congo</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET ELECTRIFICATION PERIURBAINE RURAL</title>
+    <description>Le projet a pour finalité l'amélioration des conditions de vie des populations grâce à l'accès aux énergies modernes. L'objectif spécifique du projet est d'augmenter  l'accès à l'électricité au niveau nationale</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CD-FA0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-10"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>KONATE Ibrahima</person-name>
+      <email>i.konate@afdb.org</email>
+      <telephone>+21671103418</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23010">Energy policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Dem Rep Congo</provider-org>
+      <value currency="">1310000</value>
+      <transaction-date iso-date="2011-03-10"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100155019766">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">9690000</value>
+      <transaction-date iso-date="2011-03-10"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">405030</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction ref="5900155001603">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">60000000</value>
+      <transaction-date iso-date="2011-03-10"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-06-30">109204</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Bandundu" adm2="Kwilu"/>
+      <coordinates latitude="-4.9833333" longitude="18.5166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2317442">Bamba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bandundu" adm2="Bandundu (city)"/>
+      <coordinates latitude="-3.3166667" longitude="17.3666667" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2317397">Bandundu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-Kivu" adm2="Area under 1st level administration"/>
+      <coordinates latitude="-4.099264" longitude="29.093332" precision="1"/>
+      <gazetteer-entry gazetteer-ref="219488">Baraka</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bandundu" adm2="Kwilu"/>
+      <coordinates latitude="-3.3" longitude="17.6" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2317175">Bendela</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-Kivu" adm2="Bukavu (city)"/>
+      <coordinates latitude="-2.5083333" longitude="28.8608333" precision="2"/>
+      <gazetteer-entry gazetteer-ref="217831">Bukavu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Equateur" adm2="Mongala"/>
+      <coordinates latitude="2.1833333" longitude="22.4666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="217728">Bumba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bandundu" adm2="Bandundu (city)"/>
+      <coordinates latitude="-3.2833333" longitude="17.4833333" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2316083">Dima</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kasai-Occidental" adm2="Lulua"/>
+      <coordinates latitude="-5.55" longitude="23.1166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="217255">Dimbelenge</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-Kivu" adm2="Area under 1st level administration"/>
+      <coordinates latitude="-1.6791667" longitude="29.2227778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="216281">Goma</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bas-Congo" adm2="Cataractes"/>
+      <coordinates latitude="-4.9833333" longitude="14.7166667" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2315698">Gombe-Matadi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kasai-Occidental" adm2="Kasai"/>
+      <coordinates latitude="-4.3166667" longitude="20.5833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="215976">Ilebo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-Kivu" adm2="Area under 1st level administration"/>
+      <coordinates latitude="-2.4683333" longitude="28.8241667" precision="2"/>
+      <gazetteer-entry gazetteer-ref="215605">Kabare</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Katanga" adm2="Tanganyika"/>
+      <coordinates latitude="-7.25" longitude="28.4166667" precision="2"/>
+      <gazetteer-entry gazetteer-ref="213103">Kilaba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kinshasa" adm2="Kinshasa"/>
+      <coordinates latitude="-4.32458707934106" longitude="15.3214645385742" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2314302">Kinshasa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Province Orientale" adm2="Kisangani (city)"/>
+      <coordinates latitude="0.5166667" longitude="25.2" precision="2"/>
+      <gazetteer-entry gazetteer-ref="212730">Kisangani</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Katanga" adm2="Tanganyika"/>
+      <coordinates latitude="-5.3833333" longitude="27" precision="1"/>
+      <gazetteer-entry gazetteer-ref="212360">Kongolo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bandundu" adm2=""/>
+      <coordinates latitude="-4" longitude="18" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2317396">Province de Bandundu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Equateur" adm2=""/>
+      <coordinates latitude="1" longitude="20.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="216661">Province de la equateur</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bas-Congo" adm2=""/>
+      <coordinates latitude="-5.5" longitude="14.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2317277">Province du Bas-Congo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kasai-Oriental" adm2=""/>
+      <coordinates latitude="-4" longitude="24" precision="4"/>
+      <gazetteer-entry gazetteer-ref="214138">Province du Kasaa-Oriental</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Katanga" adm2=""/>
+      <coordinates latitude="-9" longitude="26" precision="4"/>
+      <gazetteer-entry gazetteer-ref="205703">Province du Katanga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Maniema" adm2=""/>
+      <coordinates latitude="-2.9166667" longitude="25.9166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="209610">Province du Maniema</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Kivu" adm2=""/>
+      <coordinates latitude="-0.666667" longitude="28.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="206938">Province du Nord-Kivu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-Kivu" adm2=""/>
+      <coordinates latitude="-3.16667" longitude="28.25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="205413">Province du Sud-Kivu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Province Orientale" adm2=""/>
+      <coordinates latitude="2.5" longitude="27" precision="4"/>
+      <gazetteer-entry gazetteer-ref="216139">Province Orientale</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="" adm2=""/>
+      <coordinates latitude="0.076701" longitude="18.281036" precision="5"/>
+      <gazetteer-entry gazetteer-ref="2311638">Ruki</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bas-Congo" adm2="Lukaya"/>
+      <coordinates latitude="-5.577251" longitude="15.695501" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2311595">Sanga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Province Orientale" adm2="Tshopo"/>
+      <coordinates latitude="0.5688889" longitude="25.0269444" precision="2"/>
+      <gazetteer-entry gazetteer-ref="204030">Yakusu</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:27">
+    <iati-identifier>46002-P-CD-KF0-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE REPUBLIQUE DEMOCRATIQUE; MINISTERE DES FINANCES BUDGET</participating-org>
+    <recipient-country code="CD">Dem Rep Congo</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">STRATEGIE NATIONALE DE DEVELOPPEMENT DE LA STATISTIQUE</title>
+    <description>,,OBJECTIFS DU PROJET   : Doter la RDC à l'horizon 2015, d'un système permettant de rendre disponibles des statistiques fiables et de bonne qualité pour les besoins de développement. Pour y parvenir  il est prévu notamment la mise en  ?uvre  priorité  d'un certain nombre d'activités statistiques majeures à savoir : (i) la mise en place et le fonctionnement effectif  des  organes  et  structures  du système statistique congolais( SSC) dès lors que le texte réglementaire  relatif au système statistique national a été  promulgué sous forme d'un décret  depuis le 11 février 2010 ; (ii) la mise en place d'une stratégie de développement de la Statistique ; (iii) le renforcement des capacités humaines et matérielles du système statistique national, plus particulièrement de l'INS en vue de mener à bien des opérations statistiques porteuses.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CD-KF0-004/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-08-24"/>
+    <activity-date type="End Planned" iso-date="2013-12-01"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BOEDTS Bruno Marie Jean J.</person-name>
+      <email>b.boedts@afdb.org</email>
+      <telephone>+21671101653</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5900155002455">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">259028</value>
+      <transaction-date iso-date="2011-08-24"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-06-30">117274</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-09-30">1970</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-12-31">19495</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:27">
+    <iati-identifier>46002-P-CD-KF0-005</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE REPUBLIQUE DEMOCRATIQUE MINISTERE DES FINANCES BUDGET</participating-org>
+    <recipient-country code="CD">Dem Rep Congo</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">RENFORCEMENT DES CAPACITES INSTITUTIONNELLES DU MINISTERE DE L'ENSEIGNEMENT</title>
+    <description>L'objectif du projet est de doter l'Enseignement Supérieur et Universitaire des capacités institutionnelles et humaines pouvant lui permettre d'engager avec efficacité le système dans le processus de reforme et de modernisation pour répondre qualitativement à sa triple mission d'enseignement, de recherche et de services à la communauté. Les objectifs spécifiques et mesurables du projet sont : ,,-Rapport sur l'opérationnalisation des structures locales ,, d'Assurance Qualité ,,-Nombre des cadres formés dans des thématiques de gestion, de ,, planification et d'Assurance Qualité ,,-Rapport sur l'Exposition des Résultats de la Recherche ,,-Nombre des partenariats de recherche thématiques conclus ,,aves les Instituts de recherche africains</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CD-KF0-005/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-08-24"/>
+    <activity-date type="End Planned" iso-date="2013-11-25"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BOEDTS Bruno Marie Jean J.</person-name>
+      <email>b.boedts@afdb.org</email>
+      <telephone>+21671101653</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5900155002457">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">277235</value>
+      <transaction-date iso-date="2011-08-24"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-06-30">115056</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-09-30">61675</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:27">
+    <iati-identifier>46002-P-CD-KZ0-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE REPUBLIQUE DEMOCRATIQUE MINISTERE DES FINANCES BUDGET</participating-org>
+    <recipient-country code="CD">Dem Rep Congo</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">MOBILISATION  DES RESSOURCES HUMAINES/ADMINISTRATION PUBLIQUE</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CD-KZ0-004/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-05-04"/>
+    <activity-date type="End Planned" iso-date="2015-09-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>TOTO SAME Achille Charles Samuel</person-name>
+      <email>a.totosame@afdb.org</email>
+      <telephone>+21671102379</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155019866">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">20000000</value>
+      <transaction-date iso-date="2011-05-04"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">1655373</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">767683</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Kinshasa" adm2="Kinshasa"/>
+      <coordinates latitude="-4.32458707934107" longitude="15.3214645385742" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2314302">Kinshasa</gazetteer-entry>
+    </location>
+  </iati-activity>
+</iati-activities>

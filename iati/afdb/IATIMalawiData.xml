@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:31">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:31">
+    <iati-identifier>46002-P-MW-EAZ-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="AWF" type="">AfricaWater Facility Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF IRRIGATION AND WATER DEVELOPMENT</participating-org>
+    <recipient-country code="MW">Malawi</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">STRENGTHENING WATER SECTOR M&amp;E IN MALAW</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-05-14"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>AKARI Peter Lamisi</person-name>
+      <email>p.akari@afdb.org</email>
+      <telephone>+21671102483</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5600155002102">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="AWF">AfricaWater Facility Fund</provider-org>
+      <value currency="">1605860</value>
+      <transaction-date iso-date="2010-05-14"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:31">
+    <iati-identifier>46002-P-MW-EAZ-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="AWF" type="">AfricaWater Facility Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">CCODE CENTER FOR COMMUNITY ORGANIZATION</participating-org>
+    <recipient-country code="MW">Malawi</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">Improving Access to Water &amp; Sanitation for Urban Poor</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-05-14"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>HOLLHUBER Franz</person-name>
+      <email>f.hollhuber@afdb.org</email>
+      <telephone>+21671103510</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5600155002051">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="AWF">AfricaWater Facility Fund</provider-org>
+      <value currency="">517869</value>
+      <transaction-date iso-date="2010-05-14"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:31">
+    <iati-identifier>46002-P-MW-IE0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Malawi</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF LOCAL GOVERNMENT &amp; RURAL  DEVELOPMENT</participating-org>
+    <recipient-country code="MW">Malawi</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SUPPLEMENTARY LOAN LOCAL FOR ECONOMIC DEVELOPMENT</title>
+    <description>The Development Objective is to improve the socio-economic well being of the local population and strengthen economic growth in selected growth centres.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-MW-IE0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-05-13"/>
+    <activity-date type="End Planned" iso-date="2014-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BESONG Raymond Eyoh</person-name>
+      <email>r.besong@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Malawi</provider-org>
+      <value currency="">300000</value>
+      <transaction-date iso-date="2011-05-13"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150023643">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">3162000</value>
+      <transaction-date iso-date="2011-05-13"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">514388</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">636</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-03-31">5012</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">8574</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Northern Region" adm2="Mzimba"/>
+      <coordinates latitude="-12.35" longitude="33.55" precision="1"/>
+      <gazetteer-entry gazetteer-ref="929625">Jenda Theo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Central Region" adm2="Ntchisi"/>
+      <coordinates latitude="-13.15" longitude="33.83333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="927319">Malomo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Southern Region" adm2="Mangochi"/>
+      <coordinates latitude="-14.08333" longitude="34.91667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="926308">Monkey Bay</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Southern Region" adm2="Phalombe"/>
+      <coordinates latitude="-15.66667" longitude="35.66667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="1105842">Phalombe District</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:31">
+    <iati-identifier>46002-P-MW-KZ0-005</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="MW">Malawi</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">GOVERNANCE AND POVERTY REDUCTION II</title>
+    <description>The broad goal of the GPRSG II is to reduce poverty as laid out in Malawi's MGDS. More specifically, the program's objective is to enhance the efficiency, transparency and accountability in the use of public resources (improve financial governance) while helping increase public service delivery. To that end it builds upon the Government's reform program as defined in the Government's Letter of Development Policy, which lays out the Government's challenge of stimulating the implementation of its recently redesigned Public Financial and Economic Management (PFEM) Prioritised Action Plan (PAP).  By improving financial governance through greater efficiency, transparency, and accountability in the use of public resources, the GPRSG II seeks to make the budgeting process more efficient and enable both more and better provision of social services, especially to the poor.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-05-07"/>
+    <activity-date type="End Planned" iso-date="2011-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>KAMANGA Fenwick Dingiswayo</person-name>
+      <email>f.kamanga@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155017666">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">11546000</value>
+      <transaction-date iso-date="2010-05-07"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2010-06-30">8184707</value>
+      <description>Total Disbursement in Second Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2010-12-31">3361293</value>
+      <description>Total Disbursement in Fourth Quarter of 2010</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

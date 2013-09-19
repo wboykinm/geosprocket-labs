@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:23">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:23">
+    <iati-identifier>46002-P-BI-DB0-015</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE TRAVAUX PUBLICS ET EQUIPEMENT DIRECTION GENERALE DES ROUTES</participating-org>
+    <recipient-country code="BI">Burundi</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET GITEGA- NYANGUNGU-NGOZI PHASE 1</title>
+    <description>Le projet a  pour objectif spécifique de faciliter la circulation des biens et des personnes le long de la route Gitega- Nyangungu-Ngozi et améliorer l'accessibilité des populations aux services de base..</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-BI-DB0-015/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-02-23"/>
+    <activity-date type="End Planned" iso-date="2014-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>SOUARE Mamady</person-name>
+      <email>m.souare@afdb.org</email>
+      <telephone>+21671101987</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5900155001501">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">24100000</value>
+      <transaction-date iso-date="2011-02-23"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-03-31">4394564</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-06-30">2803651</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-09-30">3542369</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-12-31">2109531</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Gitega" adm2="Bugendana"/>
+      <coordinates latitude="-3.2458" longitude="29.9024" precision="1"/>
+      <gazetteer-entry gazetteer-ref="429598">Bugendana</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gitega" adm2="Bugendana"/>
+      <coordinates latitude="-3.24335" longitude="29.89843" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7670933">Bugendana</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ngozi" adm2="Ruhororo"/>
+      <coordinates latitude="-3.082" longitude="29.9136" precision="1"/>
+      <gazetteer-entry gazetteer-ref="429349">Burasira</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gitega" adm2="Giheta"/>
+      <coordinates latitude="-3.36325" longitude="29.85733" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7670931">Giheta</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bururi" adm2="Burambi"/>
+      <coordinates latitude="-3.7261" longitude="29.5125" precision="1"/>
+      <gazetteer-entry gazetteer-ref="424101">Gitamo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Karuzi" adm2="Gitaramuka"/>
+      <coordinates latitude="-2.9816667" longitude="30.1713889" precision="1"/>
+      <gazetteer-entry gazetteer-ref="432321">Gitaramuka</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gitega" adm2="Gitega"/>
+      <coordinates latitude="-3.4264" longitude="29.9308" precision="1"/>
+      <gazetteer-entry gazetteer-ref="426272">Gitega</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gitega" adm2="Gitega"/>
+      <coordinates latitude="-3.43813" longitude="29.95481" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7670597">Gitega</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kayanza" adm2="Muruta"/>
+      <coordinates latitude="-2.9861" longitude="29.6031" precision="1"/>
+      <gazetteer-entry gazetteer-ref="432775">Mubuga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ngozi" adm2="Ngozi"/>
+      <coordinates latitude="-2.9772222" longitude="29.8961111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="430687">Mugomera</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gitega" adm2="Mutaho"/>
+      <coordinates latitude="-3.14405" longitude="29.87012" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7670823">Mutaho</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ngozi" adm2="Ngozi"/>
+      <coordinates latitude="-2.9083333" longitude="29.8277778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="430569">Ngozi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ngozi" adm2="Ngozi"/>
+      <coordinates latitude="-2.94806" longitude="29.83045" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7670822">Ngozi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gitega" adm2="Mutaho"/>
+      <coordinates latitude="-3.1075" longitude="29.9004" precision="1"/>
+      <gazetteer-entry gazetteer-ref="429382">Nyangungu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ngozi" adm2="Ruhororo"/>
+      <coordinates latitude="-3.0517" longitude="29.8868" precision="1"/>
+      <gazetteer-entry gazetteer-ref="429303">Ruhororo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ngozi" adm2="Ruhororo"/>
+      <coordinates latitude="-3.00896" longitude="29.93898" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7670614">Ruhororo</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:23">
+    <iati-identifier>46002-P-BI-K00-007</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DES FINANCES ET DE LA PLANIFICATION</participating-org>
+    <recipient-country code="BI">Burundi</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROGRAMME D'APPUI AUX REFORMES ECONOMIQUES</title>
+    <description>I) Améliorer la qualité de la gestion des ressources publiques; et II) Consolider le système de contrôle externe et interne des finances publiques</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-05-27"/>
+    <activity-date type="End Planned" iso-date="2012-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MALLBERG Ragnvald Michel</person-name>
+      <email>m.mallberg@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="3" xml:lang="en">Completion</activity-status>
+    <transaction ref="5900155000951">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">10000000</value>
+      <transaction-date iso-date="2010-05-27"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2010-09-30">7000000</value>
+      <description>Total Disbursement in Third Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2010-12-31">3000000</value>
+      <description>Total Disbursement in Fourth Quarter of 2010</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:24">
+    <iati-identifier>46002-P-BI-K00-008</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DES FINANCES ET DE LA PLANIFICATION</participating-org>
+    <recipient-country code="BI">Burundi</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROGRAMME APPUI AUX REFORMES ECONOMIQUES IV</title>
+    <description>&lt;H>Objectifs de développement&lt;/>: Appuyer la mise en #uvre du CSLP à travers une gestion plus efficace et efficiente des finances publiques. &lt;H>Objectifs du programme: &lt;/>Renforcer la gestion des ressources publiques et améliorer le processus de réformes des finances publiques</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-06-10"/>
+    <activity-date type="End Planned" iso-date="2013-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MALLBERG Ragnvald Michel</person-name>
+      <email>m.mallberg@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="3" xml:lang="en">Completion</activity-status>
+    <transaction ref="5900155001752">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">7000000</value>
+      <transaction-date iso-date="2011-06-10"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2011-09-30">4000000</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2011-12-31">3000000</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

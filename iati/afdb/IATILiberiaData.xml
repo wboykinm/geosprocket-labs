@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:28">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:28">
+    <iati-identifier>46002-P-LR-A00-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Liberia</participating-org>
+    <participating-org role="Implementing" ref="" type=""/>
+    <recipient-country code="LR">Liberia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">AGRICULTURE SECTOR REHABILITATION PROJECT</title>
+    <description>The specific project objective is to increase income for smallholders and rural entrepreneurs on a sustainable basis.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-LR-A00-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-08-26"/>
+    <activity-date type="End Planned" iso-date="2016-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>AHMED Tarek Abdallah</person-name>
+      <email>t.ahmed@afdb.org</email>
+      <telephone>+21671103028</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31110">Agricultural policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Liberia</provider-org>
+      <value currency="">1700000</value>
+      <transaction-date iso-date="2010-08-26"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100155017866">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">6000000</value>
+      <transaction-date iso-date="2010-08-26"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">82243</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">103085</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">469168</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">30115</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Grand Kru" adm2="Upper Kru Coast"/>
+      <coordinates latitude="4.6797222" longitude="-8.2338889" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2278889">Barclayville</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bomi" adm2=""/>
+      <coordinates latitude="6.666667" longitude="-10.833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2278324">Bomi County</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Grand Gedeh" adm2="Gbarzon"/>
+      <coordinates latitude="6.27" longitude="-8.5136111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2277534">Dugee</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="River Ghee" adm2="Gbeapo"/>
+      <coordinates latitude="5.267778" longitude="-8.006944" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2277364">Flehwroken</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Maryland" adm2="Barrobo"/>
+      <coordinates latitude="4.945" longitude="-7.8977778" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2276595">Glofaken</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Grand Bassa" adm2=""/>
+      <coordinates latitude="6.25" longitude="-9.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2276630">Grand Bassa County</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Grand Cape Mount" adm2=""/>
+      <coordinates latitude="7.1666667" longitude="-11" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2276627">Grand Cape Mount County</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Grand Gedeh" adm2=""/>
+      <coordinates latitude="5.9166667" longitude="-8.0833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2276622">Grand Gedeh County</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Grand Kru" adm2=""/>
+      <coordinates latitude="4.9166667" longitude="-8.25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2588490">Grand Kru County</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Maryland" adm2="Pleebo/Sodeken"/>
+      <coordinates latitude="4.375" longitude="-7.7169444" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2276492">Harper</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="River Ghee" adm2="Gbeapo"/>
+      <coordinates latitude="5.3775" longitude="-7.99417" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2272876">Jakakehn</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Maryland" adm2="Pleebo/Sodeken"/>
+      <coordinates latitude="4.7994444" longitude="-7.7363889" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2276065">Kaloken</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Maryland" adm2=""/>
+      <coordinates latitude="4.75" longitude="-7.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2275099">Maryland County</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Montserrado" adm2=""/>
+      <coordinates latitude="6.5" longitude="-10.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2274890">Montserrado County</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Maryland" adm2="Pleebo/Sodeken"/>
+      <coordinates latitude="4.5891667" longitude="-7.6725" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2274372">Pleebo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="River Ghee" adm2="Gbeapo"/>
+      <coordinates latitude="5.349444" longitude="-8.034167" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2274402">Putuken</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="River Ghee" adm2=""/>
+      <coordinates latitude="5.25" longitude="-7.9166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2593120">River Gee County</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Grand Gedeh" adm2="Gbarzon"/>
+      <coordinates latitude="6.32" longitude="-8.5466667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2274006">Senewehn</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="River Ghee" adm2="Webbo"/>
+      <coordinates latitude="5.12667" longitude="-7.72833" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2273731">Swekehn</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nimba" adm2="Tappita"/>
+      <coordinates latitude="6.4922222" longitude="-8.8602778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2273684">Tapita</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Grand Gedeh" adm2="Tchien"/>
+      <coordinates latitude="6.0666667" longitude="-8.1280556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2272491">Zwedru</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:28">
+    <iati-identifier>46002-P-LR-E00-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="">LIBERIA WATER - SEWERAGE CORPORATION</participating-org>
+    <recipient-country code="LR">Liberia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">URBAN WATER AND SANITATION PROJECT</title>
+    <description>,,Improve access to adequate, safe and reliable water supply and public sanitation services to the people in the towns of Monrovia, Buchanan, Kakata  and Zwedru on a sustainable basis ,,Enhance the institutional, operational and management capacity, and ,,Ensure the long-term institutional and financial viability of LWSC.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-LR-E00-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-05-28"/>
+    <activity-date type="End Planned" iso-date="2015-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MWASAMBILI Rees</person-name>
+      <email>r.mwasambili@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155018016">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">24630000</value>
+      <transaction-date iso-date="2010-05-28"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">71404</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">83078</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction ref="5900155000952">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">570000</value>
+      <transaction-date iso-date="2010-05-28"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5900155004303">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">886000</value>
+      <transaction-date iso-date="2010-05-28"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Grand Bassa" adm2="District #3"/>
+      <coordinates latitude="5.8808333" longitude="-10.0466667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2278158">Buchanan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Margibi" adm2="Kakata"/>
+      <coordinates latitude="6.53" longitude="-10.3516667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2276086">Kakata</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Montserrado" adm2="Greater Monrovia"/>
+      <coordinates latitude="6.30053972663129" longitude="-10.7968997955322" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2274895">Monrovia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Montserrado" adm2="Greater Monrovia"/>
+      <coordinates latitude="6.2755556" longitude="-10.7177778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2274465">Paynesville</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Grand Gedeh" adm2="Tchien"/>
+      <coordinates latitude="6.0666667" longitude="-8.1280556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2272491">Zwedru</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:29">
+    <iati-identifier>46002-P-LR-I00-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF PUBLIC WORKS</participating-org>
+    <recipient-country code="LR">Liberia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SUPPLEMENTARY LABOUR BASED PUBLIC WORKS</title>
+    <description>REHABILITATE SOCIOECONOMIC INFRASTRUCTURE AND IMPROVE CAPACITIES FOR INFRASTRUCTURE MAINTENANCE</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-LR-I00-004/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-08-11"/>
+    <activity-date type="End Planned" iso-date="2014-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BESONG Raymond Eyoh</person-name>
+      <email>r.besong@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5900155001851">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">5000000</value>
+      <transaction-date iso-date="2011-08-11"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-09-30">136043</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="River Ghee" adm2="Gbeapo"/>
+      <coordinates latitude="5.1963889" longitude="-7.8755556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2273638">Fish Town</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="River Ghee" adm2="Gbeapo"/>
+      <coordinates latitude="5.363" longitude="-8.039" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2277041">Gbeapo District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Maryland" adm2="Pleebo/Sodeken"/>
+      <coordinates latitude="4.375" longitude="-7.7169444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2276492">Harper</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Maryland" adm2=""/>
+      <coordinates latitude="4.75" longitude="-7.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2275099">Maryland County</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Maryland" adm2="Pleebo/Sodeken"/>
+      <coordinates latitude="4.604" longitude="-7.663" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8260606">Pleebo/Sodeken District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="River Ghee" adm2=""/>
+      <coordinates latitude="5.25" longitude="-7.9166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2593120">River Gee County</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="River Ghee" adm2="Webbo"/>
+      <coordinates latitude="5.214" longitude="-7.624" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2273186">Webbo District</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:29">
+    <iati-identifier>46002-P-LR-K00-012</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF LIBERIA MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="LR">Liberia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">ECONOMIC GOVERNANCE AND COMPETITIVENESS</title>
+    <description>Operational Objectives: The key objective of the program is to support implementation of the PFM and business enabling environment reforms, so as to maintain macroeconomic stability, enhance fiscal discipline, and improve efficiency and effectiveness of public expenditure.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-LR-K00-012/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-08-11"/>
+    <activity-date type="End Planned" iso-date="2014-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DO Cam</person-name>
+      <email>c.do@afdb.org</email>
+      <telephone>+21671102441</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5900155001801">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">30000000</value>
+      <transaction-date iso-date="2011-08-11"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2011-12-31">14000000</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:29">
+    <iati-identifier>46002-P-LR-KA0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF LIBERIA MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="LR">Liberia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">EMERGENCY ASSISTANCE FOR HUMANITARIAN</title>
+    <description>Strengthen the efforts by the UNHCR/LRRRC to meet the urgent requirements of the displaced people at the Liberia-Cote d?Ivoire border</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-08-02"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MBONAMPEKA Alain-Pierre</person-name>
+      <email>a.mbonampeka@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5000199002118">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">394403</value>
+      <transaction-date iso-date="2011-08-02"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Nimba" adm2="Gbehlageh"/>
+      <coordinates latitude="7.0111111" longitude="-8.3077778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2276936">Bongaplay</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nimba" adm2="Zoegeh"/>
+      <coordinates latitude="6.8275" longitude="-8.3428" precision="1"/>
+      <gazetteer-entry gazetteer-ref="8260265">Buutuo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nimba" adm2=""/>
+      <coordinates latitude="6.75" longitude="-8.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2274688">Nimba County</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nimba" adm2="Gbehlageh"/>
+      <coordinates latitude="7.2238889" longitude="-8.3475" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2272676">Zali</gazetteer-entry>
+    </location>
+  </iati-activity>
+</iati-activities>

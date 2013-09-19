@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-28T15:42:51">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:51">
+    <iati-identifier>46002-P-RW-AAE-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'AGRICULTURE ET DES RESSOURCES ANIMALES</participating-org>
+    <recipient-country code="RW">Rwanda</recipient-country>
+    <title xml:lang="en">LIVESTOCK INFRASTRUCTURE SUPPORT PROGRAM</title>
+    <description>The objective of the project is to support food and nutrition security through the creation of an environment favourable to income generation and the implementation of nutrition intervention. The specific programme objective is to build the necessary infrastructure and services that will contribute to the development of a sustainable and profitable livestock production and marketing and overall improvement in the dairy industry in Rwanda.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-RW-AAE-004/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-07-26"/>
+    <activity-date type="End Planned" iso-date="2017-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>NYIRIMANA Joseph</person-name>
+      <email>j.nyirimana@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31163">Livestock</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150024693">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">21810000</value>
+      <transaction-date iso-date="2011-07-26"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">13000000</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">8810000</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">24089</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">71683</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:51">
+    <iati-identifier>46002-P-RW-AAE-006</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'AGRICULTURE ET DES RESSOURCES ANIMALES</participating-org>
+    <recipient-country code="RW">Rwanda</recipient-country>
+    <title xml:lang="en">Project Preparation Facility- Livestock Infrastructure Support Programme</title>
+    <description>The goal of the LISP is the creation of an enabling environment that will stimulate the development of a modern livestock industry in Rwanda through value addition and access to markets. The specific objective of the Programme is to build the necessary infrastructure and services that will contribute to the development of a sustainable and profitable livestock production and marketing and overall improvement of the livestock industry in Rwanda. The overall objectives of the study are (i) to assess water requirements of the livestock farms, carry out relevant technical investigations and studies (comprising of but not limited to hydrological, hydro-geological and hydraulic studies, topographical surveys, geotechnical investigations, socio-economic assessment), and prepare detailed engineering designs for the 72 LWS and tender documents to facilitate the construction of civil and hydraulic structures and (ii) to propose a management system for operation and maintenance for the 72 LWS that would reduce the burden on the government and lead to ownership of the facilities by farmers for sustainability. Detailed Terms of references (TOR) of the study has been prepared to be used by the selected consultant. The study would produce (i) reports on water requirements for the livestock of the Gishwati and Umutara milk basins, water resources available and proposal for developing the water supply for livestock farmers; (ii) preliminary and detailed engineering design reports of the 72 LWS and tender documents for the civil works; (iii) a proposal for a management system for the 72 LWS that would make the livestock farmers take ownership of their operation and maintenance for sustainability, and (iv) an environmental and social impact assessment report of the 72 LWS.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-06-01"/>
+    <activity-date type="End Planned" iso-date="2012-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>OKEKE Sebastian Onyekaozuru</person-name>
+      <email>s.okeke@afdb.org</email>
+      <telephone>+21671103435</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31163">Livestock</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155019222">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">500000</value>
+      <transaction-date iso-date="2011-06-01"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">231522</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">1240</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">92376</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">135024</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">34856</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Umutara" adm2="Gabiro"/>
+      <coordinates latitude="-1.591852" longitude="30.455352" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7688800">Gatsibo District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Umutara" adm2="Rwisirabo"/>
+      <coordinates latitude="-1.851007" longitude="30.651015" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7688801">Kayonza District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gisenyi" adm2="Ramba"/>
+      <coordinates latitude="-1.878219" longitude="29.56904" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7690208">Ngororero District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gisenyi" adm2="Karago"/>
+      <coordinates latitude="-1.652753" longitude="29.506843" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7690207">Nyabihu District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Umutara" adm2="Nyagatare"/>
+      <coordinates latitude="-1.314555" longitude="30.372423" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7688799">Nyagatare District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gisenyi" adm2="Rubavu"/>
+      <coordinates latitude="-1.68126" longitude="29.329321" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7690209">Rubavu District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gisenyi" adm2="Kayove"/>
+      <coordinates latitude="-1.9145" longitude="29.315067" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7690210">Rutsiro District</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:51">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="RW">Rwanda</recipient-country>
+    <title xml:lang="en">KIVU WATT</title>
+    <description>The financing is for Phase I of the KivuWatt project, an integrated-methane gas extraction and power production facility. Phase I involves gas extraction using a floating barge located approximately 12.5 km offshore from the city of Kibuye. The extracted gas will be further processed and pumped to shore for use in a power plant via a submerged floating pipeline. Power will be produced by methane powered reciprocating engine generator sets with combined capacity of 25 MW, net output. Phase II includes an expansion of the facilities designed in Phase I and will produce an additional 75 MW of power.
+BENEFITS:
+The demand for energy in Rwanda has outstripped supply, while the cost of electricity is much higher than in neighboring countries, which has consequential effects on the already high costs of doing business. The project contribution of 25 MW in Phase I will increase Rwanda?s installed power capacity by 40%, its contribution of 75 MW in Phase II will further increase installed capacity by up to 82%. The project is expected to displace expensive electricity (up to USD 0.45/kwh) with a tariff of USD 0.13/kwh. In addition, extraction of gas from Lake Kivu is necessary to reduce the risk of eruption, and avoid major loss of life around the lake. Instead of simply venting the gas into the atmosphere, the project avoids releasing polluting methane and captures the development benefits through power generation.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-08-24"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23066">Geothermal energy</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">15502242</value>
+      <transaction-date iso-date="2011-08-24"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Kibuye" adm2="Gitesi"/>
+      <coordinates latitude="-2.0597" longitude="29.3482" precision="2"/>
+      <gazetteer-entry gazetteer-ref="202065">Kibuye</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="" adm2=""/>
+      <coordinates latitude="-2" longitude="29.166667" precision="5"/>
+      <gazetteer-entry gazetteer-ref="212508">Lac Kivu</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:51">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="RW">Rwanda</recipient-country>
+    <title xml:lang="en">BANK OF KIGALI</title>
+    <description>To make available long term funding to BK?s clients, strengthen BK?s balance sheet by making available Tier 2 capital and upgrade the skills levels of BK?s staff</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-11-17"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="24030">Formal sector financial intermediaries</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">7683885</value>
+      <transaction-date iso-date="2011-11-17"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:51">
+    <iati-identifier>46002-P-RW-HAB-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FAPA" type="">Fund for African Private Sector Assistance</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF AGRICULTURE</participating-org>
+    <recipient-country code="RW">Rwanda</recipient-country>
+    <title xml:lang="en">BANK OF KIGALI  FAPA TA</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-11-17"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>COOMPSON Joseph Akrofi</person-name>
+      <email>c.otonglo@afdb.org</email>
+      <telephone>+21671101510</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="24030">Formal sector financial intermediaries</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5700155001452">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FAPA">Fund for African Private Sector Assistance</provider-org>
+      <value currency="">350385</value>
+      <transaction-date iso-date="2011-11-17"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:51">
+    <iati-identifier>46002-P-RW-IAD-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">Ministry of Education, Science, Technology</participating-org>
+    <recipient-country code="RW">Rwanda</recipient-country>
+    <title xml:lang="en">REGIONAL ICT CENTRE OF EXCELLENCE PROJECT</title>
+    <description>To  develop and strengthen high level ICT skills in Rwanda for productivity and competitiveness</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-RW-IAD-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-04-08"/>
+    <activity-date type="End Planned" iso-date="2016-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MDACHI Maria Triphonia Mgeleka</person-name>
+      <email>m.mdachi@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="11420">Higher education</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150023544">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">8600000</value>
+      <transaction-date iso-date="2011-04-08"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">54440</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-03-31">15433</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">21572</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Prefecture De La Ville De Kigali" adm2="Nyarugenge"/>
+      <coordinates latitude="-1.94995" longitude="30.05885" precision="1"/>
+      <gazetteer-entry gazetteer-ref="202061">Kigali</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-28T15:42:51">
+    <iati-identifier>46002-P-RW-K00-011</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DES FINANCES ET DE  L'ECONOMIE</participating-org>
+    <recipient-country code="RW">Rwanda</recipient-country>
+    <title xml:lang="en">POVERTY REDUCTION SUPPORT PROGRAM PHASE 4</title>
+    <description>The proposed development objective of the programme is to contribute to the implementation of the EDPRS through support to financial and economic reforms and through financial resources to the national budget in order to achieve sustained economic growth and poverty reduction.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-07-18"/>
+    <activity-date type="End Planned" iso-date="2012-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MALLBERG Ragnvald Michel</person-name>
+      <email>m.mallberg@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="3" xml:lang="en">Completion</activity-status>
+    <transaction ref="2100155020618">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">23190000</value>
+      <transaction-date iso-date="2011-07-18"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">23190000</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

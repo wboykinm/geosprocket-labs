@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:20">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:20">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="GH">Ghana</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">KEMPINSKI HOTEL PROJECT</title>
+    <description>The project includes the construction and operation of a 267-room 5-star hotel in Accra, which will deliver a world-class accommodation and congress facilities that are required to host the increasing volume of business, cultural and governmental activities.
+In order to fill the financing gap resulting from the financial crisis, the Bank has played a key role in resource mobilization by increasing its initial participation with USD 2 million and by attracting new financial partners: ECOWAS Bank for Investment and Development (EBID) and the Société Générale Ghana.
+ BENEFITS:
+The real innovation in the project is the establishment of a program of guidance and support to local SMEs so that they benefit from opportunities for subcontracting work and services during the hotel?s construction. 
+The project supports the Bank?s private sector development strategy by simultaneously putting in place new infrastructure to support the development of local enterprises, and by demonstrating the relevance of public-private partnerships in the hospitality industry, which should facilitate future Bank?s projects in the industry in other parts of the continent.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-10-19"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="33210">Tourism policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">11453077</value>
+      <transaction-date iso-date="2010-10-19"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Greater Accra" adm2="Accra"/>
+      <coordinates latitude="5.55601880813804" longitude="-0.1968955993652" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2306104">Accra</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:20">
+    <iati-identifier>46002-P-GH-DB0-012</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Ghana</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF ROADS AND TRANSPORT</participating-org>
+    <recipient-country code="GH">Ghana</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">AWOSHIE POKUASE ROAD &amp; COMMUNITY DEV</title>
+    <description>The Awaohie-Poukuase road  project is aimed at: providing an alternative route for vehicular traffic currently using the Pokuase-Achimota route to access the Western parts of Accra and beyond and vice versa, and improve the transportation system between the two towns (Pokuase and Awoshie) and adjoining settlements.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-GH-DB0-012/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-04-01"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>EHOUMAN Lydie</person-name>
+      <email>l.ehouman@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Ghana</provider-org>
+      <value currency="">5250000</value>
+      <transaction-date iso-date="2010-04-01"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150020893">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">53590000</value>
+      <transaction-date iso-date="2010-04-01"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">5030398</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">1825620</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">2837726</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">111844</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">1793022</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-03-31">69006</value>
+      <description>Total Interest Repayment in First Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-09-30">132874</value>
+      <description>Total Interest Repayment in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-03-31">135076</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">140428</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Greater Accra" adm2="Tema"/>
+      <coordinates latitude="5.6333333" longitude="-0.1" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2306359">Ablekuma</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Greater Accra" adm2="Accra"/>
+      <coordinates latitude="5.55601880813804" longitude="-0.1968955993652" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2306104">Accra</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Greater Accra" adm2="Accra"/>
+      <coordinates latitude="5.55602" longitude="-0.1969" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7648922">Accra</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Greater Accra" adm2="Ga"/>
+      <coordinates latitude="5.6666667" longitude="-0.3" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2304863">Amamoli</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Birim South"/>
+      <coordinates latitude="5.8" longitude="-1.0333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2303575">Ayinaso</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Greater Accra" adm2="Ga"/>
+      <coordinates latitude="5.655874" longitude="-0.38971" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7648981">Ga West</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Greater Accra" adm2=""/>
+      <coordinates latitude="5.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2300569">Greater Accra Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Greater Accra" adm2="Ga"/>
+      <coordinates latitude="5.6833333" longitude="-0.2833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2295911">Pokuase</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Greater Accra" adm2="Tema"/>
+      <coordinates latitude="5.61667" longitude="-0.01667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7649057">Tema</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Greater Accra" adm2="Ga"/>
+      <coordinates latitude="5.56667" longitude="-0.33333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7649066">Weija</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:20">
+    <iati-identifier>46002-P-GH-DB0-016</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">GHANA HIGHWAY AUTHORITY</participating-org>
+    <recipient-country code="GH">Ghana</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">FUFULSO-SAWLA ROAD PROJECT</title>
+    <description>The objective of the project is to enhance mobility, promote efficient, affordable transport services along the Fufulso-Sawla road and improve livelihoods in the project area.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-GH-DB0-016/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-12-02"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>EHOUMAN Lydie</person-name>
+      <email>l.ehouman@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155019117">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">109720000</value>
+      <transaction-date iso-date="2010-12-02"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">9921559</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">2665043</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">79830</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">3771367</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Northern" adm2="West Gonja"/>
+      <coordinates latitude="9.15" longitude="-1.5" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2302381">Busunu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Northern" adm2="West Gonja"/>
+      <coordinates latitude="8.924204" longitude="-1.32349" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7648970">Central Gonja</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Northern" adm2="West Gonja"/>
+      <coordinates latitude="9.0833333" longitude="-1.8166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2302002">Damongo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Northern" adm2="West Gonja"/>
+      <coordinates latitude="9.12362" longitude="-1.27201" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7731875">Fufulso</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Northern" adm2="West Gonja"/>
+      <coordinates latitude="9.2166667" longitude="-1.85" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2298453">Larabanga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Northern" adm2="Bole"/>
+      <coordinates latitude="9.2833333" longitude="-2.4166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2295506">Sawla</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Northern" adm2="Bole"/>
+      <coordinates latitude="9.27324" longitude="-2.413461" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7647389">Sawla-Tuna-Kalba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Northern" adm2="West Gonja"/>
+      <coordinates latitude="9.08333" longitude="-1.81667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7649070">West Gonja</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:20">
+    <iati-identifier>46002-P-GH-E00-008</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="AWF" type="">AfricaWater Facility Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">TRAINING RESEARCH AND NETWORKING FOR DEVELOPMENT</participating-org>
+    <recipient-country code="GH">Ghana</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">IMPROVED SANITATION AND WATER SUPPLY SERVICES</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-01-15"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>HOLLHUBER Franz</person-name>
+      <email>f.hollhuber@afdb.org</email>
+      <telephone>+21671103510</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5600155001651">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="AWF">AfricaWater Facility Fund</provider-org>
+      <value currency="">1810381</value>
+      <transaction-date iso-date="2010-01-15"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Greater Accra" adm2="Tema"/>
+      <coordinates latitude="5.7" longitude="-0.03333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7648944">Ashaiman</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Western" adm2="Wassa West"/>
+      <coordinates latitude="5.470754" longitude="-1.917085" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2300326">Huni Valley</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Central" adm2="Mfantsiman"/>
+      <coordinates latitude="5.271701" longitude="-1.015201" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2298205">Mankesim</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:20">
+    <iati-identifier>46002-P-GH-EAZ-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="AWF" type="">AfricaWater Facility Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">Water Resource Commission WRC</participating-org>
+    <recipient-country code="GH">Ghana</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">DESIGN FOR RE-USE</title>
+    <description>The overall objective is to improve public health and environmental integrity throughout urban and peri-urban areas of Ghana through the provision of reliable and complete  sanitation. The medium term outcomes expected from the project are: (i) the rehabilitation of one WWTP including reuse for irrigation; (ii) knowledge products based on action research for aquaculture and biogas value chains, and (iii) the training of local planners on design for reuse.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-10-19"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>HOLLHUBER Franz</person-name>
+      <email>f.hollhuber@afdb.org</email>
+      <telephone>+21671103510</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5600155002451">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="AWF">AfricaWater Facility Fund</provider-org>
+      <value currency="">439146</value>
+      <transaction-date iso-date="2010-10-19"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Greater Accra" adm2="Accra"/>
+      <coordinates latitude="5.55601880813804" longitude="-0.1968955993652" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2306104">Accra</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ashanti" adm2="Kumasi"/>
+      <coordinates latitude="6.68847717372268" longitude="-1.6244316101074" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2298890">Kumasi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Greater Accra" adm2="Accra"/>
+      <coordinates latitude="5.65" longitude="-0.1833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2298423">Legon</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Western" adm2="Shama Ahanta East"/>
+      <coordinates latitude="4.93400448503875" longitude="-1.713695526123" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2295458">Sekondi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Greater Accra" adm2="Tema"/>
+      <coordinates latitude="5.66697855249854" longitude="-0.016565322876" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2294700">Tema</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:20">
+    <iati-identifier>46002-P-GH-EAZ-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="AWF" type="">AfricaWater Facility Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">Water Resource Commission WRC</participating-org>
+    <recipient-country code="GH">Ghana</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">REOPTIMIZATION STUDY OF AKOSOMBO &amp;KP DAM</title>
+    <description>The purpose of the project is to investigate the technical and economic feasibility of a technique for reoptimizing the operations of the Akosombo and Kpong hydropower dams to reintroduce (or at least improve or enhance) downstream livelihoods and ecosystems, while maintaining, and indeed enhancing, power generation output and reliability.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-01-07"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>HOLLHUBER Franz</person-name>
+      <email>f.hollhuber@afdb.org</email>
+      <telephone>+21671103510</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5600155002501">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="AWF">AfricaWater Facility Fund</provider-org>
+      <value currency="">1556057</value>
+      <transaction-date iso-date="2011-01-07"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Eastern" adm2="Asuogyaman"/>
+      <coordinates latitude="6.2666667" longitude="0.05" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2305112">Akosombo Dam</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Manya Krobo"/>
+      <coordinates latitude="6.158606" longitude="0.062612" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2299144">Kpong</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:20">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="GH">Ghana</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">TEMA OSONOR POWER PLANT (FIRST LOAN)</title>
+    <description>The project concept seems sound and is demand-driven; it is intended to assist the Government of Ghana to reduce the generation deficit in the country and to alleviate the current energy crisis.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-10-11"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23020">Power generation/non-renewable sources</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">19135704</value>
+      <transaction-date iso-date="2010-10-11"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:20">
+    <iati-identifier>46002-P-GH-K00-012</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF FINANCE AND ECONOMIC PLANNING</participating-org>
+    <recipient-country code="GH">Ghana</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">POVERTY REDUCTION &amp; B.E. SUPPORT PROGRAM</title>
+    <description>The key policy objectives of the program are: to support the implementation of GoG's development plan (GSGDA) and its private sector development strategy (PSDS II) by providing budgetary support to the implementation of PFM and business environment reforms in order to improve efficiency in the use of public resources, maintain macroeconomic stability, enhance fiscal position of the government through improved public expenditure, and revenue collection.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-12-20"/>
+    <activity-date type="End Planned" iso-date="2013-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DO Cam</person-name>
+      <email>c.do@afdb.org</email>
+      <telephone>+21671102441</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150024645">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">44000000</value>
+      <transaction-date iso-date="2011-12-20"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">22000000</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">22000000</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">58655</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <transaction ref="2100155020617">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">26000000</value>
+      <transaction-date iso-date="2011-12-20"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">13000000</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">13000000</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

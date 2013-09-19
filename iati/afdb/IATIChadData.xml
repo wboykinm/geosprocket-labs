@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:21">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:21">
+    <iati-identifier>46002-P-TD-AA0-019</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DU TCHAD MINISTERE DES FINANCES</participating-org>
+    <recipient-country code="TD">Chad</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Table ronde sur le programme national pour la sécurité alimentaire</title>
+    <description>NULL</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TD-AA0-019/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-12-13"/>
+    <activity-date type="End Planned" iso-date="2013-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>TALL Hadja</person-name>
+      <email>h.tall@afdb.org</email>
+      <telephone>+21671103043</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31110">Agricultural policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5900155002501">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">139326</value>
+      <transaction-date iso-date="2011-12-13"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-06-30">106911</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-09-30">10408</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:21">
+    <iati-identifier>46002-P-TD-AB0-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">CELLULE D'EXECUTION DU PROJET D'APPUI AU SYSTEME D'ELEVAGE</participating-org>
+    <recipient-country code="TD">Chad</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET D'APPUI AUX INFRASTRUCTURES RURALES</title>
+    <description>Les objectifs spécifiques du PIRPT sont : (i)l'amélioration de l'accès et de la gestion des infrastructures pastorales  et 2.1 Amélioration de l'accès et de la gestion des infrastructures pastorales</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TD-AB0-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-11-14"/>
+    <activity-date type="End Planned" iso-date="2016-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>SOW Aminata</person-name>
+      <email>a.sow@afdb.org</email>
+      <telephone>+21671103888</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43040">Rural development</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150025095">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">5200000</value>
+      <transaction-date iso-date="2011-11-14"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">18520</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">5699</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <transaction ref="2100155021068">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">5200000</value>
+      <transaction-date iso-date="2011-11-14"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">208780</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Baguirmi" adm2=""/>
+      <coordinates latitude="11.34" longitude="16.25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2434478">Ragion du Chari-Baguirmi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Daraba" adm2=""/>
+      <coordinates latitude="12.68" longitude="16.167" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7603251">Ragion du Hadjer-Lamis</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kanem" adm2=""/>
+      <coordinates latitude="15" longitude="15" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2430873">Ragion du Kanem</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Lac" adm2=""/>
+      <coordinates latitude="13.5" longitude="14.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2429323">Ragion du Lac</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Logone Occidental" adm2=""/>
+      <coordinates latitude="8.752899" longitude="15.872359" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2429060">Ragion du Logone Occidental</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Logone Oriental" adm2=""/>
+      <coordinates latitude="8.25" longitude="16.42" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2429058">Ragion du Logone Oriental</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mandoul" adm2=""/>
+      <coordinates latitude="8.329415" longitude="17.915666" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7603252">Ragion du Mandoul</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mayo-Boneye" adm2=""/>
+      <coordinates latitude="10" longitude="15.83" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2428132">Ragion du Mayo-Kabbi Est</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mayo-Dala" adm2=""/>
+      <coordinates latitude="9.33" longitude="14.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7603253">Ragion du Mayo-Kabbi Ouest</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Lac Iro" adm2=""/>
+      <coordinates latitude="9.3333" longitude="18.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2427315">Ragion du Moyen-Chari</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tandjile Est" adm2=""/>
+      <coordinates latitude="9.5" longitude="16.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2425287">Ragion du Tandjila</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:21">
+    <iati-identifier>46002-P-TD-C00-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Chad</participating-org>
+    <participating-org role="Implementing" ref="" type="">CELLULE D'EXECUTION DU PROJET  REPA-FEM-MASF</participating-org>
+    <recipient-country code="TD">Chad</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PRET SUPPLEMENTAIRE DU Projet de gestion et de valorisation des ressources naturelles</title>
+    <description>L'objectif spécifique du projet est d'augmenter la productivité des ressources naturelles en zone soudanienne sur une base durable. Après quatre (4) années de mise en oeuvre du projet, le PGRN a commencé à réaliser les infrastructures hydro-agricoles, à savoir la réhabilitation de 3.350 ha de bas-fonds dans les périmètres de Bongor (1.000 ha), Satégui-Déressia (1.850 ha) et de petits périmètres villageois sur l'axe Djoumane-Laï (500 ha). Le prêt supplémentaire portera sur une durée de 2 ans (2011-2012) et touchera la même zone géographique initiale, c'est à dire la zone soudanienne du Tchad. Compte tenu de l'orientation davantage axée sur les infrastructures rurales, retenue dans le nouveau DSP 2011-2014 du Tchad, les objectifs assignés au PGRN dans le cadre du financement supplémentaire seront les mêmes que ceux du projet initial. Il s'agit de la contribution du projet à la sécurité alimentaire par une augmentation de la productivité des ressources naturelles en zone soudanienne axée sur une gestion durable de ces ressources.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-04-04"/>
+    <activity-date type="End Planned" iso-date="2012-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>EL FALEH Jalel</person-name>
+      <email>j.elfaleh@afdb.org</email>
+      <telephone>+21671103529</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="41010">Environmental policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Chad</provider-org>
+      <value currency="">4760000</value>
+      <transaction-date iso-date="2011-04-04"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150023843">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">9570000</value>
+      <transaction-date iso-date="2011-04-04"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-03-31">19927</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">23859</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Mayo-Boneye" adm2="Bongor"/>
+      <coordinates latitude="10.2805556" longitude="15.3722222" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2434910">Bongor</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tandjile Est" adm2="Deressia"/>
+      <coordinates latitude="9.7602" longitude="16.2698" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2434011">Daressia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kabia" adm2="Tagal"/>
+      <coordinates latitude="9.543669" longitude="15.37092" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2433469">Djouman Landou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Hadjer Lamis" adm2="Katoa"/>
+      <coordinates latitude="10.8303355" longitude="15.0757305" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2430637">Katoa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tandjile Est" adm2=""/>
+      <coordinates latitude="9.3952" longitude="16.2989" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2429296">Laa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tandjile Est" adm2="Deressia"/>
+      <coordinates latitude="9.7" longitude="16.2666667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2428242">Maskena Abdoul</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mayo-Boneye" adm2=""/>
+      <coordinates latitude="10" longitude="15.83" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2428132">Ragion du Mayo-Kabbi Est</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mayo-Dala" adm2=""/>
+      <coordinates latitude="9.33" longitude="14.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7603253">Ragion du Mayo-Kabbi Ouest</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tandjile Est" adm2=""/>
+      <coordinates latitude="9.5" longitude="16.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2425287">Ragion du Tandjila</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tandjile Est" adm2="Kabalaye"/>
+      <coordinates latitude="9.5157" longitude="16.2496" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2425955">Satagui</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TD-IBE-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Implementing" ref="" type="">ORGANISATION MONDIALE DE LA SANTE - OMS</participating-org>
+    <recipient-country code="TD">Chad</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">AIDE D'URGENCE LUTTE CONTRE MENINGITE</title>
+    <description>L'objectif de l'aide d'urgence est de contribuer à l'action gouvernementale visant à préparer les services du Ministère de la Santé Publique à une prise en charge efficace des épidémies prochaines de méningite pour la période de décembre 2009 à juin 2010. Pour atteindre cet objectif, l'action d'aide d'urgence comprend trois grandes composantes : (i) l'acquisition de doses de vaccins de sécurité,  (ii) l'acquisition des médicaments pour la prise en charge des malades et (iii) le renforcement du système de suivi épidémiologique</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-02-02"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DJOGOYE Talansadi</person-name>
+      <email>t.djogoye@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="12250">Infectious disease control</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5000199001768">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">644791</value>
+      <transaction-date iso-date="2010-02-02"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+</iati-activities>

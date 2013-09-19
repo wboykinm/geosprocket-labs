@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:24">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:24">
+    <iati-identifier>46002-P-BJ-DB0-013</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Benin</participating-org>
+    <participating-org role="Implementing" ref="" type="">DIRECTION GENERALE DES TRAVAUX PUBLICS</participating-org>
+    <recipient-country code="BJ">Benin</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET ROUTE NDALI-NIKKI</title>
+    <description>L'objectif sectoriel du projet est de contribuer au désenclavement des zones rurales et à l'accroissement des échanges sous-régionaux. Les objectifs spécifiques du projet sont : (i) faciliter la circulation des biens et des personnes le long du corridor Lamakara-Ndali-Nikki-Chicandou-Frontière Nigéria ; et (ii) améliorer les conditions de vie de la population de la ZIP.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-BJ-DB0-013/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-04-22"/>
+    <activity-date type="End Planned" iso-date="2014-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>ILBOUDO Jean-Noel</person-name>
+      <email>j.ilboudo@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Benin</provider-org>
+      <value currency="">3170000</value>
+      <transaction-date iso-date="2010-04-22"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150022143">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">11500000</value>
+      <transaction-date iso-date="2010-04-22"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-03-31">896117</value>
+      <description>Total Disbursement in First Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">246297</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">363710</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">173398</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">295125</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">335235</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-06-30">28199</value>
+      <description>Total Interest Repayment in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">29500</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">30214</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">30289</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction ref="2100155017716">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">22180000</value>
+      <transaction-date iso-date="2010-04-22"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-03-31">3434312</value>
+      <description>Total Disbursement in First Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">948556</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">296396</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">1560411</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">745172</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">1237543</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">1393450</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Borgou" adm2="Nikki"/>
+      <coordinates latitude="9.83333" longitude="3.35" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7670892">Chikanda</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Borgou" adm2="Ndali"/>
+      <coordinates latitude="9.8608333" longitude="2.7180556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2392595">Ndali</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Borgou" adm2="Ndali"/>
+      <coordinates latitude="9.73027" longitude="2.45032" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7669269">Ndali</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Borgou" adm2="Nikki"/>
+      <coordinates latitude="9.9338889" longitude="3.2044444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2392505">Nikki</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Borgou" adm2="Nikki"/>
+      <coordinates latitude="9.95336" longitude="3.15601" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7669355">Nikki</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:24">
+    <iati-identifier>46002-P-BJ-KA0-011</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Benin</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DES FINANCES ET DE L'ECONOMIE</participating-org>
+    <recipient-country code="BJ">Benin</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET D'APPUI GESTION DES FINANCES PUBLIQUES</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-BJ-KA0-011/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-12-17"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>COULIBALY Abdoulaye</person-name>
+      <email>a.d.coulibaly@afdb.org</email>
+      <telephone>+21671102536</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Benin</provider-org>
+      <value currency="">2000000</value>
+      <transaction-date iso-date="2010-12-17"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100155019169">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">5000000</value>
+      <transaction-date iso-date="2010-12-17"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">853746</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <location>
+      <administrative adm1="Littoral" adm2="Cotonou"/>
+      <coordinates latitude="6.35" longitude="2.4333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2394819">Cotonou</gazetteer-entry>
+    </location>
+  </iati-activity>
+</iati-activities>

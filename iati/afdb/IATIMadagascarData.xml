@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:29">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:29">
+    <iati-identifier>46002-P-MG-DB0-016</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Madagascar</participating-org>
+    <participating-org role="Implementing" ref="" type="">AUTORITE ROUTIERE DE MADAGASCAR (ARM)</participating-org>
+    <recipient-country code="MG">Madagascar</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">AIDE HUMANITAIRE VICTIME CYCLONE BINGIZA</title>
+    <description>L'objectif de l'opération est la remise en état des infrastructures endommagées et le rétablissement de la circulation sur le réseau national par la réparation des dégâts causés par le passage du cyclone Bingiza. Les travaux de réparation permettront : (i) de rétablir l'accessibilité et la mobilité de la population rurale des régions à Madagascar à son état initial (avant cyclone) ; et (ii) de limiter des destructions supplémentaires d'infrastructures par la réparation des dégâts</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-09-08"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>SOUARE Mamady</person-name>
+      <email>m.souare@afdb.org</email>
+      <telephone>+21671101987</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Madagascar</provider-org>
+      <value currency="">552019</value>
+      <transaction-date iso-date="2011-09-08"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5000199002268">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">629608</value>
+      <transaction-date iso-date="2011-09-08"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Anosy" adm2="Amboasary"/>
+      <coordinates latitude="-24.6719781915932" longitude="46.38427734375" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8299292">Amboasary District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Analanjirofo" adm2=""/>
+      <coordinates latitude="-16.5" longitude="49.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7670848">Analanjirofo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Betsiboka" adm2="Maevatanana"/>
+      <coordinates latitude="-17.25" longitude="46.9166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1073607">Anjiajia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sofia" adm2="Bealanana"/>
+      <coordinates latitude="-14.572950835033" longitude="48.7710571289062" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8299294">Bealanana District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Vakinankaratra" adm2="Betafo"/>
+      <coordinates latitude="-19.7537792957869" longitude="46.5023803710937" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8299296">Betafo District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Anosy" adm2="Betroka"/>
+      <coordinates latitude="-23.3573856913387" longitude="45.9365844726562" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8299289">Betroka District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Betsiboka" adm2="Maevatanana"/>
+      <coordinates latitude="-16.8666667" longitude="46.95" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1066214">Betsiboka</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Betsiboka" adm2=""/>
+      <coordinates latitude="-17.2" longitude="47.1" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7670850">Betsiboka</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boeny" adm2=""/>
+      <coordinates latitude="-16.3" longitude="46.1" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7670849">Boeny</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Atsimo Atsinanana" adm2="Farafangana"/>
+      <coordinates latitude="-22.8015033046696" longitude="47.5982666015625" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8299290">Farafangana District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ihorombe" adm2=""/>
+      <coordinates latitude="-22.3" longitude="46.2" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7670907">Ihorombe</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ihorombe" adm2="Ihosy"/>
+      <coordinates latitude="-22.4" longitude="46.1166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1064275">Ihosy</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boeny" adm2="Mahajanga II"/>
+      <coordinates latitude="-15.7" longitude="47.1" precision="3"/>
+      <gazetteer-entry gazetteer-ref="1062673">Mahajamba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Diana" adm2="Antsiranana II"/>
+      <coordinates latitude="-12.3333333" longitude="49.0333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1061424">Mananara</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Analanjirofo" adm2="Mananara"/>
+      <coordinates latitude="-16.2159932483545" longitude="49.54833984375" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8299288">Mananara District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Analanjirofo" adm2="Maroantsetra"/>
+      <coordinates latitude="-15.4333333" longitude="49.7333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1060283">Maroantsetra</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Analanjirofo" adm2="Maroantsetra"/>
+      <coordinates latitude="-15.3835153784253" longitude="49.5648193359375" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8299287">Maroantsetra District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Menabe" adm2=""/>
+      <coordinates latitude="-20.2" longitude="45.07" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7670902">Menabe</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Menabe" adm2="Miandrivazo"/>
+      <coordinates latitude="-19.1788954627079" longitude="45.3872680664062" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8299297">Miandrivazo District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Itasy" adm2="Soavinandriana"/>
+      <coordinates latitude="-19.35" longitude="46.6" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1058477">Morarano</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sofia" adm2=""/>
+      <coordinates latitude="-15.2" longitude="48.4" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7670847">Sofia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Vakinankaratra" adm2=""/>
+      <coordinates latitude="-19.7" longitude="46.9" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7670854">Vakinankaratra</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Atsimo Atsinanana" adm2="Vangaindrano"/>
+      <coordinates latitude="-23.4934766609608" longitude="47.449951171875" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8299291">Vangaindrano District</gazetteer-entry>
+    </location>
+  </iati-activity>
+</iati-activities>

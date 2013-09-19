@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:29">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:29">
+    <iati-identifier>46002-P-MA-AAC-014</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Morocco</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'AGRICULTURE, DE L'EQUIPEMENT ET DE L ENVIRONNEMENT</participating-org>
+    <recipient-country code="MA">Morocco</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Projet d'Appui au Programme National d'Economie d'Eau en Irrigation</title>
+    <description>Objectifs spécifiques : Assurer une utilisation rationnelle et valorisante des ressources en eau d'irrigation dans un contexte de raréfaction croissante de ces ressources.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-03-04"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>KHIATI Driss</person-name>
+      <email>d.khiati@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31140">Agricultural water resources</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Morocco</provider-org>
+      <value currency="">13272652</value>
+      <transaction-date iso-date="2010-03-04"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2000130005280">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">47651651</value>
+      <transaction-date iso-date="2010-03-04"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2011-03-31">1409208</value>
+      <description>Total Disbursement in First Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2012-12-31">354999</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2011-06-30">925</value>
+      <description>Total Interest Repayment in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2011-12-31">12521</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-06-30">15049</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-12-31">11703</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Centre" adm2="Beni Mellal"/>
+      <coordinates latitude="32.251861" longitude="-6.959392" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2555707">Beni Moussa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oriental" adm2="Oujda"/>
+      <coordinates latitude="34.200149" longitude="-1.973186" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2553115">Garet ed Dahene</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Larache"/>
+      <coordinates latitude="35.20191" longitude="-6.152821" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2543440">Oued Loukkos</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oriental" adm2="Oujda"/>
+      <coordinates latitude="35.124483" longitude="-2.34313" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2541755">Oued Moulouya</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="El Jadida"/>
+      <coordinates latitude="33.320058" longitude="-8.33828" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2538832">Oued Oum er Rbia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Larache"/>
+      <coordinates latitude="35.041445" longitude="-6.171174" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2539832">Oulad el Ghoumari er Rmel</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tensift" adm2=""/>
+      <coordinates latitude="32.5" longitude="-8.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2597549">Région de Doukkala-Abda</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tensift" adm2=""/>
+      <coordinates latitude="31.5" longitude="-8.333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2542995">Région de Marrakech-Tensift-Al Haouz</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2=""/>
+      <coordinates latitude="32.1666667" longitude="-6.4166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2597555">Région de Tadla-Azilal</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="El Jadida"/>
+      <coordinates latitude="32.652357" longitude="-8.427692" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2536074">Sidi Bennour</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre Sud" adm2="Khenifra"/>
+      <coordinates latitude="33.051257" longitude="-5.412313" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2538831">Sources de Oum er Rbia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oriental" adm2="Oujda"/>
+      <coordinates latitude="35.044455" longitude="-2.307321" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2526592">Triffa</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:30">
+    <iati-identifier>46002-P-MA-AAZ-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'AGRICULTURE ET DE LA REFORME AGRAIRE</participating-org>
+    <recipient-country code="MA">Morocco</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">AIDE HUMANITAIRE INONDATION GHARB</title>
+    <description>Le programme d'actions urgentes élaboré par le Gouvernement dans la zone sinistrée a pour objectif d'atténuer les effets dévastateurs de ces inondations à travers les activités suivantes : (i) la mise en #uvre d'opérations de soutien aux éleveurs concernés ; (ii) la reconversion des superficies touchées en cultures de printemps ; (iii) la remise en état des équipements hydro-agricoles dégradés ; et (iv) l'entretien et la création de pistes agricoles. Toutefois, l'intervention de la Banque ne concernera que la remise en état des aménagements hydro-agricoles et des réseaux d'irrigation.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-04-22"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>KHIATI Driss</person-name>
+      <email>d.khiati@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31110">Agricultural policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5000199001770">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">659783</value>
+      <transaction-date iso-date="2010-04-22"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:30">
+    <iati-identifier>46002-P-MA-AAZ-005</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Morocco</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'AGRICULTURE ET DE LA REFORME AGRAIRE</participating-org>
+    <recipient-country code="MA">Morocco</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">MIC APPUI TECHNIQUE AU DEVELOPPELENT DES INFRASTRUCTURES D'IRRIGATION</title>
+    <description>Objectifs spécifiques : Plus spécifiquement cet appui technique contribuera à l'augmentation de la productivité de l'eau sur une base durable par le soutien du PNEEI en mettant l'accent sur deux axes principaux: (i) la conception et l'élaboration des outils stratégiques du suivi et de mise en cohérence des politiques du secteur de l'Eau et le PMV; et (ii) l'élaboration et mise en place des outils opérationnels pour rationaliser l'exécution du PNEEI.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-MA-AAZ-005/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-17"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MAROUKI Rafaa Ben Mohamed</person-name>
+      <email>r.marouki@afdb.org</email>
+      <telephone>+21671102252</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31110">Agricultural policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Morocco</provider-org>
+      <value currency="">72400</value>
+      <transaction-date iso-date="2011-03-17"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155004301">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">494200</value>
+      <transaction-date iso-date="2011-03-17"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:30">
+    <iati-identifier>46002-P-MA-DC0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Implementing" ref="" type="">OFFICE NATIONAL DES CHEMINS DE FER</participating-org>
+    <recipient-country code="MA">Morocco</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Projet d'augmentation de capacité de l'axe ferroviaire Kenitra-Casa-Marrakech</title>
+    <description>8.1,, L'objectif visé par le projet est de répondre aux besoins des trafics marchandises et voyageurs à partir de l'année 2016 par l'augmentation de capacité de l'axe ferroviaire Tanger-Kenitra-Casablanca-Marrakech. A long terme, la réalisation du projet contribuera à améliorer la compétitivité du rail surtout sur le créneau du transport de fret et à renforcer la compétitivité logistique de l'économie nationale par la diminution des coûts logistiques dans le cadre des échanges extérieurs du pays.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-MA-DC0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-17"/>
+    <activity-date type="End Planned" iso-date="2016-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MORE NDONG Pierre-Simon</person-name>
+      <email>p.morendong@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21030">Rail transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2000130006931">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">264867919</value>
+      <transaction-date iso-date="2011-03-17"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2012-06-30">654759</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2012-12-31">5215506</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-09-30">1915</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Sud" adm2="Agadir"/>
+      <coordinates latitude="30.420182" longitude="-9.598145" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2561668">Agadir</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tensift" adm2="El Kelaa"/>
+      <coordinates latitude="32.242333" longitude="-7.955344" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2556018">Benguerir</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Al Fida/derb Sul"/>
+      <coordinates latitude="33.592779" longitude="-7.619157" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2553604">Casablanca</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre Sud" adm2="Ifrane"/>
+      <coordinates latitude="33.333333" longitude="-5.25" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2546906">Ifrane</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Kenitra"/>
+      <coordinates latitude="34.261008" longitude="-6.580203" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2544571">Kenitra</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tensift" adm2="Marrakesh"/>
+      <coordinates latitude="31.631485" longitude="-8.008281" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2542997">Marrakech</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tensift" adm2="Marrakesh"/>
+      <coordinates latitude="31.669499" longitude="-8.110084" precision="3"/>
+      <gazetteer-entry gazetteer-ref="6547285">Marrakech</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre Sud" adm2="Meknes"/>
+      <coordinates latitude="33.893517" longitude="-5.54727" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2542715">Meknès</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Rabat"/>
+      <coordinates latitude="34.013254" longitude="-6.832552" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2538475">Rabat</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2=""/>
+      <coordinates latitude="33" longitude="-7.166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2597548">Région de Chaouia-Ouardigha</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2=""/>
+      <coordinates latitude="34.5" longitude="-6" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2597550">Région de Gharb-Chrarda-Beni Hssen</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tensift" adm2=""/>
+      <coordinates latitude="31.5" longitude="-8.333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2542995">Région de Marrakech-Tensift-Al Haouz</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre Sud" adm2=""/>
+      <coordinates latitude="32.583333" longitude="-5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2542710">Région de Meknès-Tafilalet</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2=""/>
+      <coordinates latitude="33.75" longitude="-6.333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2538470">Région de Rabat-Salé-Zemmour-Zaër</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Sale"/>
+      <coordinates latitude="34.038923" longitude="-6.816597" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2537763">Salé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Settat"/>
+      <coordinates latitude="33.000703" longitude="-7.620351" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2537406">Settat</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tensift" adm2="El Kelaa"/>
+      <coordinates latitude="32.698601728248" longitude="-7.9815131007685" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6546212">Sidi Ghanem</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tensift" adm2="El Kelaa"/>
+      <coordinates latitude="32.482905" longitude="-7.91188" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2532646">Skhour des Rehamna</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Tanger"/>
+      <coordinates latitude="35.780576" longitude="-5.813646" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2530335">Tangier</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Sidi Kacem"/>
+      <coordinates latitude="34.513519" longitude="-5.42391" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2526064">Zenata</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:30">
+    <iati-identifier>46002-P-MA-DD0-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Morocco</participating-org>
+    <participating-org role="Implementing" ref="" type="">AGENCE  NATIONALE  DES  PORTS</participating-org>
+    <recipient-country code="MA">Morocco</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">REPARATION OUVRAGE 7 PORTS</title>
+    <description>La présente étude s'inscrit dans une vision globale de préservation du patrimoine des infrastructures portuaires, en vue d'adapter de manière continue l'offre de service portuaire à la demande de trafic. De manière spécifique, l'étude a pour objet de déterminer les solutions optimales de confortement des ouvrages de protection concernés et d'élaborer ainsi les dossiers de consultations nécessaires (dossiers d'avant projet détaillés - APD et dossiers d'offres à la concurrence - DAO) en vue d'engager les travaux de réparation et confortement nécessaires pour lesdits ouvrages de protection.  En accord avec la requête initiale de l'ANP, cette étude sera étendue dans une 2ème phase aux ouvrages des autres sites portuaires dont le linéaire total estimé à 20 km.  Le choix des 7 premiers ports retenus est justifié du fait de l'importance de ces ports dans l'activité maritime nationale et de leur impact positif probant sur le plan socioéconomique.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-MA-DD0-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-17"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MORE NDONG Pierre-Simon</person-name>
+      <email>p.morendong@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21040">Water transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Morocco</provider-org>
+      <value currency="">710000</value>
+      <transaction-date iso-date="2011-03-17"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155003301">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">600000</value>
+      <transaction-date iso-date="2011-03-17"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Sud" adm2="Agadir"/>
+      <coordinates latitude="30.4201821280349" longitude="-9.5981454849243" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2561668">Agadir</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre Nord" adm2="Al Hoceima"/>
+      <coordinates latitude="35.2516471858258" longitude="-3.9372253417969" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2558545">Al Hoceama</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Al Fida/derb Sul"/>
+      <coordinates latitude="33.58831" longitude="-7.61138" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2553604">Casablanca</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Sidi Bern./moham.-znata"/>
+      <coordinates latitude="33.686067724975" longitude="-7.382984161377" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2542051">Mohammedia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oriental" adm2="Nador"/>
+      <coordinates latitude="35.1681252631756" longitude="-2.933521270752" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2541479">Nador</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tensift" adm2="Safi"/>
+      <coordinates latitude="32.299392" longitude="-9.237181" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2537881">Safi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Tanger"/>
+      <coordinates latitude="35.7672685325889" longitude="-5.7997512817383" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2530335">Tangier</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:30">
+    <iati-identifier>46002-P-MA-E00-008</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Implementing" ref="" type="">OFFICE NATIONAL DE L'EAU POTABLE (ONEP)</participating-org>
+    <recipient-country code="MA">Morocco</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Projet de renforcement de l'alimentation en eau potable de la zone côtière Rabat ? Casablanca</title>
+    <description>Le projet a pour objectif spécifique le renforcement des systèmes de production et d'adduction en eau potable des villes situées sur l'axe Rabat - Casablanca, ainsi que ceux des centres urbains et ruraux avoisinants</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-MA-E00-008/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-08-19"/>
+    <activity-date type="End Planned" iso-date="2014-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BEN SASSI Belgacem</person-name>
+      <email>b.bensassi@afdb.org</email>
+      <telephone>+21671103299</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2000130005530">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">137572999</value>
+      <transaction-date iso-date="2010-08-19"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2000130005531">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">36357633</value>
+      <transaction-date iso-date="2010-08-19"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2011-06-30">88220</value>
+      <description>Total Disbursement in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2011-09-30">1088705</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2012-03-31">601874</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2012-06-30">202397</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2012-12-31">113263</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2011-12-31">46</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-03-31">4944</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-09-30">10805</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Skhirate Temara"/>
+      <coordinates latitude="33.807469" longitude="-6.791477" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2560939">Aïn el Aouda</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Ben Slimane"/>
+      <coordinates latitude="33.6201774386982" longitude="-7.1246008089137" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6547048">Benslimane</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Sale"/>
+      <coordinates latitude="34.1244702" longitude="-6.7479805" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6546542">Bouknadel</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Ben Slimane"/>
+      <coordinates latitude="33.789417" longitude="-7.159676" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2553751">Bouznika</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Al Fida/derb Sul"/>
+      <coordinates latitude="33.592779" longitude="-7.619157" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2553604">Casablanca</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Chefchaouene"/>
+      <coordinates latitude="35.168777" longitude="-5.263596" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2553455">Chefchaouene</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Azilal"/>
+      <coordinates latitude="31.734584" longitude="-7.01216" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6546525">Demnate</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="El Jadida"/>
+      <coordinates latitude="32.9" longitude="-8.5" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2550076">El-Jadida</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre Nord" adm2="Taza"/>
+      <coordinates latitude="34.225138" longitude="-3.352353" precision="2"/>
+      <gazetteer-entry gazetteer-ref="6547086">Guercif</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Kenitra"/>
+      <coordinates latitude="34.261008" longitude="-6.580203" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2544571">Kenitra</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Sidi Bern./moham.-znata"/>
+      <coordinates latitude="33.706589" longitude="-7.394424" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2542051">Mohammedia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Sidi Kacem"/>
+      <coordinates latitude="34.797107" longitude="-5.582242" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2540810">Ouazzane</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Rabat"/>
+      <coordinates latitude="34.0132538202818" longitude="-6.8325519561768" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2538475">Rabat</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2=""/>
+      <coordinates latitude="33.75" longitude="-6.3333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2538470">Région de Rabat-Salé-Zemmour-Zaër</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2=""/>
+      <coordinates latitude="33.5333333" longitude="-7.5833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2553603">Région du Grand Casablanca</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Khemisset"/>
+      <coordinates latitude="33.532863" longitude="-6.603884" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6545553">Rommani</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Sale"/>
+      <coordinates latitude="34.038923" longitude="-6.816597" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2537763">Salé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Ben Slimane"/>
+      <coordinates latitude="33.829443" longitude="-6.90501" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2532821">Sidi Yahia az Za?er</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Skhirate Temara"/>
+      <coordinates latitude="33.849844" longitude="-7.040368" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2562055">Skhirat</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Skhirate Temara"/>
+      <coordinates latitude="33.883333" longitude="-6.983333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2562053">Skhirate-Temara</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Ouarzazate"/>
+      <coordinates latitude="31.243418" longitude="-7.409161" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2530638">Tamesna</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre Nord" adm2="Taza"/>
+      <coordinates latitude="34.21" longitude="-4.01" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2529317">Taza</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord Ouest" adm2="Skhirate Temara"/>
+      <coordinates latitude="33.928664" longitude="-6.906563" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2529013">Temara</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:30">
+    <iati-identifier>46002-P-MA-H00-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">Caisse Centrale de Garantie</participating-org>
+    <recipient-country code="MA">Morocco</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">SYSTEME DE GARANTIE AU MAROC</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-MA-H00-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-17"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DIARRA Emmanuel</person-name>
+      <email>e.diarra@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="24030">Formal sector financial intermediaries</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5500155004201">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">464988</value>
+      <transaction-date iso-date="2011-03-17"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:30">
+    <iati-identifier>46002-P-MA-HZ0-006</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Implementing" ref="" type="">DIRECTION DU TRESOR ET DES FINANCES EXTERIEURES</participating-org>
+    <recipient-country code="MA">Morocco</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">DEVELOPPEMENT SECTEUR FINANCIER</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-11-23"/>
+    <activity-date type="End Planned" iso-date="2012-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DIARRA Emmanuel</person-name>
+      <email>e.diarra@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="24030">Formal sector financial intermediaries</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2000130007830">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">192691487</value>
+      <transaction-date iso-date="2011-11-23"/>
+      <aid-type code="A02">Sector Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2011-12-31">115166777</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2012-09-30">73486185</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-06-30">464500</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-12-31">1101439</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Centre Sud" adm2=""/>
+      <coordinates latitude="32" longitude="-5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2542007">Kingdom of Morocco</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:30">
+    <iati-identifier>46002-P-MA-HZ0-007</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">CONSEIL DE DEONTOLOGIE DES VALEURS MOBILIERES</participating-org>
+    <recipient-country code="MA">Morocco</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">CADRE DE CONTROLE DU MARCHE FINANCIER</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-MA-HZ0-007/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-17"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DIARRA Emmanuel</person-name>
+      <email>e.diarra@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="24030">Formal sector financial intermediaries</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5500155004202">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">480350</value>
+      <transaction-date iso-date="2011-03-17"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:30">
+    <iati-identifier>46002-P-MA-IA0-005</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">GOUVERNEMENT DU MAROC</participating-org>
+    <recipient-country code="MA">Morocco</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">MIC-ETUDE STRATEGIE  DE DEVELOPPEMENT DE L'ENSEIGNEMENT ET DE LA FORMATION</title>
+    <description>Les principaux objectifs de l'étude sur la stratégie de développement de l'enseignement et la formation privés sont: (i) élaborer un plan stratégique intégré pour le développement de l'enseignement privé dans les ordres d'enseignement suivants: enseignement scolaire, enseignement supérieur, et formation professionnelle permettant de réaliser des projections d'évolution et d'accompagnement du secteur privé d'éducation et de formation par l'Etat pour la prochaine décennie (projection à hauteur de 2020); (ii) proposer des plans opérationnels pour chaque ordre d'enseignement, en vue de la mise en oeuvre effective et efficace du plan stratégique de développement de l'enseignement privé. De façon spécifique, le développement de l'offre de l'enseignement privé selon un plan stratégique permettra de répondre à trois objectifs du Plan d'urgence, à savoir: (i) associer l'offre privée à l'extension de l'offre d'enseignement pour réduire les dépenses d'investissement du Ministère; (ii) associer l'offre privée à la gestion des établissements scolaires existants pour alléger les charges de fonctionnement du Ministère; et (iii) promouvoir un enseignement de qualité et créer ainsi une émulation avec l'offre d'enseignement publique.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-03-17"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>KILANI JAAFOR Leila</person-name>
+      <email>l.jaafor@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="11110">Education policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5500155004302">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">470406</value>
+      <transaction-date iso-date="2011-03-17"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:30">
+    <iati-identifier>46002-P-MA-K00-006</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Implementing" ref="" type="10">DIRECTION DU BUDGET MINISTERE DES FINANCES</participating-org>
+    <recipient-country code="MA">Morocco</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Programme d'appui à la réforme de l'administration publique</title>
+    <description>La finalité du programme est de favoriser une croissance forte et un développement durable en renforçant la compétitivité de l'économie tout en assurant, à moyen terme, la viabilité macro-économique du pays. Ses objectifs spécifiques sont de consolider le cadre macro-économique, d'améliorer l'efficacité et le rendement en matière de gestion des finances publiques et des ressources humaines et de simplifier les procédures administratives. De ce point de vue, le programme est en conformité avec les orientations stratégiques du programme du gouvernement qui privilégie l'amélioration de la gouvernance et de l'environnement des affaires. Il répond également au 1er pilier du DSP 2009-2011 qui met aussi l'accent sur l'amélioration de la gouvernance.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-07-06"/>
+    <activity-date type="End Planned" iso-date="2011-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DIARRA Emmanuel</person-name>
+      <email>e.diarra@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2000130005630">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">84181462</value>
+      <transaction-date iso-date="2010-07-06"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2010-09-30">85745644</value>
+      <description>Total Disbursement in Third Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2011-03-31">195305</value>
+      <description>Total Interest Repayment in First Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2011-09-30">726977</value>
+      <description>Total Interest Repayment in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-03-31">867423</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-06-30">0</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-09-30">823129</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

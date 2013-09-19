@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:23">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:23">
+    <iati-identifier>46002-P-ST-AA0-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Sao Tome</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'AGRICULTURE ET DES PECHES</participating-org>
+    <recipient-country code="ST">Sao Tome</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET DE REHABILITATION DES INFRASTRUCTURES</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-ST-AA0-004/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-02-14"/>
+    <activity-date type="End Planned" iso-date="2017-06-01"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>TARHOUNI Mouldi</person-name>
+      <email>m.tarhouni@afdb.org</email>
+      <telephone>+21671102235</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31110">Agricultural policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Sao Tome</provider-org>
+      <value currency="">260000</value>
+      <transaction-date iso-date="2011-02-14"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100155019668">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">5000000</value>
+      <transaction-date iso-date="2011-02-14"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">144721</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">265050</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">335383</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">922</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">20412</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Sao Tome" adm2=""/>
+      <coordinates latitude="0.35671" longitude="6.54897" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2410972">Neves</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sao Tome" adm2=""/>
+      <coordinates latitude="0.25423" longitude="6.7414" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2410821">Santana</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Principe" adm2=""/>
+      <coordinates latitude="1.63726" longitude="7.41783" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2410805">Santo António</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sao Tome" adm2=""/>
+      <coordinates latitude="0.2" longitude="6.65" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2410768">São Paulo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sao Tome" adm2=""/>
+      <coordinates latitude="0.33654" longitude="6.72732" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2410763">São Tomé</gazetteer-entry>
+    </location>
+  </iati-activity>
+</iati-activities>
