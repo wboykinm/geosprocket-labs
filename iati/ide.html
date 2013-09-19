@@ -4,7 +4,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 </script>
 <script>
-$.getJSON('proxy.php?url=http://earthquake.usgs.gov/earthquakes/feed/geojsonp/2.5/week', function(data) {
+var quakes = $.getJSON('proxy.php?url=http://earthquake.usgs.gov/earthquakes/feed/geojsonp/2.5/week', function(data) {
   alert(data);
 });
 </script>
