@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:26">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:26">
+    <iati-identifier>46002-P-SO-IZ0-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF SOMALIA MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="SO">Somalia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">EMERGENCY RELIEF ASSISTANCE</title>
+    <description>The project objective is to contribute to the ongoing efforts by the international community to reduce high rates of illness and death caused by poor nutrition, lack of clean and safe water and poor sanitation, particularly in Mogadishu and the surrounding areas.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-SO-IZ0-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-16"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>VERGNES Audrey Emmanuelle</person-name>
+      <email>a.vergnes@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5000199002018">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">414964</value>
+      <transaction-date iso-date="2011-03-16"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Banadir" adm2=""/>
+      <coordinates latitude="2.1166667" longitude="45.4" precision="4"/>
+      <gazetteer-entry gazetteer-ref="64833">Gobolka Banaadir</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Banadir" adm2="Banadir"/>
+      <coordinates latitude="2.03711" longitude="45.34375" precision="1"/>
+      <gazetteer-entry gazetteer-ref="53654">Mogadishu</gazetteer-entry>
+    </location>
+  </iati-activity>
+</iati-activities>

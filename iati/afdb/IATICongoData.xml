@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:26">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:26">
+    <iati-identifier>46002-P-CG-HAA-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FAPA" type="">Fund for African Private Sector Assistance</participating-org>
+    <participating-org role="Implementing" ref="" type=""/>
+    <recipient-country code="CG">Congo CG</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">Banque de Développement des Etats de l'Afrique Centrale (BDEAC) - FAPA GRANT</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-05-26"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>SYLLA RUMSEY Fatoumata</person-name>
+      <email>l.abibou@afdb.org</email>
+      <telephone>+21671103113</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="24030">Formal sector financial intermediaries</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5700155001051">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FAPA">Fund for African Private Sector Assistance</provider-org>
+      <value currency="">679773</value>
+      <transaction-date iso-date="2010-05-26"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:26">
+    <iati-identifier>46002-P-CG-KF0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Congo CG</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L' ECONOMIE, DES FINANCES, BUDGET</participating-org>
+    <recipient-country code="CG">Congo CG</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET D'APPUI AU CLIMAT DES AFFAIRES</title>
+    <description>Le but assigné à l'étude est donc de contribuer à la diversification de l'économie à travers le développement du secteur privé et tout particulièrement en rendant possible son accès au financement principalement à moyen et long terme</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CG-KF0-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-02-03"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>TOKO Pierre</person-name>
+      <email>p.toko@afdb.org</email>
+      <telephone>+21671102414</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Congo CG</provider-org>
+      <value currency="">3440000</value>
+      <transaction-date iso-date="2011-02-03"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100155019170">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">3440000</value>
+      <transaction-date iso-date="2011-02-03"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">138217</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Pool" adm2="Ngamaba (brazzaville)"/>
+      <coordinates latitude="-4.2668997" longitude="15.2832699" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2260535">Brazzaville</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Niari" adm2="Louvakou (loubomo)"/>
+      <coordinates latitude="-4.1997222" longitude="12.6738889" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2258261">Dolisie</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bouenza" adm2="Nkayi District"/>
+      <coordinates latitude="-4.1655556" longitude="13.2927778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2259383">Kayes</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sangha" adm2="Ouesso"/>
+      <coordinates latitude="1.6136111" longitude="16.0516667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2255564">Ouésso</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kouilou" adm2="Loandjili (pointe Noire)"/>
+      <coordinates latitude="-4.794722" longitude="11.846111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2255414">Pointe-Noire</gazetteer-entry>
+    </location>
+  </iati-activity>
+</iati-activities>

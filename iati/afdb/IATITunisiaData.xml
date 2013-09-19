@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:22">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TN-AAC-013</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tunisia</participating-org>
+    <participating-org role="Implementing" ref="" type="">COMMISSARIAT REGIONNAL AU DEVELOPPEMENT</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">MIC - APPUI AUX GROUPEMENTS DE  DEVELOPPEMENT AGRICOLES</title>
+    <description>L'objectif principal de l'assistance technique sollicitée est de participer à l'amélioration des conditions de vie et à l'amélioration des revenus des populations rurales. L'objectif spécifique de l'appui est d'améliorer de manière durable la gestion rationnelle des systèmes d'alimentation en eau potable (le " Projet ") par les groupements de développement agricole (GDA).</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-AAC-013/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-03-12"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>KANE Mamadou</person-name>
+      <email>m.a.kane@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31140">Agricultural water resources</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tunisia</provider-org>
+      <value currency="">217119</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155002602">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">587138</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TN-DB0-010</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tunisia</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'EQUIPEMENT ET DE L'HABITAT</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET ROUTIER VI</title>
+    <description>De manière spécifique, le projet vise à améliorer le niveau de service du réseau routier classé par la réduction de contraintes liées au gabarit des routes revêtues et l'état structurel de leurs chaussées, et ce, pour assurer une baisse des coûts de transport et favoriser le développement des échanges entre les différentes régions du pays. Les indicateurs objectivement vérifiables (IOV) pour mesurer les performances du projet par rapport aux objectifs seront fixés pendant l'évaluation du projet et répertoriés dans la  matrice du projet.   ..</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-11-15"/>
+    <activity-date type="End Planned" iso-date="2016-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MORE NDONG Pierre-Simon</person-name>
+      <email>p.morendong@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tunisia</provider-org>
+      <value currency="">88813266</value>
+      <transaction-date iso-date="2010-11-15"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2000130006080">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">206522976</value>
+      <transaction-date iso-date="2010-11-15"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2011-12-31">28953972</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2012-06-30">37190083</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-09-30">164534</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-12-31">356984</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TN-DB0-012</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Implementing" ref="" type="">SOCIETE  TUNISIE  AUTOROUTES  (STA)</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Construction liaison autoroutière Gabes-Ras-Jedir</title>
+    <description>L'objectif sectoriel du projet est d'améliorer le fonctionnement général et l'efficacité du système de transport afin de contribuer à la croissance des échanges nationaux et internationaux de la Tunisie ainsi qu'au renforcement de l'intégration sous-régionale. Plus spécifiquement, le projet à pour but de faciliter la circulation des biens et des personnes entre Gabès et la frontière tuniso-libyenne et assurer une meilleure accessibilité aux principaux pôles de développement situés dans le Sud-est du pays.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-DB0-012/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-09-19"/>
+    <activity-date type="End Planned" iso-date="2016-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MORE NDONG Pierre-Simon</person-name>
+      <email>p.morendong@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2000130007380">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">119306780</value>
+      <transaction-date iso-date="2011-09-19"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Medenine" adm2="Ben Guerdane"/>
+      <coordinates latitude="33.13783" longitude="11.219649" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2472431">Bin Qirdan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gabes" adm2=""/>
+      <coordinates latitude="33.8333333" longitude="9.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2468365">Gouvernorat de Gabas</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Medenine" adm2=""/>
+      <coordinates latitude="33.3333333" longitude="11" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2469470">Gouvernorat de Madenine</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mahdia" adm2=""/>
+      <coordinates latitude="35.3333333" longitude="10.5833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2473574">Gouvernorat de Mahdia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sfax" adm2=""/>
+      <coordinates latitude="34.75" longitude="10.4166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2467450">Gouvernorat de Sfax</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Medenine" adm2="Ben Guerdane"/>
+      <coordinates latitude="33.15" longitude="11.566667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2213039">Raas Ajdar</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tataouine" adm2="Tataouine Nord"/>
+      <coordinates latitude="32.929674" longitude="10.451767" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2464701">Tataouine</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Medenine" adm2="Zarzis"/>
+      <coordinates latitude="33.503981" longitude="11.112155" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2470173">Zarzis</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TN-E00-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FAPA" type="">Fund for African Private Sector Assistance</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tunisia</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DU DEVELOPPEMENT ET DE LA COOPERATION</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">ETUDE DESSALEMENT EAU DE MER DE ZAARAT</title>
+    <description>L'objectif du projet est l'élaboration d'une étude technico-économique pour la mise en #uvre d'un projet de dessalement de l'eau de mer par voie de concession dans la région de Zaarat en Tunisie. La mise en #uvre du projet sera faite par le secteur privé conformément au protocole d'accord conclu avec la SONEDE. Le suivi de sa mise en #uvre s'effectuera en étroite collaboration entre les partenaires techniques et financiers intervenant dans le secteur.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-E00-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-03-12"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BEN SASSI Belgacem</person-name>
+      <email>b.bensassi@afdb.org</email>
+      <telephone>+21671103299</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tunisia</provider-org>
+      <value currency="">138093</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5700155000701">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FAPA">Fund for African Private Sector Assistance</provider-org>
+      <value currency="">626196</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TN-E00-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tunisia</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DU DEVELOPPEMENT ET DE LA COOPERATION</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">ETUDE DU PROJET D'AMELIORATION DU TAUX DE DESSERTE EN EAU POTABLE DANS  LE MILIEU RURAL DES GOUVERNORATS DE BIZERTE (ZONE A) ET BEJA (ZONE B)</title>
+    <description>e but du projet est l'élaboration d'une étude d'amélioration du taux de desserte en eau potable du milieu rural dans les Gouvernorats de Bizerte et Béja.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-E00-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-03-12"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BEN SASSI Belgacem</person-name>
+      <email>b.bensassi@afdb.org</email>
+      <telephone>+21671103299</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tunisia</provider-org>
+      <value currency="">101726</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155002301">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">460225</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TN-E00-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tunisia</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DU DEVELOPPEMENT ET DE LA COOPERATION</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">étude de protection contre les inondations (PCI) du Grand Tunis</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-E00-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-03-12"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BEN SASSI Belgacem</person-name>
+      <email>b.bensassi@afdb.org</email>
+      <telephone>+21671103299</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tunisia</provider-org>
+      <value currency="">113725</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155002351">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">579558</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Ariana" adm2=""/>
+      <coordinates latitude="36.98333" longitude="10.11667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2473245">Gouvernorat de Ariana</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ben Arous" adm2=""/>
+      <coordinates latitude="36.6333333" longitude="10.25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2472477">Gouvernorat de Ben Arous</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Manouba" adm2=""/>
+      <coordinates latitude="36.83333" longitude="9.83333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="6201192">Gouvernorat de la Manouba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tunis" adm2=""/>
+      <coordinates latitude="36.7666667" longitude="10.1333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2464464">Gouvernorat de Tunis</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TN-E00-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DU DEVELOPPEMENT ET DE LA COOPERATION</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">ETUDE STRATEGIE ASSAINISSEMENT  TUNISIE</title>
+    <description>Elle devra aboutir à : (i) l'étude du système d'assainissement des 86 communes n'ayant pas de programmes d'investissement et l'étude de son impact sur l'environnement ; (ii) la détermination d'un plan d'investissement global et la définition du programme d'intervention prioritaire pour la période du 12ème plan de développement économique et social (2012-2016) ; (iii) l'élaboration d'un cadre institutionnel d'intervention dans les villes ayant moins de 10 000 habitants ; (iv) La proposition des ajustements nécessaires pour que l'ONAS puisse préserver ses équilibres financiers suite à la prise en charge éventuelle de ces communes et (v) l'élaboration des avants projets détaillés (APD) pour l'épuration des eaux usées, les systèmes de transfert y afférents, le développement des réseaux de collecte ainsi que les études d'impact sur l'environnement nécessaires pour les villes de plus de 10 000 habitants et non prises en charge par l'ONAS, à savoir : Menzel Hayet, Feriana, Souk Lahad, M'dhilla, Tala et Takelsa.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-E00-004/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-03-12"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BEN SASSI Belgacem</person-name>
+      <email>b.bensassi@afdb.org</email>
+      <telephone>+21671103299</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5500155002901">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">574988</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Kasserine" adm2="Feriana"/>
+      <coordinates latitude="34.945294" longitude="8.567892" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2471059">Feriana</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Beja" adm2=""/>
+      <coordinates latitude="36.6666667" longitude="9.25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2472770">Gouvernorat de Baja</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bizerte" adm2=""/>
+      <coordinates latitude="37.0833333" longitude="9.5833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2472699">Gouvernorat de Bizerte</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gabes" adm2=""/>
+      <coordinates latitude="33.8333333" longitude="9.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2468365">Gouvernorat de Gabas</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gafsa" adm2=""/>
+      <coordinates latitude="34.5" longitude="9" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2468351">Gouvernorat de Gafsa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Jendouba" adm2=""/>
+      <coordinates latitude="36.6666667" longitude="8.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2470085">Gouvernorat de Jendouba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kairouan" adm2=""/>
+      <coordinates latitude="35.5833333" longitude="9.8333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2473451">Gouvernorat de Kairouan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kasserine" adm2=""/>
+      <coordinates latitude="35.25" longitude="8.7833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2473460">Gouvernorat de Kasserine</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kebili" adm2=""/>
+      <coordinates latitude="33.5" longitude="8.8333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2468014">Gouvernorat de Kebili</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Le Kef" adm2=""/>
+      <coordinates latitude="36.0833333" longitude="8.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2473637">Gouvernorat de Kef</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Medenine" adm2=""/>
+      <coordinates latitude="33.3333333" longitude="11" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2469470">Gouvernorat de Madenine</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mahdia" adm2=""/>
+      <coordinates latitude="35.3333333" longitude="10.5833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2473574">Gouvernorat de Mahdia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Monastir" adm2=""/>
+      <coordinates latitude="35.6166667" longitude="10.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2473495">Gouvernorat de Monastir</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nabeul" adm2=""/>
+      <coordinates latitude="36.6666667" longitude="10.6666667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2468576">Gouvernorat de Nabeul</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sfax" adm2=""/>
+      <coordinates latitude="34.75" longitude="10.4166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2467450">Gouvernorat de Sfax</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sidi Bouz" adm2=""/>
+      <coordinates latitude="34.8333333" longitude="9.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2465837">Gouvernorat de Sidi Bou Zid</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Siliana" adm2=""/>
+      <coordinates latitude="36" longitude="9.3333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2465027">Gouvernorat de Siliana</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sousse" adm2=""/>
+      <coordinates latitude="35.9166667" longitude="10.4166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2464912">Gouvernorat de Sousse</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tataouine" adm2=""/>
+      <coordinates latitude="32" longitude="10" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2464698">Gouvernorat de Tataouine</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tozeur" adm2=""/>
+      <coordinates latitude="34" longitude="8.0833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2464645">Gouvernorat de Tozeur</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Zaghouan" adm2=""/>
+      <coordinates latitude="36.3333333" longitude="10" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2464038">Gouvernorat de Zaghouan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gafsa" adm2="Mdhilla"/>
+      <coordinates latitude="34.251013" longitude="8.74704" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2473578">Madhilla</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nabeul" adm2="Takelsa"/>
+      <coordinates latitude="36.7833333" longitude="10.6333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2464804">Taklisah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kasserine" adm2="Thala"/>
+      <coordinates latitude="35.572436" longitude="8.670313" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2464795">Thala</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kebili" adm2="Souk El Ahed"/>
+      <coordinates latitude="33.789431" longitude="8.798473" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2463952">Zaouaet el Harth</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TN-E00-005</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DU PLAN</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Programme d'alimentation en eau potable en milieu rural(AEPR)</title>
+    <description>Les objectifs spécifiques du projet sont i) l'amélioration du niveau d'accès à l'eau potable dans les zones démunies et ii) le renforcement des capacités et moyens des CRDA et de la DGGREE  grâce notamment à la pérennisation des Groupements de développement agricoles " GDA " en charge de la gestion des points d'eau.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-E00-005/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-10-19"/>
+    <activity-date type="End Planned" iso-date="2017-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BEN SASSI Belgacem</person-name>
+      <email>b.bensassi@afdb.org</email>
+      <telephone>+21671103299</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2000130007581">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">83058865</value>
+      <transaction-date iso-date="2011-10-19"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2012-09-30">5882600</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Ariana" adm2=""/>
+      <coordinates latitude="36.98333" longitude="10.11667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2473245">Gouvernorat de Ariana</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Beja" adm2=""/>
+      <coordinates latitude="36.6666667" longitude="9.25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2472770">Gouvernorat de Baja</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ben Arous" adm2=""/>
+      <coordinates latitude="36.6333333" longitude="10.25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2472477">Gouvernorat de Ben Arous</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bizerte" adm2=""/>
+      <coordinates latitude="37.0833333" longitude="9.5833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2472699">Gouvernorat de Bizerte</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gabes" adm2=""/>
+      <coordinates latitude="33.8333333" longitude="9.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2468365">Gouvernorat de Gabas</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Gafsa" adm2=""/>
+      <coordinates latitude="34.5" longitude="9" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2468351">Gouvernorat de Gafsa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Jendouba" adm2=""/>
+      <coordinates latitude="36.6666667" longitude="8.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2470085">Gouvernorat de Jendouba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kairouan" adm2=""/>
+      <coordinates latitude="35.5833333" longitude="9.8333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2473451">Gouvernorat de Kairouan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kasserine" adm2=""/>
+      <coordinates latitude="35.25" longitude="8.7833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2473460">Gouvernorat de Kasserine</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Le Kef" adm2=""/>
+      <coordinates latitude="36.0833333" longitude="8.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2473637">Gouvernorat de Kef</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Manouba" adm2=""/>
+      <coordinates latitude="36.83333" longitude="9.83333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="6201192">Gouvernorat de la Manouba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Medenine" adm2=""/>
+      <coordinates latitude="33.3333333" longitude="11" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2469470">Gouvernorat de Madenine</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mahdia" adm2=""/>
+      <coordinates latitude="35.3333333" longitude="10.5833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2473574">Gouvernorat de Mahdia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nabeul" adm2=""/>
+      <coordinates latitude="36.6666667" longitude="10.6666667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2468576">Gouvernorat de Nabeul</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sfax" adm2=""/>
+      <coordinates latitude="34.75" longitude="10.4166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2467450">Gouvernorat de Sfax</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sidi Bouz" adm2=""/>
+      <coordinates latitude="34.8333333" longitude="9.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2465837">Gouvernorat de Sidi Bou Zid</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Siliana" adm2=""/>
+      <coordinates latitude="36" longitude="9.3333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2465027">Gouvernorat de Siliana</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sousse" adm2=""/>
+      <coordinates latitude="35.9166667" longitude="10.4166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2464912">Gouvernorat de Sousse</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tataouine" adm2=""/>
+      <coordinates latitude="32" longitude="10" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2464698">Gouvernorat de Tataouine</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Zaghouan" adm2=""/>
+      <coordinates latitude="36.3333333" longitude="10" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2464038">Gouvernorat de Zaghouan</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TN-EAZ-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="AWF" type="">AfricaWater Facility Fund</participating-org>
+    <participating-org role="Implementing" ref="" type=""/>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Développement et mise en place du Système d'Information National sur l'EAU (SINEAU)</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-11-15"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BOUGAIRE Francis Daniel</person-name>
+      <email>f.bougaire@afdb.org</email>
+      <telephone>+21671103101</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5600155001952">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="AWF">AfricaWater Facility Fund</provider-org>
+      <value currency="">1726567</value>
+      <transaction-date iso-date="2010-11-15"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TN-EAZ-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="AWF" type="">AfricaWater Facility Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE TUNISIE MINISTERE DES FINANCES</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">Vision et stratégie de l'eau à l'horizon 2050</title>
+    <description>L'objectif spécifique du projet est d'assurer une planification dynamique, jusqu'à l'horizon 2050, des activités de développement et de gestion des ressources en eau sur la base d'une vision et d'une stratégie structurées, intégrées et participatives</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-07-26"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BOUGAIRE Francis Daniel</person-name>
+      <email>f.bougaire@afdb.org</email>
+      <telephone>+21671103101</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5600155002601">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="AWF">AfricaWater Facility Fund</provider-org>
+      <value currency="">1071730</value>
+      <transaction-date iso-date="2011-07-26"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">the Entreprise Tunisienne d'Activités Pétrolières CORPORATE LOAN</title>
+    <description>a 5-year, non-sovereign guarantee, a USD 150 million corporate loan to the Entreprise Tunisienne d'Activités Pétrolières (ETAP), the Tunisian state-owned oil and gas exploration and production company, to support its 2009-2010 investment plan and mainly to finance the Hasdrubal oil &amp; gas filed development project. 
+
+The Hasdrubal project involves the construction of a stand-alone gas, condensate and oil production system located in the Gulf of Gabes, about 100 km offshore. It comprises six offshore horizontal producing wells, an offshore production platform, an onshore processing plant for production of natural gas and liquefied petroleum gas, an offshore gas pipeline, and an onshore pipeline to reach the STEG?s (the Tunisian electricity and gas national company) network. 
+
+ BENEFITS: 
+By reinforcing Tunisia?s energy security, the project is of a strategic importance to the country. In addition; the project will also allow the government to generate additional revenues though royalties, dividends and taxes. The project will also improve the country?s balance of payments. Its economic rate of return is estimated at 19%.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-07-08"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23062">Gas-fired power plants</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">100276094</value>
+      <transaction-date iso-date="2010-07-08"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Sfax" adm2="Mhares"/>
+      <coordinates latitude="34.60154" longitude="10.5883" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7731688">ETAP Hasdrubal Processing Plant</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="" adm2=""/>
+      <coordinates latitude="34" longitude="10.4166667" precision="5"/>
+      <gazetteer-entry gazetteer-ref="2468368">Gulf of Gabes</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sfax" adm2="Mhares"/>
+      <coordinates latitude="34.54898" longitude="10.48096" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2473571">Mu?tamadiyat al Ma?ras</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TN-HAA-037</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Implementing" ref="" type=""/>
+    <recipient-country code="TN">Multinational</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SME APEX FACILITY TUNISIA</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-09-19"/>
+    <activity-date type="End Planned" iso-date="2020-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MBA Samuel</person-name>
+      <email>l.picard@afdb.org</email>
+      <telephone>+21671102529</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="24030">Formal sector financial intermediaries</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2000130007430">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">31841455</value>
+      <transaction-date iso-date="2011-09-19"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TN-IA0-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE TUNISIE MINISTERE DES FINANCES</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">MIC-DEVELOPPEMENT INDUSTRIES CULTURELLES</title>
+    <description>Le principal but de cette assistance technique est d'appuyer le Ministère de la Culture et de la Sauvegarde du patrimoine de réaliser une étude sur les industries culturelles. Les objectifs visés à travers cette étude sont : -,,Délimiter le champ conceptuel de la notion d'industries culturelles à la lumière de l'expérience tunisienne et d'expériences internationales en la matière ; -,,Etablir un diagnostic détaillé et complet de l'état actuel des industries culturelles en Tunisie et l'évaluation de leur contribution dans la dynamique de développement économique et social ; et -,,Identifier les potentialités de ce secteur et proposer des axes d'une stratégie nationale de développement des industries culturelles assortie d'un plan d'action structurantes visant à mettre en ?uvre cette stratégie.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-IA0-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-11-22"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>GUEYE Mouhamed</person-name>
+      <email>m.gueye@afdb.org</email>
+      <telephone>+21671101516</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="11110">Education policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5500155003801">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">271493</value>
+      <transaction-date iso-date="2010-11-22"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TN-IB0-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tunisia</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE TUNISIE MINISTERE DES FINANCES</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">EXPORTATION DES SERVICES DE SANTE</title>
+    <description>L'objectif global de l'étude proposée est la promotion des exportations de services de santé. L'objectif spécifique de l'étude est la définition et la mise en #uvre d'une stratégie de développement des exportations des services liés à la santé. Ainsi, l'étude devra aboutir à l'élaboration d'une Stratégie et d'un Plan d'action en vue de promouvoir la Tunisie comme pôle exportateur de services de la santé et comme site d'investissements dans ces domaines. Le Gouvernement envisage d'introduire une deuxième requête auprès de la Banque suite à l'étude, qui pourrait porter sur une assistance pour la mise en #uvre de la stratégie ainsi élaborée.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-IB0-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-03-12"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>LANNES Laurence Elisabeth</person-name>
+      <email>l.lannes@afdb.org</email>
+      <telephone>+21671101926</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="12110">Health policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tunisia</provider-org>
+      <value currency="">47871</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155002401">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">526583</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:22">
+    <iati-identifier>46002-P-TN-IBE-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tunisia</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE TUNISIE MINISTERE DES FINANCES</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">ETUDE MALADIE-EMERGENTE &amp;  RE-EMERGENTES</title>
+    <description>La finalité est l'amélioration de l'état de santé de la population tunisienne. Le but du projet est de renforcer le dispositif national de surveillance épidémiologique pour lutter efficacement contre le risque de survenue des maladies émergentes et ré-émergentes.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-IBE-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-03-12"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>LANNES Laurence Elisabeth</person-name>
+      <email>l.lannes@afdb.org</email>
+      <telephone>+21671101926</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="12250">Infectious disease control</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tunisia</provider-org>
+      <value currency="">187766</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155002552">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">581223</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:23">
+    <iati-identifier>46002-P-TN-IZ0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE TUNISIE MINISTERE DES FINANCES</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Programme d'Appui à la Relance Economique et au Développement Inclusif</title>
+    <description>Le projet soutient deux objectifs spécifiques: i) Appuyer le processus de transition démocratique à travers les mesures visant à favoriser la préservation et la création des emplois, la protection sociale et la bonne gouvernance et ii) faciliter la relance de l'économie au moyens des mesures incitatives de sauvegarde de l'investissment et de financement de l'économie.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-06-10"/>
+    <activity-date type="End Planned" iso-date="2012-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MURARA Justin</person-name>
+      <email>j.murara@afdb.org</email>
+      <telephone>+21671103207</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2000130007080">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">311817898</value>
+      <transaction-date iso-date="2011-06-10"/>
+      <aid-type code="A02">Sector Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2011-09-30">315511160</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-03-31">3827126</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-09-30">5156494</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:23">
+    <iati-identifier>46002-P-TN-IZ0-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE TUNISIE MINISTERE DES FINANCES</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Assistance humanitaire à la frontière Tuniso-Libyenne</title>
+    <description>Fournir une réponse directe et immédiate à la crise humanitaire, afin d'appuyer les efforts déployés par le gouvernement Tunisien.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-IZ0-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-14"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>CHARAF-EDDINE Abdourahamane</person-name>
+      <email>a.charaf-eddine@afdb.org</email>
+      <telephone>+21671102614</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5000199002068">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">634087</value>
+      <transaction-date iso-date="2011-03-14"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:23">
+    <iati-identifier>46002-P-TN-K00-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tunisia</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOUVERNEMENT DE TUNISIE MINISTERE DES FINANCES</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">MIC - Etude préparatoire au projet renforcement de commerce entre la Tunisie l'Afrique Sub Saharienne</title>
+    <description>L'objectif de l'étude est de fournir les informations et les recommandations nécessaires pour la mise en oeuvre d'un programme  de développement et de renforcement du partenariat et des échanges des biens et services entre la Tunisie et les pays du golfe de Guinée, de l'Afrique centrale et des grands lacs.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-K00-004/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-04-15"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>LUMBILA Kevin Numbi</person-name>
+      <email>k.lumbila@afdb.org</email>
+      <telephone>+21671101988</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tunisia</provider-org>
+      <value currency="">17020</value>
+      <transaction-date iso-date="2011-04-15"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155004102">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">323377</value>
+      <transaction-date iso-date="2011-04-15"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:23">
+    <iati-identifier>46002-P-TN-K00-006</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tunisia</participating-org>
+    <participating-org role="Implementing" ref="" type="">INSTITUT NATIONAL DE LA STATISTIQUE</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">Statiscal Capacity Building II</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-K00-006/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-10-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MUWELE Besa</person-name>
+      <email>b.muwele@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tunisia</provider-org>
+      <value currency="">24530</value>
+      <transaction-date iso-date="2011-10-31"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155004656">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">490600</value>
+      <transaction-date iso-date="2011-10-31"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:23">
+    <iati-identifier>46002-P-TN-KF0-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tunisia</participating-org>
+    <participating-org role="Implementing" ref="" type="">INSTITUT TUNISIEN DE LA COMPETITIVITE ET DES ETUDES QUANTITATIVES - ITCEQ</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Projet d'appui à l' Institut Tunisien de la Compétitivité et de l'Économie Quantitative</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-KF0-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-03-12"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>OBAYASHI Natsuko</person-name>
+      <email>n.obayashi@afdb.org</email>
+      <telephone>+21671103214</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tunisia</provider-org>
+      <value currency="">10465</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155002951">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">198848</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:23">
+    <iati-identifier>46002-P-TN-KF0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tunisia</participating-org>
+    <participating-org role="Implementing" ref="" type="">BTS - BANQUE TUNIENNE DE SOLIDARITE</participating-org>
+    <recipient-country code="TN">Tunisia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">ETUDE D'EVALUATION DU SYSTÈME MICROCREDIT BTS (Banque Tunisienne de Solidarité)</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TN-KF0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-03-12"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>AHMAD Yasser</person-name>
+      <email>y.ahmad@afdb.org</email>
+      <telephone>+21671103448</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tunisia</provider-org>
+      <value currency="">7342</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155002952">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">139484</value>
+      <transaction-date iso-date="2010-03-12"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+</iati-activities>

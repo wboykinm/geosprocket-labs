@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:28">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:28">
+    <iati-identifier>46002-P-LY-KD0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Libya</participating-org>
+    <participating-org role="Implementing" ref="" type="">LIBYAN EXPORT PROMOTION CENTER</participating-org>
+    <recipient-country code="LY">Libya</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SUPPORT TO EXPORT PROMOTION</title>
+    <description>The specific purpose is to help develop the institutional capacity and the human resources of the Libyan Export Promotion Center, which ? as indicated above - has primarily been set-up to push exporting activities.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-LY-KD0-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-02-11"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>SANTI Emanuele</person-name>
+      <email>e.santi@afdb.org</email>
+      <telephone>+21671103665</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="33120">Trade facilitation</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Libya</provider-org>
+      <value currency="">25000</value>
+      <transaction-date iso-date="2010-02-11"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155002902">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">480000</value>
+      <transaction-date iso-date="2010-02-11"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+</iati-activities>

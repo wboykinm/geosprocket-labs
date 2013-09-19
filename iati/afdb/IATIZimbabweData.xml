@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:34">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:34">
+    <iati-identifier>46002-P-ZW-E00-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="Zim-Fund" type="">Zimbabwe Multi-donor Trust Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF ZIMBABWE MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="ZW">Zimbabwe</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">URGENT WATER SUP. &amp; SAN. REHABILITATION</title>
+    <description>The goal for the water supply and sanitation sector in Zimbabwe is to improve the health and social well being of the population, and to enhance the performance of the national economy, through equitable provision of adequate water supply and sanitation services. The project objective is to provide urgent support for restoration and stabilization of water supply and sanitation services in the Municipalities of Harare, Mutare, Chegutu, Masvingo and Kwekwe, and improve their sustainability.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-ZW-E00-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-06-10"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DEMISSIE Eskendir Alemseged</person-name>
+      <email>e.alemseged@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5850155000051">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="Zim-Fund">Zimbabwe Multi-donor Trust Fund</provider-org>
+      <value currency="">18491425</value>
+      <transaction-date iso-date="2011-06-10"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Mashonaland West" adm2="Chegutu"/>
+      <coordinates latitude="-18.130206" longitude="30.140737" precision="1"/>
+      <gazetteer-entry gazetteer-ref="894239">Chegutu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Harare" adm2="Chitungwiza"/>
+      <coordinates latitude="-18.012741" longitude="31.07555" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1106542">Chitungwiza</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Harare" adm2="Harare"/>
+      <coordinates latitude="-17.82772" longitude="31.05337" precision="1"/>
+      <gazetteer-entry gazetteer-ref="890299">Harare</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Midlands" adm2="Kwekwe"/>
+      <coordinates latitude="-18.928095" longitude="29.814863" precision="1"/>
+      <gazetteer-entry gazetteer-ref="888710">Kwekwe</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Masvingo" adm2="Masvingo"/>
+      <coordinates latitude="-20.063733" longitude="30.827656" precision="1"/>
+      <gazetteer-entry gazetteer-ref="886763">Masvingo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Manicaland" adm2="Mutare"/>
+      <coordinates latitude="-19.500768" longitude="31.639362" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7453772">Mutare</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:34">
+    <iati-identifier>46002-P-ZW-EAZ-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="AWF" type="">AfricaWater Facility Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">CHITUNGWIZA MUNICIPALITY</participating-org>
+    <recipient-country code="ZW">Zimbabwe</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">CHITUNGWIZA WATER AND SANITATION PROJECT</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-02-22"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>AKARI Peter Lamisi</person-name>
+      <email>p.akari@afdb.org</email>
+      <telephone>+21671102483</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5600155002551">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="AWF">AfricaWater Facility Fund</provider-org>
+      <value currency="">1778355</value>
+      <transaction-date iso-date="2010-02-22"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Harare" adm2="Chitungwiza"/>
+      <coordinates latitude="-18.012741" longitude="31.07555" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1106542">Chitungwiza</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Harare" adm2="Harare"/>
+      <coordinates latitude="-17.8277169649647" longitude="31.0533714294433" precision="1"/>
+      <gazetteer-entry gazetteer-ref="890299">Harare</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Harare" adm2="Chitungwiza"/>
+      <coordinates latitude="-17.9833333" longitude="31.0666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="881811">Saint Marys</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Harare" adm2="Chitungwiza"/>
+      <coordinates latitude="-18.013428" longitude="31.065184" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7405253">Zengeza</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:34">
+    <iati-identifier>46002-P-ZW-FA0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="Zim-Fund" type="">Zimbabwe Multi-donor Trust Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">ZIMBABWE ELECTRICITY SUPPLY AUTHORITY</participating-org>
+    <recipient-country code="ZW">Zimbabwe</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">POWER INFRASTRUCTURE REHAB PROJECT</title>
+    <description>The Sector Goal of the proposed project is to support the implementation of the Government's Short Term Emergency Recovery Program (STERP) through increased access to affordable and reliable electricity supply at competitive prices by the implementation of the emergency power infrastructure rehabilitation program. The objective of the project is to assist improve the provision of adequate and reliable power supply in an environmentally sound manner through the rehabilitation of the Ash Plant at HPS and the sub-transmission and distribution facilities in the country. The project will also help to improve the reliability of electricity supply to the treatment plant of the Harare city water supply and other urban water supply systems and thereby help prevent another cholera outbreak in the country. The project creates synergies with the Emergency Water Supply and Sanitation Rehabilitation Project also financed by the ZimFund.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-ZW-FA0-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-09-14"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>LEBESA Motselisi Frangeni</person-name>
+      <email>m.lebesa@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23010">Energy policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5850155000001">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="Zim-Fund">Zimbabwe Multi-donor Trust Fund</provider-org>
+      <value currency="">22251043</value>
+      <transaction-date iso-date="2011-09-14"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Matabeleland North" adm2="Hwange"/>
+      <coordinates latitude="-18.3825061994006" longitude="26.4703130722045" precision="1"/>
+      <gazetteer-entry gazetteer-ref="8051314">Hwange Thermal Power Station</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:34">
+    <iati-identifier>46002-P-ZW-IBE-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Implementing" ref="" type="">WHO/AFRO-WORLD HEALTH ORGANISATION</participating-org>
+    <recipient-country code="ZW">Zimbabwe</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">EMERGENCY ASSISTANCE FOR CHOLERA CONTROL</title>
+    <description>The project objective is to strengthen the national cholera preparedness to contain the emerging outbreak and to consolidate the achievements of the past and strengthen the national cholera preparedness to contain the emerging outbreak as an intermediate measure whilst long term measures are implemented. Support will therefore be directed to further implement the cholera response plan for Zimbabwe through the following activities; (i),,Procurement and distribution of water disinfectant tablets, cholera personal protection equipment and materials, medical supplies (cholera kits, IV fluids, ORS, giving sets, chlorine, drugs, etc), fuel to support transport logistics, disinfectants and detergents for use at CTCs, water purification tablets and field water quality monitoring kits and reagents and support to government's analyst laboratories. (ii),,Capacity building among health workers and communities through focused trainings to health workers and community volunteers and provision of IEC materials and community education for improved hygiene and sanitation.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-04-14"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DEMISSIE Eskendir Alemseged</person-name>
+      <email>e.alemseged@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="12250">Infectious disease control</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5000199001818">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">655368</value>
+      <transaction-date iso-date="2010-04-14"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:34">
+    <iati-identifier>46002-P-ZW-K00-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF ZIMBABWE MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="ZW">Zimbabwe</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">ZIM-FUND</title>
+    <description>The objective of the assignment  by the agent is to provide procurement technical assistance to the Zim-Fund management Unit (MMU) and the Government of Zimbabwe during the implementation of the projects financed by the Zim-fund</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-ZW-K00-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-08-23"/>
+    <activity-date type="End Planned" iso-date="2014-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DOGBEVI-FALY Elinam Hanou Gilberte</person-name>
+      <email>g.dogbevi@afdb.org</email>
+      <telephone>+21671103127</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5900155002652">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">1000000</value>
+      <transaction-date iso-date="2011-08-23"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-09-30">105600</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:34">
+    <iati-identifier>46002-P-ZW-KF0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF ZIMBABWE MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="ZW">Zimbabwe</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">TECHNICAL ASSISTANCE IN ZADMO</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-ZW-KF0-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-11-10"/>
+    <activity-date type="End Planned" iso-date="2014-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DOGBEVI-FALY Elinam Hanou Gilberte</person-name>
+      <email>g.dogbevi@afdb.org</email>
+      <telephone>+21671103127</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5900155002651">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">192811</value>
+      <transaction-date iso-date="2011-11-10"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-12-31">5361</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

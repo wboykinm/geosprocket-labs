@@ -1,0 +1,2298 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:27">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:27">
+    <iati-identifier>46002-P-CM-DB0-010</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Cameroon</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DES TRAVAUX PUBLICS</participating-org>
+    <recipient-country code="CM">Cameroon</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">ETUDE ROUTE BATCHENGA-YOKO-TIBATI-NGAOUN</title>
+    <description>Disposer de l'étude détaillée de la solution technique et socio-économique optimale d'aménagement de la route Batschenga-Yoko-Tibati-N'gaoundéré en vue de faciliter la recherche de financement des travaux</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CM-DB0-010/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-01-11"/>
+    <activity-date type="End Planned" iso-date="2013-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>N'GUESSAN Joseph Kouassi</person-name>
+      <email>j.nguessan@afdb.org</email>
+      <telephone>+21671106830</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Cameroon</provider-org>
+      <value currency="">380000</value>
+      <transaction-date iso-date="2010-01-11"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150020993">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">3360000</value>
+      <transaction-date iso-date="2010-01-11"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">494340</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2010-09-30">967</value>
+      <description>Total Interest Repayment in Third Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-03-31">8423</value>
+      <description>Total Interest Repayment in First Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-09-30">8377</value>
+      <description>Total Interest Repayment in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-03-31">8423</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">8813</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.2833333" longitude="11.65" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234698">Batchenga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.2" longitude="11.4" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2229546">Département de la Lékié</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Lom-Et-Djerem"/>
+      <coordinates latitude="5.1666667" longitude="13.8333333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2229251">Département du Lom-et-Djérem</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mbam-et-Kim"/>
+      <coordinates latitude="5.25" longitude="12" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2228070">Département du Mbam</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Adamaoua" adm2="Faro-et-Deo"/>
+      <coordinates latitude="7.46684" longitude="12.49612" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7670947">Faro-et-Deo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.35" longitude="11.6333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2225539">Nachtigal</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Adamaoua" adm2="Vina"/>
+      <coordinates latitude="7.3166667" longitude="13.5833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2224827">Ngaoundéré</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mbam-et-Kim"/>
+      <coordinates latitude="4.45" longitude="11.6333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223421">Ntui</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Adamaoua" adm2="Djerem"/>
+      <coordinates latitude="6.4666667" longitude="12.6333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221530">Tibati</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Adamaoua" adm2="Vina"/>
+      <coordinates latitude="7.16365" longitude="13.72711" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7670948">Vina</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mbam-et-Kim"/>
+      <coordinates latitude="5.5333333" longitude="12.3166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2220849">Yoko</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:27">
+    <iati-identifier>46002-P-CM-E00-006</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Funding" ref="RWSSI" type="">Rural Water Supply &amp; Sanitation</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Cameroon</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'ENERGIE ET DE L'EAU UNITE DE COORDINATION DE L ETUDE</participating-org>
+    <recipient-country code="CM">Cameroon</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Approvisionnement en Eau Potable et Assainissement  (AEPA)en milieu rural</title>
+    <description>L'objectif du projet est d'améliorer les conditions de vie des populations rurales par un meilleur accès à l'eau potable et à l'assainissement dans 4 Régions du Cameroun (Nord-Ouest, Sud-Ouest, Ouest, et Sud.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CM-E00-006/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-06-29"/>
+    <activity-date type="End Planned" iso-date="2016-02-29"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>HORUGAVYE Patrice</person-name>
+      <email>p.horugavye@afdb.org</email>
+      <telephone>+21671102543</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Cameroon</provider-org>
+      <value currency="">1500000</value>
+      <transaction-date iso-date="2010-06-29"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150022344">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">10000000</value>
+      <transaction-date iso-date="2010-06-29"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">129733</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">102480</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">504609</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">229744</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">294005</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-03-31">2603</value>
+      <description>Total Interest Repayment in First Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-09-30">24795</value>
+      <description>Total Interest Repayment in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-03-31">25253</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">25529</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <transaction ref="5800155000451">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="RWSSI">Rural Water Supply &amp; Sanitation</provider-org>
+      <value currency="">4423937</value>
+      <transaction-date iso-date="2010-06-29"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2=""/>
+      <coordinates latitude="6.333333" longitude="10.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2223602">North-West Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2=""/>
+      <coordinates latitude="2.5" longitude="11.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2221789">South Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-Ouest" adm2=""/>
+      <coordinates latitude="5.416667" longitude="9.333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2221788">South-West Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2=""/>
+      <coordinates latitude="5.5" longitude="10.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2222934">West Province</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:28">
+    <iati-identifier>46002-P-CM-FA0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Funding" ref="ACFA" type="">Accelerated Cofinancing Facility for Africa</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Cameroon</participating-org>
+    <participating-org role="Implementing" ref="" type="">ELECTRICITY DEVELOPMENT CORPORATION -EDC</participating-org>
+    <recipient-country code="CM">Cameroon</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET DE RENFORCEMENT  ET D'EXTENSION DES RESEAUX ELECTRIQUES</title>
+    <description>le projet a pour objectif spécifique de renforcer et étendre les systèmes de transport et de distribution de l'énergie électrique à de nouvelles localités et à de nouveaux abonnés</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CM-FA0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-10-15"/>
+    <activity-date type="End Planned" iso-date="2017-03-04"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>NGUEMA-OLLO Jean-Baptiste</person-name>
+      <email>j.nguema-ollo@afdb.org</email>
+      <telephone>+21671106805</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23010">Energy policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Cameroon</provider-org>
+      <value currency="">6000000</value>
+      <transaction-date iso-date="2010-10-15"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150022896">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">31640000</value>
+      <transaction-date iso-date="2010-10-15"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-09-30">47243</value>
+      <description>Total Interest Repayment in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-03-31">79317</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">79317</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <transaction ref="6550655000701">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="ACFA">Accelerated Cofinancing Facility for Africa</provider-org>
+      <value currency="">2939000000</value>
+      <transaction-date iso-date="2011-03-04"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.4666667" longitude="11.65" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2236138">Abang</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.3333333" longitude="11.4333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2236121">Abang-Minko</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-Mfoumou"/>
+      <coordinates latitude="3.7" longitude="12.3" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2236100">Abem</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.5333333" longitude="11.5666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2236095">Abendoman</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Ocean"/>
+      <coordinates latitude="2.9166667" longitude="10.5" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2236079">Abiété</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.9" longitude="11.2166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2236027">About</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Ocean"/>
+      <coordinates latitude="2.8166667" longitude="10.2" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235991">Adjap</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mefou-et-Afamba"/>
+      <coordinates latitude="3.8666667" longitude="11.65" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235941">Afan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Sava"/>
+      <coordinates latitude="11.091667" longitude="14.2287025" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6685572">Aissa Kardé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.5" longitude="11.1" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235878">Akak-Metom</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.5" longitude="11.0666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235851">Akina</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-So"/>
+      <coordinates latitude="3.1666667" longitude="11.5166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235808">Akom</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.1833333" longitude="11.35" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235801">Akom Bong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.2" longitude="11.35" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235789">Akonangui</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="2.6666667" longitude="12.8666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235785">Akonétyé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.3833333" longitude="11.2833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235764">Akoulouzok</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.6833333" longitude="11.5833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235750">Akpwak</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Donga-Mantung"/>
+      <coordinates latitude="6.6333333" longitude="10.6" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235743">Akwato</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mefou-et-Akono"/>
+      <coordinates latitude="3.6" longitude="11.4333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235710">Alen</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.65" longitude="11.6833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235694">Alotomé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.96667" longitude="10.95" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235688">Aloum</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.3833333" longitude="11.2833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235660">Ambam</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Momo"/>
+      <coordinates latitude="5.976414" longitude="9.831144" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2225328">Andek</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="3.1333333" longitude="12.3166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235577">Andom</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="2.4666667" longitude="12.35" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235569">Andoung</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="2.6666667" longitude="12.8166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235536">Anmvam</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mbam-et-Inoubou"/>
+      <coordinates latitude="4.6166667" longitude="11.2333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235484">Asala II</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.3833333" longitude="11.35" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235454">Assandjik</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.4166667" longitude="10.5333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235452">Asseng</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.669433" longitude="10.193442" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235299">Babadjou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Haut-Nkam"/>
+      <coordinates latitude="5.2" longitude="10.1666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235277">Baboate</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Haut-Nkam"/>
+      <coordinates latitude="5.1666667" longitude="10.1666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235260">Baboutcha</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Haut-Nkam"/>
+      <coordinates latitude="5.21209" longitude="10.298138" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235266">Babwantou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Haut-Nkam"/>
+      <coordinates latitude="5.15625" longitude="10.178825" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235196">Bafang</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Ngo-Ketunjia"/>
+      <coordinates latitude="5.843093" longitude="10.404106" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235195">Bafanji</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.678106" longitude="10.236448" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7109650">Bafomgba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Menoua"/>
+      <coordinates latitude="5.467231" longitude="10.113593" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235191">Bafou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Mezam"/>
+      <coordinates latitude="6.0833333" longitude="10.1" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235186">Bafut</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.624505" longitude="10.167179" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235060">Balatchi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Nde"/>
+      <coordinates latitude="5.120486" longitude="10.460894" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235041">Balengou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Mezam"/>
+      <coordinates latitude="5.751554" longitude="10.266853" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7109655">Bali Gha</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Ngo-Ketunjia"/>
+      <coordinates latitude="5.946694" longitude="10.442115" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234999">Bamali</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.708947" longitude="10.480193" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234971">Bamendjing</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.555966" longitude="10.278687" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234966">Bamendjo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Hauts-Plateaux"/>
+      <coordinates latitude="5.388754" longitude="10.331609" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234968">Bamendjou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.619535" longitude="10.321612" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234965">Bamenkombo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.75" longitude="10.3166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234964">Bamenyam</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.654558" longitude="10.237609" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234962">Bamessingoe</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.8166667" longitude="10.4166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234945">Bamumkumbit</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Ngo-Ketunjia"/>
+      <coordinates latitude="5.974326" longitude="10.460432" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7108299">Bamunka</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Haut-Nkam"/>
+      <coordinates latitude="5.125683" longitude="10.275889" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234898">Bandoumkassa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Littoral" adm2="Nkam"/>
+      <coordinates latitude="4.25" longitude="10.2833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234886">Bang</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Noun"/>
+      <coordinates latitude="5.833333" longitude="10.739616" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234872">Bangambi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Danay"/>
+      <coordinates latitude="10.2010205" longitude="15.319731" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234870">Bangana</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Ngo-Ketunjia"/>
+      <coordinates latitude="5.949131" longitude="10.624659" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234843">Bangola</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Hauts-Plateaux"/>
+      <coordinates latitude="5.250966" longitude="10.400159" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7109179">Bangou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Littoral" adm2="Moungo"/>
+      <coordinates latitude="4.4184" longitude="9.7755" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234830">Bangseng</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Menoua"/>
+      <coordinates latitude="5.38531" longitude="10.18604" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7732188">Bani</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.61151" longitude="10.277476" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7109648">Banok</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Tsanaga"/>
+      <coordinates latitude="10.80224" longitude="13.923038" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234791">Bao</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Haut-Nkam"/>
+      <coordinates latitude="5.168525" longitude="10.294728" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7109097">Bapou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.0598629" longitude="14.8523239" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234744">Barlang</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-Ouest" adm2="Manyu"/>
+      <coordinates latitude="5.5321" longitude="9.5828" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6858383">Barumbe</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.563866" longitude="10.144245" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7109021">Bassouka</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="9.9478" longitude="14.1614" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234703">Bataol</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Koung-Khi"/>
+      <coordinates latitude="5.264608" longitude="10.469519" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234669">Batoufam</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.568227" longitude="10.323538" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234667">Batounda</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.657429" longitude="10.218544" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7109041">Bawa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-Ouest" adm2="Meme"/>
+      <coordinates latitude="4.6819" longitude="9.3214" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234545">Bekondo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Ocean"/>
+      <coordinates latitude="3.25" longitude="10.2" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234459">Bella</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Haut-Nyong"/>
+      <coordinates latitude="3.6166667" longitude="12.8666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234343">Bétani</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mbam-et-Inoubou"/>
+      <coordinates latitude="4.7666667" longitude="11.2166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234308">Biamo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-Mfoumou"/>
+      <coordinates latitude="3.5666667" longitude="11.9833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234287">Biba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.4166667" longitude="10.7" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234239">Bidjap</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.15" longitude="11.3166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234162">Bikogo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.6166667" longitude="11.75" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234150">Bikong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.6666667" longitude="11.3166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2234131">Bikpwaé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.3833333" longitude="10.6666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2233923">Bitoto</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.7666667" longitude="11.35" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2233896">Biwong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mefou-et-Akono"/>
+      <coordinates latitude="3.7" longitude="11.4166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2233889">Biyan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.2166667" longitude="11.05" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2233882">Biyi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.1526395" longitude="14.4045372" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2233833">Boboyo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Littoral" adm2="Wouri"/>
+      <coordinates latitude="4.0863" longitude="9.6208" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2594911">Bodjongo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-Ouest" adm2="Fako"/>
+      <coordinates latitude="4.1349" longitude="9.222" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2594789">Bokwango</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="9.9425" longitude="13.6975" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2233594">Bossoum</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="10.0133505" longitude="14.1655676" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2233557">Boudva</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-Kelle"/>
+      <coordinates latitude="3.4833333" longitude="11.1333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2233488">Boumnkok</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Haut-Nkam"/>
+      <coordinates latitude="5.117468" longitude="10.169088" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2235261">Boutcheu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.218145" longitude="14.6238444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6731546">Bouzou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Mezam"/>
+      <coordinates latitude="5.785499" longitude="10.107538" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7109046">Buchi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2=""/>
+      <coordinates latitude="4.75" longitude="12" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2233376">Centre Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Haut-Nkam"/>
+      <coordinates latitude="5.038696" longitude="10.09498" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2229832">Chwinou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Danay"/>
+      <coordinates latitude="10.0209812" longitude="14.8831358" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6731608">Dadjamka</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.0660718" longitude="14.1794712" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6730298">Dahal</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Danay"/>
+      <coordinates latitude="10.2362035" longitude="15.2950095" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2233268">Dana</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Danay"/>
+      <coordinates latitude="10.1665665" longitude="15.314185" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2233251">Dangabissi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Diamare"/>
+      <coordinates latitude="10.807648" longitude="14.6384704" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6732077">Danki</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.3613849" longitude="14.7643934" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2233229">Daram</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.6333333" longitude="10.25" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2234988">Département de Bamboutos</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.2" longitude="11.4" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2229546">Département de la Lékié</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Menoua"/>
+      <coordinates latitude="5.45" longitude="10.0666667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2227064">Département de la Ménoua</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Haut-Nkam"/>
+      <coordinates latitude="5.15" longitude="10.1833333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2230816">Département du Haut-Nkam</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-Ouest" adm2="Ndian"/>
+      <coordinates latitude="4.4873" longitude="9.0058" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2594830">Dikome</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Danay"/>
+      <coordinates latitude="10.0422561" longitude="14.9032369" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6731613">Djaolani</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Menoua"/>
+      <coordinates latitude="5.543998" longitude="10.015143" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7108923">Djeu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="10.0152958" longitude="14.1144143" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2232727">Djougui</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Koung-Khi"/>
+      <coordinates latitude="5.386181" longitude="10.455629" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7109737">Domlo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.7333333" longitude="11.4166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2232473">Dounibazok</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="10.0829548" longitude="14.1214301" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6730093">Douva</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.0161354" longitude="14.7918167" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2232408">Dziguilao</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-So"/>
+      <coordinates latitude="3.75" longitude="11.9" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2232403">Dzing</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.2333333" longitude="11.2" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2232333">Ebengon</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="3.2333333" longitude="12.2166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2232296">Ébolakoun</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mefou-et-Afamba"/>
+      <coordinates latitude="3.6833333" longitude="11.6" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2232138">Ekok I</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.9166667" longitude="11.3333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2232082">Ekouk</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mfoundi"/>
+      <coordinates latitude="3.8166667" longitude="11.5333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2232077">Ekoumdoum</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-Mfoumou"/>
+      <coordinates latitude="3.6333333" longitude="12.15" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2232078">Ékoumdoum</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mefou-et-Afamba"/>
+      <coordinates latitude="3.8166667" longitude="11.7333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2232069">Ekouméyen</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.65" longitude="11.6166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2232014">Elon</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="2.9666667" longitude="11.7833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231979">Eminemvon</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-Mfoumou"/>
+      <coordinates latitude="4.1" longitude="12.53333" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2231949">Endom</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="2.9833333" longitude="12.15" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231892">Ésam</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mefou-et-Akono"/>
+      <coordinates latitude="3.4333333" longitude="11.4" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231777">Evindisi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.4333333" longitude="11.3833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231745">Eyéné</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.2333333" longitude="11.1333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231741">Eyiantoum</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Mifi"/>
+      <coordinates latitude="5.503357" longitude="10.476788" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7109757">Famitchuèt</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-Mfoumou"/>
+      <coordinates latitude="3.7333333" longitude="12.5833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231695">Fang</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2=""/>
+      <coordinates latitude="11" longitude="14.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2231755">Far North Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Menoua"/>
+      <coordinates latitude="5.3833333" longitude="10.1333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231608">Folefok</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Haut-Nkam"/>
+      <coordinates latitude="5.069481" longitude="10.065306" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231588">Fomessa I</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Haut-Nkam"/>
+      <coordinates latitude="5.063265" longitude="10.205883" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231580">Fondjanti</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Menoua"/>
+      <coordinates latitude="5.385112" longitude="9.970806" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231575">Fondonéra</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Menoua"/>
+      <coordinates latitude="5.4333333" longitude="9.9666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231574">Fongoh Deng</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Menoua"/>
+      <coordinates latitude="5.3112" longitude="9.9619" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6858286">Fongwang</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-Ouest" adm2="Lebialem"/>
+      <coordinates latitude="5.652498" longitude="10.012044" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7108926">Fossimondi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Menoua"/>
+      <coordinates latitude="5.458778" longitude="10.062261" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231538">Foto</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Rey"/>
+      <coordinates latitude="8.3824" longitude="14.3701" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231474">Gaba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Danay"/>
+      <coordinates latitude="10.4959345" longitude="15.0760845" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231466">Gabarey Mérengué</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Danay"/>
+      <coordinates latitude="10.4502985" longitude="15.112479" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221230">Gabarey Widi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Sava"/>
+      <coordinates latitude="10.9173335" longitude="13.977326" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231464">Gaboua</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.5471795" longitude="14.7005499" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6730704">Gandama</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Diamare"/>
+      <coordinates latitude="10.530839" longitude="14.1404335" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231291">Gazawa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="9.65" longitude="13.8666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231115">Golombé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="10.0358828" longitude="14.0215495" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6730085">Golvong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="10.015164" longitude="13.9709385" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6759947">Goudougoul</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Tsanaga"/>
+      <coordinates latitude="10.846468" longitude="13.8171125" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2230932">Gousda</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Rey"/>
+      <coordinates latitude="9.227" longitude="14.3338" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6869483">Guébadjé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Danay"/>
+      <coordinates latitude="10.5038865" longitude="15.176577" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2230891">Guémé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.0951996" longitude="14.1008314" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6730094">Guidi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.2187842" longitude="14.650599" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2230765">Horlong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="10.0685565" longitude="14.1030688" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6730088">Houmbal</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.2798722" longitude="14.8536778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6731524">Kabla</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.1091667" longitude="14.4508333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2230599">Kaélé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Momo"/>
+      <coordinates latitude="5.9346" longitude="9.9313" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6857914">Kai</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Rey"/>
+      <coordinates latitude="8.3833" longitude="14.3423" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2230547">Kali</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Littoral" adm2="Sanaga-Maritime"/>
+      <coordinates latitude="4.08333" longitude="10.66667" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2230506">Kan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="10.0432186" longitude="14.1528651" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6730082">Karba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Haut-Nkam"/>
+      <coordinates latitude="5.041068" longitude="10.139788" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2230147">Komako</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mbam-et-Inoubou"/>
+      <coordinates latitude="4.6666667" longitude="11.3" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2230140">Kombe</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Benoue"/>
+      <coordinates latitude="8.8333333" longitude="13.2833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2230075">Koné</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="10.0471744" longitude="14.1795864" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2230061">Kong Kong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Rey"/>
+      <coordinates latitude="8.7565" longitude="14.1628" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2230045">Kongron</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="9.9" longitude="13.8166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2230013">Koraké</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="9.9333333" longitude="13.7666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2229948">Koubout</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mefou-et-Afamba"/>
+      <coordinates latitude="3.9666667" longitude="11.6666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2229917">Koukounou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.1781502" longitude="14.5100692" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2229605">Lara</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Littoral" adm2=""/>
+      <coordinates latitude="4" longitude="10" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2229336">Littoral Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.6666667" longitude="11.6" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2229323">Lobé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.4401212" longitude="14.3509272" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2229199">Loubour</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.35" longitude="10.6166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2229107">Maan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Noun"/>
+      <coordinates latitude="5.75" longitude="11.0333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2228829">Makoutem</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Littoral" adm2="Nkam"/>
+      <coordinates latitude="4.1666667" longitude="10.0833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2228704">Mamba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.7333333" longitude="11.4333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2228678">Maméniye</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.0743836" longitude="14.7627497" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6731589">Mandaigoum</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Danay"/>
+      <coordinates latitude="10.0133205" longitude="14.9034394" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6730818">Mandjakma</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="2.9166667" longitude="12.0166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2228564">Mang</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Diamare"/>
+      <coordinates latitude="10.704234" longitude="14.0705249" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6729446">Manguirda</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Noun"/>
+      <coordinates latitude="5.8833333" longitude="11.1166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2228483">Mankoumvi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Mezam"/>
+      <coordinates latitude="6.0851" longitude="10.0816" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7731835">Mankwi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Noun"/>
+      <coordinates latitude="5.6" longitude="11.15" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2228451">Mantoum Palais</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Noun"/>
+      <coordinates latitude="5.4166667" longitude="10.9666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2228323">Massangam</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Tsanaga"/>
+      <coordinates latitude="10.907064" longitude="13.9196715" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2228295">Matamaya</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Tsanaga"/>
+      <coordinates latitude="10.761666" longitude="13.75476" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2228253">Mavoumay</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Littoral" adm2="Moungo"/>
+      <coordinates latitude="4.5016" longitude="9.5671" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2228005">Mbanga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mbam-et-Kim"/>
+      <coordinates latitude="4.5666667" longitude="11.3833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227999">Mbangasina</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Haute-Sanaga"/>
+      <coordinates latitude="4.9" longitude="13.0833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227957">Mbargué</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.7333333" longitude="11.4333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227884">Mbémang</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Littoral" adm2="Sanaga-Maritime"/>
+      <coordinates latitude="3.7708333" longitude="9.8752778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2595271">Mbenbou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-Kelle"/>
+      <coordinates latitude="3.65" longitude="10.4166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227858">Mbengé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Rey"/>
+      <coordinates latitude="7.6673" longitude="15.5699" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6870302">Mbo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.625783" longitude="10.255174" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227613">Mbouda</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.7333333" longitude="11.0833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227571">Mbout</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.6333333" longitude="11.7333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227486">Méboo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.2" longitude="11.2" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227455">Médji-Ossi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Menoua"/>
+      <coordinates latitude="5.485434" longitude="10.039737" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227428">Mefet</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mefou-et-Afamba"/>
+      <coordinates latitude="3.7" longitude="11.5666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227422">Méfou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mefou-et-Afamba"/>
+      <coordinates latitude="3.96" longitude="11.93" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7731690">Méfou-et-Afamba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.6833333" longitude="11.0666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227417">Méfoup</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mbam-et-Kim"/>
+      <coordinates latitude="5.5" longitude="12.3833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227413">Mégang</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.3833333" longitude="11.3" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227376">Mékaman</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.9666667" longitude="10.7166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227350">Mekoa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.2166667" longitude="11.1166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227348">Mékoassi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.5833333" longitude="11.4666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227343">Mékok</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.4666667" longitude="10.7333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227326">Mekomengon</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.25" longitude="11.1833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227325">Mékomengona</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.6333333" longitude="11.3666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227321">Mékomo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-Mfoumou"/>
+      <coordinates latitude="3.7666667" longitude="12.2833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227291">Mélan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="3.1833333" longitude="10.8333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227288">Mélangé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="3.0833333" longitude="11.9333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227270">Melen</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.3" longitude="11.3166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227262">Mélen</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Momo"/>
+      <coordinates latitude="5.9129" longitude="9.605" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6857883">Menda</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.25" longitude="11.2666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227151">Mendong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="3.1" longitude="10.8666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227134">Mengalé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.5666667" longitude="11.0333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227099">Mengomo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Momo"/>
+      <coordinates latitude="5.991291" longitude="9.71441" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2227068">Menka</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.85" longitude="11.5" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226929">Metiykpwale</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="3.1333333" longitude="11.8166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226870">Méyiboto</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.55" longitude="11.0333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226858">Meyo-Centre</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.4166667" longitude="11.25" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226857">Meyo-Elie</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.3" longitude="11.3" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226851">Meyo-Nyaka</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.1333333" longitude="11.1333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226843">Méyos</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Ngo-Ketunjia"/>
+      <coordinates latitude="6" longitude="10.4166667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2226830">Mezam Division</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Noun"/>
+      <coordinates latitude="5.843169" longitude="10.885515" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231489">Mfeyèt</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-So"/>
+      <coordinates latitude="3.2" longitude="11.4" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226803">Mfida</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.2333333" longitude="11.2" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226676">Mimbaminga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="2.9833333" longitude="11.9666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226666">Mimbo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.1833333" longitude="11.5833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226590">Minkama</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Ocean"/>
+      <coordinates latitude="3.3333333" longitude="10.9" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226581">Minkan II</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.4833333" longitude="10.75" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226580">Minkan-Mengalé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.8666667" longitude="11.45" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226548">Minkpwéle</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="2.95" longitude="11.85" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226547">Minkwamoveng</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-So"/>
+      <coordinates latitude="3.1666667" longitude="11.35" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226545">Minlaba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Haute-Sanaga"/>
+      <coordinates latitude="4.5833333" longitude="12.8" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226515">Minta</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.3833333" longitude="11.3166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226481">Minyin</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Menchum"/>
+      <coordinates latitude="6.354207" longitude="9.968358" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6855335">Modele</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Tsanaga"/>
+      <coordinates latitude="10.827814" longitude="13.7543425" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2228957">Mogoumaz</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Diamare"/>
+      <coordinates latitude="10.734102" longitude="14.0737291" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6729439">Mokoujek</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Mezam"/>
+      <coordinates latitude="6" longitude="10.25" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2226140">Momo Division</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-Ouest" adm2="Fako"/>
+      <coordinates latitude="4.1883" longitude="9.4719" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2226087">Mondoni</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.8666667" longitude="11.15" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2225718">Mvam</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.7333333" longitude="11.0666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2225719">Mvam</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.65602" longitude="11.74026" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2225704">Mvangane</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.4" longitude="10.5333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2225682">Mviglimengalé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.85" longitude="11.1833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2225641">Mvoula</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="9.9" longitude="13.58333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2225431">Nasarao</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.5313" longitude="10.9317" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7732213">Ndazeng</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Haute-Sanaga"/>
+      <coordinates latitude="4.9833333" longitude="12.7666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2225018">Ndoumba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Noun"/>
+      <coordinates latitude="5.655122" longitude="10.56224" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2225008">Ndoumnken</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.9833333" longitude="11.6333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2224937">Némeyong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Logone-Et-Chari"/>
+      <coordinates latitude="12.500771" longitude="14.393254" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6783157">Ngaiwa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.9333333" longitude="11.1166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2224895">Ngalan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Haut-Nkam"/>
+      <coordinates latitude="5.107068" longitude="10.16294" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2224886">Ngaleu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Noun"/>
+      <coordinates latitude="5.658394" longitude="10.51837" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7110449">Ngambouo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.2833333" longitude="11.3333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2224711">Ngoazik</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.55" longitude="11.3" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2224658">Ngom</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="3.3333333" longitude="11.9166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2224642">Ngomedjap</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.0833333" longitude="11.3833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2224610">Ngong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-Kelle"/>
+      <coordinates latitude="3.75" longitude="10.9833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2224611">Ngong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Mifi"/>
+      <coordinates latitude="5.560278" longitude="10.422563" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2230954">Ngonlé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Bamboutos"/>
+      <coordinates latitude="5.657586" longitude="10.404284" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7109771">Ngossong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Littoral" adm2="Moungo"/>
+      <coordinates latitude="5.185169" longitude="9.797644" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2224282">Ninong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.9333333" longitude="11.2166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2224161">Nkan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.6" longitude="11.05" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223834">Nko Melen</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.7" longitude="11.55" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2224023">Nkoléban</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="3.0666667" longitude="12.0166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2224017">Nkolébom</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Ocean"/>
+      <coordinates latitude="2.4333333" longitude="10.0166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223997">Nkolénieng</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="3.25" longitude="12.0666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223990">Nkolésas</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Kadei"/>
+      <coordinates latitude="4.4166667" longitude="14.3" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223963">Nkolmbomo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Ocean"/>
+      <coordinates latitude="3.2333333" longitude="10.25" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223890">Nkolo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.2333333" longitude="11.5333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223878">Nkolondogo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Ocean"/>
+      <coordinates latitude="2.8" longitude="10.1833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223819">Nkomintom</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.7833333" longitude="10.85" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223799">Nkong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.7666667" longitude="11.3833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223780">Nkongmédjap</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mefou-et-Akono"/>
+      <coordinates latitude="3.6166667" longitude="11.3166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223775">Nkongmeyos</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mefou-et-Afamba"/>
+      <coordinates latitude="3.8166667" longitude="11.6" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223766">Nkongoa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Ocean"/>
+      <coordinates latitude="2.55" longitude="10.0333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223747">Nkoolong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.9166667" longitude="10.9166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223730">Nkotoveng</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.3666667" longitude="11.2666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223696">Nkoumékéké</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Noun"/>
+      <coordinates latitude="5.76375" longitude="10.696244" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2229809">Nkourom</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Ocean"/>
+      <coordinates latitude="3.1166667" longitude="10.6166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223671">Nkoutou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.7333333" longitude="11.4666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223664">Nkpwaébaé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Mezam"/>
+      <coordinates latitude="5.993515" longitude="10.194407" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7108018">Nkwen</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.3833333" longitude="11.3166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223636">Nlongzok</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.3333333" longitude="11.4" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223634">Nlono</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2=""/>
+      <coordinates latitude="8.5" longitude="14" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2223603">North Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2=""/>
+      <coordinates latitude="6.333333" longitude="10.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2223602">North-West Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.2666667" longitude="11.2666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223560">Nsana</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.5" longitude="11.1166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223552">Nsassoum</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.4333333" longitude="10.4666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223548">Nsébito</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="3.8166667" longitude="11.25" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223487">Ntang</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.4333333" longitude="10.4333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223485">Ntébézok</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.0166667" longitude="11.3166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223481">Ntem</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Bui"/>
+      <coordinates latitude="6.3666667" longitude="10.7833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223420">Ntumbaw</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.4" longitude="10.4" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223412">Nyabéssan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="2.8333333" longitude="12.05" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223360">Nyazanga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-So"/>
+      <coordinates latitude="3.1833333" longitude="11.3666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223353">Nyemeyong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-So"/>
+      <coordinates latitude="3.51667" longitude="11.5" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7731689">Nyong-et-So'o</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="2.7666667" longitude="12.45" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223261">Oding</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="3.8333333" longitude="11.2666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223209">Okong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.2166667" longitude="11.0833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223191">Olamzé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.2166667" longitude="11.1666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223189">Olang</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.9333333" longitude="11.0833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223185">Olem</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mefou-et-Afamba"/>
+      <coordinates latitude="3.8333333" longitude="11.6833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223152">Omvan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.35" longitude="11.5833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223140">Ondondo I</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Lekie"/>
+      <coordinates latitude="4.3166667" longitude="11.6" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223139">Ondondo II</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Mvila"/>
+      <coordinates latitude="2.7166667" longitude="11.4666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223128">Ongol</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="3.5" longitude="12.35" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2223125">Ongolzok</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Danay"/>
+      <coordinates latitude="10.0737225" longitude="15.018957" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2222924">Oulargo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.3333333" longitude="11.1333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2222793">Oveng</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-So"/>
+      <coordinates latitude="3.4166667" longitude="11.7" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2222778">Oving</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Tsanaga"/>
+      <coordinates latitude="10.61112" longitude="13.8924565" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2222526">Pomla</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mbam-et-Inoubou"/>
+      <coordinates latitude="4.7166667" longitude="11.2" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2222413">Rionong</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Sava"/>
+      <coordinates latitude="10.7784465" longitude="13.983158" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2222371">Roua</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Menoua"/>
+      <coordinates latitude="5.434419" longitude="10.305701" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221993">Sa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Mezam"/>
+      <coordinates latitude="5.802393" longitude="10.174234" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2222221">Santa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Mayo-Louti"/>
+      <coordinates latitude="9.7666667" longitude="13.75" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221978">So-Djay</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mbam-et-Kim"/>
+      <coordinates latitude="5.85" longitude="12.25" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221906">Songwi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Tsanaga"/>
+      <coordinates latitude="10.757849" longitude="13.915489" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221845">Soulédé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2=""/>
+      <coordinates latitude="2.5" longitude="11.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2221789">South Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-Ouest" adm2=""/>
+      <coordinates latitude="5.416667" longitude="9.333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2221788">South-West Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Littoral" adm2="Moungo"/>
+      <coordinates latitude="4.2344" longitude="9.6164" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221802">Souza Gare</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord-Ouest" adm2="Momo"/>
+      <coordinates latitude="5.942175" longitude="9.814884" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221592">Tezie</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mefou-et-Afamba"/>
+      <coordinates latitude="3.9" longitude="11.6333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221468">Ting</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.45" longitude="11.3166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221432">Toh</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mefou-et-Afamba"/>
+      <coordinates latitude="3.9" longitude="11.75" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221411">Tom</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Danay"/>
+      <coordinates latitude="10.4259065" longitude="15.208948" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221352">Toukou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Danay"/>
+      <coordinates latitude="10.05" longitude="15.05" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221349">Touksou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Koung-Khi"/>
+      <coordinates latitude="5.27427" longitude="10.476154" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7109679">Toula</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Menoua"/>
+      <coordinates latitude="5.498221" longitude="10.208638" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7109024">Touleteng</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Kani"/>
+      <coordinates latitude="10.1797107" longitude="14.8354993" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221343">Touloum</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2="Hauts-Plateaux"/>
+      <coordinates latitude="5.386167" longitude="10.384829" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7109612">Tsêla</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Tsanaga"/>
+      <coordinates latitude="10.226141" longitude="13.624872" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221087">Walka</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Haute-Sanaga"/>
+      <coordinates latitude="4.7833333" longitude="13.0666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221160">Wall</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Mayo-Sava"/>
+      <coordinates latitude="11.27417" longitude="14.24963" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6685558">Wambatché</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ouest" adm2=""/>
+      <coordinates latitude="5.5" longitude="10.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2222934">West Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Vallee-du-Ntem"/>
+      <coordinates latitude="2.35" longitude="11.2666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2221009">Yam</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="2.9833333" longitude="12.2333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2220817">Yos</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Nyong-et-So"/>
+      <coordinates latitude="3.5" longitude="11.7833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2220784">Zalom</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Dja-Et-Lobo"/>
+      <coordinates latitude="3.25" longitude="11.8833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2220692">Zoétélé</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:28">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="CM">Multinational</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">KRIBI POWER PROJECT</title>
+    <description>The Project consists of the construction and operation of a 216 MW gas-fired power plant located in Mpolongwe, a village situated 9 km north of the coastal city of Kribi, in the southern province of Cameroon with a 100 km 225 kV transmission line to be connected to the Southern Interconnected Grid (SIG) of the Country. The Project will be developed on a BOOT basis.
+ BENEFITS:
+The Project will provide incremental generation capacity of 216 MW and increase reliability of electricity supply. It will also diversify Cameroon?s energy production sources through gas generation expansion while displacing inefficient thermal power plants thereby reducing environmental impact, including carbon emissions. The Project will also develop the Sanaga gas field and allow the country to capitalize on its own resource and substitute for fuel imports. Besides, the Project will support the expansion of the Aluminum industry in Cameroon. The estimated EIRR is strong at 35% real, and ENPV is Euro 209 million in present value terms.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-12-22"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23010">Energy policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">33442268</value>
+      <transaction-date iso-date="2011-12-22"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:28">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="CM">Cameroon</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">DIBAMBA POWER PROJECT</title>
+    <description>The project involves building an 86-MW thermal power plant and switchyard at Dibamba, with a 2-km 90 kV transmission line to connect the plant to the Southern Interconnected Grid, which provides electricity to the most populated and industrialized areas of the country. It will contribute directly to the development of Cameroon?s electric power infrastructure, by providing additional capacity to support industrial expansion and meet growing demand, which currently runs at 6% per annum.
+BENEFITS:
+As a thermal power plant, Dibamba will help to diversify electricity generation in Cameroon, which is mainly hydropower-based and prone to the negative impacts of drought and climate change. Dibamba is the first private IPP in Cameroon in which a private international and reputable company has majority shares. The Bank support to the electricity sector in Cameroon will demonstrate the bankability of the Cameroonian power sector to commercial financiers.
+Through its focus on building infrastructure the project will boost socioeconomic development, improve the delivery of social services, including education and healthcare which, in turn, will lead to improved living conditions and reduce poverty levels in line with Cameroon?s national development priorities.
+The project is also well aligned with the Bank Group Strategy, which recognizes infrastructure development as crucial to promoting a business-enabling environment, growing the economy, and reducing poverty. The project is also in line with the Bank?s private sector development strategy, which encourages development of infrastructure through PPPs.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-05-11"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23020">Power generation/non-renewable sources</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">19980981</value>
+      <transaction-date iso-date="2011-05-11"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Littoral" adm2="Sanaga-Maritime"/>
+      <coordinates latitude="4" longitude="10.3333333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2222269">Département de la Sanaga-Maritime</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Littoral" adm2="Wouri"/>
+      <coordinates latitude="4.0469" longitude="9.7084" precision="2"/>
+      <gazetteer-entry gazetteer-ref="2232593">Douala</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="" adm2=""/>
+      <coordinates latitude="3.8" longitude="10.13333" precision="5"/>
+      <gazetteer-entry gazetteer-ref="2232239">Edéa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud" adm2="Ocean"/>
+      <coordinates latitude="2.95" longitude="9.9166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2229761">Kribi</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:28">
+    <iati-identifier>46002-P-CM-KF0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DU PLAN - MINISTERE DU PLAN - DE L'AMENAGEMENT DU TERRITOIRE</participating-org>
+    <recipient-country code="CM">Cameroon</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET DE MODERNISATION DU CADASTRE</title>
+    <description>L'objectif sectoriel du projet est de contribuer à la bonne gouvernance par l'amélioration de la mobilisation des ressources internes et de l'environnement des affaires, en vue d'une croissance durable ayant un impact significatif sur la réduction de la pauvreté.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CM-KF0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-01-05"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>EKPO Alain Fabrice</person-name>
+      <email>a.ekpo@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150023293">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">7000000</value>
+      <transaction-date iso-date="2011-01-05"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">274460</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">209453</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-09-30">2589</value>
+      <description>Total Interest Repayment in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-03-31">17548</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">17669</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Littoral" adm2="Wouri"/>
+      <coordinates latitude="4.0469" longitude="9.7084" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2232593">Douala</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Benoue"/>
+      <coordinates latitude="9.3" longitude="13.4" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2231320">Garoua</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Extreme-Nord" adm2="Diamare"/>
+      <coordinates latitude="10.590946" longitude="14.315925" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2228373">Maroua</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Mfoundi"/>
+      <coordinates latitude="3.8666667" longitude="11.5166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2220957">Yaoundé</gazetteer-entry>
+    </location>
+  </iati-activity>
+</iati-activities>

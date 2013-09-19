@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:23">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:23">
+    <iati-identifier>46002-P-BF-FA0-006</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">SOCIETE NATIONALE D?ELECTRICITE (SONABEL)</participating-org>
+    <recipient-country code="BF">Burkina Faso</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">RENFORCEMENT INFRASTRUCTURES  ELECTRIQUES</title>
+    <description>Le projet a pour objectif spécifique d'assurer (i) l'accès à l'électricité de  160 localités rurales présentant un potentiel immédiat de près de 43 000 nouveaux consommateurs ; et (ii) l'électrification de 48 centres isolés identifiés par la Sonabel.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-BF-FA0-006/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-09-15"/>
+    <activity-date type="End Planned" iso-date="2014-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MOUSSA Adama</person-name>
+      <email>a.d.moussa@afdb.org</email>
+      <telephone>+21671102897</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23010">Energy policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155018668">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">25150000</value>
+      <transaction-date iso-date="2010-09-15"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">260931</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">13866</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">1847530</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Bale"/>
+      <coordinates latitude="11.75" longitude="-3.3" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2363072">Bagassi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-est" adm2="Boulgou"/>
+      <coordinates latitude="11.4824" longitude="-0.51695" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7701508">Bagre</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Banwa"/>
+      <coordinates latitude="12.3742" longitude="-4.1532" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2363004">Balavé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Cascades" adm2="Comoe"/>
+      <coordinates latitude="10.6333333" longitude="-4.7666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2362909">Banfora</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sahel" adm2="Soum"/>
+      <coordinates latitude="14.0153115" longitude="-1.7008485" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2362863">Bani</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Kossi"/>
+      <coordinates latitude="13.1691" longitude="-3.8899" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2362781">Barani</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Sanmatenga"/>
+      <coordinates latitude="13.413889" longitude="-1.055833" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2362735">Barsalogo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-ouest" adm2="Noumbiel"/>
+      <coordinates latitude="9.8833333" longitude="-2.9166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2362669">Batié</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Gnagna"/>
+      <coordinates latitude="12.5477778" longitude="-0.0361111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2362499">Bilanga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-est" adm2="Boulgou"/>
+      <coordinates latitude="11.258056" longitude="-0.306111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2362376">Bittou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Namentenga"/>
+      <coordinates latitude="12.8833333" longitude="-0.7" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2362359">Boala</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Hauts-bassins" adm2="Houet"/>
+      <coordinates latitude="11.177154" longitude="-4.297901" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2362344">Bobo-Dioulasso</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Gnagna"/>
+      <coordinates latitude="12.9713889" longitude="-0.1436111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2362323">Bogandé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Yatenga"/>
+      <coordinates latitude="13.6351204" longitude="-2.4256578" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2362145">Bogoya</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Kossi"/>
+      <coordinates latitude="13.00749" longitude="-3.960814" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6875024">Bomborokui</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Bale"/>
+      <coordinates latitude="11.75" longitude="-2.9333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2362150">Boromo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Namentenga"/>
+      <coordinates latitude="12.6675" longitude="-0.5758333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361946">Boulsa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Kossi"/>
+      <coordinates latitude="12.6333333" longitude="-3.7166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361894">Bourasso</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Bam"/>
+      <coordinates latitude="13.6780556" longitude="-1.5461111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361853">Bourzanga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Plateau Central" adm2="Kourweogo"/>
+      <coordinates latitude="12.6605556" longitude="-1.8922222" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361845">Boussé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-ouest" adm2="Ioba"/>
+      <coordinates latitude="11.15" longitude="-3.0666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361586">Dano</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Plateau Central" adm2="Oubritenga"/>
+      <coordinates latitude="12.669167" longitude="-1.534444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361567">Dapélogo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Mouhoun"/>
+      <coordinates latitude="12.4666667" longitude="-3.4666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361477">Dédougou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Sourou"/>
+      <coordinates latitude="13.169" longitude="-3.4151" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361424">Di</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Gourma"/>
+      <coordinates latitude="12.016667" longitude="-0.033333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361417">Diabo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Tapoa"/>
+      <coordinates latitude="12.0708333" longitude="1.7888889" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361373">Diapaga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-ouest" adm2="Bougouriba"/>
+      <coordinates latitude="10.9666667" longitude="-3.25" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361342">Diébougou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-ouest" adm2="Ioba"/>
+      <coordinates latitude="10.9333333" longitude="-2.9333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361188">Dissini</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Kossi"/>
+      <coordinates latitude="13.1221" longitude="-4.1563" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361178">Djibasso</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sahel" adm2="Soum"/>
+      <coordinates latitude="14.1022222" longitude="-1.6305556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361177">Djibo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Kossi"/>
+      <coordinates latitude="12.5431" longitude="-4.1116" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361138">Dokui</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sahel" adm2="Seno"/>
+      <coordinates latitude="14.0354" longitude="-0.0345" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361082">Dori</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Kossi"/>
+      <coordinates latitude="12.9093" longitude="-4.1705" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361026">Doumbara</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Cascades" adm2="Leraba"/>
+      <coordinates latitude="10.6166667" longitude="-5.1166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361018">Douna</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Gourma"/>
+      <coordinates latitude="12.062222" longitude="0.357778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2360886">Fada N?Gourma</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Bale"/>
+      <coordinates latitude="11.5333333" longitude="-2.7666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2360855">Fara</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-ouest" adm2="Poni"/>
+      <coordinates latitude="10.2991667" longitude="-3.2508333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2577162">Gaoua</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-est" adm2="Boulgou"/>
+      <coordinates latitude="11.8" longitude="-0.550556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2360615">Garango</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Nayala"/>
+      <coordinates latitude="12.8166667" longitude="-3.2" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2360560">Gassan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Komonjdjari"/>
+      <coordinates latitude="12.6497222" longitude="0.4930556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2360541">Gayéri</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Sourou"/>
+      <coordinates latitude="13.4845726" longitude="-2.7763731" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2360446">Gomboro</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-sud" adm2="Zoundweogo"/>
+      <coordinates latitude="11.4261111" longitude="-0.7727778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2361778">Gomboussougou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sahel" adm2="Oudalan"/>
+      <coordinates latitude="14.4438889" longitude="-0.2361111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2360372">Gorom-Gorom</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Nayala"/>
+      <coordinates latitude="12.5333333" longitude="-2.8666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2360351">Gossina</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Zondoma"/>
+      <coordinates latitude="13.2166667" longitude="-2.35" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2360238">Gourcy</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-sud" adm2="Nahouri"/>
+      <coordinates latitude="11.368889" longitude="-1.377222" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2360172">Guiaro</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Hauts-bassins" adm2="Tuy"/>
+      <coordinates latitude="11.5" longitude="-3.5166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2360073">Houndé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-ouest" adm2="Boulkiemde"/>
+      <coordinates latitude="12.4333333" longitude="-2.3333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2360040">Imassogo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-ouest" adm2="Poni"/>
+      <coordinates latitude="10.1333333" longitude="-3.45" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2359817">Kampti</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Tapoa"/>
+      <coordinates latitude="12.475584" longitude="1.511617" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2359723">Kantchari</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Sourou"/>
+      <coordinates latitude="13.0788" longitude="-3.3024" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2359629">Kassoum</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Sanmatenga"/>
+      <coordinates latitude="13.0916667" longitude="-1.0844444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2359608">Kaya</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Sourou"/>
+      <coordinates latitude="13.2395324" longitude="-2.7311109" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2359527">Kiembara</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-ouest" adm2="Boulkiemde"/>
+      <coordinates latitude="12.1897222" longitude="-1.8855556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2359317">Kokologo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-sud" adm2="Bazega"/>
+      <coordinates latitude="12.0655556" longitude="-1.3375" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2359227">Kombissiri</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Kossi"/>
+      <coordinates latitude="13.4359" longitude="-3.9403" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2359224">Kombori</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Bam"/>
+      <coordinates latitude="13.3258333" longitude="-1.5347222" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2359142">Kongoussi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Sanmatenga"/>
+      <coordinates latitude="12.823333" longitude="-1.07" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2359042">Korsimoro</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-ouest" adm2="Boulkiemde"/>
+      <coordinates latitude="12.25" longitude="-2.3666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2358946">Koudougou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Banwa"/>
+      <coordinates latitude="11.898224" longitude="-4.337854" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2358899">Kouka</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Yatenga"/>
+      <coordinates latitude="13.8477989" longitude="-2.417185" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2358786">Koumbri</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Nayala"/>
+      <coordinates latitude="12.7833333" longitude="-3.1166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2358755">Koungny</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-est" adm2="Kouritenga"/>
+      <coordinates latitude="12.1794444" longitude="-0.3516667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2358738">Koupéla</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Sourou"/>
+      <coordinates latitude="12.9833333" longitude="-3.4166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2358493">Lanfiéra</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Sourou"/>
+      <coordinates latitude="13.2458811" longitude="-2.5835532" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2358489">Lankoé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-ouest" adm2="Sissili"/>
+      <coordinates latitude="11.1" longitude="-2.1" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2358382">Léo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-ouest" adm2="Poni"/>
+      <coordinates latitude="10.3" longitude="-3.5333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2358241">Loropéni</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Kompienga"/>
+      <coordinates latitude="11.1666667" longitude="0.8333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2358176">Madiagouné</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Sanmatenga"/>
+      <coordinates latitude="12.988611" longitude="-1.339722" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2358109">Mané</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-sud" adm2="Zoundweogo"/>
+      <coordinates latitude="11.6636111" longitude="-1.0730556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2358100">Manga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Gnagna"/>
+      <coordinates latitude="13.26" longitude="-0.2094444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2358085">Mani</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sahel" adm2="Oudalan"/>
+      <coordinates latitude="14.643333" longitude="0.036111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2358043">Markoye</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Plateau Central" adm2="Ganzourgou"/>
+      <coordinates latitude="12.2844444" longitude="-0.8372222" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2357931">Mogtédo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Bam"/>
+      <coordinates latitude="13.831731" longitude="-1.608155" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2357598">Namssiguia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-ouest" adm2="Boulkiemde"/>
+      <coordinates latitude="12.3333333" longitude="-2.1666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2357583">Nandiala</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-ouest" adm2="Boulkiemde"/>
+      <coordinates latitude="12.6833333" longitude="-2.2" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2357560">Nanoro</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Cascades" adm2="Comoe"/>
+      <coordinates latitude="10.2833333" longitude="-4.9166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2357371">Niangoloko</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Cascades" adm2="Leraba"/>
+      <coordinates latitude="10.6666667" longitude="-5.1" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2357275">Niofila</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Kossi"/>
+      <coordinates latitude="12.7333333" longitude="-3.8666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2357163">Nouna</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Hauts-bassins" adm2="Kenedougou"/>
+      <coordinates latitude="10.9491667" longitude="-4.9341667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2577164">Orodara</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Kadiogo"/>
+      <coordinates latitude="12.3642327" longitude="-1.5383434" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2357048">Ouagadougou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Yatenga"/>
+      <coordinates latitude="13.582782" longitude="-2.421582" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2357043">Ouahigouya</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-est" adm2="Koulpelogo"/>
+      <coordinates latitude="11.5033333" longitude="0.0572222" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2357012">Ouargaye</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Bale"/>
+      <coordinates latitude="11.55" longitude="-3.25" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2356766">Pâ</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Kompienga"/>
+      <coordinates latitude="11.2497222" longitude="0.7075" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2356738">Pama</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Sanmatenga"/>
+      <coordinates latitude="12.9" longitude="-0.8166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2356536">Pibaoré</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Gnagna"/>
+      <coordinates latitude="12.7102778" longitude="-0.1325" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2356530">Piéla</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Sanmatenga"/>
+      <coordinates latitude="13.164167" longitude="-0.8225" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2356467">Pissila</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-sud" adm2="Nahouri"/>
+      <coordinates latitude="11.1697222" longitude="-1.145" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2356454">Pô</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-est" adm2="Kouritenga"/>
+      <coordinates latitude="12.2525" longitude="-0.4269444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2356300">Pouytenga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Plateau Central" adm2="Oubritenga"/>
+      <coordinates latitude="12.58333" longitude="-1.41667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2356983">Province d' Oubritenga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sahel" adm2="Oudalan"/>
+      <coordinates latitude="14.66667" longitude="-0.33333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2356982">Province de l' Oudalan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-ouest" adm2="Bougouriba"/>
+      <coordinates latitude="10.8333333" longitude="-3.4166667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2362047">Province de la Bougouriba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Cascades" adm2="Comoe"/>
+      <coordinates latitude="10.3333333" longitude="-4.4166667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2359209">Province de la Comoé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Gnagna"/>
+      <coordinates latitude="12.9188" longitude="0.0392" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2360516">Province de la Gnagna</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Komonjdjari"/>
+      <coordinates latitude="12.6666667" longitude="0.6666667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2597259">Province de la Komandjoari</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Kompienga"/>
+      <coordinates latitude="11.4166667" longitude="0.9166667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2597260">Province de la Kompienga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Kossi"/>
+      <coordinates latitude="12.9166667" longitude="-3.8333333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2359027">Province de la Kossi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Cascades" adm2="Leraba"/>
+      <coordinates latitude="10.6666667" longitude="-5.2" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2597263">Province de la Léraba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-ouest" adm2="Sissili"/>
+      <coordinates latitude="11.3333333" longitude="-2.25" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2355474">Province de la Sissili</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Tapoa"/>
+      <coordinates latitude="12" longitude="1.75" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2354771">Province de la Tapoa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Bale"/>
+      <coordinates latitude="11.7" longitude="-3.1666667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2597248">Province des Balé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Bam"/>
+      <coordinates latitude="13.5" longitude="-1.6666667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2362973">Province du Bam</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-sud" adm2="Bazega"/>
+      <coordinates latitude="11.9166667" longitude="-1.5" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2362644">Province du Bazèga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-est" adm2="Boulgou"/>
+      <coordinates latitude="11.5" longitude="-0.5" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2362006">Province du Boulgou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-ouest" adm2="Boulkiemde"/>
+      <coordinates latitude="12.3333333" longitude="-2.1666667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2361988">Province du Boulkiemdé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Plateau Central" adm2="Ganzourgou"/>
+      <coordinates latitude="12.3333333" longitude="-0.75" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2360627">Province du Ganzourgou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Gourma"/>
+      <coordinates latitude="12.0833333" longitude="0.5" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2360223">Province du Gourma</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Hauts-bassins" adm2="Houet"/>
+      <coordinates latitude="11.3333333" longitude="-4.25" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2360075">Province du Houet</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-ouest" adm2="Ioba"/>
+      <coordinates latitude="11.0833333" longitude="-3.0833333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2597251">Province du Ioba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Kadiogo"/>
+      <coordinates latitude="12.3333333" longitude="-1.5" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2359923">Province du Kadiogo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Hauts-bassins" adm2="Kenedougou"/>
+      <coordinates latitude="11.4166667" longitude="-5" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2359569">Province du Kénédougou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-est" adm2="Koulpelogo"/>
+      <coordinates latitude="11.4166667" longitude="0.1666667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2597261">Province du Koulpélogo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-est" adm2="Kouritenga"/>
+      <coordinates latitude="12" longitude="-0.1666667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2358700">Province du Kouritenga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Plateau Central" adm2="Kourweogo"/>
+      <coordinates latitude="12.5833333" longitude="-1.8" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2597262">Province du Kourwéogo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Loroum"/>
+      <coordinates latitude="13.9166667" longitude="-2.1666667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2597264">Province du Loroum</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Mouhoun"/>
+      <coordinates latitude="12.25" longitude="-3.4166667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2357858">Province du Mouhoun</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-sud" adm2="Nahouri"/>
+      <coordinates latitude="11.25" longitude="-1.25" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2357548">Province du Nahouri</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Namentenga"/>
+      <coordinates latitude="13.25" longitude="-0.5833333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2357611">Province du Namentenga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Nayala"/>
+      <coordinates latitude="12.6666667" longitude="-3" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2597265">Province du Nayala</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Passore"/>
+      <coordinates latitude="12.9166667" longitude="-2.1666667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2356667">Province du Passoré</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sud-ouest" adm2="Poni"/>
+      <coordinates latitude="10.25" longitude="-3.4166667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2356386">Province du Poni</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-ouest" adm2="Sanguie"/>
+      <coordinates latitude="12.1666667" longitude="-2.6666667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2355930">Province du Sanguié</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Sanmatenga"/>
+      <coordinates latitude="13.25" longitude="-1.0833333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2355914">Province du Sanmatenga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sahel" adm2="Seno"/>
+      <coordinates latitude="13.9166667" longitude="-0.1666667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2355737">Province du Séno</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sahel" adm2="Soum"/>
+      <coordinates latitude="14.3333333" longitude="-1.25" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2355248">Province du Soum</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Sourou"/>
+      <coordinates latitude="13.25" longitude="-3" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2355211">Province du Sourou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Hauts-bassins" adm2="Tuy"/>
+      <coordinates latitude="11.4166667" longitude="-3.4166667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2597267">Province du Tuy</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sahel" adm2="Yagha"/>
+      <coordinates latitude="13.4166667" longitude="0.5833333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2597268">Province du Yagha</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Yatenga"/>
+      <coordinates latitude="13.5833333" longitude="-2.4166667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2353568">Province du Yatenga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Zondoma"/>
+      <coordinates latitude="13.1666667" longitude="-2.1666667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2597270">Province du Zondoma</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-sud" adm2="Zoundweogo"/>
+      <coordinates latitude="11.5833333" longitude="-1" precision="3"/>
+      <gazetteer-entry gazetteer-ref="2353169">Province du Zoundwéogo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-ouest" adm2="Sanguie"/>
+      <coordinates latitude="12.3166667" longitude="-2.4666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2356228">Réo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Bam"/>
+      <coordinates latitude="13.5994444" longitude="-1.7058333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2356197">Rollo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Bam"/>
+      <coordinates latitude="13.210308" longitude="-1.635954" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2356186">Rouko</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Banwa"/>
+      <coordinates latitude="12.4166667" longitude="-3.8166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2355975">Sanaba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-ouest" adm2="Ziro"/>
+      <coordinates latitude="11.5544444" longitude="-1.7736111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2355869">Sapouy</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sahel" adm2="Yagha"/>
+      <coordinates latitude="13.4364122" longitude="0.530443" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2355803">Sebba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Yatenga"/>
+      <coordinates latitude="13.441667" longitude="-1.966944" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2355779">Séguénéga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre" adm2="Kadiogo"/>
+      <coordinates latitude="12.214167" longitude="-1.563611" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2355575">Silmissin</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Cascades" adm2="Leraba"/>
+      <coordinates latitude="10.6666667" longitude="-5.1666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2355548">Sindou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sahel" adm2="Seno"/>
+      <coordinates latitude="13.971965" longitude="0.309556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2355472">Sitenga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Banwa"/>
+      <coordinates latitude="12.1833333" longitude="-4.0833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2355404">Solenzo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-ouest" adm2="Boulkiemde"/>
+      <coordinates latitude="12.1333333" longitude="-2.2833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2355222">Sourgou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Plateau Central" adm2="Ganzourgou"/>
+      <coordinates latitude="11.94452" longitude="-0.77344" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7701512">Tanema</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Tapoa"/>
+      <coordinates latitude="11.8752778" longitude="1.8669444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354841">Tansarga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Gourma"/>
+      <coordinates latitude="12.05" longitude="0.7833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354802">Tanwolbougou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Banwa"/>
+      <coordinates latitude="12.419" longitude="-4.3852" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354830">Tassila</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-ouest" adm2="Sanguie"/>
+      <coordinates latitude="12.2" longitude="-2.6" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354692">Ténado</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-est" adm2="Boulgou"/>
+      <coordinates latitude="11.78" longitude="-0.3697222" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354675">Tenkodogo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Est" adm2="Gourma"/>
+      <coordinates latitude="12.169167" longitude="0.0575" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354575">Tibga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-sud" adm2="Nahouri"/>
+      <coordinates latitude="11.097222" longitude="-0.965556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354552">Tiébélé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Bam"/>
+      <coordinates latitude="13.2913889" longitude="-1.7261111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354492">Tikaré</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Yatenga"/>
+      <coordinates latitude="13.8063176" longitude="-2.6637266" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354633">Tiou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Loroum"/>
+      <coordinates latitude="13.7666667" longitude="-2.0666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354349">Titao</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Sourou"/>
+      <coordinates latitude="13.37993" longitude="-3.2008" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354688">Toéni</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Nayala"/>
+      <coordinates latitude="12.7666667" longitude="-2.8833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354265">Toma</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Sourou"/>
+      <coordinates latitude="13.0666667" longitude="-3.0666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354176">Tougan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Namentenga"/>
+      <coordinates latitude="13.316389" longitude="-0.5225" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354162">Tougouri</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Cascades" adm2="Leraba"/>
+      <coordinates latitude="10.76667" longitude="-5.15" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2354082">Tourny</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Nayala"/>
+      <coordinates latitude="12.8666667" longitude="-2.8666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2353717">Yaba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nord" adm2="Passore"/>
+      <coordinates latitude="12.9666667" longitude="-2.2666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2353688">Yako</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Namentenga"/>
+      <coordinates latitude="13.583333" longitude="-0.266667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2353671">Yalgo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Boucle Du Mouhoun" adm2="Nayala"/>
+      <coordinates latitude="12.6" longitude="-3.1166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2353565">Yé</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-est" adm2="Boulgou"/>
+      <coordinates latitude="11.1825" longitude="-0.632222" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2353436">Zabré</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Plateau Central" adm2="Ganzourgou"/>
+      <coordinates latitude="12.35" longitude="-0.8166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2353414">Zam</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Centre-nord" adm2="Namentenga"/>
+      <coordinates latitude="12.957222" longitude="-0.455278" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2353335">Zéguédéguen</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Plateau Central" adm2="Oubritenga"/>
+      <coordinates latitude="12.560556" longitude="-1.109167" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2353293">Ziga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Plateau Central" adm2="Oubritenga"/>
+      <coordinates latitude="12.5822222" longitude="-1.2983333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2353257">Ziniaré</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Plateau Central" adm2="Ganzourgou"/>
+      <coordinates latitude="12.2488889" longitude="-0.6158333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2353197">Zorgho</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:23">
+    <iati-identifier>46002-P-BF-K00-008</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">GOUVERNEMENT DE LA REPUBLIQUE DU BURKINA</participating-org>
+    <recipient-country code="BF">Burkina Faso</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">APPUI REDUCTION PAUVRETE V</title>
+    <description>Le PASRP V ambitionne de contribuer à la réalisation des objectifs du CSLP, d'une part en favorisant la dynamisation du secteur privé à travers l'amélioration de la compétitivité des secteurs productifs, et d'autre part en renforcement la gouvernance financière dans la perspective d'améliorer l'efficacité de la dépense publique et par conséquent les indicateurs sociaux.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-07-22"/>
+    <activity-date type="End Planned" iso-date="2011-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>COULIBALY Abdoulaye</person-name>
+      <email>a.d.coulibaly@afdb.org</email>
+      <telephone>+21671102536</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155018372">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">10000000</value>
+      <transaction-date iso-date="2010-07-22"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2010-09-30">10000000</value>
+      <description>Total Disbursement in Third Quarter of 2010</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:23">
+    <iati-identifier>46002-P-BF-K00-009</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">GOUVERNEMENT DE LA REPUBLIQUE DU BURKINA</participating-org>
+    <recipient-country code="BF">Burkina Faso</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Programme d'Appui à la Stratégie de Croissance Accélérée et au Climat des Affaires</title>
+    <description>L'objectif global du programme est d'appuyer la mise en ?uvre de la SCADD à travers la promotion d'une croissance accélérée et la rationalisation de la gestion des ressources publiques. Les objectifs spécifiques sont : a) la promotion de la croissance et de la diversification de l'économie, b) l'amélioration de l'environnement des affaires, plus attractif pour le secteur privé et c) la poursuite de l'amélioration de l'efficacité et de l'efficience des dépenses publiques. L'appui budgétaire à travers le PASCACAF contribuera également au financement du Budget de l'Etat afin que les autorités puissent engager la mise en ?uvre des actions  prioritaires de la SCADD.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-09-26"/>
+    <activity-date type="End Planned" iso-date="2013-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>SOW Koudeidiatou</person-name>
+      <email>i.sow@afdb.org</email>
+      <telephone>+21671103592</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155021066">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">50000000</value>
+      <transaction-date iso-date="2011-09-26"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">25000000</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">25000000</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:24">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:24">
+    <iati-identifier>46002-P-SZ-AAC-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="AWF" type="">AfricaWater Facility Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF AGRICULTURE - CO-OPERATIVES</participating-org>
+    <recipient-country code="SZ">Swaziland</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">LOWER USUTHU SMALLHOLDER IRRIGATION STUDY</title>
+    <description>1.,,Preparation of the feasibility studies, detailed designs and tender documents required for the implementation of the LUSIP II infrastructure investments; 2.,,Mobilisation of funds required for the implementation of LUSIP II infrastructure investments.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-02-17"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>EL SADANI SALEM Abdel-Kader</person-name>
+      <email>h.elsadani@afdb.org</email>
+      <telephone>+21671101942</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31140">Agricultural water resources</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5600155001601">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="AWF">AfricaWater Facility Fund</provider-org>
+      <value currency="">890184</value>
+      <transaction-date iso-date="2010-02-17"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Lubombo" adm2=""/>
+      <coordinates latitude="-26.4166667" longitude="31.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="935042">Lubombo District</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:24">
+    <iati-identifier>46002-P-SZ-DB0-011</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Swaziland</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF WORKS - COMMUNICATIONS</participating-org>
+    <recipient-country code="SZ">Swaziland</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">NATIONAL TRANSPORTATION MASTER PLAN</title>
+    <description>To prepare a transportation master plan covering a period of ten years (2011 - 2021)</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-SZ-DB0-011/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-03-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MUSA Patrick Tamba</person-name>
+      <email>p.musa@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Swaziland</provider-org>
+      <value currency="">19000</value>
+      <transaction-date iso-date="2010-03-30"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155003051">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">354000</value>
+      <transaction-date iso-date="2010-03-30"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:24">
+    <iati-identifier>46002-P-SZ-K00-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Swaziland</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF SWAZILAND MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="SZ">Swaziland</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">ECONOMIC DIVERSIFICATION STUDY</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-SZ-K00-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-08-09"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MAFUSIRE Albert</person-name>
+      <email>a.mafusire@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Swaziland</provider-org>
+      <value currency="">15700</value>
+      <transaction-date iso-date="2010-08-09"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155003451">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">298600</value>
+      <transaction-date iso-date="2010-08-09"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+</iati-activities>

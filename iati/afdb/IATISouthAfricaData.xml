@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:33">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:33">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="ZA">South Africa</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">TRANSNET LTD</title>
+    <description>Transnet?s Investment Program will allow the company to revitalize and expand vital rail infrastructure. By increasing capital investments, recapitalization and rehabilitation of key freight and logistics equipment and infrastructure, Transnet will contribute to reducing the cost of doing business in South Africa to internationally competitive proportions, thereby stimulating trade,  boosting sustainable economic growth, and facilitating regional integration. It also aims to support local suppliers and increase their competitiveness.
+The AfDB loan will go towards the financing of Transnet Rail?s capitalized maintenance plan which forms part of the Investment Program. The Investment Program addresses South Africa?s Freight Logistics strategy of creating capacity ahead of demand through improvements to freight transportation infrastructure. 
+ BENEFITS:
+The successful turnaround of the company laid the foundation for the current growth strategy; ?The Quantum Leap? with an overarching theme of improvement in customer service, volume growth and provision of capacity. It is expected that the scope, integration, and reliability of infrastructure coverage and services will greatly improve as a result of the Investment Program with significant increase in operational efficiency and productivity in all of Transnet?s business areas.
+The Bank?s participation in the Transnet Investment Program will provide direct support for infrastructure development, which is a key focal area for the institution. By improving the South African transportation network, regional trade and integration will be facilitated.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-10-05"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21030">Rail transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">215297857</value>
+      <transaction-date iso-date="2011-10-05"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:33">
+    <iati-identifier>46002-P-ZA-F00-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Funding" ref="CTF" type="">Clean Technology Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">ESKOM HOLDINGS LTD (Public Sector client)</participating-org>
+    <recipient-country code="ZA">South Africa</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">ESKOM RENEWABLE ENERGY INVESTMENT PROJECT</title>
+    <description>The Project Development Objective (PDO) is to enable Eskom Holdings to enhance power supply and energy security in an efficient and sustainable manner to support the long term carbon mitigation strategy of South Africa.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-ZA-F00-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-09-25"/>
+    <activity-date type="End Planned" iso-date="2018-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>KANONDA Farai Epiphanius</person-name>
+      <email>e.kanonda@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23010">Energy policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2000130007431">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">169960043</value>
+      <transaction-date iso-date="2011-09-25"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5560130000001">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="CTF">Clean Technology Fund</provider-org>
+      <value currency="">64135865</value>
+      <transaction-date iso-date="2011-09-25"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Northern Cape" adm2=""/>
+      <coordinates latitude="-29.5" longitude="22" precision="4"/>
+      <gazetteer-entry gazetteer-ref="1085596">Province of Northern Cape</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Western Cape" adm2=""/>
+      <coordinates latitude="-34" longitude="20" precision="4"/>
+      <gazetteer-entry gazetteer-ref="1085599">Province of the Western Cape</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Northern Cape" adm2="Benede Oranje District Council"/>
+      <coordinates latitude="-28.447758" longitude="21.256121" precision="2"/>
+      <gazetteer-entry gazetteer-ref="945945">Upington</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Western Cape" adm2="West Coast District Council"/>
+      <coordinates latitude="-31.668329" longitude="18.501192" precision="2"/>
+      <gazetteer-entry gazetteer-ref="3359736">Vredendal</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:33">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="ZA">South Africa</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">Industrial Development Corporation LOC II</title>
+    <description>Improve macroeconomic fundamentals and personal livelihoods by increasing the availability of private finance for sustainable, prod uctive projects</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-05-26"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="24030">Formal sector financial intermediaries</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">125915246</value>
+      <transaction-date iso-date="2011-05-26"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Gauteng" adm2="Johannesburg Metropolitan Council"/>
+      <coordinates latitude="-26.1" longitude="28.0666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="957655">Sandton</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:33">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="ZA">South Africa</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">5TH LINE OF CREDIT TO DBSA</title>
+    <description>A fifth Line of Credit (LOC) to the Development Bank of Southern Africa (DBSA) for on-lending to infrastructure projects within the SADC region.
+BENEFITS:
+In addition to providing critically needed economic and social infrastructure, DBSA5 LOC will: create 50,620 new permanent employment opportunities, at an average cost per job of circa USD6000; boost regional GDP by USD420 million; and increase regional capital formation by USD920 million.    DBSA5 LOC will support private sector growth and contribute to increased fiscal revenues.  It will also have significant positive social effects, in terms of poverty reduction, increased access to health, and improved environmental practices by DBSA clients.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-10-17"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="24030">Formal sector financial intermediaries</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">190474981</value>
+      <transaction-date iso-date="2011-10-17"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Gauteng" adm2="Khayalami Metropolitan Council"/>
+      <coordinates latitude="-25.98953" longitude="28.12843" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1105776">Midrand</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:33">
+    <iati-identifier>46002-P-ZA-K00-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of South Africa</participating-org>
+    <participating-org role="Implementing" ref="" type=""/>
+    <recipient-country code="ZA">South Africa</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">Statistical Capacity Building - II</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-ZA-K00-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-11-28"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MUWELE Besa</person-name>
+      <email>b.muwele@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of South Africa</provider-org>
+      <value currency="">24530</value>
+      <transaction-date iso-date="2011-11-28"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155004658">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">490600</value>
+      <transaction-date iso-date="2011-11-28"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+</iati-activities>

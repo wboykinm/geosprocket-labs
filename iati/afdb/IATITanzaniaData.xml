@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:18">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:18">
+    <iati-identifier>46002-P-TZ-AA0-019</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">OFFICE OF THE PRIME MINISTER</participating-org>
+    <recipient-country code="TZ">Tanzania</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">MARKETING INFRASTRUCTURE, VALUE ADDITION</title>
+    <description>The specific objective of the ADF component is to enhance rural incomes and food security through improved market access (feeder roads, market centres and storage, community management of infrastructure), increased share of value added of small- and medium-scale producers and processors including training and matching grants for equipment.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TZ-AA0-019/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-09-12"/>
+    <activity-date type="End Planned" iso-date="2016-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MPYISI Edson Rurangwa</person-name>
+      <email>e.mpyisi@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31110">Agricultural policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150024993">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">40000000</value>
+      <transaction-date iso-date="2011-09-12"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">1610100</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">35616</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">90531</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Arusha" adm2=""/>
+      <coordinates latitude="-3" longitude="36" precision="4"/>
+      <gazetteer-entry gazetteer-ref="161322">Arusha Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dodoma" adm2=""/>
+      <coordinates latitude="-6" longitude="36" precision="4"/>
+      <gazetteer-entry gazetteer-ref="160192">Dodoma Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Iringa" adm2=""/>
+      <coordinates latitude="-9" longitude="35" precision="4"/>
+      <gazetteer-entry gazetteer-ref="159067">Iringa Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kilimanjaro" adm2=""/>
+      <coordinates latitude="-3.75" longitude="37.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="157449">Kilimanjaro Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Manyara" adm2=""/>
+      <coordinates latitude="-4.75" longitude="36.6666667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="435764">Manyara Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mbeya" adm2=""/>
+      <coordinates latitude="-8.5" longitude="33" precision="4"/>
+      <gazetteer-entry gazetteer-ref="154375">Mbeya Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Morogoro" adm2=""/>
+      <coordinates latitude="-8" longitude="37" precision="4"/>
+      <gazetteer-entry gazetteer-ref="153214">Morogoro Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mwanza" adm2=""/>
+      <coordinates latitude="-2.75" longitude="32.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="152219">Mwanza Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kaskazini-Pemba" adm2=""/>
+      <coordinates latitude="-5.0833333" longitude="39.8" precision="4"/>
+      <gazetteer-entry gazetteer-ref="150733">Pemba North Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kusini-Pemba" adm2=""/>
+      <coordinates latitude="-5.3333333" longitude="39.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="150732">Pemba South Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Pwani" adm2=""/>
+      <coordinates latitude="-7" longitude="39" precision="4"/>
+      <gazetteer-entry gazetteer-ref="150602">Pwani Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rukwa" adm2=""/>
+      <coordinates latitude="-7" longitude="31.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="150442">Rukwa Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ruvuma" adm2=""/>
+      <coordinates latitude="-11" longitude="36" precision="4"/>
+      <gazetteer-entry gazetteer-ref="877416">Ruvuma Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Shinyanga" adm2=""/>
+      <coordinates latitude="-3.75" longitude="33" precision="4"/>
+      <gazetteer-entry gazetteer-ref="150004">Shinyanga Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Singida" adm2=""/>
+      <coordinates latitude="-5.5" longitude="34.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="149876">Singida Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tanga" adm2=""/>
+      <coordinates latitude="-5" longitude="38.25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="149595">Tanga Region</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:18">
+    <iati-identifier>46002-P-TZ-DB0-018</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Funding" ref="ACFA" type="">Accelerated Cofinancing Facility for Africa</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tanzania</participating-org>
+    <participating-org role="Implementing" ref="" type="">TANROADS -Tanzania National Roads Agency</participating-org>
+    <recipient-country code="TZ">Tanzania</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">ROAD SECTOR SUPPORT PROJECT I</title>
+    <description>The project objective is to improve the essential road transport infrastructure in the central and southern parts of Tanzania in order to reduce road maintenance, vehicle operating costs and travel time between Dodoma and Iringa , and Tunduru and Namtumbo. In the wider context, the project roads will contribute to regional integration by improving the north-south connectivity between Zambia, Tanzania, Kenya and Ethiopia while the Tunduru-Namtumbo as part of the Mtwara Corridor will improve the link between the Mtwara sea port and its hinterland, northern Mozambique and Malawi.  The performance indicators will be improved transport service and lower transport costs along the road to be measured by assessing the road roughness, estimating vehicle operating costs and traffic volumes.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TZ-DB0-018/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-03-31"/>
+    <activity-date type="End Planned" iso-date="2016-05-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MUSA Patrick Tamba</person-name>
+      <email>p.musa@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tanzania</provider-org>
+      <value currency="">29570000</value>
+      <transaction-date iso-date="2010-03-31"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150021395">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">152000000</value>
+      <transaction-date iso-date="2010-03-31"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-06-30">3346550</value>
+      <description>Total Disbursement in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">5094868</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">5879735</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">4613479</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">4875551</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">5388066</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">5476868</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2010-12-31">6247</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-06-30">383123</value>
+      <description>Total Interest Repayment in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">379090</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">397552</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">407409</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction ref="6550655000501">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="ACFA">Accelerated Cofinancing Facility for Africa</provider-org>
+      <value currency="">52887687</value>
+      <transaction-date iso-date="2010-05-31"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Dodoma" adm2="Dodoma Urban"/>
+      <coordinates latitude="-6.17486" longitude="35.737925" precision="1"/>
+      <gazetteer-entry gazetteer-ref="160196">Dodoma</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dodoma" adm2=""/>
+      <coordinates latitude="-6" longitude="36" precision="4"/>
+      <gazetteer-entry gazetteer-ref="160192">Dodoma Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dodoma" adm2="Dodoma Urban"/>
+      <coordinates latitude="-6.15973" longitude="35.798" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7731058">Dodoma Urban District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dodoma" adm2="Dodoma Rural"/>
+      <coordinates latitude="-6.75" longitude="35.833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="160009">Fufu Escarpment</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Iringa" adm2="Iringa Urban"/>
+      <coordinates latitude="-7.766667" longitude="35.7" precision="1"/>
+      <gazetteer-entry gazetteer-ref="159071">Iringa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Iringa" adm2="Iringa Rural"/>
+      <coordinates latitude="-7.56399" longitude="34.88159" precision="3"/>
+      <gazetteer-entry gazetteer-ref="159070">Iringa Rural District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Iringa" adm2="Iringa Urban"/>
+      <coordinates latitude="-7.77" longitude="35.69" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7731037">Iringa Urban District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ruvuma" adm2="Tunduru"/>
+      <coordinates latitude="-10.75" longitude="37" precision="1"/>
+      <gazetteer-entry gazetteer-ref="878045">Matemanga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dodoma" adm2="Mpwapwa"/>
+      <coordinates latitude="-6.666667" longitude="36.416667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="153093">Mpwapwa District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ruvuma" adm2="Namtumbo"/>
+      <coordinates latitude="-10.46642" longitude="36.13008" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7731181">Namtumbo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ruvuma" adm2="Namtumbo"/>
+      <coordinates latitude="-10.46642" longitude="36.13008" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7648510">Namtumbo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ruvuma" adm2="Tunduru"/>
+      <coordinates latitude="-11.066667" longitude="37.35" precision="1"/>
+      <gazetteer-entry gazetteer-ref="877378">Tunduru</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ruvuma" adm2="Tunduru"/>
+      <coordinates latitude="-11" longitude="37.5" precision="3"/>
+      <gazetteer-entry gazetteer-ref="877377">Tunduru District</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:18">
+    <iati-identifier>46002-P-TZ-EA0-010</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Funding" ref="RWSSI" type="">Rural Water Supply &amp; Sanitation</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tanzania</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF WATER</participating-org>
+    <recipient-country code="TZ">Tanzania</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">RURAL WATER SUPPLY AND SANITATION PHASE</title>
+    <description>The objectives of the program are to: a) Improved access of rural communities to water and sanitation services operated and maintained by capable women and men and improved health and hygiene practices; b)  Improved district level capacity to implement demand based RWSS projects; and c) Improved capacity of Ministry of Water and Irrigation (MOWI) to provide and administer policy and act as facilitator of overall water sector development and investment, and improved capacity of the private sector / NGOs to provide goods and services to the RWSS sector.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TZ-EA0-010/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-11"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MARANDU Sabas Thomas</person-name>
+      <email>s.marandu@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tanzania</provider-org>
+      <value currency="">15000000</value>
+      <transaction-date iso-date="2011-03-11"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150022943">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">59000000</value>
+      <transaction-date iso-date="2011-03-11"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">29567726</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">29904</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">159933</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">186288</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction ref="5800155000551">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="RWSSI">Rural Water Supply &amp; Sanitation</provider-org>
+      <value currency="">5799343</value>
+      <transaction-date iso-date="2011-03-11"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:18">
+    <iati-identifier>46002-P-TZ-FA0-009</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">TANZANIA ELECTRIC SUPPLY COMPANY LTD (TANASCO)</participating-org>
+    <recipient-country code="TZ">Tanzania</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">IRINGA -SHINYANGA TX PROJECT</title>
+    <description>,,Provide adequate transmission infrastructure to link existing and future generation sources located in the South and Southwest of Tanzania to the load centers in the Mwanza and Arusha regions in the North. ,,Facilitate regional power trade in the future especially with Kenya to the North and Zambia to the South</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TZ-FA0-009/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-11"/>
+    <activity-date type="End Planned" iso-date="2014-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>ASFAW Solomon Abebe</person-name>
+      <email>s.asfaw@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23010">Energy policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150023196">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">45360000</value>
+      <transaction-date iso-date="2011-03-11"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">22991</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">114332</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">113089</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Dodoma" adm2="Dodoma Urban"/>
+      <coordinates latitude="-6.17485964521732" longitude="35.7379245758057" precision="1"/>
+      <gazetteer-entry gazetteer-ref="160196">Dodoma</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dodoma" adm2="Dodoma Rural"/>
+      <coordinates latitude="-6.58958" longitude="35.70007" precision="3"/>
+      <gazetteer-entry gazetteer-ref="160193">Dodoma Rural District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dodoma" adm2="Dodoma Urban"/>
+      <coordinates latitude="-6.15973" longitude="35.798" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7731058">Dodoma Urban District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tabora" adm2="Igunga"/>
+      <coordinates latitude="-4.3333333" longitude="33.75" precision="3"/>
+      <gazetteer-entry gazetteer-ref="159384">Igunga District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Singida" adm2="Iramba"/>
+      <coordinates latitude="-4.3333333" longitude="34.5" precision="3"/>
+      <gazetteer-entry gazetteer-ref="159085">Iramba District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Iringa" adm2="Iringa Urban"/>
+      <coordinates latitude="-7.7666667" longitude="35.7" precision="1"/>
+      <gazetteer-entry gazetteer-ref="159071">Iringa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Iringa" adm2="Iringa Rural"/>
+      <coordinates latitude="-7.56399" longitude="34.88159" precision="3"/>
+      <gazetteer-entry gazetteer-ref="159070">Iringa Rural District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Iringa" adm2="Iringa Urban"/>
+      <coordinates latitude="-7.77" longitude="35.69" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7731037">Iringa Urban District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Shinyanga" adm2="Kishapu"/>
+      <coordinates latitude="-3.61666" longitude="33.86666" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7644867">Kishapu District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dodoma" adm2="Kondoa"/>
+      <coordinates latitude="-5" longitude="35.75" precision="3"/>
+      <gazetteer-entry gazetteer-ref="156509">Kondoa District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Singida" adm2="Manyoni"/>
+      <coordinates latitude="-6.3333333" longitude="34.5833333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="154836">Manyoni District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Shinyanga" adm2="Shinyanga Urban"/>
+      <coordinates latitude="-3.6666667" longitude="33.4333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="150006">Shinyanga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Shinyanga" adm2="Shinyanga Urban"/>
+      <coordinates latitude="-3.66667" longitude="33.5" precision="3"/>
+      <gazetteer-entry gazetteer-ref="150005">Shinyanga Urban</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Singida" adm2="Singida Urban"/>
+      <coordinates latitude="-4.8166667" longitude="34.75" precision="1"/>
+      <gazetteer-entry gazetteer-ref="149879">Singida</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Singida" adm2="Singida Rural"/>
+      <coordinates latitude="-5.27421" longitude="34.59045" precision="3"/>
+      <gazetteer-entry gazetteer-ref="149877">Singida Rural District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Singida" adm2="Singida Urban"/>
+      <coordinates latitude="-4.84" longitude="34.71" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7731078">Singida Urban District</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:18">
+    <iati-identifier>46002-P-TZ-IAE-005</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tanzania</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF EDUCATION CULTURE AND SPORTS</participating-org>
+    <recipient-country code="TZ">Tanzania</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">Alternative Learning &amp; Skills Development Project  II</title>
+    <description>Improved  access of  youth  and  women to quality functional literacy and skills required by the labor market.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TZ-IAE-005/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-09-12"/>
+    <activity-date type="End Planned" iso-date="2016-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BUDALI Issahaku</person-name>
+      <email>i.budali@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="11330">Vocational training</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tanzania</provider-org>
+      <value currency="">1540000</value>
+      <transaction-date iso-date="2011-09-12"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150024593">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">15000000</value>
+      <transaction-date iso-date="2011-09-12"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">397719</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">19187</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">13356</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Zanzibar South and Central" adm2="Zansibar Central"/>
+      <coordinates latitude="-6.183333" longitude="39.333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="161143">Binguni</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kaskazini-Pemba" adm2="Wete"/>
+      <coordinates latitude="-5.116667" longitude="39.716667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="160250">Daya</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Zanzibar South and Central" adm2="Zansibar Central"/>
+      <coordinates latitude="-6.216667" longitude="39.366667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="157289">Kinduni</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kusini-Pemba" adm2="Mkoani"/>
+      <coordinates latitude="-5.333333" longitude="39.65" precision="1"/>
+      <gazetteer-entry gazetteer-ref="155139">Makombeni</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Zanzibar South and Central" adm2="Kusini"/>
+      <coordinates latitude="-6.416667" longitude="39.55" precision="1"/>
+      <gazetteer-entry gazetteer-ref="155098">Makunduchi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Zanzibar West" adm2="Magharibi"/>
+      <coordinates latitude="-6.216667" longitude="39.2" precision="1"/>
+      <gazetteer-entry gazetteer-ref="154272">Mbweni</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kaskazini-Pemba" adm2="Micheweni"/>
+      <coordinates latitude="-4.916667" longitude="39.733333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="149194">Ungi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Zanzibar West" adm2="Mjini"/>
+      <coordinates latitude="-6.16393694437713" longitude="39.1979312896728" precision="1"/>
+      <gazetteer-entry gazetteer-ref="148730">Zanzibar</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:18">
+    <iati-identifier>46002-P-TZ-IE0-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tanzania</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF PLANNING, ECONOMIC AND EMPOWERMENT</participating-org>
+    <recipient-country code="TZ">Tanzania</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SMALL ENTREPRENEURS LOAN FACILITY II</title>
+    <description>The overall goal of the Project is to contribute towards reducing income poverty in Tanzania. The objective of the proposed project is to improve access of 820,000 of the active poor, especially in rural areas, to financial services.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TZ-IE0-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-07-06"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BUDALI Issahaku</person-name>
+      <email>i.budali@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tanzania</provider-org>
+      <value currency="">2000000</value>
+      <transaction-date iso-date="2010-07-06"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150022293">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">20000000</value>
+      <transaction-date iso-date="2010-07-06"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2010-12-31">9553737</value>
+      <description>Total Disbursement in Fourth Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">703809</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">625168</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-06-30">30074</value>
+      <description>Total Interest Repayment in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">61075</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">63400</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">64412</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:19">
+    <iati-identifier>46002-P-TZ-K00-011</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="TZ">Tanzania</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">Governance and Economic Competitiveness Support Program</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TZ-K00-011/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-12-19"/>
+    <activity-date type="End Planned" iso-date="2013-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>NGORORANO Tonaina</person-name>
+      <email>t.ngororano@afdb.org</email>
+      <telephone>+21671103876</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150025643">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">100000000</value>
+      <transaction-date iso-date="2011-12-19"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">25034068</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">35000000</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">148464</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:19">
+    <iati-identifier>46002-P-TZ-KF0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Tanzania</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="TZ">Tanzania</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">Institutional Support Project for Good Governance  II</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-TZ-KF0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-10-12"/>
+    <activity-date type="End Planned" iso-date="2014-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>NGORORANO Tonaina</person-name>
+      <email>t.ngororano@afdb.org</email>
+      <telephone>+21671103876</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Tanzania</provider-org>
+      <value currency="">260000</value>
+      <transaction-date iso-date="2010-10-12"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150022944">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">5200000</value>
+      <transaction-date iso-date="2010-10-12"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">815385</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">1669216</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">26709</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">12184</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">13928</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">13689</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Kaskazini-Pemba" adm2=""/>
+      <coordinates latitude="-5.0833333" longitude="39.8" precision="4"/>
+      <gazetteer-entry gazetteer-ref="150733">Pemba North Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kusini-Pemba" adm2=""/>
+      <coordinates latitude="-5.3333333" longitude="39.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="150732">Pemba South Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Zanzibar South and Central" adm2=""/>
+      <coordinates latitude="-6.25" longitude="39.4666667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="148728">Zanzibar Central/South Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kaskazini-Unguja" adm2=""/>
+      <coordinates latitude="-5.9166667" longitude="39.3333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="148725">Zanzibar North Region</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Zanzibar West" adm2=""/>
+      <coordinates latitude="-6.1666667" longitude="39.25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="148724">Zanzibar Urban/West Region</gazetteer-entry>
+    </location>
+  </iati-activity>
+</iati-activities>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:31">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:31">
+    <iati-identifier>46002-P-MZ-DB0-010</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">NATIONAL  ROADS ADMINISTRATION (ANE)</participating-org>
+    <recipient-country code="MZ">Mozambique</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SUPPLEMENTARY LOAN MONTEPUEZ - LICHINGA</title>
+    <description>2. Project Objective Improved accessibility and road transport services for the population in the zone of influence of the Montepuez-Lichinga Corridor</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-MZ-DB0-010/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-12-06"/>
+    <activity-date type="End Planned" iso-date="2014-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>ALI Aymen Ahmed Osman</person-name>
+      <email>a.ali@afdb.org</email>
+      <telephone>+21671102625</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150023096">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">32650000</value>
+      <transaction-date iso-date="2010-12-06"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">4874281</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">66642</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">82217</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">88850</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Cabo Delgado" adm2="Namuno"/>
+      <coordinates latitude="-13.5" longitude="39" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1037123">Concelho de Montepuez</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Niassa" adm2="Cidade de Lichinga"/>
+      <coordinates latitude="-13.312778" longitude="35.240556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1043893">Lichinga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Niassa" adm2="Lichinga"/>
+      <coordinates latitude="-13.313611" longitude="35.750278" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1043587">Litunde</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Niassa" adm2="Marrupa"/>
+      <coordinates latitude="-13.198889" longitude="37.499444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1040370">Marrupa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Cabo Delgado" adm2="Montepuez"/>
+      <coordinates latitude="-13.125556" longitude="38.999722" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1037125">Montepuez</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Cabo Delgado" adm2=""/>
+      <coordinates latitude="-12.5" longitude="39" precision="4"/>
+      <gazetteer-entry gazetteer-ref="1051823">Província de Cabo Delgado</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Niassa" adm2=""/>
+      <coordinates latitude="-13" longitude="37" precision="4"/>
+      <gazetteer-entry gazetteer-ref="1030006">Província de Niassa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Cabo Delgado" adm2="Balama"/>
+      <coordinates latitude="-13.117222" longitude="38.211944" precision="1"/>
+      <gazetteer-entry gazetteer-ref="1027914">Rio Ruaça</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:31">
+    <iati-identifier>46002-P-MZ-E00-008</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Funding" ref="RWSSI" type="">Rural Water Supply &amp; Sanitation</participating-org>
+    <participating-org role="Implementing" ref="" type="">DIRECCAO NACIONAL DE AGUAS - MOPH</participating-org>
+    <recipient-country code="MZ">Mozambique</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">NATIONAL RURAL WATER SUPPLY PROGRAM</title>
+    <description>Program Objectives To increase sustainable access to l water supply and sanitation</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-MZ-E00-008/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-12-06"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>ALEOBUA Boniface Osimua Yakubu</person-name>
+      <email>b.aleobua@afdb.org</email>
+      <telephone>+21671106953</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150023298">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">5270000</value>
+      <transaction-date iso-date="2010-12-06"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">9529</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">13283</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">13139</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction ref="5800155000601">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="RWSSI">Rural Water Supply &amp; Sanitation</provider-org>
+      <value currency="">5176698</value>
+      <transaction-date iso-date="2010-12-06"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Nampula" adm2=""/>
+      <coordinates latitude="-15" longitude="39" precision="4"/>
+      <gazetteer-entry gazetteer-ref="1033354">Província de Nampula</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Zambezia" adm2=""/>
+      <coordinates latitude="-17" longitude="37" precision="4"/>
+      <gazetteer-entry gazetteer-ref="1024312">Província de Zambézia</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:31">
+    <iati-identifier>46002-P-MZ-K00-008</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FAPA" type="">Fund for African Private Sector Assistance</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF MINERAL RESOURCES</participating-org>
+    <recipient-country code="MZ">Mozambique</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">MOZAMBIQUE MIREM EITI FAPA GRANT PROJECT</title>
+    <description>1.1 Continued and sustainable growth that contributes to poverty reduction 1.2 Adequate and transparent redistribution of natural resource wealth for the sustainable, inter-generational and equitable benefit of the country's citizens 2.1 Establishment of revenue disclosure, oversight and publication mechanism to ensure that Mozambicans get all the information on their Extractive Industry revenue and public expenditure. 2.2 Mozambique becomes an EITI compliant country</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-10-03"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MUZIMA Joel Daniel</person-name>
+      <email>j.muzima@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5700155001201">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FAPA">Fund for African Private Sector Assistance</provider-org>
+      <value currency="">224542</value>
+      <transaction-date iso-date="2010-10-03"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:31">
+    <iati-identifier>46002-P-MZ-K00-009</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNEMENT OF MOZAMBIQUE MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="MZ">Mozambique</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">GROWTH AND PUBLIC SECTOR EFFICIENCY</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-MZ-K00-009/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-10-31"/>
+    <activity-date type="End Planned" iso-date="2027-01-19"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DAVA Emilio Aniceto Fernando</person-name>
+      <email>e.dava@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150025096">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">60000000</value>
+      <transaction-date iso-date="2011-10-31"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">20000000</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">20184062</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">29828</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">184728</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Sofala" adm2="Cidade da Beira"/>
+      <coordinates latitude="-19.8436111" longitude="34.8388889" precision="3"/>
+      <gazetteer-entry gazetteer-ref="1052373">Beira</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nampula" adm2="Nacala"/>
+      <coordinates latitude="-14.5427778" longitude="40.6727778" precision="3"/>
+      <gazetteer-entry gazetteer-ref="1035025">Cidade de Nacala</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Maputo (city)" adm2=""/>
+      <coordinates latitude="-25.965278" longitude="32.589167" precision="4"/>
+      <gazetteer-entry gazetteer-ref="1040652">Maputo</gazetteer-entry>
+    </location>
+  </iati-activity>
+</iati-activities>

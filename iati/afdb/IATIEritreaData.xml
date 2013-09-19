@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:17">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:17">
+    <iati-identifier>46002-P-ER-IAD-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Eritrea</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF ERITREA</participating-org>
+    <recipient-country code="ER">Eritrea</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SUPPORT TO HIGHER EDUCATION DEVELOPMENT</title>
+    <description>The sector goal is human resources development in order to further economic growth and reduce poverty. The objective of the project is to contribute to building capacity for teaching, research and service at the country's higher education institutions.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-ER-IAD-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-05-27"/>
+    <activity-date type="End Planned" iso-date="2016-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>KUNENE Benedict Vusi Boy</person-name>
+      <email>b.kunene@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="11420">Higher education</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Eritrea</provider-org>
+      <value currency="">2760000</value>
+      <transaction-date iso-date="2010-05-27"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100155017816">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">12900000</value>
+      <transaction-date iso-date="2010-05-27"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2010-12-31">1698868</value>
+      <description>Total Disbursement in Fourth Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">1416519</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">2759167</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">36879</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">158649</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">2565296</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Maekel" adm2="Adi Keyih"/>
+      <coordinates latitude="14.8444444" longitude="39.3772222" precision="1"/>
+      <gazetteer-entry gazetteer-ref="345046">Adi Keyh</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Anseba" adm2="Asmara City"/>
+      <coordinates latitude="15.34224" longitude="38.92887" precision="1"/>
+      <gazetteer-entry gazetteer-ref="333618">Asmara University</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Maekel" adm2="Dibarwa"/>
+      <coordinates latitude="15.0558333" longitude="38.8366667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="335223">Halhale</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Semenawi Keyih Bahri" adm2="Keren"/>
+      <coordinates latitude="15.7777778" longitude="38.4580556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="333287">Keren</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Debub" adm2="Mitswa`e City"/>
+      <coordinates latitude="15.609722" longitude="39.45" precision="1"/>
+      <gazetteer-entry gazetteer-ref="330546">Massawa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Anseba" adm2="Ghala Nefhi"/>
+      <coordinates latitude="15.2569444" longitude="38.7986111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="342720">May-Nefhi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Anseba" adm2="Asmara City"/>
+      <coordinates latitude="15.33642" longitude="38.92535" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7731685">Orotta School of Medicine</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:17">
+    <iati-identifier>46002-P-ER-IAE-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Eritrea</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF EDUCATION</participating-org>
+    <recipient-country code="ER">Eritrea</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SUPPORT TO TECHNICAL &amp; VET-STVET PROJECT</title>
+    <description>The specific objectives of the project are: (1) Expanding equitable access to TVET, (2) Improving relevance, and quality of TVET, and (3) Improving management at the coordination and school levels.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-ER-IAE-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-12-15"/>
+    <activity-date type="End Planned" iso-date="2016-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>KUNENE Benedict Vusi Boy</person-name>
+      <email>b.kunene@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="11330">Vocational training</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Eritrea</provider-org>
+      <value currency="">1330000</value>
+      <transaction-date iso-date="2011-12-15"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100155021466">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">12020000</value>
+      <transaction-date iso-date="2011-12-15"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">221102</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Anseba" adm2="Asmara City"/>
+      <coordinates latitude="15.3333333" longitude="38.9333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="343300">Asmara</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Debub" adm2="Ghida`e"/>
+      <coordinates latitude="15.2944444" longitude="39.0622222" precision="1"/>
+      <gazetteer-entry gazetteer-ref="331397">May-Habar</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Debub" adm2=""/>
+      <coordinates latitude="16" longitude="39" precision="4"/>
+      <gazetteer-entry gazetteer-ref="448502">Zoba Semanawa Kaeyih Bahra</gazetteer-entry>
+    </location>
+  </iati-activity>
+</iati-activities>

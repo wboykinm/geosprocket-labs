@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:40">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:40">
+    <iati-identifier>46002-P-KM-EA0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FSF" type="">Fragile States Facility</participating-org>
+    <participating-org role="Funding" ref="RWSSI" type="">Rural Water Supply &amp; Sanitation</participating-org>
+    <participating-org role="Implementing" ref="" type="">DIRECTION GENERALE DE L'ENERGIE,  DES MINES ET DE L'EAU (DGEME)</participating-org>
+    <recipient-country code="KM">Comoros</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROJET D'EAU POTABLE ET D'ASSAINISSEMENT</title>
+    <description>L'objectif sectoriel du projet est de contribuer à l'amélioration des conditions socio-économiques et sanitaires des populations de l'Union des Comores. Le projet a pour objectif spécifique (i) de définir un schéma institutionnel et financier accompagné d'un volet juridique et réglementaire indispensable à sa mise en application ; ii) d'élaborer un programme national d'accès à l'eau potable et à l'assainissement à l'horizon 2030 et iii) d'assurer durablement l'accès à l'eau potable et aux services d'assainissement. Le projet vise également à renforcer les ressources et les capacités locales en matière de planification, de gestion et de maintenance des investissements publics.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-KM-EA0-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-02-12"/>
+    <activity-date type="End Planned" iso-date="2013-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>ROBERTS Thomas Andrew</person-name>
+      <email>t.roberts@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5800155000401">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="RWSSI">Rural Water Supply &amp; Sanitation</provider-org>
+      <value currency="">1945703</value>
+      <transaction-date iso-date="2010-02-12"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5900155000801">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FSF">Fragile States Facility</provider-org>
+      <value currency="">8000000</value>
+      <transaction-date iso-date="2010-02-12"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2010-12-31">571688</value>
+      <description>Total Disbursement in Fourth Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2011-12-31">662602</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-06-30">241528</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>Fragile States Facility</provider-org>
+      <value value-date="2012-09-30">271172</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Moheli" adm2=""/>
+      <coordinates latitude="-12.28" longitude="43.7425" precision="1"/>
+      <gazetteer-entry gazetteer-ref="921889">Fomboni</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ngazidja" adm2=""/>
+      <coordinates latitude="-11.5013889" longitude="43.3775" precision="1"/>
+      <gazetteer-entry gazetteer-ref="921806">Mbéni</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ngazidja" adm2=""/>
+      <coordinates latitude="-11.7021646491173" longitude="43.2550621032715" precision="1"/>
+      <gazetteer-entry gazetteer-ref="921772">Moroni</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Anjouan" adm2=""/>
+      <coordinates latitude="-12.1627778" longitude="44.3963889" precision="1"/>
+      <gazetteer-entry gazetteer-ref="921753">Moutsamoudou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Anjouan" adm2=""/>
+      <coordinates latitude="-12.1322222" longitude="44.4258333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="921721">Ouani</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ngazidja" adm2=""/>
+      <coordinates latitude="-11.6142799" longitude="43.3808041" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7732123">Sima Oichili</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:41">
+    <iati-identifier>46002-P-KM-IB0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Implementing" ref="" type="">UNCEF COMOROS</participating-org>
+    <recipient-country code="KM">Comoros</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">AIDE D'URGENCE AUX VICTIMES D'INONDATIONS 2009</title>
+    <description>Le principal objectif de l'aide humanitaire d'urgence proposée est de répondre aux besoins urgents et immédiats des victimes des inondations sur tout le territoire des Comores. Plus spécifiquement, il s'agit d'empêcher la flambée des cas de paludisme, de choléra et d'autres maladies transmissibles chez les victimes des inondations, de faciliter le retour à l'école des enfants de moins de 12 ans, et d'améliorer l'état nutritionnel des groupes vulnérables.  L'incidence et la pré valence de ces maladies ont sensiblement augmenté dans les zones touchées où quelque 360 familles ont été déplacées et relogées dans des habitations provisoires.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-07-12"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>ANDRIANARISATA John C.</person-name>
+      <email>j.andrianarisata@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="12110">Health policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="3" xml:lang="en">Completion</activity-status>
+    <transaction ref="5000199001568">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">670938</value>
+      <transaction-date iso-date="2010-07-12"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:41">
+    <iati-identifier>46002-P-KM-KF0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DES FINANCES, DU BUDGET, DE L'ECONOMIE, ET DU PLAN</participating-org>
+    <recipient-country code="KM">Comoros</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Don supplémentaire pour le projet  de renforcement des capacités institutionnelles</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-KM-KF0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-11-05"/>
+    <activity-date type="End Planned" iso-date="2014-06-13"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BASSOLE Leandre</person-name>
+      <email>l.bassole@afdb.org</email>
+      <telephone>+21671101729</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100155018967">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">595000</value>
+      <transaction-date iso-date="2010-11-05"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-06-30">41532</value>
+      <description>Total Disbursement in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">46883</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">27850</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Ngazidja" adm2=""/>
+      <coordinates latitude="-11.5861111" longitude="43.3330556" precision="4"/>
+      <gazetteer-entry gazetteer-ref="921881">Grande Comore</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Moheli" adm2=""/>
+      <coordinates latitude="-12.3426849470365" longitude="43.736228942871" precision="4"/>
+      <gazetteer-entry gazetteer-ref="921780">Mwali</gazetteer-entry>
+    </location>
+  </iati-activity>
+</iati-activities>

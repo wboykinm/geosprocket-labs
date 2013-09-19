@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:34">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:34">
+    <iati-identifier>46002-P-ZM-AAC-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="AWF" type="">AfricaWater Facility Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">Development Aid from People to People DAPP</participating-org>
+    <recipient-country code="ZM">Zambia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">COMMUNITY WATER MANAGEMENT IMPROVEMENT</title>
+    <description>Promotion and use of improved on-farm water resources management methods and low-cost irrigation technologies for food security and poverty reduction by smallholder farmers in Mkushi, Kapiri Mposhi, Masaiti, Chingola Districts.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-04-23"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BANGWE Lewis Mupeta</person-name>
+      <email>l.bangwe@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31140">Agricultural water resources</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5600155001751">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="AWF">AfricaWater Facility Fund</provider-org>
+      <value currency="">632773</value>
+      <transaction-date iso-date="2010-04-23"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Copperbelt" adm2="Chingola"/>
+      <coordinates latitude="-12.5" longitude="27.75" precision="3"/>
+      <gazetteer-entry gazetteer-ref="919006">Chingola District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Central" adm2="Kapiri-Mposhi"/>
+      <coordinates latitude="-14.151" longitude="27.748" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8285556">Kapiri-Mposhi District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Copperbelt" adm2="Masaiti"/>
+      <coordinates latitude="-13.409" longitude="28.719" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8285557">Masaiti District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Central" adm2="Mkushi"/>
+      <coordinates latitude="-14" longitude="29.5" precision="3"/>
+      <gazetteer-entry gazetteer-ref="906219">Mkushi District</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:34">
+    <iati-identifier>46002-P-ZM-AAZ-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF ZAMBIA</participating-org>
+    <recipient-country code="ZM">Zambia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">EMERGENCY ASSISTANCE TO 2009 FLOOD MITIGATION</title>
+    <description>The main objective of the proposed emergency humanitarian assistance is to meet the urgent and immediate needs of flood victims including women, child headed households and the terminally ill who constitute about 52% of those affected. The proposed Bank emergency humanitarian relief assistance will contribute to the alleviation of the suffering of over 175,145 flood-affected victims in Zambia.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-03-16"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BANGWE Lewis Mupeta</person-name>
+      <email>l.bangwe@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31110">Agricultural policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5000199001968">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">633533</value>
+      <transaction-date iso-date="2011-03-16"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Central" adm2=""/>
+      <coordinates latitude="-14" longitude="29" precision="4"/>
+      <gazetteer-entry gazetteer-ref="921064">Central Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2=""/>
+      <coordinates latitude="-13" longitude="32.25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="917388">Eastern Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Lusaka" adm2=""/>
+      <coordinates latitude="-15.4166667" longitude="29" precision="4"/>
+      <gazetteer-entry gazetteer-ref="909129">Lusaka Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="North-Western" adm2=""/>
+      <coordinates latitude="-13" longitude="25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="900594">North-Western Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Southern" adm2=""/>
+      <coordinates latitude="-16.5" longitude="27" precision="4"/>
+      <gazetteer-entry gazetteer-ref="896972">Southern Province</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Western" adm2=""/>
+      <coordinates latitude="-15" longitude="24" precision="4"/>
+      <gazetteer-entry gazetteer-ref="896140">Western Province</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:34">
+    <iati-identifier>46002-P-ZM-HAB-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="FAPA" type="">Fund for African Private Sector Assistance</participating-org>
+    <participating-org role="Implementing" ref="" type="">ATMS/ AMSCO  AFRICA MANAGEMENT SERVICES</participating-org>
+    <recipient-country code="ZM">Zambia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">FAPA TA GRANT FOR ZAMBIAN SMES</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-04-27"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>ABIBOU Lassissi</person-name>
+      <email>l.abibou@afdb.org</email>
+      <telephone>+21671103113</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="24030">Formal sector financial intermediaries</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5700155000502">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FAPA">Fund for African Private Sector Assistance</provider-org>
+      <value currency="">648440</value>
+      <transaction-date iso-date="2010-04-27"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:34">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="ZM">Zambia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">GUARANTEE FAC./LOC ZANACO- ZAMBIA</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-02-10"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="24030">Formal sector financial intermediaries</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">6477565</value>
+      <transaction-date iso-date="2010-02-10"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:34">
+    <iati-identifier>46002-P-ZM-IZ0-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF ZAMBIA</participating-org>
+    <recipient-country code="ZM">Zambia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">FOURTH POVERTY REDUCTION BUDGET SUPPORT</title>
+    <description>The purpose is to create fiscal space for pro-poor development policies and step up access to social services like water and health to a larger share of the population.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-10-20"/>
+    <activity-date type="End Planned" iso-date="2013-06-23"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>KUNENE Benedict Vusi Boy</person-name>
+      <email>b.kunene@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150025145">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">15000000</value>
+      <transaction-date iso-date="2011-10-20"/>
+      <aid-type code="A02">Sector Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">15000000</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">14110</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">58364</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:34">
+    <iati-identifier>46002-P-ZM-KA0-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF FINANCE AND NATIONAL PLANNING</participating-org>
+    <recipient-country code="ZM">Zambia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">POVERTY REDUCTION BUDGET SUPPORT III</title>
+    <description>The purpose of this operation is to improve financial governance through efficient public financial management, the fight against corruption and enhancing business environment by simplifying business licenses and shortening time for trade across borders, as outlined in Box I. Box I: Purpose of PRBS III To improve financial governance through efficient public financial management and fight corruption by ,,Reducing  expenditure variance between budget and total expenditure outturn to less than 15% in 2009 from 25% in 2008 ,,Increasing Zambia's Corruption Perception Index (CPI) ranking by Transparency International (TI) to 90 in 2011 from 99 in 2009 out of 180 countrie, and To enhance business environment by simplifying business licenses and shortening time for external trade by ,,Reducing cost of compliance with licenses to K1.5 trillion by December 2011 from 2.2 trillion Kwacha in 2008 ,,Shortening time required to cross Chirundu Border Posts from 3 days in 2009 to 1 day by June 2011.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-08-01"/>
+    <activity-date type="End Planned" iso-date="2011-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MATILA Mothobi P.S.</person-name>
+      <email>p.matila@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="15110">Public sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150022443">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">31900000</value>
+      <transaction-date iso-date="2010-08-01"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2010-12-31">31900000</value>
+      <description>Total Disbursement in Fourth Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-06-30">62959</value>
+      <description>Total Interest Repayment in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">117532</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">120074</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">123637</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:32">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:32">
+    <iati-identifier>46002-P-NA-AAF-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF FISHERIES &amp; MARINE RESOURCES</participating-org>
+    <recipient-country code="NA">Namibia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SUPPORT TO AQUACULTURE DEVELOPMENT</title>
+    <description>The objectives of this proposal are to source consultants to (1) develop an Aquaculture Master Plan for Namibia and (2) to provide institutional support for the development of inland aquaculture throughout the country.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-06-07"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MARTTIN Felix Jan Baptist</person-name>
+      <email>f.marttin@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31320">Fishery development</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5500155002051">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">259812</value>
+      <transaction-date iso-date="2010-06-07"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Erongo" adm2=""/>
+      <coordinates latitude="-22.08333" longitude="15.33333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="3371199">Erongo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Karas" adm2=""/>
+      <coordinates latitude="-27" longitude="17.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="3371201">Karas</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kunene" adm2=""/>
+      <coordinates latitude="-19.41667" longitude="13.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="3371202">Kunene</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:32">
+    <iati-identifier>46002-P-NA-DA0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Namibia</participating-org>
+    <participating-org role="Implementing" ref="" type="">DEPARTMENT OF TRANSPORT</participating-org>
+    <recipient-country code="NA">Namibia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">NAMIBIA AIRPORT STUDY</title>
+    <description>The objective of this Study is two-fold, each to develop the relevant output of master plans and designs to bring forth deliverables in readiness for future implementation. It broadly includes: a.,,For HKIA, follow-up on the 2004 master-plan study, update and expand the scope as required in readiness for future implementation. b.,,For other airports, to have fully developed master-plans (environmental and land-use planning) for the development of regional airports which is to form the basis for future development.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-NA-DA0-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-05-25"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>WADDA-SENGHORE Mam Tut</person-name>
+      <email>m.wadda-senghore@afdb.org</email>
+      <telephone>+21671102486</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21050">Air transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Namibia</provider-org>
+      <value currency="">31000</value>
+      <transaction-date iso-date="2011-05-25"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155003651">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">594000</value>
+      <transaction-date iso-date="2011-05-25"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Khomas" adm2="Windhoek West"/>
+      <coordinates latitude="-22.60724" longitude="17.07885" precision="1"/>
+      <gazetteer-entry gazetteer-ref="3357623">Eros Airport</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Caprivi" adm2="Kongola"/>
+      <coordinates latitude="-17.63392" longitude="24.17739" precision="1"/>
+      <gazetteer-entry gazetteer-ref="877034">Katima Mulilo Airport</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Karas" adm2="Keetmanshoop Urban"/>
+      <coordinates latitude="-26.53744" longitude="18.11131" precision="1"/>
+      <gazetteer-entry gazetteer-ref="3356557">Keetmanshoop Airport</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Karas" adm2="Luderitz"/>
+      <coordinates latitude="-26.6869444" longitude="15.2433333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="3355674">Luderitz Airport</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Oshana" adm2="Ondangwa"/>
+      <coordinates latitude="-17.88049" longitude="15.94747" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6297133">Ondangwa Airport</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kavango" adm2="Rundu Rural West"/>
+      <coordinates latitude="-17.95526" longitude="19.72308" precision="1"/>
+      <gazetteer-entry gazetteer-ref="6297135">Rundu Airport</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Erongo" adm2="Walvisbay Rural"/>
+      <coordinates latitude="-22.979889" longitude="14.645331" precision="1"/>
+      <gazetteer-entry gazetteer-ref="3362101">Walvis Bay Airport</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Khomas" adm2="Windhoek Rural"/>
+      <coordinates latitude="-22.48306" longitude="17.46672" precision="1"/>
+      <gazetteer-entry gazetteer-ref="3356556">Windhoek Hosea Kutako International Airport</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:32">
+    <iati-identifier>46002-P-NA-IAD-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">GOVERNMENT OF NAMIBIA</participating-org>
+    <recipient-country code="NA">Namibia</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">MIC- HUMAN RESOURCE  DEVELOPMENT PLAN</title>
+    <description>The objective of the MIC grant is to assist the Government of the Republic of Namibia (GRN) to develop a human resources plan in order to institutionalize human resource supply and demand, monitoring and evaluation system.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-03-16"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BOAHENE-AGBO Frank Kwaku</person-name>
+      <email>f.boahene@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="11420">Higher education</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5500155002402">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">600000</value>
+      <transaction-date iso-date="2010-03-16"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+</iati-activities>

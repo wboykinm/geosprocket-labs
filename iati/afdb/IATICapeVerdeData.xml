@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:24">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:24">
+    <iati-identifier>46002-P-CV-FA0-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Cape Verde</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'INDUSTRIE ET DE L'ENERGIE</participating-org>
+    <recipient-country code="CV">Cape Verde</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Interconnexion et distribution électrique</title>
+    <description>10.2,,L'objectif sectoriel du projet est  de contribuer à l'amélioration de la compétitivité de l'économie nationale et de la qualité de vie des populations.  Le projet vise à améliorer la fiabilité, l'efficacité et la qualité de services d'électricité dans les six îles suivantes: Santo Antão, Sao Vicente, Sal, Maio, Santiago et Fogo.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CV-FA0-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-12-08"/>
+    <activity-date type="End Planned" iso-date="2021-03-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>SCHROTH Daniel-Alexander</person-name>
+      <email>d.schroth@afdb.org</email>
+      <telephone>+21671101564</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23010">Energy policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Cape Verde</provider-org>
+      <value currency="">985000</value>
+      <transaction-date iso-date="2011-12-08"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150025496">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">8420000</value>
+      <transaction-date iso-date="2011-12-08"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">1038</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">21108</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Maio" adm2=""/>
+      <coordinates latitude="15.25" longitude="-23.166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="3374486">Ilha de Maio</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="" adm2=""/>
+      <coordinates latitude="15.0825244867156" longitude="-23.6685419082641" precision="5"/>
+      <gazetteer-entry gazetteer-ref="3374199">Ilha de Santiago</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="" adm2=""/>
+      <coordinates latitude="17.083333" longitude="-25.166667" precision="5"/>
+      <gazetteer-entry gazetteer-ref="3374213">Ilha de Santo Antao</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sao Vicente" adm2=""/>
+      <coordinates latitude="16.8333333" longitude="-25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="3374197">Ilha de Sao Vicente</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="" adm2=""/>
+      <coordinates latitude="14.9166667" longitude="-24.4166667" precision="5"/>
+      <gazetteer-entry gazetteer-ref="3374613">Ilha do Fogo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sal" adm2=""/>
+      <coordinates latitude="16.75" longitude="-22.9166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="3374248">Ilha do Sal</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:25">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="CV">Cape Verde</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">CAPE VERDE WIND FARM - CABEOLICA</title>
+    <description>The Cabeolica wind power project comprises the construction, operation and maintenance of four onshore wind farms on four islands of the Cape Verdean archipelago (Santiago, São Vicente, Sal, and Boa Vista). These will have a combined installed capacity of 25.5 MW and will be connected to the existing electricity grid on each island. Each wind farm will include towers with wind turbines, transformers, a substation, a command centre, an underground transmission line and an access road. The project was developed by InfraCo, an infrastructure development company established by the donor-funded Private Infrastructure Development Group (PIDG), established to develop viable private infrastructure investment opportunities that balance the interests of host governments, the national and international private sector and providers of finance.
+BENEFITS:
+The project will be a landmark transaction for the Cape Verdean economy as it will contribute to the development of the country?s legal framework for PPP structures. Moreover, it will enable the country to reduce its green house gas emissions and benefit from the Clean Development Mechanism (CDM) by diversifying the generation resources and reducing the use of inefficient and expensive diesel generation units.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-12-14"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23068">Wind power</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">13010782</value>
+      <transaction-date iso-date="2010-12-14"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Boa Vista" adm2=""/>
+      <coordinates latitude="16.0833333" longitude="-22.8333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="3374855">Concelho da Boa Vista</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Praia" adm2=""/>
+      <coordinates latitude="14.983333" longitude="-23.65" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7603281">Concelho de Ribeira Grande de Santiago</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sao Vicente" adm2=""/>
+      <coordinates latitude="16.8333333" longitude="-25" precision="4"/>
+      <gazetteer-entry gazetteer-ref="3374198">Concelho de São Vicente</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Sal" adm2=""/>
+      <coordinates latitude="16.75" longitude="-22.9166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="3374249">Concelho do Sal</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:25">
+    <iati-identifier>46002-P-CV-G00-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Implementing" ref="" type=""/>
+    <recipient-country code="CV">Cape Verde</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">DATA CENTER PROJECT</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-CV-G00-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-01-19"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>YAHIAOUI Ali</person-name>
+      <email>a.yahiaoui@afdb.org</email>
+      <telephone>+21671102471</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="22010">Communications policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5500155003753">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">297188</value>
+      <transaction-date iso-date="2011-01-19"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Praia" adm2=""/>
+      <coordinates latitude="14.9214809979399" longitude="-23.5086822509766" precision="1"/>
+      <gazetteer-entry gazetteer-ref="3374333">Praia</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:25">
+    <iati-identifier>46002-P-CV-K00-007</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DES FINANCES   ET DE L'ADMINISTRATION</participating-org>
+    <recipient-country code="CV">Cape Verde</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">CAP VERT: PROPOSITION  D'APPUI BUDGETAIRE 2010</title>
+    <description>Le but de l'appui budgétaire additionnel, qui s'aligne sur le PASRP II, est de contribuer à la réduction de pauvreté. L'appui budgétaire additionnel s'inscrit également dans le cadre du nouveau DSPAR pour 2009-13. L'opération d'appui budgétaire additionnel renforcera les deux composantes du PASRP II à savoir (i) le renforcement de la gestion des finances publiques et (ii) l'amélioration de l'environnement des affaires.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-10-28"/>
+    <activity-date type="End Planned" iso-date="2011-06-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>EKPO Alain Fabrice</person-name>
+      <email>a.ekpo@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2000130004631">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">10634954</value>
+      <transaction-date iso-date="2010-10-28"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2010-12-31">10391470</value>
+      <description>Total Disbursement in Fourth Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2011-09-30">86209</value>
+      <description>Total Interest Repayment in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-03-31">106202</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-09-30">95440</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:25">
+    <iati-identifier>46002-P-CV-K00-009</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DES FINANCES   ET DE L'ADMINISTRATION</participating-org>
+    <recipient-country code="CV">Cape Verde</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">ADDITIONAL BUDGET SUPPORT TO Poverty Reduction Strategy Support Programme  (PRSSP) II</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-10-28"/>
+    <activity-date type="End Planned" iso-date="2011-03-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>CHINIEN Shirley</person-name>
+      <email>s.chinien@afdb.org</email>
+      <telephone>+21671103536</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150023044">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">7046000</value>
+      <transaction-date iso-date="2010-10-28"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2010-12-31">6888205</value>
+      <description>Total Disbursement in Fourth Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-09-30">23860</value>
+      <description>Total Interest Repayment in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-03-31">25758</value>
+      <description>Total Interest Repayment in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-09-30">26207</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:25">
+    <iati-identifier>46002-P-CV-K00-010</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DES FINANCES   ET DE L'ADMINISTRATION</participating-org>
+    <recipient-country code="CV">Cape Verde</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">Programme d'appui à la gestion des finances publiques et à la relance du secteur privé</title>
+    <description>L'objectif global du programme est de contribuer à relancer la croissance économique et à réduire le chômage. Ces deux objectifs sont parmi les plus grands défis du Gouvernement pour les cinq prochaines années. L'approche retenue par le Programme consiste d' une part à poursuivre l'appui de la Banque dans le renforcement de la gestion et de la transparence des finances publiques. D'autre part, le Programme soutiendra l'amélioration du fonctionnement du secteur financier et la facilitation de l'accès au crédit pour les micro-entreprises afin de réduire le chômage. Les micro-entreprises représentent environ 50% des emplois dans le pays mais elles sont contraintes par la rareté du crédit. La relance des activités de ces micro-entreprises contribuera à absorber une partie de la main d'?uvre oisive et réduire ainsi le chômage dans le pays.  Conformément à la stratégie de la Banque au Cap Vert pour la période 2009-2012, l'ensemble des mesures appuyées par la Banque s'inscriront dans trois composantes : (i) renforcement de la gestion et la transparence des finances publiques ; (ii) amélioration du fonctionnement du système financier ; et (iii) amélioration de l'accès au crédit. Les résultats globaux attendus sont (i) un taux de croissance de 7% et (ii) un taux de chômage inférieur à 10%.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-12-08"/>
+    <activity-date type="End Planned" iso-date="2012-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>DOGANIS Carine</person-name>
+      <email>c.doganis@afdb.org</email>
+      <telephone>+21671101684</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2000130007881">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">21531677</value>
+      <transaction-date iso-date="2011-12-08"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2011-12-31">12703467</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2012-12-31">8497693</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-09-30">138164</value>
+      <description>Total Interest Repayment in Third Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:25">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:25">
+    <iati-identifier>46002-P-SN-AAC-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE AGRICULTURE ET ELEVAGE</participating-org>
+    <recipient-country code="SN">Senegal</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PRET SUPPLEMENTAIRE Projet d'appui à la petite irrigation locale</title>
+    <description>L'objectif sectoriel du projet est de contribuer à la sécurité alimentaire par le développement de la petite irrigation au niveau local. L'objectif spécifique du projet est l'augmentation et la diversification de la production agricole sur une base durable.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-SN-AAC-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-02-17"/>
+    <activity-date type="End Planned" iso-date="2013-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>KANE Mamadou Abdoul</person-name>
+      <email>m.kane@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31140">Agricultural water resources</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150023694">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">8400000</value>
+      <transaction-date iso-date="2011-02-17"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">504093</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">266467</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">96985</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">1432317</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">402261</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">258649</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">5188</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">21867</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">22506</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Fatick" adm2="Foundiougne"/>
+      <coordinates latitude="13.6333333" longitude="-16.3" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2249034">Madina Djikoye</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kolda" adm2="Kolda"/>
+      <coordinates latitude="12.9" longitude="-14.8666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2248166">Namo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Fatick" adm2=""/>
+      <coordinates latitude="14.386433" longitude="-16.40175" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2251910">Ragion de Fatick</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tambacounda" adm2=""/>
+      <coordinates latitude="12.5514637080421" longitude="-12.1758556365967" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7303936">Ragion de Kadougou</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kolda" adm2=""/>
+      <coordinates latitude="12.983764" longitude="-14.39729" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2249781">Ragion de Kolda</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Tambacounda" adm2=""/>
+      <coordinates latitude="13.98416" longitude="-13.27513" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2244990">Ragion de Tambacounda</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kolda" adm2="Velingara"/>
+      <coordinates latitude="12.85" longitude="-13.8" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2244162">Valingara Pakane</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:25">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="SN">Senegal</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">AEROPORT INTERNATIONAL BLAISE DIAGNE</title>
+    <description>The construction of ?Blaise Diagne International Airport? on a new site located 45 km east of Dakar in Senegal. The Project is estimated at ?525 million of which ?379 million will be financed with senior loans.
+PROJECT BENEFITS: 
+The new airport will meet international air transport regulations both in terms of security and quality infrastructure, and will create space for related industrial activities such as aircraft maintenance. It will have a 3 ?million annual passenger capacity and 80,000 aircraft movements, which will relieve the air and road congestion at the existing Dakar airport. The project is designed to provide a long-term solution to traffic management in Dakar and supports the Senegalese government?s strategy for decongesting Dakar peninsula and to promote the development of neighboring regions through a modern and secure state-of-the-art airport facility.
+The Project will also create jobs, develop skills and build capacity among the inhabitants in the surrounding communities through international airports management expertise transfer during the construction and operation period. On completion, the airport will create opportunities for direct and indirect employment. It will engage some 427 full-time employees during the operational phase, including 197 females. In addition to direct employment at the airport, the project will require other services in engineering, spare parts, information technology and services, catering and cleaning, that will boost the local economy.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-09-26"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21050">Air transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">60530594</value>
+      <transaction-date iso-date="2011-09-26"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Thies" adm2="Mbour"/>
+      <coordinates latitude="14.67111" longitude="-17.06694" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7732976">Blaise Diagne International Airport</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:25">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="SN">Senegal</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">DAKAR TOLL HIGHWAY SENIOR LOAN</title>
+    <description>The project comprises the construction of the 20.4-km section of the Dakar-Diamniado toll highway from Pikine to Diamniadio and the tolling and operation of the toll highway from Patte d?Oie to Diamniado (including the 4.2-km section between Patte d?Oie and Pikine, which was constructed under a separate contract). The motorway will be built as a dual carriageway with three lanes in each direction from Patte d?Oie to Thiaroye and two lanes in each direction from there to Diamniadio with six intermediate junctions.
+BENEFITS:
+The project?s main beneficiaries are road users who will save significant amounts of time and vehicle operating expenditures. It will also help stimulate local economic activity and facilitate the movement of goods and services through this regional hub, thereby strengthening intra and inter-regional trade.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-11-14"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">9237618</value>
+      <transaction-date iso-date="2010-11-14"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Dakar" adm2="Dakar"/>
+      <coordinates latitude="14.77083" longitude="-17.43083" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2253441">Cambérène</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Dakar"/>
+      <coordinates latitude="14.71403" longitude="-17.45534" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732977">Dakar Department</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Rufisque"/>
+      <coordinates latitude="14.7225" longitude="-17.18028" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2595640">Diam Niadia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Pikine"/>
+      <coordinates latitude="14.7852778" longitude="-17.3105556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2250227">Keur Massar</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Dakar"/>
+      <coordinates latitude="14.745" longitude="-17.434167" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2595714">Patte d?Oie</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Pikine"/>
+      <coordinates latitude="14.75" longitude="-17.4" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2246678">Pikine</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Pikine"/>
+      <coordinates latitude="14.76515" longitude="-17.35198" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732979">Pikine Department</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2=""/>
+      <coordinates latitude="14.75" longitude="-17.3333333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="2253350">Région de Dakar</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Rufisque"/>
+      <coordinates latitude="14.7161111" longitude="-17.2736111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2246512">Rufisque</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Rufisque"/>
+      <coordinates latitude="14.74339" longitude="-17.1984" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7733009">Rufisque Department</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Pikine"/>
+      <coordinates latitude="14.7425" longitude="-17.3794444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2244651">Tiaroye-Mer</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:25">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="SN">Senegal</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">DAKAR TOLL HIGHWAY STANDBY FACILITY</title>
+    <description>The project comprises the construction of the 20.4-km section of the Dakar-Diamniado toll highway from Pikine to Diamniadio and the tolling and operation of the toll highway from Patte d?Oie to Diamniado (including the 4.2-km section between Patte d?Oie and Pikine, which was constructed under a separate contract). The motorway will be built as a dual carriageway with three lanes in each direction from Patte d?Oie to Thiaroye and two lanes in each direction from there to Diamniadio with six intermediate junctions.
+BENEFITS:
+The project?s main beneficiaries are road users who will save significant amounts of time and vehicle operating expenditures. It will also help stimulate local economic activity and facilitate the movement of goods and services through this regional hub, thereby strengthening intra and inter-regional trade.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-11-14"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">1316298</value>
+      <transaction-date iso-date="2010-11-14"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Dakar" adm2="Dakar"/>
+      <coordinates latitude="14.71403" longitude="-17.45534" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732977">Dakar Department</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Pikine"/>
+      <coordinates latitude="14.7852778" longitude="-17.3105556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2250227">Keur Massar</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Dakar"/>
+      <coordinates latitude="14.745" longitude="-17.434167" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2595714">Patte d?Oie</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Pikine"/>
+      <coordinates latitude="14.75" longitude="-17.4" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2246678">Pikine</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Pikine"/>
+      <coordinates latitude="14.76515" longitude="-17.35198" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732979">Pikine Department</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Rufisque"/>
+      <coordinates latitude="14.7161111" longitude="-17.2736111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2246512">Rufisque</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Pikine"/>
+      <coordinates latitude="14.7425" longitude="-17.3794444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2244651">Tiaroye-Mer</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:26">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="SN">Senegal</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">DAKAR CONTAINER TERMINAL</title>
+    <description>The Objective of the project is to upgrade the existing container terminal in Dakar.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-04-29"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21040">Water transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">41745030</value>
+      <transaction-date iso-date="2010-04-29"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Dakar" adm2="Dakar"/>
+      <coordinates latitude="14.71403" longitude="-17.45534" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732977">Dakar Department</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dakar" adm2="Dakar"/>
+      <coordinates latitude="14.68417" longitude="-17.42833" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2253352">Port of Dakar</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:26">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="SN">Senegal</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SENDOU COAL POWER PROJECT</title>
+    <description>Develop, construct, operate and maintain a Coal Power Plant that will produce annually at least 925 GWh of electricity, the equivalent to 40% of the currently annual production. ..</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-05-11"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23010">Energy policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">49342400</value>
+      <transaction-date iso-date="2011-05-11"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Dakar" adm2="Rufisque"/>
+      <coordinates latitude="14.6719444" longitude="-17.2061111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="2245591">Séndou</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:26">
+    <iati-identifier>46002-P-SN-K00-006</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTERE DE L'ECONOMIE ET DES FINANCES</participating-org>
+    <recipient-country code="SN">Senegal</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="fr">PROGRAMNE D' APPUI AUX REFORMES ECONOMIQUES (PARE)</title>
+    <description>En rapport avec les contraintes et défis ainsi que les réformes prioritaires évoquées  précédemment, le PARE a pour finalité de contribuer à l'amélioration de la gouvernance financière et du climat des affaires nécessaire à l'atteinte des objectifs du DPES. L'objectif spécifique du programme est d'améliorer la gestion des finances publiques et de promouvoir  les PME (créer de la richesse). Ces deux domaines sont interagissants.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-07-27"/>
+    <activity-date type="End Planned" iso-date="2013-09-30"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MAHDI AHMED ISMAIL Mahdi</person-name>
+      <email>a.mahdi@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150024644">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">27000000</value>
+      <transaction-date iso-date="2011-07-27"/>
+      <aid-type code="A01">General Budget Support</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">20250000</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">6750000</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">59360</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">91174</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

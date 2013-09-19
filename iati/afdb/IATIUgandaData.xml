@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:16">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:16">
+    <iati-identifier>46002-P-UG-AB0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF LOCAL GOVERNMENT MOLG</participating-org>
+    <recipient-country code="UG">Uganda</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">Community Agricultual Infrastructure Improvement Programme  3</title>
+    <description>The project's specific objectives are to enhance farmers' access to markets, attract competitive prices and increase incomes through improvements in rural infrastructure and infrastructure management by well mobilized communities.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-UG-AB0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-06-10"/>
+    <activity-date type="End Planned" iso-date="2018-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>IHEDIOHA Onyema Damian</person-name>
+      <email>d.ihedioha@afdb.org</email>
+      <telephone>+21671102212</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43040">Rural development</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150024294">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">40000000</value>
+      <transaction-date iso-date="2011-06-10"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">502198</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">63562</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">100206</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Apac" adm2="Maruzi"/>
+      <coordinates latitude="1.902" longitude="32.6" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443327">Apac District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Lake Victoria" adm2="Lake Victoria"/>
+      <coordinates latitude="0.5333" longitude="33.79" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443783">Bugiri District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bushenyi" adm2="Buhweju"/>
+      <coordinates latitude="-0.328696" longitude="30.324878" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8030585">Buhweju District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bundibugyo" adm2="Bwamba"/>
+      <coordinates latitude="0.66667" longitude="30.05" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443329">Bundibugyo District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bushenyi" adm2="Igara"/>
+      <coordinates latitude="-0.491" longitude="30.183" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443330">Bushenyi District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Busia" adm2="Samia-Bugwe"/>
+      <coordinates latitude="0.417615" longitude="34.004211" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443784">Busia District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Hoima" adm2="Buhaguzi"/>
+      <coordinates latitude="1.393" longitude="31.11" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443332">Hoima District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mbarara" adm2="Ibanda"/>
+      <coordinates latitude="-0.081" longitude="30.556" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7056284">Ibanda District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mbarara" adm2="Bukanga"/>
+      <coordinates latitude="-0.833538" longitude="30.871754" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7056285">Isingiro District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kabale" adm2="Rubanda"/>
+      <coordinates latitude="-1.207735" longitude="29.985884" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443336">Kabale District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kabarole" adm2="Fort Portal"/>
+      <coordinates latitude="0.654539" longitude="30.288158" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443337">Kabarole District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kamwenge" adm2="Kibale"/>
+      <coordinates latitude="0.216444" longitude="30.440763" precision="3"/>
+      <gazetteer-entry gazetteer-ref="448216">Kamwenge District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kanungu" adm2="Kinkiizi"/>
+      <coordinates latitude="-0.75" longitude="29.73" precision="3"/>
+      <gazetteer-entry gazetteer-ref="448217">Kanungu District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kasese" adm2="Busongora"/>
+      <coordinates latitude="0.121001" longitude="30.007773" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443342">Kasese District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mbarara" adm2="Nyabushozi"/>
+      <coordinates latitude="-0.25" longitude="30.91667" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7056288">Kiruhura District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kisoro" adm2="Kisoro"/>
+      <coordinates latitude="-1.206624" longitude="29.681132" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443345">Kisoro District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Apac" adm2="Kole"/>
+      <coordinates latitude="2.297009" longitude="32.744019" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8030565">Kole District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kyenjojo" adm2="Kyaka"/>
+      <coordinates latitude="0.429228" longitude="31.010618" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8030581">Kyegegwa District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Luwero" adm2="Bamunanika"/>
+      <coordinates latitude="0.82" longitude="32.614" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443350">Luwero District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Masindi" adm2="Buruli"/>
+      <coordinates latitude="1.569" longitude="31.743" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443351">Masindi District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mayuge" adm2="Bunya"/>
+      <coordinates latitude="0.269" longitude="33.561" precision="3"/>
+      <gazetteer-entry gazetteer-ref="448220">Mayuge District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mbarara" adm2="Kashari"/>
+      <coordinates latitude="-0.5" longitude="30.6" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443355">Mbarara District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bushenyi" adm2="Ruhinda"/>
+      <coordinates latitude="-0.626178" longitude="30.01" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8030586">Mitoma District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Luwero" adm2="Nakaseke"/>
+      <coordinates latitude="1.040633" longitude="32.18968" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7056294">Nakaseke District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bugiri" adm2="Bukooli"/>
+      <coordinates latitude="0.278" longitude="33.809" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8030575">Namayingo District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bundibugyo" adm2="Ntoroko"/>
+      <coordinates latitude="1.006693" longitude="30.358782" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8030583">Ntoroko District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ntungamo" adm2="Ruhaama"/>
+      <coordinates latitude="-0.937015" longitude="30.30483" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443361">Ntungamo District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Apac" adm2="Oyam"/>
+      <coordinates latitude="2.381294" longitude="32.500715" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7056295">Oyam District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bushenyi" adm2="Bunyaruguru"/>
+      <coordinates latitude="-0.254325" longitude="29.989116" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8030584">Rubirizi District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rukungiri" adm2="Bufumbira"/>
+      <coordinates latitude="-0.69077" longitude="29.877812" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443364">Rukungiri District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Bushenyi" adm2="Sheema"/>
+      <coordinates latitude="-0.626178" longitude="30.330346" precision="3"/>
+      <gazetteer-entry gazetteer-ref="8030587">Sheema District</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:16">
+    <iati-identifier>46002-P-UG-DB0-020</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Uganda</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF WORKS</participating-org>
+    <recipient-country code="UG">Uganda</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">ROAD SECTOR SUPPORT PROJECT 3</title>
+    <description>The specific objective of the project is to promote the effort of Government in poverty reduction through improvement of road infrastructure in rural areas of western Uganda by providing all weather access for the supply of farm inputs, evacuation of produce to major market centers and socio-economic facilities, thus improving the level of service and efficiency of the road network.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-UG-DB0-020/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-04-21"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>GEBREMEDHIN Dawit</person-name>
+      <email>d.gebremedhin@afdb.org</email>
+      <telephone>+21671103684</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Uganda</provider-org>
+      <value currency="">30270000</value>
+      <transaction-date iso-date="2010-04-21"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150020793">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">80000000</value>
+      <transaction-date iso-date="2010-04-21"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-09-30">15102896</value>
+      <description>Total Disbursement in Third Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">8962063</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">4528802</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">4052602</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">6376890</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">4071282</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2010-12-31">14247</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-06-30">198356</value>
+      <description>Total Interest Repayment in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">204504</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">221343</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">237502</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Masindi" adm2="Bujenje"/>
+      <coordinates latitude="1.8113889" longitude="31.3305556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="233960">Butiaba</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kamuli" adm2="Budiope"/>
+      <coordinates latitude="1.3130556" longitude="32.8675" precision="1"/>
+      <gazetteer-entry gazetteer-ref="233455">Galiraya</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Hoima" adm2="Bugahya"/>
+      <coordinates latitude="1.43556" longitude="31.34361" precision="1"/>
+      <gazetteer-entry gazetteer-ref="233312">Hoima</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mbarara" adm2="Ibanda"/>
+      <coordinates latitude="-0.13398" longitude="30.49616" precision="1"/>
+      <gazetteer-entry gazetteer-ref="233299">Ibanda</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mbarara" adm2=""/>
+      <coordinates longitude="30.5" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7056284">Ibanda District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kamwenge" adm2="Kibale"/>
+      <coordinates longitude="30.45393" precision="1"/>
+      <gazetteer-entry gazetteer-ref="232371">Kamwenge</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kamwenge" adm2=""/>
+      <coordinates latitude="0.1666667" longitude="30.4166667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="448216">Kamwenge District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kayunga" adm2="Ntenjeru"/>
+      <coordinates latitude="0.7025" longitude="32.8886111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="231696">Kayunga</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mbarara" adm2="Kazo"/>
+      <coordinates latitude="-0.0744444" longitude="30.7852778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="231670">Kazo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mbarara" adm2="Nyabushozi"/>
+      <coordinates latitude="-0.19664" longitude="30.84446" precision="1"/>
+      <gazetteer-entry gazetteer-ref="231103">Kiruhura</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Mbarara" adm2=""/>
+      <coordinates latitude="-0.25" longitude="30.91667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="7056288">Kiruhura District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ntungamo" adm2="Rushenyi"/>
+      <coordinates latitude="-1.11805" longitude="30.1761" precision="1"/>
+      <gazetteer-entry gazetteer-ref="226577">Rushenyi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Masindi" adm2="Bujenje"/>
+      <coordinates latitude="2.1833333" longitude="31.3833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="225907">Wanseko</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:17">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="UG">Multinational</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">BUSERUKA II</title>
+    <description>The project involves the construction and operation of a hydropower plant in Buseruka located in Hoima District to the West of Uganda. The plant has a capacity of 9 MW. The major component of works involves the construction of: (i) a 150,000 cubic meter capacity dam, (ii) a 1.4Km long power channel and fore bay, (iii), the 1.1 Km long penstock, a power house and the (iv) the electro-mechanical works and (v) a 46Km long 33KV transmission line respectively.
+
+ BENEFITS:
+
+The project?s main development outcomes originate from the provision of electricity to underserved communities in rural Uganda as well as the induced positive environmental effects. These outcomes are however mitigated by (i) the delayed delivery of development outcomes; (ii) the high cost per unit of installed power generation capacity (USD 4.3 million per MW generated) compared to other hydro power projects</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-11-28"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23065">Hydro-electric power plants</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">2573969</value>
+      <transaction-date iso-date="2011-11-28"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Hoima" adm2="Bugahya"/>
+      <coordinates latitude="1.547361" longitude="31.136491" precision="1"/>
+      <gazetteer-entry gazetteer-ref="234750">Biseruka</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Hoima" adm2="Bugahya"/>
+      <coordinates latitude="1.4355556" longitude="31.3436111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="233312">Hoima</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Hoima" adm2="Buhaguzi"/>
+      <coordinates latitude="1.523" longitude="31.341" precision="3"/>
+      <gazetteer-entry gazetteer-ref="443332">Hoima District</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:17">
+    <iati-identifier>46002-P-UG-IE0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Uganda</participating-org>
+    <participating-org role="Implementing" ref="" type="">MICROFINANCE SUPPORT CENTRE LTD</participating-org>
+    <recipient-country code="UG">Uganda</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">The Rural Income And Economic Enhancement Project (RIEEP)</title>
+    <description>To facilitate access to and utilization of affordable financial and business development services for 1.2 million rural poor Ugandans ..</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-UG-IE0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-04-21"/>
+    <activity-date type="End Planned" iso-date="2015-07-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>BUDALI Issahaku</person-name>
+      <email>i.budali@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Uganda</provider-org>
+      <value currency="">1800000</value>
+      <transaction-date iso-date="2010-04-21"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150021295">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">10210000</value>
+      <transaction-date iso-date="2010-04-21"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2010-12-31">4866562</value>
+      <description>Total Disbursement in Fourth Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2010-12-31">1818</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-06-30">29882</value>
+      <description>Total Interest Repayment in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">31507</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">31685</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">32377</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+  </iati-activity>
+</iati-activities>

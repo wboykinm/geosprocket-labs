@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:17">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:17">
+    <iati-identifier>46002-P-EG-AAC-007</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Egypt</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF WATER RESOURCES &amp; IRRIGATION</participating-org>
+    <recipient-country code="EG">Egypt</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">FEASIBILITY STUDY ZEFTA BARRAGE</title>
+    <description>The sector goal is to develop and manage the very limited water resources in Egypt in the most efficient manner that satisfies all the needs whilst maintaining the sustainability of the resources through the application of the principles of Integrated Water Resources Management (IWRM). The specific study objective is to determine the most technically viable, economically feasible, and environmental and socially acceptable option for the rehabilitation/reconstruction of Zefta Barrage, including the production of a comprehensive feasibility report and the associated engineering designs, bills of quantities and tender documents for the selected option.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-EG-AAC-007/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-01-18"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>ELWAN Mohamed-Yasser Hamdy</person-name>
+      <email>y.elwan@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31140">Agricultural water resources</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Egypt</provider-org>
+      <value currency="">30000</value>
+      <transaction-date iso-date="2010-01-18"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155002001">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">600000</value>
+      <transaction-date iso-date="2010-01-18"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Al Gharbiyah (gharbia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.714201" longitude="31.24425" precision="1"/>
+      <gazetteer-entry gazetteer-ref="346030">Zifta¡</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:17">
+    <iati-identifier>46002-P-EG-AAC-014</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="AWF" type="">AfricaWater Facility Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF WATER RESOURCES &amp; IRRIGATION</participating-org>
+    <recipient-country code="EG">Egypt</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">MASTER PLAN  FOR THE REHABILITATION OF HYDRAULIC STRUCTURE NILE</title>
+    <description>The objective of the study is to assess and design improvements of major hydraulic facilities and thus contribute to the implementation of Egypt's Integrated Water Resources Management (IWRM) plan. The IWRM plan aims at improving water distribution and allocation efficiency and reducing the risks of flooding and damage to life and property in the case of the failure of hydraulic control structures in the country. This objective is to be attained through: i) the preparation of a Master Plan for the rehabilitation/ replacement of major hydraulic control structures on the Nile and ii) the preparation of a capital investment project for the rehabilitation or replacement of one priority major structure identified under the study in order to facilitate the mobilisation of funds for implementation</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-04-05"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>VERDEIL Daniel</person-name>
+      <email>d.verdeil@afdb.org</email>
+      <telephone>+21671102505</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31140">Agricultural water resources</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5600155001851">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="AWF">AfricaWater Facility Fund</provider-org>
+      <value currency="">1209463</value>
+      <transaction-date iso-date="2010-04-05"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="" adm2=""/>
+      <coordinates latitude="30.166667" longitude="31.1" precision="5"/>
+      <gazetteer-entry gazetteer-ref="351036">Nile River</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:17">
+    <iati-identifier>46002-P-EG-AAC-015</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Egypt</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF WATER RESOURCES &amp; IRRIGATION</participating-org>
+    <recipient-country code="EG">Egypt</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">MIC GRANT: PREPARATION OF A MASTER PLAN FOR THE  REHABILITATON/ REPLACEMENT OF MAJOR  HYDRAULIC STRUCTURES IN EGYPT</title>
+    <description>The sector goal is to develop and manage the limited water resources in Egypt in the most efficient manner that satisfies irrigation and other needs through the application of the principles of Integrated Water Resources Management (IWRM) in order to maintain resources' sustainability. The specific objectives of the study are to prepare: (i) to prepare a Master Plan for the rehabilitation/replacement of hydraulic control structures on the Nile (a dynamic plan demonstrating what interventions need to be done on each of the concerned structures taking into consideration all operational, social and environmental aspects, at what time and cost) and (ii) to prepare a feasible investment project for the top priority large structure identified under the study to facilitate the mobilization of resources for implementation of works.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-EG-AAC-015/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-03-25"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>ELWAN Mohamed-Yasser Hamdy</person-name>
+      <email>y.elwan@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31140">Agricultural water resources</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Egypt</provider-org>
+      <value currency="">337676</value>
+      <transaction-date iso-date="2010-03-25"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155002751">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">600000</value>
+      <transaction-date iso-date="2010-03-25"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Suhaj" adm2="Administrative unit not available"/>
+      <coordinates latitude="26.5666667" longitude="31.7333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="361661">Akhmim</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Jizah (giza)" adm2="Administrative unit not available"/>
+      <coordinates latitude="29.650833" longitude="31.274444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="361521">Al ?Atf</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Qina" adm2="Administrative unit not available"/>
+      <coordinates latitude="26.0958333" longitude="32.7675" precision="1"/>
+      <gazetteer-entry gazetteer-ref="361537">Al Ashraf</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Minya (menia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="27.6666667" longitude="30.7444444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="361475">Al Badraman</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dumyat (damietta)" adm2="Administrative unit not available"/>
+      <coordinates latitude="31.3852778" longitude="31.7477778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="361354">Al Bustan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Iskandariyah (alex.)" adm2="Administrative unit not available"/>
+      <coordinates latitude="31.2122222" longitude="29.9247222" precision="1"/>
+      <gazetteer-entry gazetteer-ref="361101">Al Ibrahimiyah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Jizah (giza)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.008611" longitude="31.212222" precision="1"/>
+      <gazetteer-entry gazetteer-ref="360995">Al Jizah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Bahr/al Ahmar (redsea)" adm2="Administrative unit not available"/>
+      <coordinates latitude="27.5" longitude="31.0013889" precision="1"/>
+      <gazetteer-entry gazetteer-ref="445003">Al Kawamil</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Minufiyah (menoufia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.3833333" longitude="30.8333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="360917">Al Khatatibah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Buhayrah (behera)" adm2="Administrative unit not available"/>
+      <coordinates latitude="31.1858333" longitude="30.5191667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="360819">Al Ma?mudiyah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ash Sharqiyah (sharkia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.6663889" longitude="31.6833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="360151">Ar Ra?maniyah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Qina" adm2="Administrative unit not available"/>
+      <coordinates latitude="25.390278" longitude="32.541944" precision="1"/>
+      <gazetteer-entry gazetteer-ref="360056">Asfun al Mata?inah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Daqahliyah (dakahlia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.8216667" longitude="31.3616667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="359091">Barhamtush</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Gharbiyah (gharbia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.9402778" longitude="30.8138889" precision="1"/>
+      <gazetteer-entry gazetteer-ref="358970">Basyun</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dumyat (damietta)" adm2="Administrative unit not available"/>
+      <coordinates latitude="31.4194444" longitude="31.815" precision="1"/>
+      <gazetteer-entry gazetteer-ref="358048">Damietta</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dumyat (damietta)" adm2=""/>
+      <coordinates latitude="31.5333333" longitude="31.85" precision="1"/>
+      <gazetteer-entry gazetteer-ref="358047">Damietta Branch</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Minufiyah (menoufia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.2222222" longitude="31.0958333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="358386">Darawah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Daqahliyah (dakahlia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="31.0883333" longitude="31.5969444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="358172">Dikirnis</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Qina" adm2="Administrative unit not available"/>
+      <coordinates latitude="26.1211111" longitude="32.4652778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="358115">Dishna</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Buhayrah (behera)" adm2="Administrative unit not available"/>
+      <coordinates latitude="31.2936111" longitude="30.5125" precision="1"/>
+      <gazetteer-entry gazetteer-ref="355638">Idfina</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="As Ismailiyah (ismailia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.605278" longitude="32.277222" precision="1"/>
+      <gazetteer-entry gazetteer-ref="361055">Ismailia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Gharbiyah (gharbia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.698611" longitude="30.825278" precision="1"/>
+      <gazetteer-entry gazetteer-ref="354132">Kafr Rabi?</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Minufiyah (menoufia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.6138889" longitude="30.9452778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="353964">Kamshish</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Minya (menia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="28.6486111" longitude="30.8402778" precision="1"/>
+      <gazetteer-entry gazetteer-ref="353183">Maghaghah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Minya (menia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="28.4222222" longitude="30.7555556" precision="1"/>
+      <gazetteer-entry gazetteer-ref="352628">Matay</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Minufiyah (menoufia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.4666667" longitude="30.9333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="352354">Minuf</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Buhayrah (behera)" adm2=""/>
+      <coordinates latitude="30.983333" longitude="30.2" precision="4"/>
+      <gazetteer-entry gazetteer-ref="361370">Mu?afaz¸at al Bu?ayrah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Gharbiyah (gharbia)" adm2=""/>
+      <coordinates latitude="30.833333" longitude="31" precision="4"/>
+      <gazetteer-entry gazetteer-ref="361294">Mu?afaz¸at al Gharbiyah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Jizah (giza)" adm2=""/>
+      <coordinates latitude="29.99776" longitude="31.05286" precision="4"/>
+      <gazetteer-entry gazetteer-ref="360997">Mu?afaz¸at al Jizah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Minufiyah (menoufia)" adm2=""/>
+      <coordinates latitude="30.5" longitude="31" precision="4"/>
+      <gazetteer-entry gazetteer-ref="360689">Mu?afaz¸at al Minufiyah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Minya (menia)" adm2=""/>
+      <coordinates latitude="28.433333" longitude="30.7" precision="4"/>
+      <gazetteer-entry gazetteer-ref="360688">Mu?afaz¸at al Minya</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Qalyubiyah (kalyoubia)" adm2=""/>
+      <coordinates latitude="30.3" longitude="31.3" precision="4"/>
+      <gazetteer-entry gazetteer-ref="360621">Mu?afaz¸at al Qalyubiyah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Ash Sharqiyah (sharkia)" adm2=""/>
+      <coordinates latitude="30.8" longitude="31.8" precision="4"/>
+      <gazetteer-entry gazetteer-ref="360016">Mu?afaz¸at ash Sharqiyah</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Aswan" adm2=""/>
+      <coordinates latitude="23.083333" longitude="32.666667" precision="4"/>
+      <gazetteer-entry gazetteer-ref="359787">Mu?afaz¸at Aswan</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Asyiut" adm2=""/>
+      <coordinates latitude="27.333333" longitude="30.833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="359781">Mu?afaz¸at Asyut</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Beni Suwayf (beni-suef)" adm2=""/>
+      <coordinates latitude="29.05" longitude="31.033333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="359171">Mu?afaz¸at Bani Suwayf</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Dumyat (damietta)" adm2=""/>
+      <coordinates latitude="31.333333" longitude="31.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="358044">Mu?afaz¸at Dumyat</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Kafr-el-sheikh" adm2=""/>
+      <coordinates latitude="31.25" longitude="30.833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="354500">Mu?afaz¸at Kafr ash Shaykh</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Qina" adm2=""/>
+      <coordinates latitude="25.833333" longitude="32.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="350546">Mu?afaz¸at Qina</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Suhaj" adm2=""/>
+      <coordinates latitude="26.5" longitude="31.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="347794">Mu?afaz¸at Suhaj</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Suhaj" adm2="Administrative unit not available"/>
+      <coordinates latitude="26.6" longitude="31.616667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="351539">Nag? Tammâm</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Buhayrah (behera)" adm2=""/>
+      <coordinates latitude="31.5" longitude="30.3333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="350204">Rosetta Branch</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Gharbiyah (gharbia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="31.0552778" longitude="31.1363889" precision="1"/>
+      <gazetteer-entry gazetteer-ref="349671">Sâmûl</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Qina" adm2="Administrative unit not available"/>
+      <coordinates latitude="25.85" longitude="32.7666667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="349377">Shanhur</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Minufiyah (menoufia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.2375" longitude="31.0708333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="349317">Shatanuf</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Minufiyah (menoufia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.55" longitude="30.9333333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="349068">Shubra Bas</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Suhaj" adm2="Administrative unit not available"/>
+      <coordinates latitude="26.55" longitude="31.7" precision="1"/>
+      <gazetteer-entry gazetteer-ref="347796">Suhaj</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Minufiyah (menoufia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.6547222" longitude="30.9586111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="347680">Tabluha</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Suhaj" adm2="Administrative unit not available"/>
+      <coordinates latitude="26.7680556" longitude="31.4938889" precision="1"/>
+      <gazetteer-entry gazetteer-ref="347634">Tahta</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Daqahliyah (dakahlia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="31.0352778" longitude="31.5544444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="347524">?anâ?</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Gharbiyah (gharbia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.791111" longitude="30.998056" precision="1"/>
+      <gazetteer-entry gazetteer-ref="347497">Tanta</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Al Buhayrah (behera)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.7080556" longitude="30.7538889" precision="1"/>
+      <gazetteer-entry gazetteer-ref="346109">Zawiyat al Ba?r</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:18">
+    <iati-identifier>46002-P-EG-EB0-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">CONSTRUCTION  AUTHORITY FOR WATER AND WASTEWATER (CAPW)</participating-org>
+    <recipient-country code="EG">Egypt</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">PPP TRANSACTION ADVISORY SERVICES</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-EG-EB0-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-12-22"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MOUMNI Monia</person-name>
+      <email>m.moumni@afdb.org</email>
+      <telephone>+21671102344</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14022">Sanitation - large systems</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5500155004803">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">600000</value>
+      <transaction-date iso-date="2011-12-22"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Al Qahirah (cairo)" adm2="Administrative unit not available"/>
+      <coordinates latitude="29.841441" longitude="31.300843" precision="1"/>
+      <gazetteer-entry gazetteer-ref="355795">alwan</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:18">
+    <iati-identifier>46002-P-EG-FAA-016</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Implementing" ref="" type="">EGYPTIAN ELECTRICITY HOLDING COMPANY (EEHC) / East Delta Electricity Production Company (EDEPC)</participating-org>
+    <recipient-country code="EG">Egypt</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SUEZ THERMAL POWER PROJECT</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-EG-FAA-016/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-08-08"/>
+    <activity-date type="End Planned" iso-date="2013-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>EL-ASKARI Khaled Mohamed Samir</person-name>
+      <email>k.elaskari@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23020">Power generation/non-renewable sources</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2000130006980">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">343406593</value>
+      <transaction-date iso-date="2011-08-08"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2012-12-31">30229106</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="As Suways (suez)" adm2="Administrative unit not available"/>
+      <coordinates latitude="29.973714" longitude="32.526267" precision="2"/>
+      <gazetteer-entry gazetteer-ref="359796">Suez</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:18">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="EG">Egypt</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">EGYPTIAN REFINING COMPANY SENIOR</title>
+    <description>a US$ 200-million senior loan and a US$ 25-million Subordinated Convertible Loan to the Egyptian Refining Company (ERC). 
+In addition, the Bank will if requested by the Borrower consider providing a B-loan of up to USD 80 million.
+The loans will enable the ERC to construct and operate a new hydro-cracking/coking facility and ancillary units adjacent to the existing refining units of the Cairo Oil Refinery Company (?CORC?). The ERC will use low quality atmospheric residue from CORC as feedstock and produce 4.8 million tons of refined products per year for the domestic market.
+
+ BENEFITS:
+
+The project is in line with Bank Country Strategy for Egypt which focuses on supporting infrastructure development, trade and economic growth. The institution?s 2007- 2011 assistance to Egypt will have two thematic strategic objectives aimed at: 
+Promoting private sector development 
+Promoting social development and protection. Furthermore, the project is in line with the Bank strategy to support Egypt?s power sector and efficient use of its oil &amp; gas resources. The project relies on private funding as an efficient recourse for Egypt to finance large investments, releasing more financial resources to carry out poverty-reduction programs.
+The project will create a large number of jobs for Egyptians, including 8,000 indirect employments during construction and 790 permanent positions during operations, as well as jobs generated by government revenues derived from the project. It will also have a significant impact on local industries which will support the construction and operation activities.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-08-09"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23061">Oil-fired power plants</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">130309289</value>
+      <transaction-date iso-date="2010-08-09"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Al Qalyubiyah (kalyoubia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.14268" longitude="31.29807" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732632">Mostorod</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:18">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="EG">Egypt</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">EGYPTIAN REFINING COMPANY SUB CONV LOAN</title>
+    <description>a US$ 200-million senior loan and a US$ 25-million Subordinated Convertible Loan to the Egyptian Refining Company (ERC). 
+In addition, the Bank will if requested by the Borrower consider providing a B-loan of up to USD 80 million.
+The loans will enable the ERC to construct and operate a new hydro-cracking/coking facility and ancillary units adjacent to the existing refining units of the Cairo Oil Refinery Company (?CORC?). The ERC will use low quality atmospheric residue from CORC as feedstock and produce 4.8 million tons of refined products per year for the domestic market.
+
+ BENEFITS:
+
+The project is in line with Bank Country Strategy for Egypt which focuses on supporting infrastructure development, trade and economic growth. The institution?s 2007- 2011 assistance to Egypt will have two thematic strategic objectives aimed at: 
+Promoting private sector development 
+Promoting social development and protection. Furthermore, the project is in line with the Bank strategy to support Egypt?s power sector and efficient use of its oil &amp; gas resources. The project relies on private funding as an efficient recourse for Egypt to finance large investments, releasing more financial resources to carry out poverty-reduction programs.
+The project will create a large number of jobs for Egyptians, including 8,000 indirect employments during construction and 790 permanent positions during operations, as well as jobs generated by government revenues derived from the project. It will also have a significant impact on local industries which will support the construction and operation activities.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-08-09"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23061">Oil-fired power plants</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">16288661</value>
+      <transaction-date iso-date="2010-08-09"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Al Qalyubiyah (kalyoubia)" adm2="Administrative unit not available"/>
+      <coordinates latitude="30.14268" longitude="31.29807" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7732632">Mostorod</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:18">
+    <iati-identifier>46002-P-EG-IE0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Funding" ref="FAPA" type="">Fund for African Private Sector Assistance</participating-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">SOCIAL FUND FOR DEVELOPMENT (SFD)</participating-org>
+    <recipient-country code="EG">Egypt</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">RIEEP-RURAL INCOME AND ECONOMIC ENHANCEMENT PROJECT</title>
+    <description>The Project Development Objective is to improve the socio-economic livelihood of the economically active rural smallholder farmers engaged in the production, processing and marketing of selected agricultural commodities (horticulture, livestock and fisheries) by enhancing their participation in pro-poor productive business alliances. This will be achieved by (i) strengthening smallholder farmer associations (including cooperatives); (ii) creating business linkages between the farmer associations and the large private sector agribusinesses in a value chain, through improved information on market opportunities, value addition, entrepreneurial skills development and reliable trade relations; and (iii) providing and facilitating easy and affordable and innovative access to finance (including access to finance for micro-entrepreneurs).  In this regard, the project will focus on the following strategic outputs: (i) support over 24,000 smallholder farmers and 20,000 micro enterprises, creating over 60,000 jobs over the 5-year period of the project, and (ii) develop SFD and its partner financial intermediaries' capacity to develop and introduce new and innovative financing instruments for agribusiness.   ..</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-EG-IE0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-02-17"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>EL SOKKARY Gehane</person-name>
+      <email>g.elsokkary@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2000130005331">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">45443037</value>
+      <transaction-date iso-date="2010-02-17"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2011-06-30">10991358</value>
+      <description>Total Disbursement in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Bank</provider-org>
+      <value value-date="2012-12-31">7123425</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2011-12-31">19308</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-06-30">52872</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Bank</receiver-org>
+      <value value-date="2012-12-31">70283</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction ref="5500155002953">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">600000</value>
+      <transaction-date iso-date="2010-02-17"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5700155001001">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="FAPA">Fund for African Private Sector Assistance</provider-org>
+      <value currency="">654845</value>
+      <transaction-date iso-date="2011-01-12"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <location>
+      <administrative adm1="Al Minya (menia)" adm2=""/>
+      <coordinates latitude="28.4333333" longitude="30.7" precision="4"/>
+      <gazetteer-entry gazetteer-ref="360688">Mu?afaz¸at al Minya</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Asyiut" adm2=""/>
+      <coordinates latitude="27.333333" longitude="30.833333" precision="4"/>
+      <gazetteer-entry gazetteer-ref="359781">Mu?afaz¸at Asyut</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Suhaj" adm2=""/>
+      <coordinates latitude="26.5" longitude="31.75" precision="4"/>
+      <gazetteer-entry gazetteer-ref="347794">Mu?afaz¸at Suhaj</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:18">
+    <iati-identifier>46002-P-EG-K00-007</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Egypt</participating-org>
+    <participating-org role="Implementing" ref="" type="">CENTRAL AGENCY FOR PUBLIC MOBILISATION AND STATISTICS</participating-org>
+    <recipient-country code="EG">Egypt</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">Statistical Capacity Building-II MDG MONITORING &amp; RESULT MEASURMENT</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-EG-K00-007/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-11-17"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MUWELE Besa</person-name>
+      <email>b.muwele@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Egypt</provider-org>
+      <value currency="">24530</value>
+      <transaction-date iso-date="2011-11-17"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155004652">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">490600</value>
+      <transaction-date iso-date="2011-11-17"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+</iati-activities>

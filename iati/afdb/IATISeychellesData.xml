@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:24">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:24">
+    <iati-identifier>46002-P-SC-AAF-005</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">SEYCHELLES FISHING AUTHORITY</participating-org>
+    <recipient-country code="SC">Seychelles</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">MARI-CULTURE MASTER PLAN</title>
+    <description>1.,,The goal of this intervention is: 'To enable Seychelles to develop a sustainable mariculture sector that is integrated in the country's economic vision and respects the unique and sensitive nature of the marine environment'. 2.,,The MIC Project goal will be achieved through meeting a specific project objective, that is: 'To develop, strengthen and integrate the key technical, regulatory, legislative and institutional mechanisms in order to achieve sustainable mariculture development and create an enabling environment for investment'. 3.,,The principal mechanism and approach for meeting the Project objective is to develop a sector plan, hereafter referred to as the Mariculture Master Plan (MMP), which serves to guide and regulate responsible development and management of mariculture in Seychelles.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2010-10-05"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>KROMER Jean-Louis</person-name>
+      <email>j.kromer@afdb.org</email>
+      <telephone>+21671103331</telephone>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31320">Fishery development</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="5" xml:lang="en">Cancelled</activity-status>
+    <transaction ref="5500155003551">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">279973</value>
+      <transaction-date iso-date="2010-10-05"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:24">
+    <iati-identifier>ADB non-sovereign</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <recipient-country code="SC">Seychelles</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SEYCHELLES CABLE SYSTEMS COMPANY</title>
+    <description>Supplying and laying a 1,900-km submarine cable from Dar Es Salaam, Tanzania to the Seychelles. The company will be licensed to operate the cable and sell capacity to telecom operators in Seychelles.
+ BENEFITS:
+The project will increase access to broadband penetration from 19% to over 60% and will reduce broadband retail prices from USD50 to USD15 a month. The beneficiaries will be both local businesses and household consumers. Environmental and social impact mitigation measures will be implemented in the project.</description>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-10-28"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name/>
+      <email>private-sector@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="22020">Telecommunications</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">7516311</value>
+      <transaction-date iso-date="2011-10-28"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:24">
+    <iati-identifier>46002-P-SC-K00-001</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46002" type="40">African Development Bank</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF FINANCE</participating-org>
+    <recipient-country code="SC">Seychelles</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">POLICY BASED PARTIAL CREDIT GUARANTEE</title>
+    <description>The programme's specific objectives are to facilitate commercial debt restructuring whilst reinforcing financial governance. This will help release resources to enable the GoS to pursue its development goals, as outlined in 'Seychelles Strategy 2017'.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-SC-K00-001/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-02-10"/>
+    <activity-date type="End Planned" iso-date="2011-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>WALKER Richard Ancrum</person-name>
+      <email>r.walker@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2000140000101">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46002">African Development Bank</provider-org>
+      <value currency="">6477565</value>
+      <transaction-date iso-date="2010-02-10"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="20">OOF</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:24">
+    <iati-identifier>46002-P-SC-K00-002</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="MIC" type="">Middle Income Countries Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Seychelles</participating-org>
+    <participating-org role="Implementing" ref="" type="">NATIONAL BUREAU OF STATISTICS (NSO)</participating-org>
+    <recipient-country code="SC">Seychelles</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">Statistical Capacity Building Programme - Phase II (SCB II)</title>
+    <description/>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-SC-K00-002/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-10-20"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MUWELE Besa</person-name>
+      <email>b.muwele@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="43010">Multisector aid</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Seychelles</provider-org>
+      <value currency="">24530</value>
+      <transaction-date iso-date="2011-10-20"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="5500155004655">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="MIC">Middle Income Countries Fund</provider-org>
+      <value currency="">490600</value>
+      <transaction-date iso-date="2011-10-20"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+</iati-activities>

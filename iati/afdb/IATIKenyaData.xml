@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iati-activities version="1.02" generated-datetime="2013-06-26T09:44:40">
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:40">
+    <iati-identifier>46002-P-KE-AAZ-008</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="SRF" type="">Special Relief Funds</participating-org>
+    <participating-org role="Implementing" ref="" type="">WORLD FOOD PROGRAM - WFP - KENYA OFFICE</participating-org>
+    <recipient-country code="KE">Kenya</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">EMERGENCY ASSISTANCE FOR DROUGHT CRISIS</title>
+    <description/>
+    <activity-website/>
+    <activity-date type="Start Planned" iso-date="2011-12-16"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>ODERO Walter Owuor</person-name>
+      <email>w.odero@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="31110">Agricultural policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="5000199002218">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="SRF">Special Relief Funds</provider-org>
+      <value currency="">649840</value>
+      <transaction-date iso-date="2011-12-16"/>
+      <aid-type code="D02">Other Technical Assistance</aid-type>
+      <finance-type code="110">Aid Grant Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:40">
+    <iati-identifier>46002-P-KE-DB0-019</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Implementing" ref="" type="">KENYA  NATIONAL  HIGHWAY  AUTHORITY</participating-org>
+    <recipient-country code="KE">Kenya</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">REHABILITATION OF TIMBOROA  ELDORET ROAD</title>
+    <description>The rehabilitation of this project, among others, will facilitate regional integration by improving the road condition. The project will also reduce the travel time by 25% and contribute to the reduction of poverty (head count) from current 39% to 28% in 2015. These are consistent with those in the Bank's Medium Term Strategy (2008-2012) whose pillars are (i) supporting infrastructure development for enhanced growth, and (ii) enhancing employment opportunities for poverty reduction.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-KE-DB0-019/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-23"/>
+    <activity-date type="End Planned" iso-date="2016-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>MAKAJUMA George Adongo</person-name>
+      <email>g.a.makajuma@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="21020">Road transport</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="2100150023344">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">35000000</value>
+      <transaction-date iso-date="2011-03-23"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">4157593</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">827550</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">20137</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">87260</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">88219</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Uasin Gishu"/>
+      <coordinates latitude="0.21539" longitude="35.43163" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7731856">Burnt Forest</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Uasin Gishu"/>
+      <coordinates latitude="0.33626" longitude="35.3634" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7731858">Cheptiret</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Uasin Gishu"/>
+      <coordinates latitude="0.5166667" longitude="35.2833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="198629">Eldoret</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Uasin Gishu"/>
+      <coordinates latitude="0.09552" longitude="35.50352" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7731855">Nabkoi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Uasin Gishu"/>
+      <coordinates latitude="0.0855" longitude="35.53021" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7729812">Timboroa</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Uasin Gishu"/>
+      <coordinates latitude="0.5" longitude="35.333333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="178837">Uasin Gishu District</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:40">
+    <iati-identifier>46002-P-KE-E00-007</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Kenya</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF WATER DEVELOPMENT</participating-org>
+    <recipient-country code="KE">Kenya</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">SMALL MED TOWNS WATER SUPPLY &amp; WASTE WATER</title>
+    <description>To improve the access, quality, availability and sustainability of water supply and wastewater services in the small towns of Kitui, Siaya, Bondo, Othaya, Mukurwe-ini, Maua and irrigation water for existing Yatta small scale irrigation schemes</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-KE-E00-007/</activity-website>
+    <activity-date type="Start Planned" iso-date="2010-04-05"/>
+    <activity-date type="End Planned" iso-date="2014-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>SIFUMA John</person-name>
+      <email>j.sifuma@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14010">Water sector policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Kenya</provider-org>
+      <value currency="">7924694</value>
+      <transaction-date iso-date="2010-04-05"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150021543">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">70000000</value>
+      <transaction-date iso-date="2010-04-05"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2011-12-31">270155</value>
+      <description>Total Disbursement in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-03-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-03-31">109254</value>
+      <description>Total Disbursement in First Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">520312</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">405040</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">2152634</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2010-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2010-12-31">27808</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2010</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-06-30">173562</value>
+      <description>Total Interest Repayment in Second Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">176438</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">174695</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">177444</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Nyanza" adm2="Siaya"/>
+      <coordinates latitude="0.238611" longitude="34.269444" precision="1"/>
+      <gazetteer-entry gazetteer-ref="200304">Bondo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Machakos"/>
+      <coordinates latitude="-1.18402" longitude="37.44613" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7729815">Kithimani</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Kitui"/>
+      <coordinates latitude="-1.366667" longitude="38.016667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="191038">Kitui</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Machakos"/>
+      <coordinates latitude="-1.14598" longitude="37.54746" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7729814">Matuu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Meru North"/>
+      <coordinates latitude="0.233333" longitude="37.933333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="187231">Maua</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Central" adm2="Nyeri"/>
+      <coordinates latitude="-0.566667" longitude="37.05" precision="1"/>
+      <gazetteer-entry gazetteer-ref="185815">Mukuruweini</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Central" adm2="Nyeri"/>
+      <coordinates latitude="-0.56092" longitude="37.04759" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7732029">Mukurwe-ini</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Central" adm2="Nyeri"/>
+      <coordinates latitude="-0.566667" longitude="36.95" precision="1"/>
+      <gazetteer-entry gazetteer-ref="181735">Othaya</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nyanza" adm2="Siaya"/>
+      <coordinates latitude="0.06" longitude="34.286111" precision="1"/>
+      <gazetteer-entry gazetteer-ref="383388">Siaya</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Kitui"/>
+      <coordinates latitude="-1.666667" longitude="37.833333" precision="2"/>
+      <gazetteer-entry gazetteer-ref="177988">Yatta Location</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:40">
+    <iati-identifier>46002-P-KE-EB0-003</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Kenya</participating-org>
+    <participating-org role="Implementing" ref="" type="10">MINISTRY OF WATER DEVELOPMENT</participating-org>
+    <recipient-country code="KE">Kenya</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">Nairobi Rivers Basin Rehabilitation and Restoration Program</title>
+    <description>As part of the Nairobi Rivers Basin Rehabilitation and Restoration Prog ramme, the Nairobi Rivers project intends to extend Nairobi sewerage capacity in line with the growing population and the rapid urbanization of the city. The improved sewerage capacity will help to preserve the Nairobi Rivers basins, which are currently heavily polluted by sewer flows.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-KE-EB0-003/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-23"/>
+    <activity-date type="End Planned" iso-date="2015-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>SIFUMA John</person-name>
+      <email>j.sifuma@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="14022">Sanitation - large systems</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Kenya</provider-org>
+      <value currency="">4869580</value>
+      <transaction-date iso-date="2011-03-23"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150023655">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">35000000</value>
+      <transaction-date iso-date="2011-03-23"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">432330</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">46730</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">20137</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">87260</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">88495</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Nairobi" adm2="Nairobi"/>
+      <coordinates latitude="-1.257431" longitude="36.903571" precision="1"/>
+      <gazetteer-entry gazetteer-ref="199108">Dandora</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nairobi" adm2="Nairobi"/>
+      <coordinates latitude="-1.25" longitude="36.8833333" precision="1"/>
+      <gazetteer-entry gazetteer-ref="193717">Kariobangi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nairobi" adm2="Nairobi"/>
+      <coordinates latitude="-1.2833333" longitude="36.8166667" precision="1"/>
+      <gazetteer-entry gazetteer-ref="184745">Nairobi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Nairobi" adm2="Nairobi"/>
+      <coordinates latitude="-1.29" longitude="36.82" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7667649">Nairobi</gazetteer-entry>
+    </location>
+  </iati-activity>
+  <iati-activity xml:lang="en" default-currency="XDR" hierarchy="1" last-updated-datetime="2013-06-26T09:44:40">
+    <iati-identifier>46002-P-KE-FA0-004</iati-identifier>
+    <reporting-org ref="46002" type="40" xml:lang="en">African Development Bank Group</reporting-org>
+    <participating-org role="Funding" ref="46003" type="40">African Development Fund</participating-org>
+    <participating-org role="Extending" ref="" type="10">Government Of Kenya</participating-org>
+    <participating-org role="Implementing" ref="" type="">KENYA ELECTRICITY TRANSMISSION CO. LTD</participating-org>
+    <recipient-country code="KE">Kenya</recipient-country>
+    <recipient-region code=""/>
+    <title xml:lang="en">POWER TRANSMISSION IMPROVEMENT PROJECT</title>
+    <description>The main objective is to extend power to the rural areas and increase access rate of electricity from 10% to 20% in the next three years. The other associated objective is to reduce power system losses thus saving on generation investment costs.</description>
+    <activity-website>http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-KE-FA0-004/</activity-website>
+    <activity-date type="Start Planned" iso-date="2011-03-23"/>
+    <activity-date type="End Planned" iso-date="2013-12-31"/>
+    <contact-info>
+      <organisation>African Development Bank Group</organisation>
+      <person-name>ASFAW Solomon Abebe</person-name>
+      <email>s.asfaw@afdb.org</email>
+      <telephone/>
+      <mailing-address>African Development Bank Group
+				AfDB Temporary Relocation Agency (Tunis)
+				15 Avenue du Ghana
+				P.O.Box 323-1002
+				Tunis-Belvedère, Tunisia
+				or
+				Statutory Headquarters
+				Rue Joseph Anoma, 
+				01 BP 1387 Abidjan 01
+				Côte d'Ivoire</mailing-address>
+    </contact-info>
+    <sector vocabulary="DAC" code="23010">Energy policy and administrative management</sector>
+    <collaboration-type code="2">Multilateral</collaboration-type>
+    <activity-status code="2" xml:lang="en">Implementation</activity-status>
+    <transaction ref="">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="">Government Of Kenya</provider-org>
+      <value currency="">4809537</value>
+      <transaction-date iso-date="2011-03-23"/>
+      <aid-type code=""/>
+      <finance-type code=""/>
+      <flow-type code=""/>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction ref="2100150023752">
+      <transaction-type code="C">Commitment</transaction-type>
+      <provider-org ref="46003">African Development Fund</provider-org>
+      <value currency="">46700000</value>
+      <transaction-date iso-date="2011-03-23"/>
+      <aid-type code="C01">Project Type Interventions</aid-type>
+      <finance-type code="410">Aid Loan Excluding Debt Reorganisation</finance-type>
+      <flow-type code="10">ODA</flow-type>
+      <tied-status code="5">Untied</tied-status>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-06-30">179701</value>
+      <description>Total Disbursement in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-09-30"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-09-30">393630</value>
+      <description>Total Disbursement in Third Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="D">Disbursement</transaction-type>
+      <provider-org>African Development Fund</provider-org>
+      <value value-date="2012-12-31">76786</value>
+      <description>Total Disbursement in Fourth Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2011-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2011-12-31">26868</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2011</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-06-30"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-06-30">116430</value>
+      <description>Total Interest Repayment in Second Quarter of 2012</description>
+    </transaction>
+    <transaction>
+      <transaction-date iso-date="2012-12-31"/>
+      <transaction-type code="IR">Interest Repayment</transaction-type>
+      <provider-org/>
+      <receiver-org>African Development Fund</receiver-org>
+      <value value-date="2012-12-31">117837</value>
+      <description>Total Interest Repayment in Fourth Quarter of 2012</description>
+    </transaction>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Baringo"/>
+      <coordinates latitude="0.79184" longitude="35.94279" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7729809">Baringo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Bomet"/>
+      <coordinates latitude="-0.781291" longitude="35.34156" precision="1"/>
+      <gazetteer-entry gazetteer-ref="200308">Bomet</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Bomet"/>
+      <coordinates latitude="-0.79" longitude="35.35" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7667666">Bomet</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Buret"/>
+      <coordinates latitude="-0.56011" longitude="35.27496" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7729810">Buret</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Embu"/>
+      <coordinates latitude="-0.52" longitude="37.45" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7667669">Embu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Mbeere"/>
+      <coordinates latitude="-0.450559" longitude="37.789482" precision="1"/>
+      <gazetteer-entry gazetteer-ref="196244">Ishiara</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Baringo"/>
+      <coordinates latitude="0.491939" longitude="35.743028" precision="1"/>
+      <gazetteer-entry gazetteer-ref="195821">Kabarnet</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Kajiado"/>
+      <coordinates latitude="-1.84" longitude="36.79" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7667657">Kajiado</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Keiyo"/>
+      <coordinates latitude="0.47754" longitude="35.55889" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7668899">Keiyo</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Kitui"/>
+      <coordinates latitude="-1.366963" longitude="38.010555" precision="1"/>
+      <gazetteer-entry gazetteer-ref="191038">Kitui</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Kitui"/>
+      <coordinates latitude="-1.36" longitude="38.01" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7667667">Kitui</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Embu"/>
+      <coordinates latitude="-0.45" longitude="37.65" precision="1"/>
+      <gazetteer-entry gazetteer-ref="189861">Kyeni Location</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Laikipia"/>
+      <coordinates latitude="0.4166667" longitude="36.75" precision="3"/>
+      <gazetteer-entry gazetteer-ref="189794">Laikipia</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Nandi North"/>
+      <coordinates latitude="0.18476" longitude="35.33839" precision="1"/>
+      <gazetteer-entry gazetteer-ref="7729807">Lessos</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Makueni"/>
+      <coordinates latitude="-1.8" longitude="37.61" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7667645">Makueni</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Mbeere"/>
+      <coordinates latitude="-0.69609" longitude="37.68612" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7667992">Mbeere</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Laikipia"/>
+      <coordinates latitude="0.438464" longitude="37.23345" precision="1"/>
+      <gazetteer-entry gazetteer-ref="185860">Mukogodo Forest</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Mwingi"/>
+      <coordinates latitude="-0.934351" longitude="38.060047" precision="1"/>
+      <gazetteer-entry gazetteer-ref="184921">Mwingi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Mwingi"/>
+      <coordinates latitude="-0.93" longitude="38.07" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7667670">Mwingi</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Nakuru"/>
+      <coordinates latitude="-0.48402" longitude="36.17126" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7668902">Nakuru</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Nandi North"/>
+      <coordinates latitude="0.30846" longitude="35.08311" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7602644">Nandi North</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Laikipia"/>
+      <coordinates latitude="0.016667" longitude="37.07283" precision="1"/>
+      <gazetteer-entry gazetteer-ref="184433">Nanyuki</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Narok"/>
+      <coordinates latitude="-1.078289" longitude="35.860117" precision="1"/>
+      <gazetteer-entry gazetteer-ref="184379">Narok</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Narok"/>
+      <coordinates latitude="-1.24076" longitude="35.7356" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7668904">Narok</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Laikipia"/>
+      <coordinates latitude="0.042099" longitude="36.367342" precision="1"/>
+      <gazetteer-entry gazetteer-ref="183027">Nyahururu</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Central" adm2="Nyandarua"/>
+      <coordinates latitude="-0.27" longitude="36.38" precision="3"/>
+      <gazetteer-entry gazetteer-ref="7667664">Nyandarua</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Nakuru"/>
+      <coordinates latitude="-0.88656" longitude="36.269571" precision="2"/>
+      <gazetteer-entry gazetteer-ref="182244">Olkaria</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Buret"/>
+      <coordinates latitude="-0.683333" longitude="35.118709" precision="1"/>
+      <gazetteer-entry gazetteer-ref="179888">Sotik</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Kajiado"/>
+      <coordinates latitude="-2.019003" longitude="37.371672" precision="1"/>
+      <gazetteer-entry gazetteer-ref="179750">Sultan Hamud</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Rift Valley" adm2="Uasin Gishu"/>
+      <coordinates latitude="0.5" longitude="35.333333" precision="3"/>
+      <gazetteer-entry gazetteer-ref="178837">Uasin Gishu District</gazetteer-entry>
+    </location>
+    <location>
+      <administrative adm1="Eastern" adm2="Makueni"/>
+      <coordinates latitude="-1.780791" longitude="37.628815" precision="1"/>
+      <gazetteer-entry gazetteer-ref="178077">Wote</gazetteer-entry>
+    </location>
+  </iati-activity>
+</iati-activities>
