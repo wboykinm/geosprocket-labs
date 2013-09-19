@@ -55,13 +55,11 @@
       map.addLayer(dynLayer);
 
       // An attempt at adding point locations from the IATI API
-      var projSites = L.GeoJSON();
-
-      $.getJSON('proxy.php?url=http://search.worldbank.org/api/v2/projects?qterm=*:*&fl=id,project_name,boardapprovaldate,totalamt,impagency,project_abstract,theme1,location&mjsector[]=+Agriculture-+fishing-+and+forestry&regionname[]=AFRICA&rows=500&format=json&geocode=on', function(data) {
+      var projSites = $.getJSON('proxy.php?url=http://search.worldbank.org/api/v2/projects?qterm=*:*&fl=id,project_name,boardapprovaldate,totalamt,impagency,project_abstract,theme1,location&mjsector[]=+Agriculture-+fishing-+and+forestry&regionname[]=AFRICA&rows=500&format=json&geocode=on', function(data) {
         projSites.addData(data);
       });
 
-      map.addLayer(projSites);
+      //map.addLayer(projSites);
 
       // Adding a refrence overlay
       var topPane = map._createPane('leaflet-top-pane', map.getPanes().mapPane);
