@@ -35,7 +35,7 @@
 
     var map = L.map('map')
         .addLayer(base);
-
+    var geojsonLayer = new L.GeoJSON();
     //var markers = L.markerClusterGroup();
 
     $.getJSON(
