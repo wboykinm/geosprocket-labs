@@ -35,7 +35,9 @@
 
     var map = L.map('map')
         .addLayer(base);
+    
     var geojsonLayer = new L.GeoJSON();
+
     //var markers = L.markerClusterGroup();
 
     $.getJSON(
@@ -46,8 +48,8 @@
             })
            });
 
-  // Add the GeoJSON layer
-  map.addLayer(geojsonLayer);
+    // Add the GeoJSON layer
+    map.addLayer(geojsonLayer);
     map.fitBounds(geojsonLayer.getBounds());
   </script>
 </body>
