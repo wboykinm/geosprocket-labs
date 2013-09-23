@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
     <![endif]-->
 
+    <link rel="points" type="application/json" href="./iati2geojson.php?url=http://www.afdb.org/fileadmin/uploads/afdb/Documents/Generic-Documents/IATITanzaniaData.xml">
     <!-- Make the map fill the entire page -->
     <style>
       html, body, #map {
@@ -30,18 +31,6 @@
     
     <script>
 
-      //Initializing the map to start at the east coast
-      var map = L.map('map', {
-        scrollWheelZoom: false,
-        touchZoom: false
-      }).setView([9.145, 40.489673], 6);
-
-      //Add Oceans Basemaps
-      L.tileLayer('http://a.tiles.mapbox.com/v3/spatialdev.map-hozgh18d/{z}/{x}/{y}.png', {
-        attribution: '<a href="http://www.mapbox.com/about/maps/">Map Terms & Feedback</a>'
-      }).addTo(map);
-      
-
       //ArcGIS Server Dynamic Map Service, Historic Hurricane Tracks
       /*dynLayer = L.esri.dynamicMapLayer("http://dev.harvestchoice.org/arcgis/rest/services/gatesesp/GeneralContext/MapServer", {
         opacity : 0.6,
@@ -50,26 +39,30 @@
 
       map.addLayer(dynLayer);*/
 
-      var geojsonLayer = new L.GeoJSON();
+      $.getJSON($('link[rel="points"]').attr("href"), function(data) {
+      var geojson = L.geoJson(data, {
+        onEachFeature: function (feature, layer) {
+          layer.bindPopup(feature.properties.gazetteer-entry);
+        }
+      });
 
-    //var markers = L.markerClusterGroup();
+      //Initializing the map to start at the east coast
+      var map = L.map('map', {
+        scrollWheelZoom: false,
+        touchZoom: false
+      }).fitBounds(geojson.getBounds()); //.setView([9.145, 40.489673], 6);
 
-    $.getJSON(
-           "iati2geojson.php?url=http://www.afdb.org/fileadmin/uploads/afdb/Documents/Generic-Documents/IATITanzaniaData.xml",
-        function(geojson) {
-          $.each(geojson.features, function(i, feature) {
-          geojsonLayer.addGeoJSON(feature);
-            })
-           });
+      //Add Oceans Basemaps
+      L.tileLayer('http://a.tiles.mapbox.com/v3/spatialdev.map-hozgh18d/{z}/{x}/{y}.png', {
+        attribution: '<a href="http://www.mapbox.com/about/maps/">Map Terms & Feedback</a>'
+      }).addTo(map);
 
-      // Add the GeoJSON layer
-      map.addLayer(geojsonLayer);
-      //map.fitBounds(geojsonLayer.getBounds());
-
+      geojson.addTo(map);
+      /*
       var topPane = map._createPane('leaflet-top-pane', map.getPanes().mapPane);
       var topLayer = L.tileLayer('http://a.tiles.mapbox.com/v3/landplanner.map-6ycmi90w/{z}/{x}/{y}.png').addTo(map);
       topPane.appendChild(topLayer.getContainer());
-      topLayer.setZIndex(7);
+      topLayer.setZIndex(7);*/
 
      </script>
   </body>
