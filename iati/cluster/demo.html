@@ -3,15 +3,9 @@
 <head>
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.css" />
-  <!--[if lte IE 8]>
-    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.ie.css' rel='stylesheet' >
-  <![endif]-->
   <link rel="stylesheet" href="css/q-cluster.css" />
   <link rel="stylesheet" href="css/table.css" />
   <link rel="stylesheet" href="css/leaflet.fullscreen.css" />
-  <!--[if lte IE 8]>
-    <link rel="stylesheet" href="css/markercluster.ie.css" />
-  <![endif]-->
   <style>
     body { margin:0; padding:0; }
     #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -21,22 +15,59 @@
 
 <script src="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/leaflet.markercluster.js"></script>
-<script src="js/Leaflet.fullscreen.js"></script>
 
-<div id='map'></div>
 
-<script type="text/javascript">
 
-    var base = L.tileLayer('http://b.tiles.mapbox.com/v3/landplanner.map-4y9ngu48/{z}/{x}/{y}.png', {
-      maxZoom: 17,
-      attribution: '<a href="http://mapbox.com" target="_blank">Mapbox</a>'
-    });
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic Map Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    var map = L.map('map')
-        .addLayer(base);
-    
-    var geojsonLayer = new L.GeoJSON();
+    <!-- Load Leaflet from their CDN -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+    <![endif]-->
+    <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+
+    <!-- Load Esri Leaflet -->
+    <script src="../esri/esri-leaflet.js"></script>
+
+    <!-- Make the map fill the entire page -->
+    <style>
+      html, body, #map {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"> </div>
+    <script>
+
+      //Initializing the map to start at the east coast
+      var map = L.map('map', {
+        scrollWheelZoom: false,
+        touchZoom: false
+      }).setView([9.145, 40.489673], 6);
+
+      //Add Oceans Basemaps
+      L.tileLayer('http://a.tiles.mapbox.com/v3/spatialdev.map-hozgh18d/{z}/{x}/{y}.png', {
+        attribution: '<a href="http://www.mapbox.com/about/maps/">Map Terms & Feedback</a>'
+      }).addTo(map);
+      
+
+      //ArcGIS Server Dynamic Map Service, Historic Hurricane Tracks
+      /*dynLayer = L.esri.dynamicMapLayer("http://dev.harvestchoice.org/arcgis/rest/services/gatesesp/GeneralContext/MapServer", {
+        opacity : 0.6,
+        layers:[2],
+      });
+
+      map.addLayer(dynLayer);*/
+
+      var geojsonLayer = new L.GeoJSON();
 
     //var markers = L.markerClusterGroup();
 
@@ -48,9 +79,15 @@
             })
            });
 
-    // Add the GeoJSON layer
-    map.addLayer(geojsonLayer);
-    map.fitBounds(geojsonLayer.getBounds());
-  </script>
-</body>
+      // Add the GeoJSON layer
+      map.addLayer(geojsonLayer);
+      //map.fitBounds(geojsonLayer.getBounds());
+
+      var topPane = map._createPane('leaflet-top-pane', map.getPanes().mapPane);
+      var topLayer = L.tileLayer('http://a.tiles.mapbox.com/v3/landplanner.map-6ycmi90w/{z}/{x}/{y}.png').addTo(map);
+      topPane.appendChild(topLayer.getContainer());
+      topLayer.setZIndex(7);
+
+     </script>
+  </body>
 </html>
