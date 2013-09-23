@@ -2,11 +2,11 @@
 <html>
 <head>
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-  <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.css' rel='stylesheet' />
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.css" />
   <!--[if lte IE 8]>
     <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.ie.css' rel='stylesheet' >
   <![endif]-->
-  <link rel="stylesheet" href="css/markercluster.css" />
+  <link rel="stylesheet" href="css/q-cluster.css" />
   <link rel="stylesheet" href="css/table.css" />
   <link rel="stylesheet" href="css/leaflet.fullscreen.css" />
   <!--[if lte IE 8]>
@@ -14,39 +14,46 @@
   <![endif]-->
   <style>
     body { margin:0; padding:0; }
-    #map {
-		width: 700px; 
-		height: 400px; 
-		border: 1px solid #ccc;
-	}
+    #map { position:absolute; top:0; bottom:0; width:100%; }
   </style>
 </head>
 <body>
 
-<script src='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.js'></script>
+<script src="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/leaflet.markercluster.js"></script>
 <script src="js/Leaflet.fullscreen.js"></script>
-<!-- Example data. -->
-<script src="js/pop_places.js"></script>
 
 <div id='map'></div>
 
-<script type='text/javascript'>
-    var map = L.mapbox.map('map', 'dai.map-38z2we2g', {maxZoom: 6})
-        .setView([10, 0], 2);
-	var fullscreenControl = new L.Control.Fullscreen();
-	map.addControl(fullscreenControl);
-    var markers = new L.MarkerClusterGroup();
-		
-	var geoJsonLayer = L.geoJson(places, {
-        onEachFeature: function (feature, layer) {
-            layer.setIcon(L.mapbox.marker.icon({'marker-symbol': 'circle-stroked', 'marker-color': '59245f'}));
-            layer.bindPopup("<b>" + feature.properties.name + "</b><hr>Country: " + feature.properties.adm0name + "<br>Population: " + feature.properties.pop_max + "<hr><button href='#'>Project Details</button>");
-		}
-	});
-	markers.addLayer(geoJsonLayer);
+<script type="text/javascript">
+
+    var base = L.tileLayer('http://b.tiles.mapbox.com/v3/landplanner.map-4y9ngu48/{z}/{x}/{y}.png', {
+      maxZoom: 17,
+      attribution: '<a href="http://mapbox.com" target="_blank">Mapbox</a>'
+    });
+
+    var map = L.map('map')
+        .addLayer(base);
+
+    var markers = L.markerClusterGroup();
+
+    $.getJSON(
+           "iati2geojson.php?url=http://www.afdb.org/fileadmin/uploads/afdb/Documents/Generic-Documents/IATITanzaniaData.xml",
+        function(geoJsonData) {
+
+            var geoJsonLayer = L.geoJson(geoJsonData, {
+                onEachFeature: function (feature, layer) {
+                    layer.bindPopup(feature.properties.gazetteer-entry);
+                }
+            });
+
+        });
+
+    markers.addLayer(geoJsonLayer);
 
     map.addLayer(markers);
-</script>
+    map.fitBounds(markers.getBounds());
+  </script>
 </body>
 </html>
