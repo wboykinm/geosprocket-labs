@@ -36,24 +36,19 @@
     var map = L.map('map')
         .addLayer(base);
 
-    var markers //= L.markerClusterGroup();
+    //var markers = L.markerClusterGroup();
 
     $.getJSON(
            "iati2geojson.php?url=http://www.afdb.org/fileadmin/uploads/afdb/Documents/Generic-Documents/IATITanzaniaData.xml",
-        function(geoJsonData) {
+        function(geojson) {
+          $.each(geojson.features, function(i, feature) {
+          geojsonLayer.addGeoJSON(feature);
+            })
+           });
 
-            var geoJsonLayer = L.geoJson(geoJsonData, {
-                onEachFeature: function (feature, layer) {
-                    layer.bindPopup(feature.properties.gazetteer-entry);
-                }
-            });
-
-        });
-
-    markers.addLayer(geoJsonLayer);
-
-    map.addLayer(markers);
-    map.fitBounds(markers.getBounds());
+  // Add the GeoJSON layer
+  map.addLayer(geojsonLayer);
+    map.fitBounds(geojsonLayer.getBounds());
   </script>
 </body>
 </html>
