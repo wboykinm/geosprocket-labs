@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css' rel='stylesheet' />
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/2.3.1/journal/bootstrap.min.css" />
+  <style>
+    body { margin:0; padding:0; }
+    /*#map { position:absolute; top:0; bottom:0; width:100%; }*/
+	#map {width: 100%; /*height:100%;*/ position: absolute; top: 55px; bottom: 0px; background: black;}	
+  </style>
+</head>
+<body>
+<style>
+  #control {
+    background:#FFF;
+    position:absolute;
+    left:10px;
+    top:115px;
+    height:200px;
+    width:28px;
+    border:1px solid #BBB;
+    -webkit-border-radius:3px;
+            border-radius:3px;
+    }
+    #handle {
+      background:#000;
+      position: absolute;
+      left:0;
+      top:20px;
+      width:28px;
+      height:10px;
+      }
+    #handle:hover {
+      cursor:pointer;
+      background:#444;
+      cursor:ns-resize;
+      }
+</style>
+
+<div id='map'></div>
+<div id='control'>
+    <div id='handle'></div>
+</div>
+<!--SOME BOOTSTRAP NAV BOILERPLATE TO MAKE THINGS SIMPLE AND APPEALING-->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand">Burlington VT | 1894 vs. 2013</a>
+		  <ul class="nav nav-pills pull-right">
+		    <li class="divider-vertical"></li>
+			<li><a href="#myModal" role="button" class="lead" data-toggle="modal"><large>About</large></a></li>
+		  </ul>
+        </div>
+      </div>
+    </div>
+<!-- Modal -->
+	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">About</h3>
+      </div>
+      <div class="modal-body">
+        <p>This map compares sections of Burlington's between 1894 and 2012, offering a window into the changing city structure over more than a century. Drag the slider on the left to toggle between old and new.</p>
+        <hr>
+        <ul>
+		  <li>1894 maps by the Sanborn Fire Insurance co. and archived by <a href="http://library.uvm.edu/docs/index.php" target="_blank">the UVM Baily-Howe Library Special Collections Division</a></li>
+		  <li>2012 Imagery provided by <a href="http://www.mapbox.com/about/maps/" target="_blank">Mapbox</a></li>
+		  <li>Street and Reference data by <a href="http://osm.org" target="_blank">OpenStreetmap Contributors</a></li>
+		  <li>Application by <a href="http://geosprocket.com" target="_blank">Geosprocket</a></li>
+		</ul>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+      </div>
+    </div>
+
+</body>
+<script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script>
+    var layerIDs = [
+        'landplanner.map-khn9uycz',
+        'landplanner.sanborn-1894'
+    ];
+
+    mapbox.auto('map', layerIDs, function(map) {
+
+        // Disable compositing so we can adjust opacity of individual layers
+        map.getLayerAt(0).composite(false);
+
+        // Set initial center and zoom level
+        map.centerzoom({ 
+            lat:44.47695, lon: -73.21662
+        }, 19);
+        map.setZoomRange(3, 20);
+		    map.ui.hash.add();
+
+        var handle = document.getElementById('handle'),
+            start,
+            startTop;
+
+        document.onmousemove = function(e) {
+            if (!start) return;
+            // Adjust control
+            handle.style.top = Math.max(-5, Math.min(195, startTop + parseInt(e.clientY, 10) - start)) + 'px';
+            // Adjust opacity
+            map.getLayerAt(1).parent.style.opacity = 1 - (handle.offsetTop / 200);
+            map.parent.style.cursor = 'ns-resize';
+        }
+
+        handle.onmousedown = function(e) {
+            // Record initial positions
+            start = parseInt(e.clientY, 10);
+            startTop = handle.offsetTop - 5;
+            return false;
+        }
+
+        document.onmouseup = function(e) {
+            start = null;
+            map.parent.style.cursor = 'default';
+        }
+    });
+</script>
+</html>
