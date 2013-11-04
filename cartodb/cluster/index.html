@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+  <link rel="stylesheet" href="http://asset.geosprocket.com/leaflet/cluster/MarkerCluster.Default.css" />
+  <!--[if lte IE 8]>
+     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+     <link rel="stylesheet" href="http://asset.geosprocket.com/leaflet/cluster/MarkerCluster.Default.ie.css" />
+  <![endif]-->
+  <style type="text/css">
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    html, body, #map {
+      height: 100%;
+    }
+
+  </style>
+  <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="http://asset.geosprocket.com/leaflet/cluster/leaflet.markercluster.js"></script>
+<body>
+  <div id="map"></div>
+  <script>
+  // ADD YOUR BASE TILES
+  var baseLayer = L.tileLayer('http://a.tiles.mapbox.com/v3/landplanner.map-b31zy3ud/{z}/{x}/{y}.png', {
+    maxZoom: 18
+  });
+  // DEFINE THE CLUSTER LAYER
+  var markers = L.markerClusterGroup();
+
+  // CALL THE CARTODB SQL API HERE IN URL FORMAT
+  $.getJSON("http://geosprocket.cartodb.com/api/v2/sql?format=GeoJSON&q=SELECT * FROM qhp_individual_medical_landscape_102913a WHERE state LIKE 'IN'", function(data) {
+    var geojson = L.geoJson(data, {
+      onEachFeature: function (feature, layer) {
+        // ADD A POPUP WITH SOME INFO
+        layer.bindPopup("<h2>" + feature.properties.plan_marketing_name + "</h2><hr><p>Monthly Individual Premium: $" + feature.properties.premium_adult_individual_age_27 + "</p>");
+      }
+    });
+    markers.addLayer(geojson);
+
+    // CONSTRUCT THE MAP
+    var map = L.map('map', {maxZoom: 10}).fitBounds(markers.getBounds());
+    baseLayer.addTo(map);
+    markers.addTo(map);
+  });
+  </script>
+</body>
+</html>
