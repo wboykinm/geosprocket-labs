@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title></title>
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js'></script>
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.css' rel='stylesheet' />
+  <!--[if lte IE 8]>
+    <link href='//api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.ie.css' rel='stylesheet'>
+  <![endif]-->
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+</head>
+<body>
+<div id='map'></div>
+<script>
+var map = L.mapbox.map('map', 'landplanner.map-iglkbpiw').setView([49, -123], 6);
+
+// Add a dynamic or external datasource - from OpenWeather in this case
+var cloudLayer = L.tileLayer("http://{s}.tile.openweathermap.org/map/precipitation/{z}/{x}/{y}.png", {
+    attribution: 'OpenWeather'
+}).addTo(map);
+
+// Place the Mapbox reference layer in the Leaflet topPane
+var topPane = map._createPane('leaflet-top-pane', map.getPanes().mapPane);
+var topLayer = new L.mapbox.tileLayer('landplanner.map-ddmhrdk8', {
+	maxZoom: 18
+}).addTo(map);
+topPane.appendChild(topLayer.getContainer());
+topLayer.setZIndex(7);
+
+</script>
+</body>
+</html>
