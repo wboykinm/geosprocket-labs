@@ -17,21 +17,25 @@
 <body>
 <div id='map'></div>
 <script type='text/javascript'>
+  // Set default location in case the IP doesn't have one
   var lat = 40.8;
   var lon = -96.67;
 
-  $.getJSON('http://freegeoip.net/json/', function (data) {
-    if (data) {
-        lat = data.latitude;
-        lon = data.longitude;
+  // Grab IP location from freegeoip API
+  $.getJSON('http://freegeoip.net/json/', function (json) {
+    if (json) {
+        lat = json.latitude;
+        lon = json.longitude;
     }
 
+    // Build the map
     var map = L.mapbox.map('map', 'landplanner.g7443phg').setView([lat, lon],8);
-
+    
+    // Add a draggable marker at the IP location
     var marker = L.marker(new L.LatLng(lat, lon), {
-                    icon: L.mapbox.marker.icon({'marker-color': 'ff4400','marker-size':'large','marker-symbol':'star'}),
-                    draggable: true
-                });
+        icon: L.mapbox.marker.icon({'marker-color': 'ff4400','marker-size':'large','marker-symbol':'star'}),
+        draggable: true
+     });
 
     marker.bindPopup('Am I off the map? Drag me to the right spot!');
     marker.addTo(map);
