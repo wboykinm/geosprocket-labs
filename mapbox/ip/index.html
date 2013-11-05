@@ -17,19 +17,23 @@
 <body>
 <div id='map'></div>
 <script type='text/javascript'>
+  var lat = 40.8;
+  var lon = -96.67;
 
-$.getJSON('http://api.hostip.info/get_json.php?position=true', function(data) {
-    var x = data.lng;
-    var y = data.lat; 
+  $.getJSON('http://freegeoip.net/json/', function (data) {
+    if (data) {
+        lat = data.latitude;
+        lon = data.longitude;
+    }
 
-    var map = L.mapbox.map('map', 'landplanner.g7443phg').setView([y, x],7);
+    var map = L.mapbox.map('map', 'landplanner.g7443phg').setView([lat, lon],8);
 
-    var marker = L.marker(new L.LatLng(y, x), {
+    var marker = L.marker(new L.LatLng(lat, lon), {
                     icon: L.mapbox.marker.icon({'marker-color': 'ff4400','marker-size':'large','marker-symbol':'star'}),
                     draggable: true
                 });
 
-    marker.bindPopup('This marker is draggable! Move it around.');
+    marker.bindPopup('Am I off the map? Drag me to the right spot!');
     marker.addTo(map);
   
 });
