@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title></title>
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js'></script>
+  <script src='http://codeorigin.jquery.com/jquery-1.10.2.min.js'></script>
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.css' rel='stylesheet' />
+  <!--[if lte IE 8]>
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.ie.css' rel='stylesheet'>
+  <![endif]-->
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+</head>
+<body>
+<div id='map'></div>
+<script type='text/javascript'>
+
+$.getJSON('http://api.hostip.info/get_json.php?position=true', function(data) {
+    var x = data.lng;
+    var y = data.lat; 
+
+    var map = L.mapbox.map('map', 'landplanner.g7443phg').setView([y, x],7);
+
+    var marker = L.marker(new L.LatLng(y, x), {
+                    icon: L.mapbox.marker.icon({'marker-color': 'ff4400','marker-size':'large','marker-symbol':'star'}),
+                    draggable: true
+                });
+
+    marker.bindPopup('This marker is draggable! Move it around.');
+    marker.addTo(map);
+  
+});
+
+
+</script>
+</body>
+</html>
