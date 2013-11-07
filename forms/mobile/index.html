@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<link rel="shortcut icon" href="http://asset.geosprocket.com/img/favicon.ico" type="image/x-icon">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>Mobile Collector</title>
+  	<link href="http://netdna.bootstrapcdn.com/bootswatch/3.0.0/cosmo/bootstrap.min.css" rel="stylesheet">
+  	<link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.css' rel='stylesheet' />
+	  <!--[if lte IE 8]>
+	    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.ie.css' rel='stylesheet'>
+	  <![endif]-->
+  	<style>
+  		.starter-template {
+		  	padding: 40px 15px;
+		  	text-align: center;
+		}
+		#map { 
+			height:400px;
+			width:100%; }
+	</style>
+</head>
+<body>
+  	<div class="container">
+  		<div class="jumbotron starter-template">
+  			<h1>Sports Survey!</h1>
+  		</div>
+
+<!-- FORMAT THE CHOICES AS FOLLOWS:
+
+	<ul class="btn-group" data-toggle="buttons-radio">
+  	        <li class="btn btn-mini">
+	          <label class="ss-choice-label" style="display: block; padding:10px 10px;">
+	            <input type="radio" name="entry.342517526" value="Yes" id="group_342517526_1" style="display:none;">Yes
+		  </label>
+		</li>
+		<li class="btn btn-mini">
+		  <label class="ss-choice-label" style="display: block; padding:10px 10px;">
+		    <input type="radio" name="entry.342517526" value="Yes" id="group_342517526_2" style="display:none;">No
+		  </label>
+		</li>
+	      </ul>
+	  -->
+
+  		<div class="starter-template">
+  			<h2><em>(1) </em>What's your favorite sport if you're playing?<h2>
+  			<div class="btn-group">
+			  <button type="button" class="btn btn-info">Football</button>
+			  <button type="button" class="btn btn-info">&iexcl;F&uacute;tbol!</button>
+			  <button type="button" class="btn btn-info">Baseball</button>
+			  <button type="button" class="btn btn-info">Basketball</button>
+			  <button type="button" class="btn btn-info">Hockey</button>
+			  <button type="button" class="btn btn-info">Rugby</button>
+			  <button type="button" class="btn btn-info">Code-Crushing</button>
+			</div>
+  		</div>
+  		<hr>
+  		<div class="starter-template">
+  			<h2><em>(2) </em>What's your favorite sport if you're watching?<h2>
+  			<div class="btn-group">
+			  <button type="button" class="btn btn-info">Football</button>
+			  <button type="button" class="btn btn-info">&iexcl;F&uacute;tbol!</button>
+			  <button type="button" class="btn btn-info">Baseball</button>
+			  <button type="button" class="btn btn-info">Basketball</button>
+			  <button type="button" class="btn btn-info">Hockey</button>
+			  <button type="button" class="btn btn-info">Rugby</button>
+			  <button type="button" class="btn btn-info">Ski Ballet</button>
+			</div>
+  		</div>
+  		<hr>
+  		<div class="starter-template">
+  			<h2><em>(3) </em>Where you at?<h2>
+  			<p><small>Drag the target to your general location</small></p>
+  			<div id="map"></div>
+  			<!--Set lat/long here -->
+  			<input type="hidden" name="entry.518498069" value="" class="ss-q-short" id="entry_518498069">
+			<input type="hidden" name="entry.1897349353" value="" class="ss-q-short" id="entry_1897349353">
+			<input type="hidden" name="pageNumber" value="0">
+			<input type="hidden" name="backupCache" value="">
+  		</div>
+  		<div class="starter-template">
+  			<h2>You're all done! Hit the button below!<h2>
+  		    <input type="submit" name="submit" value="Submit" class="btn-lg btn-success">
+  		</div>
+  	</div>
+
+  	<script src='http://codeorigin.jquery.com/jquery-1.10.2.min.js'></script>
+  	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+  	<script src='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js'></script>
+    <script type='text/javascript'>
+	  // Set default location in case the IP doesn't have one
+	  var y = 40.8;
+	  var x = -96.67;
+	  // Grab IP location from freegeoip API
+	  $.getJSON('http://freegeoip.net/json/', function(json) {
+	    if (json) {
+	      y = json.latitude;
+	      x = json.longitude;
+	    }
+	    // Build the map
+	    var map = L.mapbox.map('map', 'landplanner.g7443phg', {scrollWheelZoom:false}).setView([y, x], 8);
+	    // Add a draggable marker at the IP location
+	    
+	    var marker = L.marker(new L.LatLng(y, x), {
+	        icon: L.icon({
+	          iconUrl: "http://farm6.staticflickr.com/5519/10708548293_e38037720a_o.png",
+	          iconSize: [128, 128],
+	          iconAnchor: [64, 64],
+	          popupAnchor: [0, -64],
+	          className: "dot"
+	        }),
+	        draggable: true
+	    });
+
+	    marker.bindPopup('Am I off the map? Drag me to the right spot!');
+	    marker.addTo(map);
+
+	    // Set form lat/lon fields from map marker location
+	    $('#entry_518498069').value = y;
+        $('#entry_1897349353').value = x;
+
+        // Update these values as the marker gets dragged around
+        marker.on('dragend', function(event) {
+		  	$('#entry_518498069').value = marker.getLatLng().lat;
+        	$('#entry_1897349353').value = marker.getLatLng().lng;
+		});
+	  });
+</script>
+</body>
+</html>
