@@ -20,68 +20,59 @@
 	</style>
 </head>
 <body>
-  	<div class="container">
-  		<div class="jumbotron starter-template">
-  			<h1>Sports Survey!</h1>
-  		</div>
 
-<!-- FORMAT THE CHOICES AS FOLLOWS:
+	<!--ADD THE FORM EMBEDURL BELOW-->
+	<meta itemprop="embedUrl" content="https://docs.google.com/forms/d/17EeoLaAVeGrLYhOGyvy7-jC9ukc90F-UvrAMz_x_LUA/viewform?embedded=true">
+	
+	<!--ADD THE FORM RESPONSE ACTION HERE, WITH A REDIRECT-->
+	<script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"     
+onload="if(submitted) {window.location='http://cdb.io/1beynXY';}"></iframe>
+	<form action="https://docs.google.com/forms/d/17EeoLaAVeGrLYhOGyvy7-jC9ukc90F-UvrAMz_x_LUA/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;">
 
-	<ul class="btn-group" data-toggle="buttons-radio">
-  	        <li class="btn btn-mini">
-	          <label class="ss-choice-label" style="display: block; padding:10px 10px;">
-	            <input type="radio" name="entry.342517526" value="Yes" id="group_342517526_1" style="display:none;">Yes
-		  </label>
-		</li>
-		<li class="btn btn-mini">
-		  <label class="ss-choice-label" style="display: block; padding:10px 10px;">
-		    <input type="radio" name="entry.342517526" value="Yes" id="group_342517526_2" style="display:none;">No
-		  </label>
-		</li>
-	      </ul>
-	  -->
+	  	<div class="container">
+	  		<div class="jumbotron starter-template">
+	  			<h1>Libation/Location</h1>
+	  		</div>
 
-  		<div class="starter-template">
-  			<h2><em>(1) </em>What's your favorite sport if you're playing?<h2>
-  			<div class="btn-group">
-			  <button type="button" class="btn btn-info">Football</button>
-			  <button type="button" class="btn btn-info">&iexcl;F&uacute;tbol!</button>
-			  <button type="button" class="btn btn-info">Baseball</button>
-			  <button type="button" class="btn btn-info">Basketball</button>
-			  <button type="button" class="btn btn-info">Hockey</button>
-			  <button type="button" class="btn btn-info">Rugby</button>
-			  <button type="button" class="btn btn-info">Code-Crushing</button>
-			</div>
-  		</div>
-  		<hr>
-  		<div class="starter-template">
-  			<h2><em>(2) </em>What's your favorite sport if you're watching?<h2>
-  			<div class="btn-group">
-			  <button type="button" class="btn btn-info">Football</button>
-			  <button type="button" class="btn btn-info">&iexcl;F&uacute;tbol!</button>
-			  <button type="button" class="btn btn-info">Baseball</button>
-			  <button type="button" class="btn btn-info">Basketball</button>
-			  <button type="button" class="btn btn-info">Hockey</button>
-			  <button type="button" class="btn btn-info">Rugby</button>
-			  <button type="button" class="btn btn-info">Ski Ballet</button>
-			</div>
-  		</div>
-  		<hr>
-  		<div class="starter-template">
-  			<h2><em>(3) </em>Where you at?<h2>
-  			<p><small>Drag the target to your general location</small></p>
-  			<div id="map"></div>
-  			<!--Set lat/long here -->
-  			<input type="hidden" name="entry.518498069" value="" class="ss-q-short" id="entry_518498069">
-			<input type="hidden" name="entry.1897349353" value="" class="ss-q-short" id="entry_1897349353">
-			<input type="hidden" name="pageNumber" value="0">
-			<input type="hidden" name="backupCache" value="">
-  		</div>
-  		<div class="starter-template">
-  			<h2>You're all done! Hit the button below!<h2>
-  		    <input type="submit" name="submit" value="Submit" class="btn-lg btn-success">
-  		</div>
-  	</div>
+	  		<div class="starter-template">
+	  			<h2><em>(1) </em>What's your drink of choice?<h2>
+	  			<div class="btn-group">
+				  <button type="button" class="btn btn-xl btn-info"><img src="img/beer_mug.png"/> Beer</button>
+				  <button type="button" class="btn btn-xl btn-info"><img src="img/wine_glass.png"/> Wine</button>
+				  <button type="button" class="btn btn-xl btn-info"><img src="img/martini_glass.png"/> Cocktails</button>
+				  <button type="button" class="btn btn-xl btn-info"><img src="img/glass_cup.png"/> Cold - hold the booze</button>
+				</div>
+	  		</div>
+	  		<div class="starter-template">
+	  			<h2><em>(2) </em>Where you at?<h2>
+	  			<p><small>Drag the target to your general location</small></p>
+	  			<div id="map"></div>
+
+	  			<!-- ADD GOOGLEFORM-RELATED INPUTS HERE, ALL HIDDEN. 
+	  			THEY'LL BE GIVEN VALUES IN THE SCRIPT BELOW
+	  			THE "NAME" AND "ID" PARAMETERS MUST CORRESPOND TO 
+	  			THOSE IN THE SOURCE OF THE GOOGLE-HOSTED LIVE FORM-->
+
+	  			<!-- QUESTION 1 -->
+	  			<input type="hidden" name="entry.338471973" value="" id="entry_338471973">
+
+	  			<!-- QUESTION 2: LAT/LONG -->
+	  			<input type="hidden" name="entry.80388879" value="" id="entry_80388879">
+				<input type="hidden" name="entry.510592791" value="" id="entry_510592791">
+
+				<!-- PAGE STUFF -->
+				<input type="hidden" name="pageNumber" value="0">
+				<input type="hidden" name="backupCache" value="">
+	  		</div>
+	  		<div class="starter-template">
+	  			<h2>That's it! Thanks!<h2>
+	  		    <input type="submit" name="submit" value="Submit" class="btn-lg btn-success">
+	  		    <hr>
+	  		    <p><small><em>Note: this application will make no effort to deliver said drink to you, though we join you in wishing it were so.</small></em></p>
+	  		</div>
+	  	</div>
+  	</form>
 
   	<script src='http://codeorigin.jquery.com/jquery-1.10.2.min.js'></script>
   	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
@@ -115,14 +106,23 @@
 	    marker.addTo(map);
 
 	    // Set form lat/lon fields from map marker location
-	    $('#entry_518498069').value = y;
-        $('#entry_1897349353').value = x;
+	    $('#entry_80388879').attr('value', y);
+        $('#entry_510592791').attr('value', x);
 
         // Update these values as the marker gets dragged around
         marker.on('dragend', function(event) {
-		  	$('#entry_518498069').value = marker.getLatLng().lat;
-        	$('#entry_1897349353').value = marker.getLatLng().lng;
+		  	$('#entry_80388879').attr('value', marker.getLatLng().lat);
+        	$('#entry_510592791').attr('value', marker.getLatLng().lng);
 		});
+
+		// Set the question choice active
+		$('.btn-info').click(function () {
+            $('.btn-info').removeClass('active');
+            $(this).addClass('active');
+			// Then post the choice to the hidden input
+		  	$('#entry_338471973').attr('value', $.trim($(this).text()));
+		});
+
 	  });
 </script>
 </body>
