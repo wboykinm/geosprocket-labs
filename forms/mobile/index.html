@@ -116,28 +116,12 @@ onload="if(submitted) {window.location='http://cdb.io/1be11H7';}"></iframe>
 	    }
 	    // Build the map
 	    var map = L.mapbox.map('map', 'landplanner.g7443phg', {scrollWheelZoom:false}).setView([y, x], 9);
-	    
-	    // Add a draggable marker at the IP location
-	    
-	    /*var marker = L.marker(new L.LatLng(y, x), {
-	        icon: L.icon({
-	          iconUrl: "http://farm6.staticflickr.com/5519/10708548293_e38037720a_o.png",
-	          iconSize: [128, 128],
-	          iconAnchor: [64, 64],
-	          popupAnchor: [0, -64],
-	          className: "dot"
-	        }),
-	        draggable: true
-	    });
 
-	    marker.bindPopup('Am I off the map? Drag me to the right spot!');
-	    marker.addTo(map);*/
-
-	    // Set form lat/lon fields from map marker location
+	    // Set form lat/lon fields from map center location
 	    $('#entry_80388879').attr('value', y);
         $('#entry_510592791').attr('value', x);
 
-        // Update these values as the marker gets dragged around
+        // Update these values as the map gets dragged around
         map.on('moveend', function(event) {
 		  	$('#entry_80388879').attr('value', map.getCenter().lat);
         	$('#entry_510592791').attr('value', map.getCenter().lng);
