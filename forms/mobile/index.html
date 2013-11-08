@@ -17,7 +17,27 @@
 		}
 		#map { 
 			height:400px;
-			width:100%; }
+			width:100%; 
+		}
+		#centerpoint {
+		  display: none;
+		  width: 128px;
+		  height: 128px;
+		  background: transparent url(http://farm6.staticflickr.com/5519/10708548293_e38037720a_o.png) 0 0 no-repeat scroll;
+		  overflow: visible;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  margin: -64px 0 0 -64px;
+		  pointer-events: none;
+		  z-index: 11;
+		  opacity: 1;
+		  -webkit-transition: opacity 0.25s;
+		  -moz-transition: opacity 0.25s;
+		  -o-transition: opacity 0.25s;
+		  -ms-transition: opacity 0.25s;
+		  transition: opacity 0.25s;
+		}
 	</style>
 </head>
 <body>
@@ -48,7 +68,13 @@ onload="if(submitted) {window.location='http://cdb.io/1be11H7';}"></iframe>
 	  		<div class="starter-template">
 	  			<h2><em>(2) </em>Where you at?<h2>
 	  			<p><small>Drag the target to your general location</small></p>
-	  			<div id="map"></div>
+	  			<div id="map">
+	  				<span id="centerpoint" class="" style="display: inline;">
+	  					<span class="shadow"></span>
+	  					<span class="x"></span>
+	  					<span class="marker"></span>
+	  				</span>
+	  			</div>
 
 	  			<!-- ADD GOOGLEFORM-RELATED INPUTS HERE, ALL HIDDEN. 
 	  			THEY'LL BE GIVEN VALUES IN THE SCRIPT BELOW
@@ -90,9 +116,10 @@ onload="if(submitted) {window.location='http://cdb.io/1be11H7';}"></iframe>
 	    }
 	    // Build the map
 	    var map = L.mapbox.map('map', 'landplanner.g7443phg', {scrollWheelZoom:false}).setView([y, x], 9);
+	    
 	    // Add a draggable marker at the IP location
 	    
-	    var marker = L.marker(new L.LatLng(y, x), {
+	    /*var marker = L.marker(new L.LatLng(y, x), {
 	        icon: L.icon({
 	          iconUrl: "http://farm6.staticflickr.com/5519/10708548293_e38037720a_o.png",
 	          iconSize: [128, 128],
@@ -104,16 +131,16 @@ onload="if(submitted) {window.location='http://cdb.io/1be11H7';}"></iframe>
 	    });
 
 	    marker.bindPopup('Am I off the map? Drag me to the right spot!');
-	    marker.addTo(map);
+	    marker.addTo(map);*/
 
 	    // Set form lat/lon fields from map marker location
 	    $('#entry_80388879').attr('value', y);
         $('#entry_510592791').attr('value', x);
 
         // Update these values as the marker gets dragged around
-        marker.on('dragend', function(event) {
-		  	$('#entry_80388879').attr('value', marker.getLatLng().lat);
-        	$('#entry_510592791').attr('value', marker.getLatLng().lng);
+        map.on('moveend', function(event) {
+		  	$('#entry_80388879').attr('value', map.getCenter().lat);
+        	$('#entry_510592791').attr('value', map.getCenter().lng);
 		});
 
 		// Set the question choice active
