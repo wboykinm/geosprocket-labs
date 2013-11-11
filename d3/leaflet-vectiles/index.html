@@ -8,7 +8,14 @@
 html, body, #map { height: 100%;width:100%; background:#020B26;position:absolute;}
 body { padding: 0; margin: 0; }
 path { stroke-linejoin; round; stroke-linecap: round; fill: none}
-path.road { stroke : #3C80A9; fill : none ;}
+path.road { 
+  stroke : #3C80A9; 
+  fill : none ;
+  -moz-transition: stroke-dashoffset 2s ease-in-out;
+  -webkit-transition: stroke-dashoffset 2s ease-in-out;
+  -o-transition: stroke-dashoffset 2s ease-in-out;
+  transition: stroke-dashoffset 2s ease-in-out;
+}
 path.water { stroke:none; fill:#031536; }
 img { -webkit-filter: grayscale(100%) brightness(40%) contrast(150%);}
 
