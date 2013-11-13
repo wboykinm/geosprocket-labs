@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Zoom Lens</title>
+  
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.js'></script>
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.css' rel='stylesheet' />
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/2.3.1/readable/bootstrap.min.css" />
+  <style>
+    body { margin:0; padding:0; }
+  </style>
+
+</head>
+<body>
+<style>
+#map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0;
+    pointer-events: all;
+    cursor: none
+}
+div.leaflet-top.leaflet-left {
+    top: 55px;
+}
+#zoommap {
+    width: 200px;
+    height: 200px;
+    background: beige;
+    transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+}
+
+#zoomlens {
+    overflow: visible;
+    top: -9999px;
+    left: -9999px;
+}
+
+#border {
+    margin: -5px;
+    border: #888 solid 5px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #888;
+}
+
+.overlay {
+    position: absolute;
+    pointer-events: none;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.rotater {
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+}
+</style>
+<div id='map'></div>
+<div id='zoomlens' class='overlay'>
+    <div class='overlay rotater'>
+        <div class='overlay rotater'>
+            <div id='zoommap' class='overlay'></div>
+        </div>
+    </div>
+    <div id='border' class='overlay'></div>
+</div>
+
+<!--SOME BOOTSTRAP NAV BOILERPLATE TO MAKE THINGS SIMPLE AND APPEALING-->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand">Tacloban, Philippines | 1944 vs. 2013</a>
+          <ul class="nav nav-pills pull-right">
+            <li class="divider-vertical"></li>
+            <li><a href="#myModal" role="button" class="lead" data-toggle="modal"><large>About</large></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+<!-- Modal -->
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">About</h3>
+      </div>
+      <div class="modal-body">
+        <p>This map compares a section of Tacloban City mapped in 1944 with Openstreetmap data from the present day. Mouse over the map to toggle between old and new.</p>
+        <hr>
+        <ul>
+          <li>1944 Map by U.S. Army Map Service, provided by University of Texas <a href="http://www.lib.utexas.edu/maps/ams/philippines_city_plans/txu-pclmaps-oclc-6610188-tacloban.jpg" target="_blank">PCL Map Collection</a></li>
+          <li>2012 Imagery provided by <a href="http://www.mapbox.com/about/maps/" target="_blank">Mapbox</a></li>
+          <li>Street and Reference data by <a href="http://osm.org" target="_blank">OpenStreetmap Contributors</a></li>
+          <li>Application by <a href="http://geosprocket.com" target="_blank">Geosprocket</a></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+      </div>
+    </div>
+<div id='zoomlens' class='overlay'>
+    <div class='overlay rotater'>
+        <div class='overlay rotater'>
+            <div id='zoommap' class='overlay'></div>
+        </div>
+    </div>
+    <div id='border' class='overlay'></div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script>
+
+var map = L.mapbox.map('map');
+
+var oldLayer = L.tileLayer('http://mapwarper.net/maps/tile/2110/{z}/{x}/{y}.png').addTo(map);
+
+var zoommap = L.mapbox.map('zoommap', 'landplanner.map-3xuspbkm', {
+    fadeAnimation: false,
+    zoomControl: false,
+    attributionControl: false
+});
+
+map.setView([11.2440, 125.0027], 16);
+
+var zl = document.getElementById('zoomlens');
+
+map.on('mousemove', update);
+map.on('zoomend', zoom);
+
+function zoom(e) {
+    if (zoommap._loaded) zoommap.setZoom(e.target.getZoom() + 1);
+}
+
+function update(e) {
+    zl.style.top = ~~e.containerPoint.y - 100 + 'px';
+    zl.style.left = ~~e.containerPoint.x - 100 + 'px';
+    zoommap.setView(e.latlng, map.getZoom() + 1, true);
+}
+</script>
+</body>
+</html>
