@@ -139,13 +139,13 @@ map.on('mousemove', update);
 map.on('zoomend', zoom);
 
 function zoom(e) {
-    if (zoommap._loaded) zoommap.setZoom(e.target.getZoom() + 1);
+    if (zoommap._loaded) zoommap.setZoom(e.target.getZoom());
 }
 
 function update(e) {
     zl.style.top = ~~e.containerPoint.y - 100 + 'px';
     zl.style.left = ~~e.containerPoint.x - 100 + 'px';
-    zoommap.setView(e.latlng, map.getZoom() + 1, true);
+    zoommap.setView(e.latlng, map.getZoom(), true);
 }
 </script>
 </body>
