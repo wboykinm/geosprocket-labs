@@ -14,31 +14,6 @@
 <body>
 <div id="map"></div>
 
-<svg>
-    <defs>
-      <!--<linearGradient id='grad1'>
-        <stop offset='25%' stop-color='#f7e68c'/>
-        <stop offset='100%' stop-color='#f7e68c' stop-opacity='0' />
-      </linearGradient>-->
-      <linearGradient id='grad2'>
-        <stop offset='25%' stop-color='#5c5252'/>
-        <stop offset='100%' stop-color='#5c5252' stop-opacity='0' />
-      </linearGradient>
-      <linearGradient id='grad3'>
-        <stop offset='25%' stop-color='#9a7683'/>
-        <stop offset='100%' stop-color='#9a7683' stop-opacity='0' />
-      </linearGradient>
-      <linearGradient id='grad4'>
-        <stop offset='25%' stop-color='#dcc8a9'/>
-        <stop offset='100%' stop-color='#dcc8a9' stop-opacity='0' />
-      </linearGradient>
-      <linearGradient id='grad5'>
-        <stop offset='25%' stop-color='#c3d298'/>
-        <stop offset='100%' stop-color='#c3d298' stop-opacity='0' />
-      </linearGradient>
-    </defs>
-  </svg>
-
 <script src="http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js"></script>
 <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>-->
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -115,6 +90,54 @@ lingrad1 = defs.append('linearGradient')
   lingrad1.append('stop','stop')
     .attr('offset','100%')
     .attr('stop-color','#f7e68c')
+    .attr('stop-opacity','0');
+
+lingrad2 = defs.append('linearGradient')
+      .attr('id','grad2');
+
+  lingrad2.append('stop')
+    .attr('offset','25%')
+    .attr('stop-color','#5C5252');
+
+  lingrad2.append('stop','stop')
+    .attr('offset','100%')
+    .attr('stop-color','#5C5252')
+    .attr('stop-opacity','0');
+
+lingrad3 = defs.append('linearGradient')
+      .attr('id','grad3');
+
+  lingrad3.append('stop')
+    .attr('offset','25%')
+    .attr('stop-color','#9A7683');
+
+  lingrad3.append('stop','stop')
+    .attr('offset','100%')
+    .attr('stop-color','#9A7683')
+    .attr('stop-opacity','0');
+
+lingrad4 = defs.append('linearGradient')
+      .attr('id','grad4');
+
+  lingrad4.append('stop')
+    .attr('offset','25%')
+    .attr('stop-color','#DCC8A9');
+
+  lingrad4.append('stop','stop')
+    .attr('offset','100%')
+    .attr('stop-color','#DCC8A9')
+    .attr('stop-opacity','0');
+
+lingrad5 = defs.append('linearGradient')
+      .attr('id','grad5');
+
+  lingrad5.append('stop')
+    .attr('offset','25%')
+    .attr('stop-color','#C3D298');
+
+  lingrad5.append('stop','stop')
+    .attr('offset','100%')
+    .attr('stop-color','#C3D298')
     .attr('stop-opacity','0');
 
 // Highways from OpenStreetMap
