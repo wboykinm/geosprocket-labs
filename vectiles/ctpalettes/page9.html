@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>D3 GeoJSON in Leaflet</title>
+<link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.css' rel='stylesheet' />
+  <!--[if lte IE 8]>
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.ie.css' rel='stylesheet'>
+  <![endif]-->
+<style>
+  html, body, #map { height: 100%;width:100%; background:#c3aa87;position:absolute;}
+  body { padding: 0; margin: 0; }
+  path { stroke-linejoin; round; stroke-linecap: round; fill: none}
+  path.water { stroke:none; fill:#bed2ff; }
+</style>
+<body>
+<div id="map"></div>
+
+<svg>
+    <defs>
+      <!--<linearGradient id='grad1'>
+        <stop offset='25%' stop-color='#f7e68c'/>
+        <stop offset='100%' stop-color='#f7e68c' stop-opacity='0' />
+      </linearGradient>-->
+      <linearGradient id='grad2'>
+        <stop offset='25%' stop-color='#5c5252'/>
+        <stop offset='100%' stop-color='#5c5252' stop-opacity='0' />
+      </linearGradient>
+      <linearGradient id='grad3'>
+        <stop offset='25%' stop-color='#9a7683'/>
+        <stop offset='100%' stop-color='#9a7683' stop-opacity='0' />
+      </linearGradient>
+      <linearGradient id='grad4'>
+        <stop offset='25%' stop-color='#dcc8a9'/>
+        <stop offset='100%' stop-color='#dcc8a9' stop-opacity='0' />
+      </linearGradient>
+      <linearGradient id='grad5'>
+        <stop offset='25%' stop-color='#c3d298'/>
+        <stop offset='100%' stop-color='#c3d298' stop-opacity='0' />
+      </linearGradient>
+    </defs>
+  </svg>
+
+<script src="http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js"></script>
+<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>-->
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script>
+
+/* Experimental vector tile layer for Leaflet
+ * Uses D3 to render TopoJSON. Derived from a GeoJSON thing that was
+ * Originally by Ziggy Jonsson: http://bl.ocks.org/ZJONSSON/5602552
+ * Reworked by Nelson Minar: http://bl.ocks.org/NelsonMinar/5624141
+ */
+L.TileLayer.d3_topoJSON =  L.TileLayer.extend({
+    onAdd : function(map) {
+        L.TileLayer.prototype.onAdd.call(this,map);
+        this._path = d3.geo.path().projection(function(d) {
+            var point = map.latLngToLayerPoint(new L.LatLng(d[1],d[0]));
+            return [point.x,point.y];
+        });
+        this.on("tileunload",function(d) {
+            if (d.tile.xhr) d.tile.xhr.abort();
+            if (d.tile.nodes) d.tile.nodes.remove();
+            d.tile.nodes = null;
+            d.tile.xhr = null;
+        });
+    },
+    _loadTile : function(tile,tilePoint) {
+        var self = this;
+        this._adjustTilePoint(tilePoint);
+
+        if (!tile.nodes && !tile.xhr) {
+            tile.xhr = d3.json(this.getTileUrl(tilePoint),function(error, tjData) {
+                if (error) {
+                    console.log(error);
+                } else {
+                    var geoJson = topojson.feature(tjData, tjData.objects[self.options.layerName]);
+                    tile.xhr = null;
+                    tile.nodes = d3.select(map._container).select("svg").append("g");
+                    tile.nodes.selectAll("path")
+                        .data(geoJson.features).enter()
+                      .append("path")
+                        .attr("d", self._path)
+                        .attr("class", self.options.class)
+                        .attr("style", self.options.style);
+                }
+            });
+        }
+    }
+});
+
+map = L.map(map).setView([34.94958871717334, 135.72951793670654], 13);
+map._initPathRoot();
+
+// Add a fake GeoJSON line to coerce Leaflet into creating the <svg> tag that d3_geoJson needs
+new L.geoJson({"type": "LineString","coordinates":[[0,0],[0,0]]}).addTo(map);
+
+// Water Areas from OpenStreetMap
+new L.TileLayer.d3_topoJSON("http://tile.openstreetmap.us/vectiles-water-areas/{z}/{x}/{y}.topojson", {
+  class: "water",
+  layerName: "vectile",
+  style: ""
+}).addTo(map);
+
+// Construct the SVG defs
+var defs = d3.select('svg')
+  .append('defs');
+
+lingrad1 = defs.append('linearGradient')
+      .attr('id','grad1');
+
+  lingrad1.append('stop')
+    .attr('offset','25%')
+    .attr('stop-color','#f7e68c');
+
+  lingrad1.append('stop','stop')
+    .attr('offset','100%')
+    .attr('stop-color','#f7e68c')
+    .attr('stop-opacity','0');
+
+// Highways from OpenStreetMap
+var roadSizes = {
+  "highway": "4px",
+  "major_road": "1.8px",
+  "minor_road": "1.2px",
+  "rail": "0.8px",
+  "path": "0.5px"
+};
+var roadColors = {
+  "highway": "url(#grad1)",
+  "major_road": "url(#grad2)",
+  "minor_road": "url(#grad3)",
+  "rail": "url(#grad4)",
+  "path": "url(#grad5)"
+};
+new L.TileLayer.d3_topoJSON("http://tile.openstreetmap.us/vectiles-highroad/{z}/{x}/{y}.topojson", {
+  class: "road",
+  layerName: "vectile",
+  style: function(d) { return "stroke-width: " + roadSizes[d.properties.kind] + "; stroke: " + roadColors[d.properties.kind]; }
+}).addTo(map);
+
+/*var topPane = map._createPane('leaflet-top-pane', map.getPanes().mapPane);
+  var topLayer = new L.tileLayer('http://{s}.tile.stamen.com/toner-labels/{z}/{x}/{y}.png', {
+    maxZoom: 17
+  }).addTo(map);
+  topPane.appendChild(topLayer.getContainer());
+  topLayer.setZIndex(7);*/
+</script>
+</body>
