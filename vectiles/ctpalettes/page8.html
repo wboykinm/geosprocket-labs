@@ -1,67 +1,53 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>D3 GeoJSON in Leaflet</title>
+<title>OSM Vector Tiles</title>
 <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.css' rel='stylesheet' />
   <!--[if lte IE 8]>
     <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.ie.css' rel='stylesheet'>
   <![endif]-->
+  <link href='http://fonts.googleapis.com/css?family=Codystar' rel='stylesheet' type='text/css'>
 <style>
-  html, body, #map { height: 100%;width:100%; background:#c3aa87;position:absolute;}
-  body { padding: 0; margin: 0; }
-  path { stroke-linejoin; round; stroke-linecap: round; fill: none}
-  path.water { stroke:none; fill:#bed2ff; }
+  html, body, #map { 
+    height: 100%;
+    width:100%; 
+    background:#c3aa87;
+    position:absolute;
+  }
+  body { 
+    padding: 0; 
+    margin: 0; 
+  }
+  path { 
+    stroke-linejoin: round; 
+    stroke-linecap: round; 
+    fill: none
+  }
+  path.water { 
+    stroke:none; 
+    fill:#bed2ff; 
+  }
+  .text{
+    fill-opacity:.9;
+    dominant-baseline: middle;
+    font-family: 'Codystar', cursive;
+    font-color: white;
+    text-shadow: 2px 2px #e2e3e3;
+    font-size: 24px;
+  }
+  path.label {
+    stroke-dasharray:5,5;
+    stroke:#000;
+  }
 </style>
 <body>
 <div id="map"></div>
 
 <script src="http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js"></script>
-<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>-->
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src='js/vectilejson.js'></script>
+<script src='js/leaflet-hash.js'></script>
 <script>
-
-/* Experimental vector tile layer for Leaflet
- * Uses D3 to render TopoJSON. Derived from a GeoJSON thing that was
- * Originally by Ziggy Jonsson: http://bl.ocks.org/ZJONSSON/5602552
- * Reworked by Nelson Minar: http://bl.ocks.org/NelsonMinar/5624141
- */
-L.TileLayer.d3_topoJSON =  L.TileLayer.extend({
-    onAdd : function(map) {
-        L.TileLayer.prototype.onAdd.call(this,map);
-        this._path = d3.geo.path().projection(function(d) {
-            var point = map.latLngToLayerPoint(new L.LatLng(d[1],d[0]));
-            return [point.x,point.y];
-        });
-        this.on("tileunload",function(d) {
-            if (d.tile.xhr) d.tile.xhr.abort();
-            if (d.tile.nodes) d.tile.nodes.remove();
-            d.tile.nodes = null;
-            d.tile.xhr = null;
-        });
-    },
-    _loadTile : function(tile,tilePoint) {
-        var self = this;
-        this._adjustTilePoint(tilePoint);
-
-        if (!tile.nodes && !tile.xhr) {
-            tile.xhr = d3.json(this.getTileUrl(tilePoint),function(error, tjData) {
-                if (error) {
-                    console.log(error);
-                } else {
-                    var geoJson = topojson.feature(tjData, tjData.objects[self.options.layerName]);
-                    tile.xhr = null;
-                    tile.nodes = d3.select(map._container).select("svg").append("g");
-                    tile.nodes.selectAll("path")
-                        .data(geoJson.features).enter()
-                      .append("path")
-                        .attr("d", self._path)
-                        .attr("class", self.options.class)
-                        .attr("style", self.options.style);
-                }
-            });
-        }
-    }
-});
 
 map = L.map(map).setView([34.94958871717334, 135.72951793670654], 13);
 map._initPathRoot();
@@ -160,6 +146,12 @@ new L.TileLayer.d3_topoJSON("http://tile.openstreetmap.us/vectiles-highroad/{z}/
   layerName: "vectile",
   style: function(d) { return "stroke-width: " + roadSizes[d.properties.kind] + "; stroke: " + roadColors[d.properties.kind]; }
 }).addTo(map);
+
+new L.TileLayer.d3_geoJSON('http://tile.openstreetmap.us/vectiles-skeletron/{z}/{x}/{y}.topojson', {
+    id: function(d) {return d.geometry.coordinates[1]},
+    id2: function(d) {return '#' + d.geometry.coordinates[1]},
+    text: function(d) {return d.properties.name},
+  }).addTo(map);
 
 /*var topPane = map._createPane('leaflet-top-pane', map.getPanes().mapPane);
   var topLayer = new L.tileLayer('http://{s}.tile.stamen.com/toner-labels/{z}/{x}/{y}.png', {
