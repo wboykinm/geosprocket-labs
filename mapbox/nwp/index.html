@@ -22,7 +22,7 @@ var map = L.map('map')
 
 var geojsonLayer = L.geoJson(passages),
     marker = L.marker([0, 0], {
-        icon: L.mapbox.marker.icon()
+        icon: L.mapbox.marker.icon({'marker-symbol': 'ferry', 'marker-color': '0000FF'})
     }).addTo(map),
     j = 0;
 
