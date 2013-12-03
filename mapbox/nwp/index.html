@@ -20,20 +20,7 @@
 var map = L.map('map')
     .setView([0, 0], 2);
 
-// Generate a GeoJSON line: you can load GeoJSON via AJAX, or
-// generate it some other way
-/*var geojson = { type: 'LineString', coordinates: [] },
-    start = [10, 20],
-    momentum = [3, 3];
-for (var i = 0; i < 300; i++) {
-    start[0] += momentum[0];
-    start[1] += momentum[1];
-    if (start[1] > 60 || start[1] < -60) momentum[1] *= -1;
-    if (start[0] > 170 || start[0] < -170) momentum[0] *= -1;
-    geojson.coordinates.push(start.slice());
-}*/
-
-var geojsonLayer = L.geoJson(passages).addTo(map),
+var geojsonLayer = L.geoJson(passages),
     marker = L.marker([0, 0], {
         icon: L.mapbox.marker.icon()
     }).addTo(map),
@@ -44,12 +31,12 @@ function tick() {
     // set the marker to be at the same point as one of the segments
     // of the line
     marker.setLatLng(L.latLng(
-        passages.coordinates[j][1],
-        passages.coordinates[j][0]));
+        passages.features[1].geometry.coordinates[j][1],
+        passages.features[1].geometry.coordinates[j][0]));
 
     // move to the next point in the line or loop to the first point if
     // j runs off the end of the array
-    if (++j < passages.coordinates.length) setTimeout(tick, 100);
+    if (++j < passages.features[1].geometry.coordinates.length) setTimeout(tick, 200);
 }
 </script>
 </body>
