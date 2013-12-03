@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset=utf-8 />
-<title>Move Marker Along Line</title>
+<title>Northwest-Northeast</title>
   
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
   <script src='http://api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
@@ -11,18 +11,21 @@
   
   <style>
     body { margin:0; padding:0; }
-    #map { position:absolute; top:0; bottom:0; width:100%; }
+    #map { position:absolute; top:0; bottom:0; width:100%; background-color: #000; }
   </style>
 </head>
 <body>
 <div id='map'></div>
 <script>
-var map = L.map('map')
-    .setView([0, 0], 2);
+var map = L.mapbox.map('map','landplanner.ln1urf6r', {
+  maxZoom:7
+}).setView([0, 0], 3);
+
+//var polarbase = L.Mapbox.TileLayer('landplanner.antarctic').addTo(map);
 
 var geojsonLayer = L.geoJson(passages),
     marker = L.marker([0, 0], {
-        icon: L.mapbox.marker.icon({'marker-symbol': 'ferry', 'marker-color': '0000FF'})
+        icon: L.mapbox.marker.icon({'marker-size': 'large', 'marker-symbol': 'ferry', 'marker-color': 'FFD479'})
     }).addTo(map),
     j = 0;
 
@@ -31,12 +34,12 @@ function tick() {
     // set the marker to be at the same point as one of the segments
     // of the line
     marker.setLatLng(L.latLng(
-        passages.features[1].geometry.coordinates[j][1],
-        passages.features[1].geometry.coordinates[j][0]));
+        passages.features[3].geometry.coordinates[j][1],
+        passages.features[3].geometry.coordinates[j][0]));
 
     // move to the next point in the line or loop to the first point if
     // j runs off the end of the array
-    if (++j < passages.features[1].geometry.coordinates.length) setTimeout(tick, 200);
+    if (++j < passages.features[3].geometry.coordinates.length) setTimeout(tick, 300);
 }
 </script>
 </body>
