@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport'>
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet'>
+  <link href="http://netdna.bootstrapcdn.com/bootswatch/3.0.2/slate/bootstrap.min.css" rel="stylesheet">
+  <style type="text/css">
+  body {
+      padding: 0;
+      margin: 0;
+    }
+
+    html, body, #map {
+      height: 100%;
+    }
+        #content {
+        position:absolute;
+        top:0;
+        right:0;
+        width:250px;
+        bottom:0;
+        background:#000;
+        background:rgba(0, 0, 0, 0.7);
+    }
+    .sidecontainer {
+      padding:20px;
+    }
+  @media (max-width:640px) {
+      body {
+        line-height:14px;
+        }
+    #content {
+        position:absolute;
+        bottom:0;
+        right:0;
+        left:0;
+        top:auto;
+        max-height:260px;
+        width:100%;
+        background:#000;
+        background:rgba(0, 0, 0, 0.7);
+    }
+    .sidecontainer {
+      padding:10px;
+    }
+    .sidecontainer h4 {
+    font-size:12px;
+    }
+    .sidecontainer h1 {
+    font-size:16px;
+    }
+  </style>
+  <script src="http://api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script src="http://asset.geosprocket.com/leaflet/leaflet-hash.js"></script>
+
+  <title>DC Plowtracker</title>
+</head>
+
+<body>
+  <div class="dark" id="map"></div>
+
+  <div id='content'>
+    <div class="sidecontainer">
+      <h1>The District Plows Tonight</h1>
+
+      <h4>Apparently it snows often enough in our nation's capital that the D.C. public works department has actual snowplows, monitored by GPS. <a href="https://twitter.com/jeremybowers" target="_blank">Jeremy Bowers</a> of NPR <a href="https://github.com/jeremyjbowers/mister-plow" target="_blank">helpfully made a feed of these locations</a>, so here you can see what's been plowed and when. Or you could look out the window. Whatever.</h4>
+      <hr>
+
+      <blockquote class="pull-right">
+        - with love, from <a href="http://geosprocket.io" target="_blank">Geosprocket</a>
+      </blockquote>
+    </div>
+  </div><script>
+var baseTiles = L.tileLayer('http://a.tiles.mapbox.com/v3/landplanner.ggflie7k/{z}/{x}/{y}.png', {
+    maxZoom: 18
+  });
+
+  $.getJSON("plows.php", function(plows_parsed) {
+    //var plows_parsed = $.parseJson(data);
+    
+    var geojsonData = {"type": "FeatureCollection"};
+
+    geojsonData.features = [];
+    for (var i = 0; i < plows_parsed.incidents.items.length; i++) {
+      geojsonData.features[i] = {
+        "type": "Feature",
+        "properties": {
+          "plow": plows_parsed.incidents.items[i].vehicle_id, 
+          "timestamp": plows_parsed.incidents.items[i].time_string,
+          "incident": plows_parsed.incidents.items[i].object_id
+        },
+          "geometry": {
+            "type": "Point","coordinates": [ 
+              plows_parsed.incidents.items[i].lng,
+              plows_parsed.incidents.items[i].lat
+            ]
+          }
+        };
+      };  
+
+    var geojson = L.geoJson(geojsonData, {
+      onEachFeature: function (feature, layer) {
+        layer.setIcon(L.icon({
+            "iconUrl": "http://asset.geosprocket.com/img/Symbolicons_Weather/png/white/36/snowflakes.png",
+            "iconSize": [36, 36], // size of the icon
+            "iconAnchor": [18, 18], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -18], // point from which the popup should open relative to the iconAnchor
+            "className": "dot"
+        }));
+        layer.bindPopup("<h1>Plow #" + feature.properties.plow + "<\/h1><p>Was here on " + feature.properties.timestamp + "<\/p>");
+      }
+    });
+    var map = L.map('map').fitBounds(geojson.getBounds()).addControl(L.mapbox.geocoderControl('examples.map-vyofok3q'));
+    var hash = new L.Hash(map);
+    baseTiles.addTo(map);
+    geojson.addTo(map);
+  });
+  </script>
+</body>
+</html>
