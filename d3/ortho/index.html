@@ -42,12 +42,12 @@ body {
 var width = 960,
     height = 960;
 
-var projection = d3.geo.orthographic()
-    .scale(475)
+var projection = d3.geo.azimuthalEquidistant()
+    .scale(190)
     .translate([width / 2, height / 2])
-    .clipAngle(90)
+    .clipAngle(135 - 1e-3)
     .precision(.1)
-    .rotate([90,-60,0]) 
+    .rotate([74 + 45 / 60, -52 - 50 / 60]);
 
 var path = d3.geo.path()
     .projection(projection);
@@ -76,11 +76,31 @@ svg.append("path")
     .attr("class", "graticule")
     .attr("d", path);
 
-d3.xhr("https://api.github.com/repos/wboykinm/geosprocket-geodata/contents/us.topojson", "application/vnd.github.v3.raw+json", function(error, data) {
+var g = svg.append("g");
+
+d3.xhr("https://api.github.com/repos/wboykinm/geosprocket-geodata/contents/world-50m.json", "application/vnd.github.v3.raw+json", function(error, data) {
   world = JSON.parse(data.response);
 
-//d3.json("/mbostock/raw/4090846/world-50m.json", function(error, world) {
-  
+  // load and display the cities
+  d3.csv("vt.csv", function(error, data) {
+
+
+    g.selectAll("circle")
+       .data(data)
+       .enter()
+       .append("circle")
+       .attr("cx", function(d) {
+               return projection([d.lon, d.lat])[0];
+       })
+       .attr("cy", function(d) {
+               return projection([d.lon, d.lat])[1];
+       })
+       .attr("r", 10)
+       .attr('opacity', 0.4)
+       .attr('stroke', '#ffffff')
+       .attr('stroke-width', 1)
+       .style("fill", "#FFB90F");
+  });
 
   svg.insert("path", ".graticule")
       .datum(topojson.feature(world, world.objects.land))
