@@ -49,8 +49,6 @@ var projection = d3.geo.azimuthalEquidistant()
     .precision(.1)
     .rotate([74 + 45 / 60, -52 - 50 / 60]);
 
-var g = svg.append("g");
-
 var path = d3.geo.path()
     .projection(projection);
 
@@ -59,6 +57,8 @@ var graticule = d3.geo.graticule();
 var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
+
+var g = svg.append("g");
 
 svg.append("defs").append("path")
     .datum({type: "Sphere"})
