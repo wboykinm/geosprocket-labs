@@ -58,8 +58,6 @@ var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-var g = svg.append("g");
-
 svg.append("defs").append("path")
     .datum({type: "Sphere"})
     .attr("id", "sphere")
@@ -94,6 +92,9 @@ d3.xhr("https://api.github.com/repos/wboykinm/geosprocket-geodata/contents/world
 
 // load and display the cities
 d3.csv("vt.csv", function(error, data) {
+
+    var g = svg.append("g");
+
     g.selectAll("circle")
        .data(data)
        .enter()
