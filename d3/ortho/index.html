@@ -49,6 +49,8 @@ var projection = d3.geo.azimuthalEquidistant()
     .precision(.1)
     .rotate([74 + 45 / 60, -52 - 50 / 60]);
 
+var g = svg.append("g");
+
 var path = d3.geo.path()
     .projection(projection);
 
