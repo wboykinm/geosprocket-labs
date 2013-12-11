@@ -58,8 +58,6 @@ var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-var g = svg.append("g");
-
 svg.append("defs").append("path")
     .datum({type: "Sphere"})
     .attr("id", "sphere")
@@ -77,6 +75,8 @@ svg.append("path")
     .datum(graticule)
     .attr("class", "graticule")
     .attr("d", path);
+
+var g = svg.append("g");
 
 d3.xhr("https://api.github.com/repos/wboykinm/geosprocket-geodata/contents/world-50m.json", "application/vnd.github.v3.raw+json", function(error, data) {
   world = JSON.parse(data.response);
