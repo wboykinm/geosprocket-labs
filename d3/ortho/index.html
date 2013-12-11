@@ -81,16 +81,6 @@ svg.append("path")
 d3.xhr("https://api.github.com/repos/wboykinm/geosprocket-geodata/contents/world-50m.json", "application/vnd.github.v3.raw+json", function(error, data) {
   world = JSON.parse(data.response);
 
-  svg.insert("path", ".graticule")
-      .datum(topojson.feature(world, world.objects.land))
-      .attr("class", "land")
-      .attr("d", path);
-
-  svg.insert("path", ".graticule")
-      .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
-      .attr("class", "boundary")
-      .attr("d", path);
-
   // load and display the cities
   d3.csv("vt.csv", function(error, data) {
 
@@ -105,9 +95,19 @@ d3.xhr("https://api.github.com/repos/wboykinm/geosprocket-geodata/contents/world
        .attr("cy", function(d) {
                return projection([d.lon, d.lat])[1];
        })
-       .attr("r", 10)
-       .style("fill", "yellow");
+       .attr("r", 20)
+       .style("fill", "#FFB90F");
   });
+
+  svg.insert("path", ".graticule")
+      .datum(topojson.feature(world, world.objects.land))
+      .attr("class", "land")
+      .attr("d", path);
+
+  svg.insert("path", ".graticule")
+      .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+      .attr("class", "boundary")
+      .attr("d", path);
 });
 
 d3.select(self.frameElement).style("height", height + "px");
