@@ -41,14 +41,14 @@
         // create the layer and add to the map, then will be filled with data
         var countriesLayer = L.geoJson(null, { 
           style: {
-            color: "#ff0000",
-            fillColor: "#ff0000",
+            color: "#000033",
+            fillColor: "#0000ff",
             weight: 1,
-            opacity: 0.65
+            opacity: 0.5
           }
         }).addTo(map);
 
-        sql.execute("select cartodb_id, area, ST_Simplify(the_geom, 0.1) as the_geom from european_countries_e").done(function(geojson) {
+        sql.execute("select cartodb_id, area, ST_Simplify(the_geom, 0.5) as the_geom from european_countries_e").done(function(geojson) {
           countriesLayer.addData(geojson);
           countriesLayer.on('mouseover', function(e) {
             e.layer.setStyle({
