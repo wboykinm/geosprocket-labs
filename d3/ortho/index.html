@@ -33,6 +33,19 @@ body {
   stroke-width: .5px;
 }
 
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 60px;                 
+  padding: 3px;             
+  font: 12px sans-serif;        
+  background: #333; 
+  color:#e2e3e3;  
+  border: 1px solid #FFB90F; 
+  border-radius: 0px;           
+  pointer-events: none;         
+}
+
 </style>
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -78,6 +91,10 @@ svg.append("path")
 
 var g = svg.append("g");
 
+var div = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);
+
 d3.xhr("https://api.github.com/repos/wboykinm/geosprocket-geodata/contents/world-50m.json", "application/vnd.github.v3.raw+json", function(error, data) {
   world = JSON.parse(data.response);
 
@@ -96,10 +113,25 @@ d3.xhr("https://api.github.com/repos/wboykinm/geosprocket-geodata/contents/world
                return projection([d.lon, d.lat])[1];
        })
        .attr("r", 10)
-       .attr('opacity', 0.4)
+       .attr('opacity', 0.7)
        .attr('stroke', '#ffffff')
        .attr('stroke-width', 1)
-       .style("fill", "#FFB90F");
+       .style("fill", "#FFB90F")
+       .on("mouseover", function(d) {      
+            div.transition()        
+                .duration(200)      
+                .style("opacity", .9);      
+            div .html(d.city)  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px"); 
+            g   .style('opacity', 1); 
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(500)      
+                .style("opacity", 0); 
+            g   .style('opacity', 0.7);  
+        }); 
   });
 
   svg.insert("path", ".graticule")
