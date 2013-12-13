@@ -25,8 +25,8 @@ var width = 960,
     height = 500;
 
 var projection = d3.geo.mercator()
-    .center([-79, 45])
-    .scale(2400);
+    .center([-90, 40])
+    .scale(600);
 
 var path = d3.geo.path()
     .projection(projection);
@@ -46,9 +46,12 @@ d3.json("world-50m.json", function(error, topology) {
  var amurka = topology.objects.countries.geometries.filter(function(d) { return d.id == 840; })[0];
  var canada = topology.objects.countries.geometries.filter(function(d) { return d.id == 124; })[0];
  var mexico = topology.objects.countries.geometries.filter(function(d) { return d.id == 484; })[0];
+ var cuba = topology.objects.countries.geometries.filter(function(d) { return d.id == 192; })[0];
  
   var tiles1 = tile();
   var tiles2 = tile();
+  var tiles3 = tile();
+  var tiles4 = tile();
 
   var defs = svg.append("defs");
 
@@ -91,7 +94,7 @@ d3.json("world-50m.json", function(error, topology) {
       .attr("xlink:href", "#can");
 
   svg.append("g")
-      .attr("clip-path-2", "url(#clip2)")
+      .attr("clip-path", "url(#clip2)")
     .selectAll("image")
       .data(tiles2)
     .enter().append("image")
@@ -103,6 +106,62 @@ d3.json("world-50m.json", function(error, topology) {
 
   svg.append("use")
       .attr("xlink:href", "#can")
+      .attr("class", "stroke");
+
+  //Mexico!
+
+  defs.append("path")
+      .attr("id", "mex")
+      .datum(topojson.feature(topology, mexico))
+      .attr("class", "land mex")
+      .attr("d", path)
+      
+  defs.append("clipPath")
+      .attr("id", "clip3")
+    .append("use")
+      .attr("xlink:href", "#mex");
+
+  svg.append("g")
+      .attr("clip-path", "url(#clip3)")
+    .selectAll("image")
+      .data(tiles3)
+    .enter().append("image")
+      .attr("xlink:href", function(d) { return "http://" + ["a", "b", "c", "d"][Math.random() * 4 | 0] + ".tiles.mapbox.com/v3/landplanner.g9caodmg/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
+      .attr("width", Math.round(tiles3.scale))
+      .attr("height", Math.round(tiles3.scale))
+      .attr("x", function(d) { return Math.round((d[0] + tiles3.translate[0]) * tiles3.scale); })
+      .attr("y", function(d) { return Math.round((d[1] + tiles3.translate[1]) * tiles3.scale); });
+
+  svg.append("use")
+      .attr("xlink:href", "#mex")
+      .attr("class", "stroke");
+
+  //Cuba!
+
+  defs.append("path")
+      .attr("id", "cub")
+      .datum(topojson.feature(topology, cuba))
+      .attr("class", "land cub")
+      .attr("d", path)
+      
+  defs.append("clipPath")
+      .attr("id", "clip4")
+    .append("use")
+      .attr("xlink:href", "#cub");
+
+  svg.append("g")
+      .attr("clip-path", "url(#clip4)")
+    .selectAll("image")
+      .data(tiles4)
+    .enter().append("image")
+      .attr("xlink:href", function(d) { return "http://" + ["a", "b", "c", "d"][Math.random() * 4 | 0] + ".tiles.mapbox.com/v3/landplanner.gbn69pja/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
+      .attr("width", Math.round(tiles4.scale))
+      .attr("height", Math.round(tiles4.scale))
+      .attr("x", function(d) { return Math.round((d[0] + tiles4.translate[0]) * tiles4.scale); })
+      .attr("y", function(d) { return Math.round((d[1] + tiles4.translate[1]) * tiles4.scale); });
+
+  svg.append("use")
+      .attr("xlink:href", "#cub")
       .attr("class", "stroke");
 });
 
