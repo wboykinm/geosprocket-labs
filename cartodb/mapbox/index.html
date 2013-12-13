@@ -48,7 +48,7 @@
           }
         }).addTo(map);
 
-        sql.execute("select cartodb_id, area, ST_Simplify(the_geom, 0.5) as the_geom from european_countries_e").done(function(geojson) {
+        sql.execute("select cartodb_id, area, ST_Simplify(the_geom, 0.01) as the_geom from european_countries_e").done(function(geojson) {
           countriesLayer.addData(geojson);
           countriesLayer.on('mouseover', function(e) {
             e.layer.setStyle({
