@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+<head>
 <meta charset="utf-8">
 <style>
 
 svg {
-  background: #8c9ed5;
+  background-color: rgba(0,0,0,0)
 }
 
 .stroke {
@@ -13,6 +14,7 @@ svg {
 }
 
 </style>
+</head>
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/d3.geo.tile.v0.min.js"></script>
@@ -23,7 +25,7 @@ var width = 960,
     height = 500;
 
 var projection = d3.geo.mercator()
-    .center([-79.03, 43.08])
+    .center([-79, 45])
     .scale(2400);
 
 var path = d3.geo.path()
@@ -38,35 +40,72 @@ var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
+//USA!
+
 d3.json("world-50m.json", function(error, topology) {
-  var tiles = tile();
+ var amurka = topology.objects.countries.geometries.filter(function(d) { return d.id == 840; })[0];
+ var canada = topology.objects.countries.geometries.filter(function(d) { return d.id == 124; })[0];
+ var mexico = topology.objects.countries.geometries.filter(function(d) { return d.id == 484; })[0];
+ 
+  var tiles1 = tile();
+  var tiles2 = tile();
 
   var defs = svg.append("defs");
 
+//USA!
   defs.append("path")
-      .attr("id", "countries")
-      .datum(topojson.feature(topology, topology.objects.countries))
-      .attr("d", path);
+      .attr("id", "usa")
+      .datum(topojson.feature(topology, amurka))
+      .attr("d", path)
 
   defs.append("clipPath")
-      .attr("id", "clip")
+      .attr("id", "clip1")
     .append("use")
-      .attr("xlink:href", "#countries");
+      .attr("xlink:href", "#usa");
 
   svg.append("g")
-      .attr("clip-path", "url(#clip)")
+      .attr("clip-path", "url(#clip1)")
     .selectAll("image")
-      .data(tiles)
+      .data(tiles1)
     .enter().append("image")
       .attr("xlink:href", function(d) { return "http://" + ["a", "b", "c", "d"][Math.random() * 4 | 0] + ".tiles.mapbox.com/v3/landplanner.ga0g9p2n/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
-      .attr("width", Math.round(tiles.scale))
-      .attr("height", Math.round(tiles.scale))
-      .attr("x", function(d) { return Math.round((d[0] + tiles.translate[0]) * tiles.scale); })
-      .attr("y", function(d) { return Math.round((d[1] + tiles.translate[1]) * tiles.scale); });
+      .attr("width", Math.round(tiles1.scale))
+      .attr("height", Math.round(tiles1.scale))
+      .attr("x", function(d) { return Math.round((d[0] + tiles1.translate[0]) * tiles1.scale); })
+      .attr("y", function(d) { return Math.round((d[1] + tiles1.translate[1]) * tiles1.scale); });
 
   svg.append("use")
-      .attr("xlink:href", "#countries")
+      .attr("xlink:href", "#usa")
+      .attr("class", "stroke");
+
+//CANADA!
+  defs.append("path")
+      .attr("id", "can")
+      .datum(topojson.feature(topology, canada))
+      .attr("class", "land can")
+      .attr("d", path)
+      
+  defs.append("clipPath")
+      .attr("id", "clip2")
+    .append("use")
+      .attr("xlink:href", "#can");
+
+  svg.append("g")
+      .attr("clip-path-2", "url(#clip2)")
+    .selectAll("image")
+      .data(tiles2)
+    .enter().append("image")
+      .attr("xlink:href", function(d) { return "http://" + ["a", "b", "c", "d"][Math.random() * 4 | 0] + ".tiles.mapbox.com/v3/landplanner.ghfcid9o/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
+      .attr("width", Math.round(tiles2.scale))
+      .attr("height", Math.round(tiles2.scale))
+      .attr("x", function(d) { return Math.round((d[0] + tiles2.translate[0]) * tiles2.scale); })
+      .attr("y", function(d) { return Math.round((d[1] + tiles2.translate[1]) * tiles2.scale); });
+
+  svg.append("use")
+      .attr("xlink:href", "#can")
       .attr("class", "stroke");
 });
 
 </script>
+</body>
+</html>
