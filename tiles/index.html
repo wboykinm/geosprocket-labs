@@ -15,7 +15,7 @@
 <body>
 <div id='map'></div>
 <script>
-var map = L.mapbox.map('map',{maxZoom:7,minZoom:1}).setView([40, 10], 5);
+var map = L.mapbox.map('map').setView([40, 10], 5);
 map.addLayer(L.tileLayer('https://s3.amazonaws.com/geosprocket-basemap/{z}/{x}/{y}.png'));
 map.addLayer(L.tileLayer('http://c.tiles.mapbox.com/v3/landplanner.map-clhq1tp6/{z}/{x}/{y}.png'));
 </script>
