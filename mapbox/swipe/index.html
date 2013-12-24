@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Swipe Layers</title>
+  
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <script src='//api.tiles.mapbox.com/mapbox.js/v1.5.2/mapbox.js'></script>
+  <link href='//api.tiles.mapbox.com/mapbox.js/v1.5.2/mapbox.css' rel='stylesheet' />
+  
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+</head>
+<body>
+<style>
+
+#range {
+    margin-top: 10px;
+    -webkit-appearance: none !important;
+    background:rgba(255,255,255,0.7);
+    height:15px;
+    width: 100%;
+    position: absolute;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+     -webkit-appearance: none;
+    background-color: #0000ff;
+    border: 2px solid #fff;
+    opacity: 0.9;
+    width: 20px;
+    height: 30px;
+}
+
+.leaflet-top .leaflet-control-zoom {
+  margin-top: 35px;
+}
+</style>
+
+<div id='map'></div>
+<input id="range" type="range" min="0" max="1.0" step="any" style="width: 100%; position: absolute" />
+<script>
+    var map = L.mapbox.map('map');
+
+    L.mapbox.tileLayer('landplanner.blueprint_btv').addTo(map);
+    var overlay = L.mapbox.tileLayer('landplanner.map-yp548gxo').addTo(map);
+
+    var range = document.getElementById('range');
+
+    function clip() {
+        var nw = map.containerPointToLayerPoint([0,0]),
+            se = map.containerPointToLayerPoint(map.getSize()),
+            clipX = nw.x + (se.x - nw.x) * range.value;
+
+        overlay.getContainer().style.clip = 'rect(' + [nw.y, clipX, se.y, nw.x].join('px,') + 'px)';
+    }
+
+    range['oninput' in range ? 'oninput' : 'onchange'] = clip;
+    map.on('move', clip);
+
+    map.setView([44.4846, -73.2165], 14);
+
+</script>
+</body>
+</html>

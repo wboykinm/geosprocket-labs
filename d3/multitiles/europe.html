@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<style>
+
+
+svg {
+  background-color: #333;
+}
+
+.stroke {
+  fill: none;
+  stroke: #000;
+  stroke-width: 0;
+}
+
+</style>
+</head>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/d3.geo.tile.v0.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script>
+
+var ratio = window.devicePixelRatio || 1,
+    width = 960 * ratio,
+    height = 650 * ratio;
+
+var projection = d3.geo.mercator()
+    .center([9, 49])
+    .scale(3800);
+
+var path = d3.geo.path()
+    .projection(projection);
+
+var tile = d3.geo.tile()
+    .scale(projection.scale() * 2 * Math.PI)
+    .translate(projection([0, 0]))
+    .zoomDelta((window.devicePixelRatio || 1) - .5);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+//Define the clip boundaries by country UN ID
+d3.json("world-50m.json", function(error, topology) {
+ var germany = topology.objects.countries.geometries.filter(function(d) { return d.id == 276; })[0];
+ var czech = topology.objects.countries.geometries.filter(function(d) { return d.id == 203; })[0];
+ var france = topology.objects.countries.geometries.filter(function(d) { return d.id == 250; })[0];
+ var poland = topology.objects.countries.geometries.filter(function(d) { return d.id == 616; })[0];
+ var belgium = topology.objects.countries.geometries.filter(function(d) { return d.id == 56; })[0];
+ var holland = topology.objects.countries.geometries.filter(function(d) { return d.id == 528; })[0];
+ var luxembourg = topology.objects.countries.geometries.filter(function(d) { return d.id == 442; })[0];
+ var switzerland = topology.objects.countries.geometries.filter(function(d) { return d.id == 756; })[0];
+ var austria = topology.objects.countries.geometries.filter(function(d) { return d.id == 40; })[0];
+ var italy = topology.objects.countries.geometries.filter(function(d) { return d.id == 380; })[0];
+ 
+ //Generate some empty tilesets
+  var tiles1 = tile();
+  var tiles2 = tile();
+  var tiles3 = tile();
+  var tiles4 = tile();
+  var tiles5 = tile();
+  var tiles6 = tile();
+  var tiles7 = tile();
+  var tiles8 = tile();
+  var tiles9 = tile();
+  var tiles10 = tile();
+
+  var defs = svg.append("defs");
+
+//germany!
+  defs.append("path")
+      .attr("id", "ger")
+      .datum(topojson.feature(topology, germany))
+      .attr("d", path)
+
+  defs.append("clipPath")
+      .attr("id", "clip1")
+    .append("use")
+      .attr("xlink:href", "#ger");
+
+  svg.append("g")
+      .attr("clip-path", "url(#clip1)")
+    .selectAll("image")
+      .data(tiles1)
+    .enter().append("image")
+      .attr("xlink:href", function(d) { return "http://" + ["a", "b", "c", "d"][Math.random() * 4 | 0] + ".tiles.mapbox.com/v3/landplanner.map-nktu3c9m/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
+      .attr("width", Math.round(tiles1.scale))
+      .attr("height", Math.round(tiles1.scale))
+      .attr("x", function(d) { return Math.round((d[0] + tiles1.translate[0]) * tiles1.scale); })
+      .attr("y", function(d) { return Math.round((d[1] + tiles1.translate[1]) * tiles1.scale); });
+
+  svg.append("use")
+      .attr("xlink:href", "#ger")
+      .attr("class", "stroke");
+
+//czech!
+  defs.append("path")
+      .attr("id", "cze")
+      .datum(topojson.feature(topology, czech))
+      .attr("class", "land cze")
+      .attr("d", path)
+      
+  defs.append("clipPath")
+      .attr("id", "clip2")
+    .append("use")
+      .attr("xlink:href", "#cze");
+
+  svg.append("g")
+      .attr("clip-path", "url(#clip2)")
+    .selectAll("image")
+      .data(tiles2)
+    .enter().append("image")
+      .attr("xlink:href", function(d) { return "http://" + ["a", "b", "c", "d"][Math.random() * 4 | 0] + ".tiles.mapbox.com/v3/landplanner.ghfcid9o/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
+      .attr("width", Math.round(tiles2.scale))
+      .attr("height", Math.round(tiles2.scale))
+      .attr("x", function(d) { return Math.round((d[0] + tiles2.translate[0]) * tiles2.scale); })
+      .attr("y", function(d) { return Math.round((d[1] + tiles2.translate[1]) * tiles2.scale); });
+
+  svg.append("use")
+      .attr("xlink:href", "#cze")
+      .attr("class", "stroke");
+
+  //france!
+
+  defs.append("path")
+      .attr("id", "fra")
+      .datum(topojson.feature(topology, france))
+      .attr("class", "land fra")
+      .attr("d", path)
+      
+  defs.append("clipPath")
+      .attr("id", "clip3")
+    .append("use")
+      .attr("xlink:href", "#fra");
+
+  svg.append("g")
+      .attr("clip-path", "url(#clip3)")
+    .selectAll("image")
+      .data(tiles3)
+    .enter().append("image")
+      .attr("xlink:href", function(d) { return "http://" + ["a", "b", "c", "d"][Math.random() * 4 | 0] + ".tiles.mapbox.com/v3/landplanner.map-euipl4u9/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
+      .attr("width", Math.round(tiles3.scale))
+      .attr("height", Math.round(tiles3.scale))
+      .attr("x", function(d) { return Math.round((d[0] + tiles3.translate[0]) * tiles3.scale); })
+      .attr("y", function(d) { return Math.round((d[1] + tiles3.translate[1]) * tiles3.scale); });
+
+  svg.append("use")
+      .attr("xlink:href", "#fra")
+      .attr("class", "stroke");
+
+  //poland!
+
+  defs.append("path")
+      .attr("id", "pol")
+      .datum(topojson.feature(topology, poland))
+      .attr("class", "land pol")
+      .attr("d", path)
+      
+  defs.append("clipPath")
+      .attr("id", "clip4")
+    .append("use")
+      .attr("xlink:href", "#pol");
+
+  svg.append("g")
+      .attr("clip-path", "url(#clip4)")
+    .selectAll("image")
+      .data(tiles4)
+    .enter().append("image")
+      .attr("xlink:href", function(d) { return "http://" + ["a", "b", "c", "d"][Math.random() * 4 | 0] + ".tiles.mapbox.com/v3/landplanner.gbn69pja/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
+      .attr("width", Math.round(tiles4.scale))
+      .attr("height", Math.round(tiles4.scale))
+      .attr("x", function(d) { return Math.round((d[0] + tiles4.translate[0]) * tiles4.scale); })
+      .attr("y", function(d) { return Math.round((d[1] + tiles4.translate[1]) * tiles4.scale); });
+
+  svg.append("use")
+      .attr("xlink:href", "#pol")
+      .attr("class", "stroke");
+
+  //belgium!
+
+  defs.append("path")
+      .attr("id", "bel")
+      .datum(topojson.feature(topology, belgium))
+      .attr("class", "land bel")
+      .attr("d", path)
+      
+  defs.append("clipPath")
+      .attr("id", "clip5")
+    .append("use")
+      .attr("xlink:href", "#bel");
+
+  svg.append("g")
+      .attr("clip-path", "url(#clip5)")
+    .selectAll("image")
+      .data(tiles5)
+    .enter().append("image")
+      .attr("xlink:href", function(d) { return "http://" + ["a", "b", "c", "d"][Math.random() * 4 | 0] + ".tiles.mapbox.com/v3/landplanner.ga0g9p2n/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
+      .attr("width", Math.round(tiles5.scale))
+      .attr("height", Math.round(tiles5.scale))
+      .attr("x", function(d) { return Math.round((d[0] + tiles5.translate[0]) * tiles5.scale); })
+      .attr("y", function(d) { return Math.round((d[1] + tiles5.translate[1]) * tiles5.scale); });
+
+  svg.append("use")
+      .attr("xlink:href", "#bel")
+      .attr("class", "stroke");
+
+  //holland!
+
+  defs.append("path")
+      .attr("id", "hol")
+      .datum(topojson.feature(topology, holland))
+      .attr("class", "land hol")
+      .attr("d", path)
+      
+  defs.append("clipPath")
+      .attr("id", "clip6")
+    .append("use")
+      .attr("xlink:href", "#hol");
+
+  svg.append("g")
+      .attr("clip-path", "url(#clip6)")
+    .selectAll("image")
+      .data(tiles6)
+    .enter().append("image")
+      .attr("xlink:href", function(d) { return "http://" + ["a", "b", "c", "d"][Math.random() * 4 | 0] + ".tiles.mapbox.com/v3/landplanner.ga17m42k/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
+      .attr("width", Math.round(tiles6.scale))
+      .attr("height", Math.round(tiles6.scale))
+      .attr("x", function(d) { return Math.round((d[0] + tiles6.translate[0]) * tiles6.scale); })
+      .attr("y", function(d) { return Math.round((d[1] + tiles6.translate[1]) * tiles6.scale); });
+
+  svg.append("use")
+      .attr("xlink:href", "#hol")
+      .attr("class", "stroke");
+
+  //luxembourg!
+
+  defs.append("path")
+      .attr("id", "lux")
+      .datum(topojson.feature(topology, luxembourg))
+      .attr("class", "land lux")
+      .attr("d", path)
+      
+  defs.append("clipPath")
+      .attr("id", "clip7")
+    .append("use")
+      .attr("xlink:href", "#lux");
+
+  svg.append("g")
+      .attr("clip-path", "url(#clip7)")
+    .selectAll("image")
+      .data(tiles7)
+    .enter().append("image")
+      .attr("xlink:href", function(d) { return "http://" + ["a", "b", "c", "d"][Math.random() * 4 | 0] + ".tiles.mapbox.com/v3/landplanner.map-oxe99jxb/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
+      .attr("width", Math.round(tiles7.scale))
+      .attr("height", Math.round(tiles7.scale))
+      .attr("x", function(d) { return Math.round((d[0] + tiles7.translate[0]) * tiles7.scale); })
+      .attr("y", function(d) { return Math.round((d[1] + tiles7.translate[1]) * tiles7.scale); });
+
+  svg.append("use")
+      .attr("xlink:href", "#lux")
+      .attr("class", "stroke");
+
+  //switzerland!
+
+  defs.append("path")
+      .attr("id", "swi")
+      .datum(topojson.feature(topology, switzerland))
+      .attr("class", "land swi")
+      .attr("d", path)
+      
+  defs.append("clipPath")
+      .attr("id", "clip8")
+    .append("use")
+      .attr("xlink:href", "#swi");
+
+  svg.append("g")
+      .attr("clip-path", "url(#clip8)")
+    .selectAll("image")
+      .data(tiles8)
+    .enter().append("image")
+      .attr("xlink:href", function(d) { return "http://" + ["a", "b", "c", "d"][Math.random() * 4 | 0] + ".tiles.mapbox.com/v3/landplanner.map-xswoybbb/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
+      .attr("width", Math.round(tiles8.scale))
+      .attr("height", Math.round(tiles8.scale))
+      .attr("x", function(d) { return Math.round((d[0] + tiles8.translate[0]) * tiles8.scale); })
+      .attr("y", function(d) { return Math.round((d[1] + tiles8.translate[1]) * tiles8.scale); });
+
+  svg.append("use")
+      .attr("xlink:href", "#swi")
+      .attr("class", "stroke");
+
+  //austria!
+
+  defs.append("path")
+      .attr("id", "aus")
+      .datum(topojson.feature(topology, austria))
+      .attr("class", "land aus")
+      .attr("d", path)
+      
+  defs.append("clipPath")
+      .attr("id", "clip9")
+    .append("use")
+      .attr("xlink:href", "#aus");
+
+  svg.append("g")
+      .attr("clip-path", "url(#clip9)")
+    .selectAll("image")
+      .data(tiles9)
+    .enter().append("image")
+      .attr("xlink:href", function(d) { return "http://" + ["a", "b", "c", "d"][Math.random() * 4 | 0] + ".tiles.mapbox.com/v3/landplanner.ga0g9p2n/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
+      .attr("width", Math.round(tiles9.scale))
+      .attr("height", Math.round(tiles9.scale))
+      .attr("x", function(d) { return Math.round((d[0] + tiles9.translate[0]) * tiles9.scale); })
+      .attr("y", function(d) { return Math.round((d[1] + tiles9.translate[1]) * tiles9.scale); });
+
+  svg.append("use")
+      .attr("xlink:href", "#aus")
+      .attr("class", "stroke");
+
+  //italy!
+
+  defs.append("path")
+      .attr("id", "ita")
+      .datum(topojson.feature(topology, italy))
+      .attr("class", "land ita")
+      .attr("d", path)
+      
+  defs.append("clipPath")
+      .attr("id", "clip10")
+    .append("use")
+      .attr("xlink:href", "#ita");
+
+  svg.append("g")
+      .attr("clip-path", "url(#clip10)")
+    .selectAll("image")
+      .data(tiles10)
+    .enter().append("image")
+      .attr("xlink:href", function(d) { return "http://" + ["a", "b", "c", "d"][Math.random() * 4 | 0] + ".tiles.mapbox.com/v3/landplanner.gindn6nm/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
+      .attr("width", Math.round(tiles10.scale))
+      .attr("height", Math.round(tiles10.scale))
+      .attr("x", function(d) { return Math.round((d[0] + tiles10.translate[0]) * tiles10.scale); })
+      .attr("y", function(d) { return Math.round((d[1] + tiles10.translate[1]) * tiles10.scale); });
+
+  svg.append("use")
+      .attr("xlink:href", "#ita")
+      .attr("class", "stroke");
+
+});
+
+
+</script>
+</body>
+</html>
