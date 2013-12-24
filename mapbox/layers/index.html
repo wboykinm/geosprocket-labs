@@ -51,14 +51,14 @@
   </div>
 
 <script>
-var map = L.map('map', {maxZoom: 12}).setView([7, 30], 7);
+var map = L.map('map', {maxZoom: 12}).setView([6.5, 30], 7);
 L.mapbox.tileLayer('landplanner.map-sa4pz9ny').addTo(map);
 
 L.control.layers({
     '% Forest Cover 2010': L.tileLayer('http://earthengine.google.org/static/hansen_2013/tree_alpha/{z}/{x}/{y}.png').addTo(map),
     'Loss/Extent/Gain (Red/Green/Blue)': L.tileLayer('http://earthengine.google.org/static/hansen_2013/loss_forest_gain/{z}/{x}/{y}.png'),
-    'Loss': L.tileLayer('http://earthengine.google.org/static/hansen_2013/loss/{z}/{x}/{y}.png'),
-    'Gain': L.tileLayer('http://earthengine.google.org/static/hansen_2013/gain/{z}/{x}/{y}.png')
+    'Loss (Red)': L.tileLayer('http://earthengine.google.org/static/hansen_2013/loss/{z}/{x}/{y}.png'),
+    'Gain (Blue)': L.tileLayer('http://earthengine.google.org/static/hansen_2013/gain/{z}/{x}/{y}.png')
 }, {
     // empty of checkboxes
     }).addTo(map);
