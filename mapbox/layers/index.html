@@ -5,9 +5,8 @@
 <title>Forest Cover, South Sudan</title>
   
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.5.2/mapbox.js'></script>
   <link href='http://api.tiles.mapbox.com/mapbox.js/v1.5.2/mapbox.css' rel='stylesheet' />
-  
+
   <style>
     body { margin:0; padding:0; font-family: 'Noto Sans', sans-serif; }
     #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -49,7 +48,9 @@
       <h4>Forest Cover change in South Sudan from pre-independence to 2012 - <br />as reported by <a href="http://www.sciencemag.org/lookup/doi/10.1126/science.1244693" target="_blank">Hansen et al. 2013</a></h4>
     </div>
   </div>
-
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.5.2/mapbox.js'></script>
+  <script src='http://asset.geosprocket.com/leaflet/leaflet-hash.js'></script>
+  
 <script>
 var map = L.map('map', {maxZoom: 12}).setView([6.5, 30], 7);
 L.mapbox.tileLayer('landplanner.map-sa4pz9ny').addTo(map);
@@ -63,12 +64,14 @@ L.control.layers({
     // empty of checkboxes
     }).addTo(map);
 
-var topPane = map._createPane('leaflet-top-pane', map.getPanes().mapPane);
+  var topPane = map._createPane('leaflet-top-pane', map.getPanes().mapPane);
   var topLayer = new L.mapbox.tileLayer('landplanner.map-0wnm9063', {
     maxZoom: 17
   }).addTo(map);
   topPane.appendChild(topLayer.getContainer());
   topLayer.setZIndex(7);
+
+  var hash = new L.Hash(map);
 </script>
 </body>
 </html>
