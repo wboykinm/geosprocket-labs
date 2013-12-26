@@ -6,35 +6,20 @@
   
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
   <link href='http://api.tiles.mapbox.com/mapbox.js/v1.5.2/mapbox.css' rel='stylesheet' />
+  <link href="http://netdna.bootstrapcdn.com/bootswatch/3.0.2/flatly/bootstrap.min.css" rel="stylesheet">
 
   <style>
-    body { margin:0; padding:0; font-family: 'Noto Sans', sans-serif; }
+    body { margin:0; padding:0;}
     #map { position:absolute; top:0; bottom:0; width:100%; }
     #footer {
       position: absolute;
       bottom: 0;
       left: 0;
       right: 0;
-      background: rgba(100,100,100,0.8);
+      background: rgba(200,200,200,0.8);
       z-index: 999;
       overflow: auto;
       padding: 5px;
-      opacity: 0.95;
-      color: #fff;
-    }
-    
-    .info {
-      padding: 6px 8px;
-      font: 14px/16px Arial, Helvetica, sans-serif;
-      background: #FFF;
-      background: rgba(255,255,255,0.8);
-      box-shadow: 0 0 15px rgba(0,0,0,0.2);
-      border-radius: 5px;
-    }
-    
-    .info h4 {
-      margin: 0 0 5px;
-      color: #777;
     }
   </style>
 </head>
@@ -42,12 +27,19 @@
 <div id='map'></div>
 
 <div id="footer">
-    <div class="container" style="padding-left:20px;">
-      <h2>Forest Cover Change, 2000-2012</h2>
-
-      <h4>Forest Cover change in South Sudan from pre-independence to 2012 - <br />as reported by <a href="http://www.sciencemag.org/lookup/doi/10.1126/science.1244693" target="_blank">Hansen et al. 2013</a></h4>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h2>S. Sudan Forest Cover Change, 2000-2012</h2>
+          <h4>Forest Cover change in South Sudan from pre-independence to 2012 - as reported by Hansen et al. (2003)</h4>
+        </div> 
+        <div class="col-md-4">
+          <h4><a class="btn btn-primary" href="http://www.sciencemag.org/lookup/doi/10.1126/science.1244693" target="_blank">Read More <i class="glyphicon glyphicon-chevron-right"></i></a></h4>
+        </div>
+      </div>
     </div>
   </div>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
   <script src='http://api.tiles.mapbox.com/mapbox.js/v1.5.2/mapbox.js'></script>
   <script src='http://asset.geosprocket.com/leaflet/leaflet-hash.js'></script>
   
