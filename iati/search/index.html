@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+  <title>Place Search Demo</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="http://spatialdev.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="http://netdna.bootstrapcdn.com/bootswatch/3.0.0/slate/bootstrap.min.css" rel="stylesheet">
+  <style>
+      .container {
+                max-width:700px;
+              }
+              table .result {
+                cursor:pointer;
+              }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Place Search Demo</h1>
+    <hr>
+    <input class='input-lg' id="uxSearchTerm" placeholder="type a placename" style="width:500px" type="text"> 
+    <button class='btn btn-lg' onclick="startNameSearch()" type="button">Search</button>
+    <hr>
+
+    <div id="result">
+      Results Here
+    </div>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.9.3/typeahead.min.js"></script>
+  <script>
+
+    // Issue-stated syntax
+    /*$(document).ready(function() {
+      $('.typeahead').typeahead(
+      {
+        name: 'gaul01',
+        prefetch: 'data/gaul01.json',
+        remote: 'data/gaul2.json',
+        valueKey: 'name',
+        limit: 6,
+        template: [                                                                 
+          '<p class="repo-language">{{level}}</p>',                              
+          '<p class="repo-name">{{name}}</p>'                                                            
+        ].join(''),   
+        engine: Hogan
+       }
+      );
+    });*/
+        //Set 'enter' click trigger 
+                $('#uxSearchTerm').keypress(function (e) {
+                  if (e.keyCode == 13)
+                    startNameSearch();
+                });
+                 /////////////////////////
+                 ////Search Function /////
+                 /////////////////////////
+
+                function startNameSearch() {
+                  $("#result").html(""); //clear name result panel
+                  console.log('starting name search');
+                  var searchTerm = $("#uxSearchTerm").val();
+                  if (!searchTerm) {
+                    $("#result").html("Please enter a search term.");
+                    return;
+                  }
+                  //Dont allow commas
+                  if (searchTerm.indexOf(",") > -1) {
+                    $("#result").html("Please enter a placename with no commas.  <span style='font-style:italic'>Example: Port-au-Prince<\/span>");
+                    return;
+                  }
+                  console.log('search term is valid');
+                  console.log(searchTerm);
+                  //WRAP THESE TWO CALLS WITH THE AJAX CONDITIONAL SUGGESTION:
+                  //this.datacheck();
+                  //function datacheck() {
+                  //for(var i in this) {
+                  //if(this.points === null || this.pointTaxonomyClassifications === null){
+                  //return;
+                  //}           
+                  //}
+                  //}
+                  // GEONAMES!!!
+                  //Grab Geonames results
+                  var geonamesurl = "http://api.geonames.org/search?type=json&name=" + searchTerm + "&username=geosprocket&featureClass=A&featureClass=P&maxRows=10";
+                  console.log('built url is ' + geonamesurl);
+                  $.ajax({
+                    url: geonamesurl,
+                    dataType: 'json',
+                    type: 'GET',
+                    success: function (data, textStatus, jqXHR) {
+                      console.log('success...');
+                      console.log(textStatus);
+                      console.log(jqXHR)
+                      console.log(data.geonames);
+                      console.log('starting GNamesearch handling');
+                      //Build geonames result table
+                      console.log('building table')
+                      var tableGNames = $("<table style='text-align:left;' class='table table-striped table-bordered'><thead><tr><th>Name<\/th><th>Level<\/th><th>Source<\/th><\/tr><\/thead><\/table>").appendTo("#result");
+                      var tbody = $("<tbody><\/tbody>").appendTo(tableGNames);
+                      //Iterate over name search matches
+                      console.log('starting feature parsing')
+                      $.each(data.geonames, function (i, feature) {
+                        var tr = $("<tr innerHTML='[" + feature.lng + ", " + feature.lat + "]' class='result'><\/tr>").appendTo(tbody);
+                        //Write out other information for this row for the user to see
+                        var linktd = $("<td>" + feature.name + ", " + feature.adminName1 + "<\/td>").appendTo(tr);
+                        $("<td>" + feature.fcodeName + "<\/td><td>Geonames<\/td>").appendTo(tr);
+                        //only show a fixed amount of results
+                        if (i == 10) {
+                          return false;
+                        }
+                      });
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                      console.log('error...');
+                      console.log(jqXHR);
+                      console.log(textStatus);
+                      console.log(errorThrown);
+                    }
+                  });
+                  
+                  
+                  //GAUL!!!
+                  // Get GAUL results from PMT-DB
+               var gaularg = {'nameQuery': searchTerm};
+              $.ajax({
+                    url: 'geodbquery.php',
+                    dataType: 'json',
+                    type: 'POST',
+                    data: gaularg,
+                    success: function (data, textStatus, jqXHR) {
+                      console.log('success...');
+                      console.log(textStatus);
+                      console.log(jqXHR)
+                      console.log('starting GAULsearch handling');
+                      
+                      //Space it out
+                      $("<hr>").appendTo("#result");
+                      //Build gaul result table
+                      console.log('building table')
+                      if (data == false) {
+                        $("<p><em>No GAUL results; see Geonames results<\/em><\/p>").appendTo("#result");
+                      }
+                      else {
+                          var tableGaul = $("<table style='text-align:left;' class='table table-striped table-bordered'><thead><tr><th>Name<\/th><th>Level<\/th><th>Source<\/th><\/tr><\/thead><\/table>").appendTo("#result");
+                          var tbody = $("<tbody><\/tbody>").appendTo(tableGaul);
+                          //Iterate over name search matches
+                          console.log('starting feature parsing')
+                          $.each(data, function (i, feature) {
+                            var tr = $("<tr innerHTML='" + feature.bbox + "' class='result'><\/tr>").appendTo(tbody);
+                            //Write out other information for this row for the user to see
+                            var linktd = $("<td>" + feature.name + "<\/td>").appendTo(tr);
+                            $("<td>" + feature.level + "<\/td><td>GAUL<\/td>").appendTo(tr);
+                            //only show a fixed amount of results
+                            if (i == 10) {
+                              return false;
+                            }
+                      });
+                      }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                      console.log('error...');
+                      console.log(jqXHR);
+                      console.log(textStatus);
+                      console.log(errorThrown);
+                    }
+                  });
+                };
+                
+                //What happens when the user picks a result
+                $('tr.result').click(function () {
+                  var placeChoice = $(this).attr("innerHTML");
+                    $("#result").html(""); //clear name result panel
+                    $(placechoice).appendTo("#result");
+                });
+  </script>
+</body>
+</html>
