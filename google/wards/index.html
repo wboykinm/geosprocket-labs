@@ -96,10 +96,6 @@ function initialize() {
     }]
   })
   .addTo(map);
-          
-  var currentCenter = map.getCenter();
-  var voterLat = currentCenter.lat();
-  var voterLng = currentCenter.lng();
 
   // Create the search box and link it to the UI element.
   var input = /** @type {HTMLInputElement} */(
@@ -137,6 +133,10 @@ function initialize() {
 
     }
     map.fitBounds(bounds);
+
+    var currentCenter = map.getCenter();
+    var voterLat = currentCenter.lat();
+    var voterLng = currentCenter.lng();
     
     layer.createSubLayer({
       sql: "SELECT * FROM btv_redistricting WHERE ST_Intersects(the_geom, ST_GeometryFromText('POINT(" + voterLng + " " + voterLat + ")', 4326))",
