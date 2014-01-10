@@ -106,7 +106,7 @@ function initialize() {
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     center: new google.maps.LatLng(44.495, -73.21),
     zoom:12,
-    maxZoom:16,
+    maxZoom:17,
     disableDefaultUI: true,
     zoomControl: true,
     zoomControlOptions: {
@@ -153,6 +153,10 @@ function initialize() {
 
     }
     map.fitBounds(bounds);
+        var listener = google.maps.event.addListener(map, "idle", function() { 
+      if (map.getZoom() > 13) map.setZoom(13); 
+      google.maps.event.removeListener(listener); 
+    });
 
     var currentCenter = map.getCenter();
     var voterLat = currentCenter.lat();
