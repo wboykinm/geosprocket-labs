@@ -139,6 +139,8 @@ function initialize() {
     // For each place, get the icon, place name, and location.
     markers = [];
     var bounds = new google.maps.LatLngBounds();
+    var voterLat,
+        voterLng;
     for (var i = 0, place; place = places[i]; i++) {
 
       // Create a marker for each place.
@@ -147,6 +149,9 @@ function initialize() {
         title: place.name,
         position: place.geometry.location
       });
+
+      voterLat = marker.position.b;
+      voterLng = marker.position.d;
 
       markers.push(marker);
 
@@ -159,10 +164,6 @@ function initialize() {
       google.maps.event.removeListener(listener); 
     });
 
-    var currentCenter = map.getCenter();
-    var voterLat = currentCenter.lat();
-    var voterLng = currentCenter.lng();
-    
     cartodb.createLayer(map, {
       user_name: 'geosprocket',
       type: 'cartodb',
@@ -172,29 +173,23 @@ function initialize() {
         interactivity: "cartodb_id, ward, district, pollingplace, year"
       }]
     })
-    .addTo(map)
-    .done(function(layer){
-      var sublayer = layer.getSubLayer(0);
-      sublayer.bind('featureOver', function(e, latlon, pxPos, data, layer) {
-         console.log(data.cartodb_id);
-         $('#distchange').text("The " + data.district + " District");
-      });
+    .addTo(map);
+
+    $.getJSON("http://geosprocket.cartodb.com/api/v2/sql?q=SELECT cartodb_id, ward, district, pollingplace, year FROM btv_redistricting WHERE ST_Intersects(the_geom, ST_GeometryFromText('POINT(" + voterLng + " " + voterLat + ")', 4326)) ORDER BY year", function(data) {
+      //console.log(data.rows[0].ward);
+      var ward1990 = data.rows[0].ward;
+      var ward2010 = data.rows[1].ward;
+
+      if (ward1990 == ward2010) {
+          $('#wardchange').text("No. You will remain in ward " + ward2010 + " under the proposed plan.");
+      }
+      else {
+          $('#wardchange').text("Yes. You are currently in ward " + ward1990 + ", but you would be in ward " + ward2010 + " under the proposed plan.");
+      }
+
+      $('#distchange').text("The " + data.rows[1].district + " District");
+      $('#pollchange').text(data.rows[1].pollingplace);
     });
-    
-
-    /*var 1990ward = cartodbproperty.ward[1];
-    var 2010ward = cartodbproperty.ward[0];
-
-    if (1990ward == 2010ward) {
-        $('#wardchange').text("No. You will remain in ward " + 2010ward + " under the proposed plan.");
-    }
-    else {
-        $('#wardchange').text("Yes. You are currently in ward " + 1990ward + ", but you would be in ward " + 2010ward + " under the proposed plan.");
-    }
-
-    $('#distchange').text("The " + cartodbproperty.district + " District");
-    $('#pollchange').text(cartodbproperty.pollingplace);*/
-    
   });
   // [END region_getplaces]
 
@@ -236,9 +231,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
       <div id="results" class="row">
         <h2>Will my ward change?</h2>
         <h2 id="wardchange" class="text-muted">. . .</h2>
-        <h2>What district will I vote in?</h2>
+        <h2>What district will I be in?</h2>
         <h2 id="distchange" class="text-muted">. . .</h2>
-        <h2>What will be my polling place?</h2>
+        <h2>Where will I vote?</h2>
         <h2 id="pollchange" class="text-muted">. . .</h2>
         <hr>
         <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
