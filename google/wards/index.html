@@ -28,9 +28,9 @@
       }
 
       #pac-input {
-        background-color: #fff;
+        background-color: rgba(255,255,255,0.9);
         padding: 0 11px 0 13px;
-        width: 400px;
+        width: 75%;
         font-family: Roboto;
         font-size: 15px;
         font-weight: 300;
@@ -41,7 +41,7 @@
         border-color: #4d90fe;
         margin-left: -1px;
         padding-left: 14px;  /* Regular padding-left + 1. */
-        width: 401px;
+        width: 76%px;
       }
 
       .pac-container {
@@ -109,6 +109,7 @@ function initialize() {
     maxZoom:17,
     disableDefaultUI: true,
     scrollwheel: false,
+    draggable: false,
     zoomControl: true,
     zoomControlOptions: {
       style: google.maps.ZoomControlStyle.SMALL
@@ -213,7 +214,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
   <body>
     <div class="container">
       <h1>BTV VoteFinder</h1>
-      <h4 class="text-muted">Enter your address to see how the new plan affects you:</h4>
+      <h4 class="text-muted">Enter your address to see how the new voting plan affects you:</h4>
       
       <div class="row">
         <input id="pac-input" class="controls" type="text" placeholder="Search">
@@ -227,7 +228,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
           </dl>
         </div>
       </div>
-
+      <div class="container">
       <div id="results" class="row">
         <h2>Will my ward change?</h2>
         <h2 id="wardchange" class="text-muted">. . .</h2>
@@ -236,11 +237,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
         <h2>Where will I vote?</h2>
         <h2 id="pollchange" class="text-muted">. . .</h2>
         <hr>
-        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="margin-bottom:4px;white-space: normal;">
         What are these changes about?
         </button>
       </div>
-
+</div>
       
       <hr>
 
