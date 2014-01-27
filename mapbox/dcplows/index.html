@@ -1,3 +1,4 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
 <html>
@@ -48,7 +49,7 @@
     font-size:12px;
     }
     .sidecontainer h1 {
-    font-size:16px;
+    font-size:20px;
     }
   </style>
   <script src="http://api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js"></script>
@@ -78,8 +79,7 @@ var baseTiles = L.tileLayer('http://a.tiles.mapbox.com/v3/landplanner.ggflie7k/{
     maxZoom: 18
   });
 
-  $.getJSON("plows.php", function(plows_parsed) {
-    //var plows_parsed = $.parseJson(data);
+  $.getJSON("http://dev.geosprocket.com/mapbox/dcplows/plows.php", function(plows_parsed) {
     
     var geojsonData = {"type": "FeatureCollection"};
 
