@@ -1,0 +1,140 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="aight.min.js"></script>
+<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Newark Urban Canopy</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width">
+    
+    <link rel="stylesheet/less" type="text/css" href="less/styles.less" />
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.3.1/less.min.js" type="text/javascript"></script>
+     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+     <link href="http://netdna.bootstrapcdn.com/bootswatch/2.3.2/journal/bootstrap.min.css" rel="stylesheet">
+     <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+     <script src='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js'></script>
+     <style>
+     div.leaflet-top {
+       top:60px;
+     }
+     .leaflet-top-pane {
+        pointer-events: none;
+     }
+     </style>
+
+</head>
+<body>
+
+  <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></a> <a class="brand" href="/">Newark Urban Canopy Dashboard</a>
+
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <!--<li class="active">
+                            <a href="/">Home</a>
+                          </li>
+
+              <li>
+                <a href="/about">About</a>
+              </li>-->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="content" >
+          <div id="map"></div>
+    </div>
+
+    <!--<div id="content" class="container">
+        <div id="map"></div>
+    </div>-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/2.10.0/d3.v2.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.2/backbone-min.js"></script>
+<script src="crosslet.js"></script>
+<script type="text/javascript">
+var percentf=function() { return function(d){ return Math.round(d*100)+"%";}}
+var inputf=function() { return function(d){ return Math.round(d*100)/100;}}
+var pref=function() {return function(d){ if(+d<0) d=null; return d;}}
+var pref2=function() {return function(d){ if(+d<0) return null; return Math.min(d,0.6);}}
+var config = {
+  map: {
+    leaflet: {
+      key: "fe623ce312234f8f9333bbee72d4a176",
+      styleId: 64657,
+      attribution: 'Map data &copy; Mapbox & <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,'
+    },
+    view: {
+      center: [40.75657, -74.0723667],
+      zoom: 12
+    },
+    geo: {
+      url: "data/newark3.topo.json",
+      name_field: "name1",
+      id_field: "ID",
+      topo_object: "blockgroups"
+    }
+  },
+  data: {
+    version: "1.0",
+    id_field: "id"
+  },
+  dimensions: {
+    existing : {
+      title: "Existing Tree Canopy Cover",
+      data: {
+        dataSet: "data/newark.csv",
+        field: "tc_e_f",
+	method: d3.csv,
+	preformat: pref,
+	colorscale: d3.scale.linear().domain([1, 20]).range(["yellow", "dark green"]).interpolate(d3.cie.interpolateLab),
+
+      },
+      format:{
+        short: percentf,
+	input: inputf
+      },
+    },  
+    potential : {
+      title: "Possible Tree Canopy Cover",
+      data: {
+        dataSet: "data/newark.csv",
+        field: "tc_p_f",
+        method: d3.csv,
+	preformat: pref2,
+	colorscale: d3.scale.linear().domain([1, 20]).range(["yellow", "dark green"]).interpolate(d3.cie.interpolateLab),
+      },
+      format:{
+        short: percentf,
+        input: inputf
+      },
+    },
+           
+  },
+  defaults: {
+    colorscale: d3.scale.linear().domain([1, 10, 20]).range(["red", "yellow", "green"]).interpolate(d3.cie.interpolateLab),
+    opacity: 0.7,
+    order: ["existing","potential"],
+    active: "existing"
+  },
+};
+
+console.log(config);
+a=new crosslet.MapView($("#map"),config);
+</script>
+
+</body>
+</html>
