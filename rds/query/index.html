@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />
+  <link href="http://netdna.bootstrapcdn.com/bootswatch/3.0.2/simplex/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/markercluster.css" />
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="../css/markercluster.ie.css" />
+  <![endif]-->
+  
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+    #footer {
+      position:absolute;
+      bottom:0px;
+      left:0px;
+      right:0px;
+      background:#fff;
+      z-index:999;
+      overflow:auto;
+      padding:5px;
+      opacity:0.9;
+      }
+  </style>
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  <script src="../js/leaflet.markercluster.js"></script>
+
+<body>
+  <div id="map" class="dark"></div>
+  
+  <div id="footer">
+	<div class="container">
+		<ul class="list-inline">
+			<li><h1>Mapbox.js pulling PostGIS features from Amazon RDS </h1></li>
+			<li class="divider"></li>
+			<li><img src="http://clipartist.info/RSS/openclipart.org/2011/May/12-Thursday/postgresql_logo-100px.png"/>   </li>
+		</ul>  
+         </div>
+  </div>
+  <script>
+  var baseTiles = L.tileLayer('http://a.tiles.mapbox.com/v3/landplanner.map-4y9ngu48/{z}/{x}/{y}.png', {
+    maxZoom: 18
+  });
+
+  $.getJSON("rdstest.php", function(data) {
+    var markers = new L.MarkerClusterGroup();
+    var geojson = L.geoJson(data, {
+        onEachFeature: function (feature, layer) {
+	    layer.setIcon(L.mapbox.marker.icon({'marker-symbol': 'circle-stroked', 'marker-color': '59245f'}));
+            layer.bindPopup("<h1>" + feature.properties.NAME + "</h1><h2><small>Population Change & Projection (in thousands)</small></h2><img width='265px' src='http://chart.googleapis.com/chart?chf=bg,s,67676700&chxl=0:|1950|1985|2020&chxp=0,10,50,90&chxr=0,0,105&chxs=0,676767,10.5,0,l,676767&chxt=x,y&chs=260x100&cht=ls&chco=0000FF&chds=a&chd=t:" + feature.properties.POP1950 + "," + feature.properties.POP1955 + "," + feature.properties.POP1960 + "," + feature.properties.POP1965 + "," + feature.properties.POP1970 + "," + feature.properties.POP1975 + "," + feature.properties.POP1980 + "," + feature.properties.POP1985 + "," + feature.properties.POP1990 + "," + feature.properties.POP1995 + "," + feature.properties.POP2000 + "," + feature.properties.POP2005 + "," + feature.properties.POP2010 + "," + feature.properties.POP2015 + "," + feature.properties.POP2020 +  "&chdlp=b&chg=-1,0&chls=3&chma=5,5,5,5|5'/>");
+	}
+    });
+    markers.addLayer(geojson);
+    var map = L.map('map').fitBounds(geojson.getBounds());
+    baseTiles.addTo(map);
+    map.addLayer(markers);    
+  });
+  </script>
+</body>
+</html>
