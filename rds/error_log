@@ -1,0 +1,42 @@
+[27-Nov-2013 12:49:29] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not translate host name "$host" to address: Name or service not known' in /home2/geosproc/public_html/dev/rds/rdstest.php:8
+Stack trace:
+#0 /home2/geosproc/public_html/dev/rds/rdstest.php(8): PDO->__construct('pgsql:host=$hos...', '$username', '$password')
+#1 {main}
+  thrown in /home2/geosproc/public_html/dev/rds/rdstest.php on line 8
+[27-Nov-2013 12:54:22] PHP Warning:  pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  column &quot;the_geom&quot; does not exist
+LINE 1: ...ELECT *, public.ST_AsGeoJSON(public.ST_Transform((the_geom),...
+                                                             ^ in /home2/geosproc/public_html/dev/rds/rdstest.php on line 16
+[27-Nov-2013 12:58:34] PHP Notice:  Use of undefined constant JSON_NUMERIC_CHECK - assumed 'JSON_NUMERIC_CHECK' in /home2/geosproc/public_html/dev/rds/rdstest.php on line 47
+[27-Nov-2013 12:58:34] PHP Warning:  json_encode() expects exactly 1 parameter, 2 given in /home2/geosproc/public_html/dev/rds/rdstest.php on line 47
+[27-Nov-2013 12:59:51] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097203 bytes) in /home2/geosproc/public_html/dev/rds/rdstest.php on line 47
+[27-Nov-2013 13:03:49] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097203 bytes) in /home2/geosproc/public_html/dev/rds/rdstest.php on line 47
+[26-Dec-2013 16:06:33] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not translate host name "geosprocketpostgis1.cdjgl80tycem.us-east-1.rds.amazonaws.com" to address: Name or service not known' in /home2/geosproc/public_html/dev/rds/rdstest.php:8
+Stack trace:
+#0 /home2/geosproc/public_html/dev/rds/rdstest.php(8): PDO->__construct('pgsql:host=geos...', 'geosprocket1', 'thorvaldpo05')
+#1 {main}
+  thrown in /home2/geosproc/public_html/dev/rds/rdstest.php on line 8
+[15-Jan-2014 12:26:44] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not translate host name "geosprocketpostgis1.cdjgl80tycem.us-east-1.rds.amazonaws.com" to address: Name or service not known' in /home2/geosproc/public_html/dev/rds/rdstest.php:8
+Stack trace:
+#0 /home2/geosproc/public_html/dev/rds/rdstest.php(8): PDO->__construct('pgsql:host=geos...', 'geosprocket1', 'thorvaldpo05')
+#1 {main}
+  thrown in /home2/geosproc/public_html/dev/rds/rdstest.php on line 8
+[15-Jan-2014 12:27:03] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not translate host name "geosprocketpostgis1.cdjgl80tycem.us-east-1.rds.amazonaws.com" to address: Name or service not known' in /home2/geosproc/public_html/dev/rds/rdstest.php:8
+Stack trace:
+#0 /home2/geosproc/public_html/dev/rds/rdstest.php(8): PDO->__construct('pgsql:host=geos...', 'geosprocket1', 'thorvaldpo05')
+#1 {main}
+  thrown in /home2/geosproc/public_html/dev/rds/rdstest.php on line 8
+[15-Jan-2014 12:30:47] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not translate host name "geosprocketpostgis1.cdjgl80tycem.us-east-1.rds.amazonaws.com" to address: Name or service not known' in /home2/geosproc/public_html/dev/rds/rdstest.php:8
+Stack trace:
+#0 /home2/geosproc/public_html/dev/rds/rdstest.php(8): PDO->__construct('pgsql:host=geos...', 'geosprocket1', 'thorvaldpo05')
+#1 {main}
+  thrown in /home2/geosproc/public_html/dev/rds/rdstest.php on line 8
+[15-Jan-2014 12:32:45] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not translate host name "geosprocketpostgis1.cdjgl80tycem.us-east-1.rds.amazonaws.com" to address: Name or service not known' in /home2/geosproc/public_html/dev/rds/rdstest.php:8
+Stack trace:
+#0 /home2/geosproc/public_html/dev/rds/rdstest.php(8): PDO->__construct('pgsql:host=geos...', 'geosprocket1', 'thorvaldpo05')
+#1 {main}
+  thrown in /home2/geosproc/public_html/dev/rds/rdstest.php on line 8
+[16-Jan-2014 11:36:48] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not translate host name "geosprocketpostgis1.cdjgl80tycem.us-east-1.rds.amazonaws.com" to address: Name or service not known' in /home2/geosproc/public_html/dev/rds/rdstest.php:8
+Stack trace:
+#0 /home2/geosproc/public_html/dev/rds/rdstest.php(8): PDO->__construct('pgsql:host=geos...', 'geosprocket1', 'thorvaldpo05')
+#1 {main}
+  thrown in /home2/geosproc/public_html/dev/rds/rdstest.php on line 8
