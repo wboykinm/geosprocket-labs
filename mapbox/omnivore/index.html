@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Leaflet Omnivore with CSV Data</title>
+
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
+
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+
+
+<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.0.0/leaflet-omnivore.min.js'></script>
+<div id='map'></div>
+<script>
+var map = L.mapbox.map('map', 'landplanner.map-hddrd5ju')
+    .setView([44, -72.5], 8);
+
+// omnivore will AJAX-request this file behind the scenes and parse it:
+// note that there are considerations:
+// - The CSV file must contain latitude and longitude values, in column
+//   named roughly latitude and longitude
+// - The file must either be on the same domain as the page that requests it,
+//   or both the server it is requested from and the user's browser must
+//   support CORS.
+omnivore.topojson('http://geosprocket.cartodb.com/api/v2/sql?q=SELECT * from vttowns_wgs84&format=topojson').addTo(map);
+
+var topPane = map._createPane('leaflet-top-pane', map.getPanes().mapPane);
+    var topLayer = new L.mapbox.tileLayer('sactree.h7id69df', {
+      maxZoom: 17,
+      opacity: 0.8
+    }).addTo(map);
+    topPane.appendChild(topLayer.getContainer());
+    topLayer.setZIndex(7);
+</script>
+
+
+</body>
+</html>
