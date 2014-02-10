@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  
+<body>
+  <div id="map" class="dark"></div>
+  <script>
+  var baseTiles = L.tileLayer('http://a.tiles.mapbox.com/v3/landplanner.map-4y9ngu48/{z}/{x}/{y}.png', {
+    maxZoom: 18
+  });
+  // Grab the local geojson file
+  $.getJSON("saplaces.geojson", function(data) {
+   // Define the markercluster
+    var geojson = L.geoJson(data, {
+        onEachFeature: function (feature, layer) {
+            // Use a mapbox maki marker
+      layer.setIcon(L.mapbox.marker.icon({'marker-symbol': 'circle-stroked', 'marker-color': '59245f'}));
+            // Bind a popup with a chart populated with feature properties 
+            layer.bindPopup("<h1>" + feature.properties.NAME + "</h1><h2><small>Population Change & Projection (in thousands)</small></h2><img width='265px' src='http://chart.googleapis.com/chart?chf=bg,s,67676700&chxl=0:|1950|1985|2020&chxp=0,10,50,90&chxr=0,0,105&chxs=0,676767,10.5,0,l,676767&chxt=x,y&chs=260x100&cht=ls&chco=0000FF&chds=a&chd=t:" + feature.properties.POP1950 + "," + feature.properties.POP1955 + "," + feature.properties.POP1960 + "," + feature.properties.POP1965 + "," + feature.properties.POP1970 + "," + feature.properties.POP1975 + "," + feature.properties.POP1980 + "," + feature.properties.POP1985 + "," + feature.properties.POP1990 + "," + feature.properties.POP1995 + "," + feature.properties.POP2000 + "," + feature.properties.POP2005 + "," + feature.properties.POP2010 + "," + feature.properties.POP2015 + "," + feature.properties.POP2020 +  "&chdlp=b&chg=-1,0&chls=3&chma=5,5,5,5|5'/>");
+  }
+    });
+    // Zoom to the marker layer
+    var map = L.map('map').fitBounds(geojson.getBounds());
+    baseTiles.addTo(map);
+    geojson.addTo(map);    
+  });
+  </script>
+</body>
+</html>
