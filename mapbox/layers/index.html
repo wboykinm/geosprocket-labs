@@ -44,7 +44,7 @@
   <script src='http://asset.geosprocket.com/leaflet/leaflet-hash.js'></script>
   
 <script>
-var map = L.map('map', {maxZoom: 12}).setView([6.5, 30], 7);
+var map = L.map('map', {maxZoom: 12, scrollWheelZoom: false}).setView([6.5, 30], 7);
 L.mapbox.tileLayer('landplanner.map-sa4pz9ny').addTo(map);
 
 L.control.layers({
