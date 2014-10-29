@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Timeout for scrollzoom</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/darkly/bootstrap.min.css" rel="stylesheet">
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
+<style>
+  #map { height:250px; width:100%; }
+  .col-centered{
+    float: none;
+    margin: 0 auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron col-lg-6 col-centered">
+    <h1>Scrolla Rocknrolla</h1>
+    <p class="lead">Echo Park raw denim crucifix, leggings kogi trust fund you probably haven't heard of them swag Williamsburg banjo chambray vegan food truck put a bird on it. </p>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6 col-centered">
+      <h4>Shoreditch</h4>
+      <p>Cray taxidermy American Apparel selfies readymade meh. Ennui hoodie squid Schlitz Carles try-hard. Bespoke 3 wolf moon cred, meditation narwhal mumblecore quinoa seitan. Salvia retro forage, master cleanse health goth flexitarian deep v Portland yr wayfarers plaid. Occupy forage four loko banjo. Sartorial tilde banjo, Vice hella Brooklyn health goth photo booth stumptown kale chips Wes Anderson vinyl Bushwick before they sold out. Tote bag artisan roof party sartorial lo-fi.</p>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="timer" id='map'></div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-lg-6 col-centered">
+      <h4>Trust fund</h4>
+      <p>Crucifix sustainable normcore, Pinterest High Life DIY yr tattooed Williamsburg gastropub direct trade single-origin coffee skateboard Truffaut. You probably haven't heard of them put a bird on it banjo leggings, viral ennui sartorial brunch lomo irony. Cray asymmetrical shabby chic, sriracha post-ironic Williamsburg freegan meggings quinoa selfies. Wolf Godard Blue Bottle, irony fixie swag pork belly slow-carb fap artisan. Asymmetrical retro salvia mlkshk Godard street art bitters Bushwick, XOXO fixie Williamsburg forage ethical sartorial. Shabby chic meh Wes Anderson, PBR&B scenester cornhole lo-fi gastropub farm-to-table chillwave. Selfies semiotics biodiesel squid cardigan swag, Godard authentic.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 col-centered">
+      <h4>Quaint</h4>
+      <p>Try-hard narwhal sartorial Marfa selvage, photo booth fashion axe health goth Neutra Carles four loko. Mlkshk DIY mustache health goth, Wes Anderson small batch Shoreditch cred you probably haven't heard of them narwhal. Try-hard Blue Bottle lomo Portland, quinoa 3 wolf moon master cleanse. Wes Anderson DIY health goth, master cleanse dreamcatcher jean shorts Tonx McSweeney's crucifix ethical fap Vice. American Apparel normcore scenester, cray Helvetica synth hella McSweeney's before they sold out swag. Selfies squid photo booth, banh mi ugh 90's artisan next level. Salvia chia quinoa Helvetica cred single-origin coffee.</p>
+    </div>
+  </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script>
+  L.mapbox.accessToken = 'pk.eyJ1IjoibGFuZHBsYW5uZXIiLCJhIjoicUtlZGgwYyJ9.UFYz8MD4lI4kIzk9bjGFvg';
+  var map = L.mapbox.map('map', 'landplanner.ghfcid9o', {
+    zoomControl: false
+  }).setView([41.0252, 28.9950], 11);
+
+  // Disable scroll zoom handler
+  map.scrollWheelZoom.disable();
+
+  // Silently nables scrollwheel zoom 3 seconds after a user hovers over the map
+  $('.timer').hover(function() {
+    setTimeout(function(){
+      map.scrollWheelZoom.enable();
+    }, 3000);
+  });
+
+</script>
+
+</body>
+</html>
