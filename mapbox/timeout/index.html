@@ -13,6 +13,13 @@
     float: none;
     margin: 0 auto;
   }
+  .outline {
+    border: #FFD4A5 solid 3px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
 </style>
 </head>
 <body>
@@ -20,7 +27,7 @@
 <div class="container">
   <div class="jumbotron col-lg-6 col-centered">
     <h1>Scrolla Rocknrolla</h1>
-    <p class="lead">Echo Park raw denim crucifix, leggings kogi trust fund you probably haven't heard of them swag Williamsburg banjo chambray vegan food truck put a bird on it. </p>
+    <p class="lead">A long-scrolling blog post with a map in it. Scrollwheel zoom messes up the UX, so add a timer to enable scrollwheel zoom 3 seconds after the user hovers over the map, with a focus animation to indicate it's active.</p>
   </div>
 
   <div class="row">
@@ -31,7 +38,7 @@
   </div>
   <hr>
   <div class="row">
-    <div class="timer" id='map'></div>
+    <div class="timer dark" id='map'></div>
   </div>
   <hr>
   <div class="row">
@@ -59,11 +66,14 @@
 
   // Disable scroll zoom handler
   map.scrollWheelZoom.disable();
+  var timer;
 
-  // Silently nables scrollwheel zoom 3 seconds after a user hovers over the map
-  $('.timer').hover(function() {
-    setTimeout(function(){
+  // Silently enables scrollwheel zoom 3 seconds after a user hovers over the map
+  $('.timer').one('mouseover', function() {
+    timer = setTimeout(function(){
       map.scrollWheelZoom.enable();
+      new L.Control.Zoom({ position: 'topright' }).addTo(map);
+      $('.timer').addClass('outline');
     }, 3000);
   });
 
