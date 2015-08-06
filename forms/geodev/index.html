@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<link rel="shortcut icon" href="http://asset.geosprocket.com/img/favicon.ico" type="image/x-icon">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Mobile Collector</title>
+  	<link href="http://netdna.bootstrapcdn.com/bootswatch/3.0.0/flatly/bootstrap.min.css" rel="stylesheet">
+  	<link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.css' rel='stylesheet' />
+	  <!--[if lte IE 8]>
+	    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.ie.css' rel='stylesheet'>
+	  <![endif]-->
+  	<style>
+  		.starter-template {
+		  	padding: 40px 15px;
+		  	text-align: center;
+		}
+		#map {
+			height:400px;
+			width:100%;
+		}
+		#centerpoint {
+		  display: none;
+		  width: 128px;
+		  height: 128px;
+		  background: transparent url(http://farm6.staticflickr.com/5519/10708548293_e38037720a_o.png) 0 0 no-repeat scroll;
+		  overflow: visible;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  margin: -64px 0 0 -64px;
+		  pointer-events: none;
+		  z-index: 11;
+		  opacity: 1;
+		  -webkit-transition: opacity 0.25s;
+		  -moz-transition: opacity 0.25s;
+		  -o-transition: opacity 0.25s;
+		  -ms-transition: opacity 0.25s;
+		  transition: opacity 0.25s;
+		}
+	</style>
+</head>
+<body>
+
+	<!--ADD THE FORM EMBEDURL BELOW-->
+	<meta itemprop="embedUrl" content="https://docs.google.com/forms/d/1mnZ4T62bZqxUCiMKvR1bX3o6-9nm7SiIqkWjcbB3jAE/viewform?embedded=true">
+
+	<!--ADD THE FORM RESPONSE ACTION HERE, WITH A REDIRECT-->
+	<script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+onload="if(submitted) {window.location='http://cdb.io/1be11H7';}"></iframe>
+	<form action="https://docs.google.com/forms/d/1mnZ4T62bZqxUCiMKvR1bX3o6-9nm7SiIqkWjcbB3jAE/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;">
+
+	  	<div class="container">
+	  		<div class="jumbotron starter-template">
+	  			<h1>GIS-DEV Member Map</h1>
+	  		</div>
+
+	  		<div class="starter-template">
+	  			<h2><em>(1) </em>What's your gisdev username?<h2>
+	  			<input class="form-control" name="entry.1181185572" value="" id="entry_1181185572" placeholder="Username">
+	  		</div>
+	  		<div class="starter-template">
+	  			<h2><em>(2) </em>Where you at?<h2>
+	  			<p><small>Drag the map to center the marker on your general location</small></p>
+	  			<div id="map">
+	  				<span id="centerpoint" class="" style="display: inline;">
+	  					<span class="shadow"></span>
+	  					<span class="x"></span>
+	  					<span class="marker"></span>
+	  				</span>
+	  			</div>
+
+	  			<!-- ADD GOOGLEFORM-RELATED INPUTS HERE, ALL HIDDEN.
+	  			THEY'LL BE GIVEN VALUES IN THE SCRIPT BELOW
+	  			THE "NAME" AND "ID" PARAMETERS MUST CORRESPOND TO
+	  			THOSE IN THE SOURCE OF THE GOOGLE-HOSTED LIVE FORM-->
+
+	  			<!-- QUESTION 2: LAT/LONG -->
+	  			<input type="hidden" name="entry.1246820522" value="" id="entry_1246820522">
+				<input type="hidden" name="entry.1133398022" value="" id="entry_1133398022">
+
+				<!-- PAGE STUFF -->
+				<input type="hidden" name="pageNumber" value="0">
+				<input type="hidden" name="backupCache" value="">
+	  		</div>
+	  		<div class="starter-template">
+	  			<h2>That's it! Thanks!<h2>
+	  		    <input type="submit" name="submit" value="Submit" class="btn-lg btn-success">
+	  		    <hr>
+	  		    <p><small><em>Note: this application will make no effort to deliver said drink to you, though we join you in wishing it were so.</small></em></p>
+	  		</div>
+	  	</div>
+  	</form>
+
+  	<script src='http://codeorigin.jquery.com/jquery-1.10.2.min.js'></script>
+  	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+  	<script src='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js'></script>
+    <script type='text/javascript'>
+	  // Set default location in case the IP doesn't have one
+	  var y = 40.8;
+	  var x = -96.67;
+	  // Grab IP location from freegeoip API
+	  $.getJSON('http://freegeoip.net/json/', function(json) {
+	    if (json) {
+	      y = json.latitude;
+	      x = json.longitude;
+	    }
+	    // Build the map
+	    var map = L.mapbox.map('map', 'landplanner.f505d476', {scrollWheelZoom:false}).setView([y, x], 9);
+
+	    // Set form lat/lon fields from map center location
+	    $('#entry_1246820522').attr('value', y);
+        $('#entry_1133398022').attr('value', x);
+
+        // Update these values as the map gets dragged around
+        map.on('moveend', function(event) {
+		  	$('#entry_1246820522').attr('value', map.getCenter().lat);
+        	$('#entry_1133398022').attr('value', map.getCenter().lng);
+		});
+
+	  });
+</script>
+</body>
+</html>
