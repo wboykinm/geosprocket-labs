@@ -58,21 +58,23 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1p0NKYGkH2MHcqzd7olnTbmLEe
   var devGeojson = {type: 'FeatureCollection', features: []};
 
   for (var i in devs) {
-    var feature = {
-      type: 'Feature',
-      properties: {
-        title: '<h1>' + devs[i].gsx$name.$t + '</h1>',
-        'marker-color': '#227FBB',
-        'marker-size': 'large',
-        'marker-symbol': 'rocket',
-        url: 'https://gisdevs.slack.com/team/' + devs[i].gsx$name.$t
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [devs[i].gsx$longitude.$t, devs[i].gsx$latitude.$t]
-      }
-    };
-    devGeojson.features.push(feature);
+    if (devs[i].gsx$latitude.$t) {
+      var feature = {
+        type: 'Feature',
+        properties: {
+          title: '<h1>' + devs[i].gsx$name.$t + '</h1>',
+          'marker-color': '#227FBB',
+          'marker-size': 'large',
+          'marker-symbol': 'rocket',
+          url: 'https://gisdevs.slack.com/team/' + devs[i].gsx$name.$t
+        },
+        geometry: {
+          type: 'Point',
+          coordinates: [devs[i].gsx$longitude.$t, devs[i].gsx$latitude.$t]
+        }
+      };
+      devGeojson.features.push(feature);
+    }
   }
 
   var myLayer = L.mapbox.featureLayer().addTo(map);
