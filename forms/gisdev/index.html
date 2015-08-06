@@ -101,7 +101,7 @@ onload="if(submitted) {window.location='http://wboykinm.github.io/geosprocket-la
 	  var y = 0;
 	  var x = 0;
 		var z = 4;
-		
+
 	  // Grab IP location from freegeoip API
 	  $.getJSON('http://freegeoip.net/json/', function(json) {
 	    if (json) {
@@ -111,16 +111,16 @@ onload="if(submitted) {window.location='http://wboykinm.github.io/geosprocket-la
 				// Set form lat/lon fields from map center location
 		    $('#entry_1246820522').attr('value', y);
 	      $('#entry_1133398022').attr('value', x);
-				// Build the map
-				L.mapbox.accessToken = 'pk.eyJ1IjoiZmFyYWRheTIiLCJhIjoiTUVHbDl5OCJ9.buFaqIdaIM3iXr1BOYKpsQ';
-		    var map = L.mapbox.map('map', 'landplanner.h1dknok1', {scrollWheelZoom:false}).setView([y, x], z);
-
-	      // Update these values as the map gets dragged around
-	      map.on('moveend', function(event) {
-			  	$('#entry_1246820522').attr('value', map.getCenter().lat);
-		      $('#entry_1133398022').attr('value', map.getCenter().lng);
-		    });
 			}
+			// Build the map
+			L.mapbox.accessToken = 'pk.eyJ1IjoiZmFyYWRheTIiLCJhIjoiTUVHbDl5OCJ9.buFaqIdaIM3iXr1BOYKpsQ';
+			var map = L.mapbox.map('map', 'landplanner.h1dknok1', {scrollWheelZoom:false}).setView([y, x], z);
+
+			// Update these values as the map gets dragged around
+			map.on('moveend', function(event) {
+				$('#entry_1246820522').attr('value', map.getCenter().lat);
+				$('#entry_1133398022').attr('value', map.getCenter().lng);
+			});
 	  });
 </script>
 </body>
