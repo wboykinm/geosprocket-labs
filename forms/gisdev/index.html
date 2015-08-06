@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<title>Mobile Collector</title>
-  	<link href="http://netdna.bootstrapcdn.com/bootswatch/3.0.0/flatly/bootstrap.min.css" rel="stylesheet">
+  	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/superhero/bootstrap.min.css" rel="stylesheet">
   	<link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.css' rel='stylesheet' />
 	  <!--[if lte IE 8]>
 	    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.ie.css' rel='stylesheet'>
@@ -94,20 +94,22 @@ onload="if(submitted) {window.location='http://slackgisdevs.com/';}"></iframe>
   	</form>
 
   	<script src='http://codeorigin.jquery.com/jquery-1.10.2.min.js'></script>
-  	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   	<script src='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js'></script>
     <script type='text/javascript'>
 	  // Set default location in case the IP doesn't have one
-	  var y = 40.8;
-	  var x = -96.67;
+	  var y = 0;
+	  var x = 0;
+		var z = 4;
 	  // Grab IP location from freegeoip API
 	  $.getJSON('http://freegeoip.net/json/', function(json) {
 	    if (json) {
 	      y = json.latitude;
 	      x = json.longitude;
+				z = 6
 	    }
 	    // Build the map
-	    var map = L.mapbox.map('map', 'landplanner.f505d476', {scrollWheelZoom:false}).setView([y, x], 9);
+	    var map = L.mapbox.map('map', 'landplanner.f505d476', {scrollWheelZoom:false}).setView([y, x], z);
 
 	    // Set form lat/lon fields from map center location
 	    $('#entry_1246820522').attr('value', y);
