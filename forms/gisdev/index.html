@@ -109,6 +109,7 @@ onload="if(submitted) {window.location='http://wboykinm.github.io/geosprocket-la
 				z = 6
 	    }
 	    // Build the map
+			L.mapbox.accessToken = 'pk.eyJ1IjoiZmFyYWRheTIiLCJhIjoiTUVHbDl5OCJ9.buFaqIdaIM3iXr1BOYKpsQ';
 	    var map = L.mapbox.map('map', 'landplanner.h1dknok1', {scrollWheelZoom:false}).setView([y, x], z);
 
 	    // Set form lat/lon fields from map center location

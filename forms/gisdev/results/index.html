@@ -22,9 +22,30 @@
   div.marker-title {
     color: #fff; !important
   }
+  #content {
+    position:absolute;
+    top:0;
+    right:0;
+    width:250px;
+    bottom:0;
+    background:rgba(230, 230, 240, 0.8);
+  }
+    .sidecontainer {
+    padding:20px;
+  }
 </style>
 
 <div id='map'></div>
+
+<div id='content'>
+  <div class="sidecontainer">
+    <h1>GIS-Dev Members</h1>
+
+    <h4>A map of participants in the gisdevs Slack community</h4>
+    <hr>
+    <h4><a target="_blank" href="http://wboykinm.github.io/geosprocket-labs/forms/gisdev/">Add yourself!</a></h4>
+  </div>
+</div>
 
 <script src='http://codeorigin.jquery.com/jquery-1.10.2.min.js'></script>
 <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
@@ -34,7 +55,6 @@
 $.getJSON("https://spreadsheets.google.com/feeds/list/1p0NKYGkH2MHcqzd7olnTbmLEexZ8-Uz7pTaK--1mPvI/1/public/values?alt=json", function(data) {
   L.mapbox.accessToken = 'pk.eyJ1IjoiZmFyYWRheTIiLCJhIjoiTUVHbDl5OCJ9.buFaqIdaIM3iXr1BOYKpsQ';
   var map = L.mapbox.map('map', 'landplanner.f505d476')
-    //.setView([39.12367, -76.81229], 5);
 
   var devs = data.feed.entry;
 
@@ -70,6 +90,7 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1p0NKYGkH2MHcqzd7olnTbmLEe
   myLayer.on('click', function(e) {
     window.open(e.layer.feature.properties.url);
   });
+  map.setView([39.12367, -106.81229], 4);
   map.fitBounds(myLayer.getBounds());
 });
 </script>

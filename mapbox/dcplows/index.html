@@ -39,8 +39,7 @@
         top:auto;
         max-height:260px;
         width:100%;
-        background:#000;
-        background:rgba(0, 0, 0, 0.7);
+        background:rgba(255, 255, 255, 0.7);
     }
     .sidecontainer {
       padding:10px;
@@ -80,7 +79,7 @@ var baseTiles = L.tileLayer('http://a.tiles.mapbox.com/v3/landplanner.ggflie7k/{
   });
 
   $.getJSON("http://dev.geosprocket.com/mapbox/dcplows/plows.php", function(plows_parsed) {
-    
+
     var geojsonData = {"type": "FeatureCollection"};
 
     geojsonData.features = [];
@@ -88,18 +87,18 @@ var baseTiles = L.tileLayer('http://a.tiles.mapbox.com/v3/landplanner.ggflie7k/{
       geojsonData.features[i] = {
         "type": "Feature",
         "properties": {
-          "plow": plows_parsed.incidents.items[i].vehicle_id, 
+          "plow": plows_parsed.incidents.items[i].vehicle_id,
           "timestamp": plows_parsed.incidents.items[i].time_string,
           "incident": plows_parsed.incidents.items[i].object_id
         },
           "geometry": {
-            "type": "Point","coordinates": [ 
+            "type": "Point","coordinates": [
               plows_parsed.incidents.items[i].lng,
               plows_parsed.incidents.items[i].lat
             ]
           }
         };
-      };  
+      };
 
     var geojson = L.geoJson(geojsonData, {
       onEachFeature: function (feature, layer) {
