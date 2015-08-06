@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Show tooltips on hover</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+
+
+<div id='map'></div>
+
+<script src='http://codeorigin.jquery.com/jquery-1.10.2.min.js'></script>
+<script src='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+
+<script>
+$.getJSON("https://spreadsheets.google.com/feeds/list/1p0NKYGkH2MHcqzd7olnTbmLEexZ8-Uz7pTaK--1mPvI/1/public/values?alt=json", function(data) {
+
+  var devs = data.feed.entry;
+
+  var devGeojson = {type: 'FeatureCollection', features: []};
+
+  for (var i in devs) {
+    var feature = {
+      type: 'Feature',
+      properties: {
+        title: '<h1>' + devs[i].gsx$name.$t + '</h1>',
+        'marker-color': '#227FBB',
+        'marker-size': 'large',
+        'marker-symbol': 'rocket'//,
+        //url: 'http://en.wikipedia.org/wiki/Washington,_D.C.'
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [devs[i].gsx$longitude.$t, devs[i].gsx$latitude.$t]
+      }
+    };
+    devGeojson.features.push(feature);
+  }
+
+  L.mapbox.accessToken = 'pk.eyJ1IjoiZmFyYWRheTIiLCJhIjoiTUVHbDl5OCJ9.buFaqIdaIM3iXr1BOYKpsQ';
+  var map = L.mapbox.map('map', 'landplanner.f505d476')
+    .setView([39.12367, -76.81229], 5);
+
+  var myLayer = L.mapbox.featureLayer().addTo(map);
+
+  myLayer.setGeoJSON(devGeojson);
+  myLayer.on('mouseover', function(e) {
+      e.layer.openPopup();
+  });
+  myLayer.on('mouseout', function(e) {
+      e.layer.closePopup();
+  });
+  map.fitBounds(myLayer.getBounds());
+});
+</script>
+
+
+</body>
+</html>
