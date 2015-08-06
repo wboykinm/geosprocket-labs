@@ -47,8 +47,8 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1p0NKYGkH2MHcqzd7olnTbmLEe
         title: '<h1>' + devs[i].gsx$name.$t + '</h1>',
         'marker-color': '#227FBB',
         'marker-size': 'large',
-        'marker-symbol': 'rocket'//,
-        //url: 'http://en.wikipedia.org/wiki/Washington,_D.C.'
+        'marker-symbol': 'rocket',
+        url: 'https://gisdevs.slack.com/team/' + devs[i].gsx$name.$t
       },
       geometry: {
         type: 'Point',
@@ -66,6 +66,9 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1p0NKYGkH2MHcqzd7olnTbmLEe
   });
   myLayer.on('mouseout', function(e) {
       e.layer.closePopup();
+  });
+  myLayer.on('click', function(e) {
+    window.open(e.layer.feature.properties.url);
   });
   map.fitBounds(myLayer.getBounds());
 });
