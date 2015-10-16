@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>PlanBTV Walk/Bike</title>
+
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' />
+  <link href="http://netdna.bootstrapcdn.com/bootswatch/3.0.2/flatly/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body { margin:0; padding:0;}
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+    #footer {
+      position: absolute;
+      bottom: 0;
+      height: 400px;
+      right: 0;
+      background: rgba(200,200,200,0.8);
+      z-index: 999;
+      overflow:hidden;
+      padding: 5px;
+      width: 380px;
+    }
+  </style>
+</head>
+<body>
+<div id='map'></div>
+
+<div id="footer">
+    <div class="container">
+      <div class="row">
+        <h2>PlanBTV Walk/Bike</h2>
+      </div>
+      <div class="row">
+        <img src="legend.png" width="350px" class="img-responsive" alt="Responsive image">
+      </div>
+      </div>
+    </div>
+  </div>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+  <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js'></script>
+
+<script>
+  L.mapbox.accessToken = 'pk.eyJ1IjoiZmFyYWRheTIiLCJhIjoiTUVHbDl5OCJ9.buFaqIdaIM3iXr1BOYKpsQ';
+  var map = L.map('map', {maxZoom: 17}).setView([44.47588, -73.21207], 12);
+  //L.mapbox.tileLayer('landplanner.map-sa4pz9ny').addTo(map);
+
+  L.control.layers({
+    'Satellite': L.mapbox.tileLayer('faraday2.k1hjp22j'),
+    'PlanBTV Walk/Bike': L.tileLayer('http://mapwarper.net/maps/tile/11059/{z}/{x}/{y}.png').addTo(map)
+  }, {
+    'Street Labels': L.mapbox.tileLayer('faraday2.09417831').addTo(map)
+  }).addTo(map);
+
+  /*var topPane = map._createPane('leaflet-top-pane', map.getPanes().mapPane);
+  var topLayer = new L.mapbox.tileLayer('landplanner.map-0wnm9063', {
+    maxZoom: 17
+  }).addTo(map);
+  topPane.appendChild(topLayer.getContainer());
+  topLayer.setZIndex(7);*/
+
+  var hash = new L.Hash(map);
+</script>
+</body>
+</html>
