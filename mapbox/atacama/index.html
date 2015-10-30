@@ -151,7 +151,7 @@
             map.scrollWheelZoom.disable();
         }
 
-        var overlay = L.tileLayer('https://a.tiles.mapbox.com/v4/mapbox.landsat-live,pdgoodman.2e9b9266/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibXVsbG92ZXJpdCIsImEiOiIzVzZyY05JIn0.QxNcdiemvp44I0vi0ppBuw').addTo(map);
+        var overlay = L.mapbox.tileLayer('mapbox.landsat-live,faraday2.09417831').addTo(map);
         var range = document.getElementById('range');
 
         map.options.zoomControl = false;
