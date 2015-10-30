@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8 />
+        <title>BTV 1937</title>
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' />
+        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha256-IsefKVCcMUlgpXQgIMRsqbIqC6aP153JkybxTa7W7/8= sha512-mCNEsmR1i3vWAq8hnHfbCCpc6V5fP9t0N1fEZ1wgEPF/IKteFOYZ2uk7ApzMXkT71sDJ00f9+rVMyMyBFwsaQg==" crossorigin="anonymous">
+        <style>
+            body {
+                margin: 0;
+                overflow: hidden;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: 100%;
+                padding: 0;
+                background-color: #333;
+            }
+
+            #map { position:absolute; top:0; bottom: 0; width:100%; }
+
+            .pill .button { font-size: 11px; padding: 0.5em; height: 32px;}
+            .leaflet-control {
+                background-color: rgba(0,0,0,0.25);
+                border-color: rgba(0,0,0,0);
+            }
+
+            .leaflet-bar a:active, .leaflet-bar a:hover {
+                background-color: rgba(255,255,255,0.5);
+                cursor: pointer;
+            }
+            .leaflet-control-mapbox-geocoder .leaflet-control-mapbox-geocoder-wrap {
+                border-color: rgba(0,0,0,0.25);
+            }
+            .leaflet-container.dark .map-tooltip .close, .leaflet-control-layers-toggle, .leaflet-control-zoom-in, .leaflet-control-zoom-out, .leaflet-popup-close-button, .map-tooltip .close, .mapbox-icon {-webkit-filter: invert(100%); }
+
+            #swipe { position: absolute; top: 0; left: 50%;  height: 100%; z-index: 99; }
+            #swipe div {
+                background-color: rgba(255,255,255,0.5);
+                //background-color: rgba(0,0,0,.15);
+                position: absolute;
+                font-size: .8em;
+                top: 45%;
+                font-family: 'Open Sans Bold', sans-serif;
+                color: rgba(0,0,0,.6);
+                //color:#FFF;
+                padding: 2px 5px;
+                border-radius: 3px;
+            }
+            #swipe .map1 { left: -8em }
+            #swipe .map2 { right: -8em }
+
+
+            #next { z-index: 100; margin-left: 20px }
+            #next:hover { color: #FFF }
+            .left-b-logo {
+                position: fixed;
+                bottom: 4px;
+                left: 10px;
+            }
+
+            @media all and (max-width: 720px) {
+                #swipe { -webkit-transform:rotate(90deg) }
+                #swipe div { -webkit-transform:rotate(-90deg) }
+            }
+
+            div.desc{
+                background-color: #000;
+                bottom: 0;
+                color: #fff;
+                left: 0;
+                opacity: 0.5;
+                position: absolute;
+                width: 100%;
+            }
+
+            .fix{
+                width: 100%;
+                padding: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <style>
+        .infoToggle {
+          background:rgba(0,0,0,0);
+          position:absolute;
+          top:10px;left:10px;
+          z-index:1;
+          border-radius:3px;
+          max-width:60px;
+        }
+        </style>
+
+        <div id="swipe">
+          <div class="map1"><h4>Currently</h4></div>
+          <img src="swipe.png"/>
+          <div class="map2"><h4>Usually</h4></div>
+        </div>
+        <nav class='infoToggle'>
+          <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">
+            <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+          </button>
+        </nav>
+        <div id='map'></div>
+
+        <!-- Small modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Looking for the blooms of the Atacama</h4>
+              </div>
+              <div class="modal-body">
+                <p>This map compares the latest Landsat imagery (left) with <a href="https://www.mapbox.com/satellite/" target="_blank">Mapbox's cloudless atlas imagery</a> (right). The hope is that the latest acquisitions show the flowers that <a href="https://www.washingtonpost.com/news/capital-weather-gang/wp/2015/10/29/the-driest-place-on-earth-is-covered-in-pink-flowers-after-a-crazy-year-of-rain/" target="_blank">recently took over the perennially-dry atacama desert near Huasco, Chile</a>:</p>
+                <img class="img img-responsive" src="atacama.png"/>
+                <div class="desc">
+                  <div class="container">
+                    <p class="desc_content">(Carlos Aguilar/AFP/Getty Images)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+        <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js'></script>
+
+        <script>
+        L.mapbox.accessToken = 'pk.eyJ1IjoiZmFyYWRheTIiLCJhIjoiTUVHbDl5OCJ9.buFaqIdaIM3iXr1BOYKpsQ';
+        var map = L.mapbox.map('map', 'faraday2.mi9pl4hl', { zoomControl: false, maxZoom: 13, minZoom: 8 })
+            //.addControl(L.mapbox.geocoderControl('mapbox.places-v1'))
+            .setView([-28.5305, -71.0870], 11);
+
+        var hash = L.hash(map);
+
+        var isEmbed = location.search;
+        isEmbed = isEmbed.slice(1);
+
+        if ( isEmbed == 'embed' ) {
+            new L.Control.Zoom({ position: 'topright' }).addTo(map);
+            map.scrollWheelZoom.disable();
+        }
+
+        var overlay = L.tileLayer('https://a.tiles.mapbox.com/v4/mapbox.landsat-live,pdgoodman.2e9b9266/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibXVsbG92ZXJpdCIsImEiOiIzVzZyY05JIn0.QxNcdiemvp44I0vi0ppBuw').addTo(map);
+        var range = document.getElementById('range');
+
+        map.options.zoomControl = false;
+
+        // get mouse position
+        var width = window.innerWidth;
+        var swiper = document.getElementById('swipe');
+
+        function isMobile () {
+            if (width < 720 ) {
+              $('#swipe').css('left', '50%');
+              var nw = map.containerPointToLayerPoint([0, 0]),
+              se = map.containerPointToLayerPoint(map.getSize()),
+              clipY = nw.y + (se.y - nw.y) * .5;
+              overlay.getContainer().style.clip = 'rect(' + [nw.y, se.x, clipY, nw.x].join('px,') + 'px)';
+              if ( isEmbed == 'embed' ) {
+                map.dragging.disable();
+              }
+            }
+        }
+
+        map.on('move', function(){
+            isMobile();
+        });
+
+        window.onresize = function(event) {
+            width = window.innerWidth;
+            isMobile();
+        };
+
+        function clip (x) {
+              var nw = map.containerPointToLayerPoint([0, 0]),
+              se = map.containerPointToLayerPoint(map.getSize()),
+              clipX = nw.x + (se.x - nw.x) * x;
+              overlay.getContainer().style.clip = 'rect(' + [nw.y, clipX, se.y, nw.x].join('px,') + 'px)';
+        }
+
+        $('body').mousemove(function(e) {
+          if (width > 720){
+              var  mouseX = e.pageX/width;
+              clip(mouseX);
+              swiper.style.left = (e.pageX + 1) + 'px';
+          }
+        });
+
+            if( width > 720 ) {
+                    clip(.5);
+                } else {
+                    isMobile();
+                }
+
+            </script>
+            </body>
+</html>
