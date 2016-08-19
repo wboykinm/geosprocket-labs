@@ -25,13 +25,20 @@ var map = L.mapbox.map('map','landplanner.ln1urf6r', {
 
 //var polarbase = L.Mapbox.TileLayer('landplanner.antarctic').addTo(map);
 
-var geojsonLayer = L.geoJson(passages)/*,
-  marker = L.marker([0, 0], {
-    icon: L.mapbox.marker.icon({'marker-size': 'large', 'marker-symbol': 'ferry', 'marker-color': '0000FF'})
-  }).addTo(map),
-  j = 0;*/
+var shipIcon = L.icon({
+		iconUrl: 'icebreaker3.png',
+		iconSize: [64, 64],
+		iconAnchor: [16, 37]
+	});
 
-//tick();
+
+var geojsonLayer = L.geoJson(passages),
+  marker = L.marker([0, 0], {
+    icon: shipIcon
+  }).addTo(map),
+  j = 0;
+
+tick();
 
 function cycle() {
   var i = 0;
@@ -45,18 +52,18 @@ function cycle() {
       passages.features[3].geometry.coordinates[i][0]
     ), getZoom(i),
     {
-      duration: 1,
+      duration: 0.3,
       easeLinearity: 1
     }
     );
-    window.setTimeout(run, 1100);
+    window.setTimeout(run, 800);
   }
   run();
 }
 
 cycle();
 
-/*function tick() {
+function tick() {
   // set the marker to be at the same point as one of the segments
   // of the line
   marker.setLatLng(L.latLng(
@@ -64,8 +71,8 @@ cycle();
     passages.features[3].geometry.coordinates[j][0]));
   // move to the next point in the line or loop to the first point if
   // j runs off the end of the array
-  if (++j < passages.features[3].geometry.coordinates.length) setTimeout(tick, 300);
-}*/
+  if (++j < passages.features[3].geometry.coordinates.length) setTimeout(tick, 800);
+}
 </script>
 </body>
 </html>
