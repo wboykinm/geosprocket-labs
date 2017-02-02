@@ -229,10 +229,6 @@ var tiles = mapbox.layer().tilejson({
   tiles: [ "https://s3.amazonaws.com/geosprocket-basemap/{z}/{x}/{y}.png" ]
 });
 
-var pct = mapbox.layer().tilejson({
-  tiles: [ "http://c.tiles.mapbox.com/v3/landplanner.pct/{z}/{x}/{y}.png" ]
-});
-
 var reference = mapbox.layer().tilejson({
   tiles: [ "http://c.tiles.mapbox.com/v3/landplanner.map-clhq1tp6/{z}/{x}/{y}.png" ]
 });
@@ -250,11 +246,7 @@ var spots = mapbox.markers.layer()
 
 // Creates the map with tile and marker layers and
 // no input handlers (mouse drag, scrollwheel, etc).
-var map = mapbox.map('map', [tiles, pct, reference, spots], null, []);
-
-/*map.addLayer(mapbox.layer().tilejson({ 
-  tiles: [ 'http://c.tiles.mapbox.com/v3/landplanner.map-clhq1tp6/{z}/{x}/{y}.png' ]
-}));*/
+var map = mapbox.map('map', [tiles, reference, spots], null, []);	
 
 // Array of story section elements.
 var sections = document.getElementsByTagName('section');
